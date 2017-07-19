@@ -98,43 +98,6 @@ def bctest(testDir, testObj, exeext):
         logging.error("Return code mismatch for " + outputFn)
         raise Exception
 
-<<<<<<< HEAD
-	execprog = testObj['exec'] + exeext
-	execargs = testObj['args']
-	execrun = [execprog] + execargs
-	stdinCfg = None
-	inputData = None
-	if "input" in testObj:
-		filename = testDir + "/" + testObj['input']
-		inputData = open(filename).read()
-		stdinCfg = subprocess.PIPE
-
-	outputFn = None
-	outputData = None
-	if "output_cmp" in testObj:
-		outputFn = testObj['output_cmp']
-		outputData = open(testDir + "/" + outputFn).read()
-		if not outputData:
-			print("Output data missing for " + outputFn)
-			sys.exit(1)
-	proc = subprocess.Popen(execrun, stdin=stdinCfg, stdout=subprocess.PIPE, stderr=subprocess.PIPE,universal_newlines=True)
-	try:
-		outs = proc.communicate(input=inputData)
-	except OSError:
-		print("OSError, Failed to execute " + execprog)
-		sys.exit(1)
-
-	if outputData and (outs[0] != outputData):
-		print("Output data mismatch for " + outputFn)
-		sys.exit(1)
-
-	wantRC = 0
-	if "return_code" in testObj:
-		wantRC = testObj['return_code']
-	if proc.returncode != wantRC:
-		print("Return code mismatch for " + outputFn)
-		sys.exit(1)
-=======
     if "error_txt" in testObj:
         want_error = testObj["error_txt"]
         # Compare error text
@@ -146,7 +109,6 @@ def bctest(testDir, testObj, exeext):
         if want_error not in outs[1]:
             logging.error("Error mismatch:\n" + "Expected: " + want_error + "\nReceived: " + outs[1].rstrip())
             raise Exception
->>>>>>> pr/4
 
 def bctester(testDir, input_basename, buildenv):
     """ Loads and parses the input file, runs all tests and reports results"""

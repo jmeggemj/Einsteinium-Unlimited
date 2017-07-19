@@ -11,15 +11,9 @@ from test_framework.test_framework import BitcoinTestFramework
 from test_framework.util import *
 from test_framework.mininode import sha256, ripemd160, CTransaction, CTxIn, COutPoint, CTxOut
 from test_framework.address import script_to_p2sh, key_to_p2pkh
-<<<<<<< HEAD
-from test_framework.script import CScript, OP_HASH160, OP_CHECKSIG, OP_0, hash160, OP_EQUAL, OP_DUP, OP_EQUALVERIFY, OP_1, OP_2, OP_CHECKMULTISIG
-from io import BytesIO
-from test_framework.mininode import FromHex
-=======
 from test_framework.script import CScript, OP_HASH160, OP_CHECKSIG, OP_0, hash160, OP_EQUAL, OP_DUP, OP_EQUALVERIFY, OP_1, OP_2, OP_CHECKMULTISIG, OP_TRUE
 from io import BytesIO
 from test_framework.mininode import ToHex, FromHex, COIN
->>>>>>> pr/4
 
 NODE_0 = 0
 NODE_1 = 1
@@ -136,20 +130,14 @@ class SegWitTest(BitcoinTestFramework):
         print("Verify sigops are counted in GBT with pre-BIP141 rules before the fork")
         txid = self.nodes[0].sendtoaddress(self.nodes[0].getnewaddress(), 1)
         tmpl = self.nodes[0].getblocktemplate({})
-<<<<<<< HEAD
-=======
         assert(tmpl['sizelimit'] == 1000000)
         assert('weightlimit' not in tmpl)
->>>>>>> pr/4
         assert(tmpl['sigoplimit'] == 20000)
         assert(tmpl['transactions'][0]['hash'] == txid)
         assert(tmpl['transactions'][0]['sigops'] == 2)
         tmpl = self.nodes[0].getblocktemplate({'rules':['segwit']})
-<<<<<<< HEAD
-=======
         assert(tmpl['sizelimit'] == 1000000)
         assert('weightlimit' not in tmpl)
->>>>>>> pr/4
         assert(tmpl['sigoplimit'] == 20000)
         assert(tmpl['transactions'][0]['hash'] == txid)
         assert(tmpl['transactions'][0]['sigops'] == 2)
@@ -257,29 +245,12 @@ class SegWitTest(BitcoinTestFramework):
         print("Verify sigops are counted in GBT with BIP141 rules after the fork")
         txid = self.nodes[0].sendtoaddress(self.nodes[0].getnewaddress(), 1)
         tmpl = self.nodes[0].getblocktemplate({'rules':['segwit']})
-<<<<<<< HEAD
-=======
         assert(tmpl['sizelimit'] >= 3999577)  # actual maximum size is lower due to minimum mandatory non-witness data
         assert(tmpl['weightlimit'] == 4000000)
->>>>>>> pr/4
         assert(tmpl['sigoplimit'] == 80000)
         assert(tmpl['transactions'][0]['txid'] == txid)
         assert(tmpl['transactions'][0]['sigops'] == 8)
 
-<<<<<<< HEAD
-        print("Verify non-segwit miners get a valid GBT response after the fork")
-        send_to_witness(1, self.nodes[0], find_unspent(self.nodes[0], 50), self.pubkey[0], False, Decimal("49.998"))
-        try:
-            tmpl = self.nodes[0].getblocktemplate({})
-            assert(len(tmpl['transactions']) == 1)  # Doesn't include witness tx
-            assert(tmpl['sigoplimit'] == 20000)
-            assert(tmpl['transactions'][0]['hash'] == txid)
-            assert(tmpl['transactions'][0]['sigops'] == 2)
-            assert(('!segwit' in tmpl['rules']) or ('segwit' not in tmpl['rules']))
-        except JSONRPCException:
-            # This is an acceptable outcome
-            pass
-=======
         self.nodes[0].generate(1) # Mine a block to clear the gbt cache
 
         print("Non-segwit miners are able to use GBT response after activation.")
@@ -328,7 +299,6 @@ class SegWitTest(BitcoinTestFramework):
 
         # Mine a block to clear the gbt cache again.
         self.nodes[0].generate(1)
->>>>>>> pr/4
 
         print("Verify behaviour of importaddress, addwitnessaddress and listunspent")
 

@@ -341,9 +341,6 @@
     <name>QRImageWidget</name>
     </context>
 <context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>

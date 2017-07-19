@@ -82,11 +82,7 @@ UniValue importprivkey(const JSONRPCRequest& request)
     
     if (request.fHelp || request.params.size() < 1 || request.params.size() > 3)
         throw runtime_error(
-<<<<<<< HEAD
-            "importprivkey \"litecoinprivkey\" ( \"label\" rescan )\n"
-=======
             "importprivkey \"litecoinprivkey\" ( \"label\" ) ( rescan )\n"
->>>>>>> pr/4
             "\nAdds a private key (as returned by dumpprivkey) to your wallet.\n"
             "\nArguments:\n"
             "1. \"litecoinprivkey\"   (string, required) The private key (see dumpprivkey)\n"
@@ -264,12 +260,7 @@ UniValue importprunedfunds(const JSONRPCRequest& request)
     if (!EnsureWalletIsAvailable(request.fHelp))
         return NullUniValue;
 
-<<<<<<< HEAD
-    // 0.13.x: Silently accept up to 3 params, but ignore the third:
-    if (fHelp || params.size() < 2 || params.size() > 3)
-=======
     if (request.fHelp || request.params.size() != 2)
->>>>>>> pr/4
         throw runtime_error(
             "importprunedfunds\n"
             "\nImports funds without rescan. Corresponding address or script must previously be included in wallet. Aimed towards pruned wallets. The end-user is responsible to import additional transactions that subsequently spend the imported outputs or rescan after the point in the blockchain the transaction is included.\n"
@@ -527,19 +518,11 @@ UniValue dumpprivkey(const JSONRPCRequest& request)
     
     if (request.fHelp || request.params.size() != 1)
         throw runtime_error(
-<<<<<<< HEAD
-            "dumpprivkey \"litecoinaddress\"\n"
-            "\nReveals the private key corresponding to 'litecoinaddress'.\n"
-            "Then the importprivkey can be used with this output\n"
-            "\nArguments:\n"
-            "1. \"litecoinaddress\"   (string, required) The litecoin address for the private key\n"
-=======
             "dumpprivkey \"address\"\n"
             "\nReveals the private key corresponding to 'address'.\n"
             "Then the importprivkey can be used with this output\n"
             "\nArguments:\n"
             "1. \"address\"   (string, required) The litecoin address for the private key\n"
->>>>>>> pr/4
             "\nResult:\n"
             "\"key\"                (string) The private key\n"
             "\nExamples:\n"

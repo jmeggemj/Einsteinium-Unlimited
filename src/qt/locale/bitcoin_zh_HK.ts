@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>刪除 &amp;D</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>選擇要付錢過去的地址</translation>
@@ -111,7 +105,6 @@
         <translation>(無標記)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -130,9 +123,6 @@
         <source>Repeat new passphrase</source>
         <translation>重複新密碼</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Encrypt wallet</source>
         <translation>加密錢包</translation>
@@ -218,7 +208,6 @@
         <translation>警告: Caps Lock 已啟用！</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>BanTableModel</name>
     <message>
@@ -516,9 +505,6 @@
     </context>
 <context>
     <name>QRImageWidget</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Save QR Code</source>
         <translation>儲存 QR 碼</translation>
@@ -528,7 +514,6 @@
         <translation>PNG 影像(*.png)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>RPCConsole</name>
     <message>
@@ -576,11 +561,6 @@
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendCoinsDialog</name>
-=======
     <message>
         <source>Label</source>
         <translation>標記</translation>
@@ -589,7 +569,6 @@
         <source>(no label)</source>
         <translation>(無標記)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -618,24 +597,16 @@
     </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Open until %1</source>
         <translation>開放至 %1</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Label</source>
         <translation>標記</translation>
@@ -667,25 +638,12 @@
         <source>Exporting Failed</source>
         <translation>匯出失敗</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
     <name>WalletFrame</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
-<context>
-    <name>WalletView</name>
-    </context>
-<context>
-    <name>bitcoin-core</name>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>WalletModel</name>

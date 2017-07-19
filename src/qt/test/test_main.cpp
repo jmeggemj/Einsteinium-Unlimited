@@ -59,12 +59,9 @@ int main(int argc, char *argv[])
     if (QTest::qExec(&test2) != 0)
         fInvalid = true;
 #endif
-<<<<<<< HEAD
-=======
     RPCNestedTests test3;
     if (QTest::qExec(&test3) != 0)
         fInvalid = true;
->>>>>>> pr/4
     CompatTests test4;
     if (QTest::qExec(&test4) != 0)
         fInvalid = true;

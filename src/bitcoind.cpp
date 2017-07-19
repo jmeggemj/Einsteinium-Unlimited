@@ -127,8 +127,6 @@ bool AppInit(int argc, char* argv[])
         {
             fprintf(stderr, "Error: There is no RPC client functionality in litecoind anymore. Use the litecoin-cli utility instead.\n");
             exit(EXIT_FAILURE);
-<<<<<<< HEAD
-=======
         }
         // -server defaults to true for bitcoind but not for the GUI so do this here
         SoftSetBoolArg("-server", true);
@@ -139,12 +137,9 @@ bool AppInit(int argc, char* argv[])
         {
             // InitError will have been called with detailed error, which ends up on console
             exit(1);
->>>>>>> pr/4
         }
         if (!AppInitParameterInteraction())
         {
-<<<<<<< HEAD
-=======
             // InitError will have been called with detailed error, which ends up on console
             exit(1);
         }
@@ -156,7 +151,6 @@ bool AppInit(int argc, char* argv[])
         if (GetBoolArg("-daemon", false))
         {
 #if HAVE_DECL_DAEMON
->>>>>>> pr/4
             fprintf(stdout, "Litecoin server starting\n");
 
             // Daemonize

@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Διαγραφή</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Επιλέξτε διεύθυνση αποστολής των νομισμάτων σας</translation>
@@ -99,7 +93,6 @@
         <translation>(χωρίς ετικέτα)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -118,8 +111,6 @@
         <source>Repeat new passphrase</source>
         <translation>Επανέλαβε τον νέο κωδικό πρόσβασης</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Unlock wallet</source>
         <translation>Ξεκλειδωσε το πορτοφολι</translation>
@@ -132,7 +123,6 @@
         <source>Wallet unlock failed</source>
         <translation>Το Ξεκλείδωμα του Πορτοφολιού Απέτυχε</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>BanTableModel</name>
@@ -468,8 +458,6 @@
         <source>Copy address</source>
         <translation>Αντιγραφή διεύθυνσης</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Copy label</source>
         <translation>Αντιγραφή ετικέτας</translation>
@@ -486,7 +474,6 @@
         <source>(no label)</source>
         <translation>(χωρίς ετικέτα)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -510,8 +497,6 @@
         <source>&amp;Address</source>
         <translation>&amp;Διεύθυνση</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>New receiving address</source>
         <translation>Νέα Διεύθυνση Λήψης</translation>
@@ -524,7 +509,6 @@
         <source>Edit receiving address</source>
         <translation>Διόρθωση Διεύθυνσης Λήψης</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>FreespaceChecker</name>
@@ -952,9 +936,6 @@
     <name>QRImageWidget</name>
     </context>
 <context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
@@ -1175,9 +1156,6 @@
         <source>Remove</source>
         <translation>Αφαίρεση</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy label</source>
         <translation>Αντιγραφή ετικέτας</translation>
@@ -1187,7 +1165,6 @@
         <translation>Αντιγραφή ποσού</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -1206,11 +1183,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Αποθήκευση εικόνας...</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-=======
     <message>
         <source>Address</source>
         <translation>Διεύθυνση</translation>
@@ -1234,7 +1206,6 @@
         <source>(no label)</source>
         <translation>(χωρίς ετικέτα)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1358,9 +1329,6 @@
         <source>S&amp;end</source>
         <translation>Αποστολη</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy amount</source>
         <translation>Αντιγραφή ποσού</translation>
@@ -1370,7 +1338,6 @@
         <translation>(χωρίς ετικέτα)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1535,8 +1502,6 @@
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Open until %1</source>
         <translation>Ανοιχτό μέχρι %1</translation>
@@ -1601,7 +1566,6 @@
         <source>Transaction fee</source>
         <translation>Κόστος συναλλαγής</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1612,11 +1576,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Date</source>
         <translation>Ημερομήνια</translation>
@@ -1680,7 +1639,6 @@
         <source>Exporting Failed</source>
         <translation>Αποτυχία Εξαγωγής</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1725,13 +1683,6 @@
         <translation>Εκτέλεση στο παρασκήνιο κι αποδοχή εντολών</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Να δέχεσαι συνδέσεις από έξω(προεπιλογή:1)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>

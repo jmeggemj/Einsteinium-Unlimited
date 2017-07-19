@@ -36,12 +36,9 @@ Scripts and notes for Mac builds.
 
 ### [RPM](/contrib/rpm) ###
 RPM spec file for building litecoin-core on RPM based distributions
-<<<<<<< HEAD
-=======
 
 ### [Gitian-build](/contrib/gitian-build.sh) ###
 Script for running full Gitian builds.
->>>>>>> pr/4
 
 Test and Verify Tools 
 ---------------------

@@ -380,33 +380,6 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktiivne ühendus Litecoini võrku</numerusform><numerusform>%n aktiivset ühendust Litecoini võrku</numerusform></translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Kõvakettal olevate plokkide indekseerimine...</translation>
-    </message>
-    <message>
-        <source>Processing blocks on disk...</source>
-        <translation>Kõvakettal olevate plokkide töötlemine...</translation>
-    </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>Plokkide allikas pole saadaval...</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Töödeldud %n plokk transaktsioonide ajaloost.</numerusform><numerusform>Töödeldud %n plokki transaktsioonide ajaloost.</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n tund</numerusform><numerusform>%n tundi</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n päev</numerusform><numerusform>%n päeva</numerusform></translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -518,10 +491,6 @@
         <translation>Summa:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Prioriteet</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>Tasu:</translation>
     </message>
@@ -570,13 +539,6 @@
         <translation>Kinnitatud</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Priority</source>
-        <translation>Prioriteet</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Copy address</source>
         <translation>Kopeeri aadress</translation>
     </message>
@@ -605,13 +567,6 @@
         <translation>Kopeeri baidid</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Copy priority</source>
-        <translation>Kopeeri prioriteet</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Copy dust</source>
         <translation>Kopeeri puru</translation>
     </message>
@@ -620,56 +575,10 @@
         <translation>Kopeeri vahetusraha</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>highest</source>
-        <translation>kõrgeim</translation>
-    </message>
-    <message>
-        <source>higher</source>
-        <translation>kõrgem</translation>
-    </message>
-    <message>
-        <source>high</source>
-        <translation>kõrge</translation>
-    </message>
-    <message>
-        <source>medium-high</source>
-        <translation>keskmiselt kõrge</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>keskmine</translation>
-    </message>
-    <message>
-        <source>low-medium</source>
-        <translation>keskmiselt madal</translation>
-    </message>
-    <message>
-        <source>low</source>
-        <translation>madal</translation>
-    </message>
-    <message>
-        <source>lower</source>
-        <translation>madalam</translation>
-    </message>
-    <message>
-        <source>lowest</source>
-        <translation>madalaim</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>(%1 locked)</source>
         <translation>(%1 lukustatud)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>none</source>
-        <translation>puudub</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>yes</source>
         <translation>jah</translation>
     </message>
@@ -678,21 +587,6 @@
         <translation>ei</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>Märgis muutub punaseks kui transaktsiooni suurus ületab 1000 baiti.</translation>
-    </message>
-    <message>
-        <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>See tähendab, et vajalik tehingutasu on vähemalt %1 kB kohta</translation>
-    </message>
-    <message>
-        <source>This label turns red if the priority is smaller than "medium".</source>
-        <translation>See märgis muutud punaseks kui prioriteet on madalam kui "keskmine".</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>(no label)</source>
         <translation>(märgis puudub)</translation>
     </message>
@@ -962,15 +856,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-<<<<<<< HEAD
-        <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
-=======
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Liteconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
-    </message>
-    <message>
-        <source>Pending:</source>
-        <translation>Ootel:</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Pending:</source>
@@ -1052,13 +938,6 @@
     </context>
 <context>
     <name>QObject::QObject</name>
-    </context>
-<context>
-    <name>QRImageWidget</name>
-    <message>
-        <source>Save QR Code</source>
-        <translation>Salvesta QR Kood</translation>
-    </message>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -1342,10 +1221,6 @@
         <translation>Summa:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Prioriteet</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>Tasu:</translation>
     </message>
@@ -1376,10 +1251,6 @@
     <message>
         <source>Recommended:</source>
         <translation>Soovitatud:</translation>
-    </message>
-    <message>
-        <source>Confirmation time:</source>
-        <translation>Kinnitamise aeg:</translation>
     </message>
     <message>
         <source>normal</source>
@@ -1438,13 +1309,6 @@
         <translation>Kopeeri baidid</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Copy priority</source>
-        <translation>Kopeeri prioriteet</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Copy dust</source>
         <translation>Kopeeri puru</translation>
     </message>
@@ -1610,11 +1474,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-<<<<<<< HEAD
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Litecoin aadressiga.</translation>
-=======
         <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Litecoini aadressiga.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1898,13 +1758,6 @@
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Luba välisühendusi (vaikeväärtus: 1 kui puudub -proxy või -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoini tuumik</translation>
     </message>

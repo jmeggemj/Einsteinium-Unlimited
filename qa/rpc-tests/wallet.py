@@ -359,18 +359,6 @@ class WalletTest (BitcoinTestFramework):
         rawtx = self.nodes[0].createrawtransaction([{"txid":singletxid, "vout":0}], {chain_addrs[0]:node0_balance/2-Decimal('0.01'), chain_addrs[1]:node0_balance/2-Decimal('0.01')})
         signedtx = self.nodes[0].signrawtransaction(rawtx)
         singletxid = self.nodes[0].sendrawtransaction(signedtx["hex"])
-<<<<<<< HEAD
-        txids = [singletxid, singletxid]
-        self.nodes[0].generate(1)
-
-        # Make a long chain of unconfirmed payments without hitting mempool limit
-        txid_list = []
-        for i in range(chainlimit*2):
-            txid_list.append(self.nodes[0].sendtoaddress(chain_addrs[0], Decimal('0.001')))
-        assert_equal(self.nodes[0].getmempoolinfo()['size'], chainlimit*2)
-        assert_equal(len(txid_list), chainlimit*2)
-
-=======
         self.nodes[0].generate(1)
 
         # Make a long chain of unconfirmed payments without hitting mempool limit
@@ -411,6 +399,5 @@ class WalletTest (BitcoinTestFramework):
         # Verify nothing new in wallet
         assert_equal(total_txs, len(self.nodes[0].listtransactions("*",99999)))
 
->>>>>>> pr/4
 if __name__ == '__main__':
     WalletTest().main()

@@ -26,13 +26,8 @@ CTxMemPoolEntry::CTxMemPoolEntry(const CTransactionRef& _tx, const CAmount& _nFe
     inChainInputValue(_inChainInputValue),
     spendsCoinbase(_spendsCoinbase), sigOpCost(_sigOpsCost), lockPoints(lp)
 {
-<<<<<<< HEAD
-    nTxWeight = GetTransactionWeight(_tx);
-    nModSize = _tx.CalculateModifiedSize(GetTxSize());
-=======
     nTxWeight = GetTransactionWeight(*tx);
     nModSize = tx->CalculateModifiedSize(GetTxSize());
->>>>>>> pr/4
     nUsageSize = RecursiveDynamicUsage(*tx) + memusage::DynamicUsage(tx);
 
     nCountWithDescendants = 1;
@@ -741,14 +736,9 @@ void CTxMemPool::check(const CCoinsViewCache *pcoins) const
             waitingOnDependants.push_back(&(*it));
         else {
             CValidationState state;
-<<<<<<< HEAD
-            PrecomputedTransactionData txdata(tx);
-            assert(CheckInputs(tx, state, mempoolDuplicate, false, 0, false, txdata, NULL));
-=======
             bool fCheckResult = tx.IsCoinBase() ||
                 Consensus::CheckTxInputs(tx, state, mempoolDuplicate, nSpendHeight);
             assert(fCheckResult);
->>>>>>> pr/4
             UpdateCoins(tx, mempoolDuplicate, 1000000);
         }
     }
@@ -762,14 +752,9 @@ void CTxMemPool::check(const CCoinsViewCache *pcoins) const
             stepsSinceLastRemove++;
             assert(stepsSinceLastRemove < waitingOnDependants.size());
         } else {
-<<<<<<< HEAD
-            PrecomputedTransactionData txdata(entry->GetTx());
-            assert(CheckInputs(entry->GetTx(), state, mempoolDuplicate, false, 0, false, txdata, NULL));
-=======
             bool fCheckResult = entry->GetTx().IsCoinBase() ||
                 Consensus::CheckTxInputs(entry->GetTx(), state, mempoolDuplicate, nSpendHeight);
             assert(fCheckResult);
->>>>>>> pr/4
             UpdateCoins(entry->GetTx(), mempoolDuplicate, 1000000);
             stepsSinceLastRemove = 0;
         }

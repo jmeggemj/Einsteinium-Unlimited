@@ -62,8 +62,6 @@
         <translation>آدرس های گیرنده</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>اینها آدرس های شما برای فرستادن پرداخت هاست. همیشه قبل از فرستادن سکه ها مقدار و آدرس دریافت کننده را چک کنید.</translation>
     </message>
@@ -72,7 +70,6 @@
         <translation>کپی کردن آدرس</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Copy &amp;Label</source>
         <translation>کپی و برچسب‌&amp;گذاری</translation>
     </message>
@@ -80,8 +77,6 @@
         <source>&amp;Edit</source>
         <translation>&amp;ویرایش</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Export Address List</source>
         <translation>صدور لیست آدرس ها</translation>
@@ -90,7 +85,6 @@
         <source>Exporting Failed</source>
         <translation>صدور موفق نبود</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -130,30 +124,22 @@
         <translation>رمزنگاری کیف پول</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>این عملیات نیاز به عبارت کیف پول شما برای بازگشایی کیف پول دارد</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Unlock wallet</source>
         <translation>باز کردن قفل کیف پول</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>این عملیات نیاز به عبارت کیف پول شما برای رمزگشایی کیف پول دارد.</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Decrypt wallet</source>
         <translation>رمزگشایی کیف پول</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Change passphrase</source>
         <translation>تغییر گذرواژه</translation>
     </message>
@@ -162,7 +148,6 @@
         <translation>عبارت کهنه و جدید کیف پول را وارد کنید.</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Confirm wallet encryption</source>
         <translation>تأیید رمزنگاری کیف پول</translation>
     </message>
@@ -390,11 +375,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
-<<<<<<< HEAD
-        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس بیت کوین)</translation>
-=======
         <translation>درخواست پرداخت ( تولید کد کیوار و ادرس litecoin)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -406,43 +387,11 @@
     </message>
     <message>
         <source>Open a litecoin: URI or payment request</source>
-<<<<<<< HEAD
-        <translation>بازکردن یک بیت کوین: آدرس یا درخواست پرداخت</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>گزینه‌های خط‌فرمان</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n ارتباط فعال با شبکهٔ Litecoin</numerusform></translation>
-    </message>
-    <message>
-        <source>Processing blocks on disk...</source>
-        <translation>پردازش بلوک‌ها روی دیسک...</translation>
-    </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>منبعی برای دریافت بلاک در دسترس نیست...</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>پردازش %n  بلاک از تاریخچه ی تراکنش ها </numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n ساعت</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n روز</numerusform></translation>
-=======
         <translation>بازکردن یک litecoin: آدرس یا درخواست پرداخت</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>گزینه‌های خط‌فرمان</translation>
->>>>>>> pr/4
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
@@ -652,98 +601,6 @@
     <message>
         <source>no</source>
         <translation>خیر</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(بدون برچسب)</translation>
-    </message>
-    <message>
-        <source>(change)</source>
-        <translation>(تغییر)</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>کپی برچسب</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>کپی مقدار</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>کپی شناسهٔ تراکنش</translation>
-    </message>
-    <message>
-        <source>Lock unspent</source>
-        <translation>قفل کردن خرج نشده ها</translation>
-    </message>
-    <message>
-        <source>Unlock unspent</source>
-        <translation>بازکردن قفل خرج نشده ها</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>کپی تعداد</translation>
-    </message>
-    <message>
-        <source>highest</source>
-        <translation>بیشترین</translation>
-    </message>
-    <message>
-        <source>higher</source>
-        <translation>بیشتر</translation>
-    </message>
-    <message>
-        <source>high</source>
-        <translation>زیاد</translation>
-    </message>
-    <message>
-        <source>medium-high</source>
-        <translation>متوسط رو به بالا</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>متوسط</translation>
-    </message>
-    <message>
-        <source>low-medium</source>
-        <translation>متوسط متمایل به کم</translation>
-    </message>
-    <message>
-        <source>low</source>
-        <translation>کم</translation>
-    </message>
-    <message>
-        <source>lower</source>
-        <translation>کمتر</translation>
-    </message>
-    <message>
-        <source>lowest</source>
-        <translation>کمترین</translation>
-    </message>
-    <message>
-        <source>(%1 locked)</source>
-        <translation>(%1 قفل شده)</translation>
-    </message>
-    <message>
-        <source>none</source>
-        <translation>هیچکدام</translation>
-    </message>
-    <message>
-        <source>yes</source>
-        <translation>بله</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>خیر</translation>
-    </message>
-    <message>
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>اگر حجم تراکنش از 1000 بایت بیشتر شود برچسب قرمز می شود.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- 1 byte per input.</source>
-        <translation>ممکن است +/- 1 بایت در ورودی تفاوت داشته باشد.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1144,12 +1001,6 @@
     </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>PeerTableModel</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Invalid payment request.</source>
         <translation>درخواست پرداخت نامعتبر.</translation>
@@ -1203,9 +1054,6 @@
     </context>
 <context>
     <name>QObject::QObject</name>
-    </context>
-<context>
-    <name>QRImageWidget</name>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -1589,8 +1437,6 @@
         <translation>کپی مقدار</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Copy fee</source>
         <translation>رونوشت کارمزد</translation>
     </message>
@@ -1603,7 +1449,6 @@
         <translation>کپی کردن تغییر</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>(no label)</source>
         <translation>(بدون برچسب)</translation>
     </message>
@@ -1790,13 +1635,10 @@
 <context>
     <name>TransactionView</name>
     <message>
-<<<<<<< HEAD
-=======
         <source>Copy address</source>
         <translation>کپی ادرس</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Copy label</source>
         <translation>کپی برچسب</translation>
     </message>
@@ -1816,13 +1658,10 @@
         <source>Address</source>
         <translation>آدرس</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Exporting Failed</source>
         <translation>صدور موفق نبود</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1863,13 +1702,6 @@
         <translation>اجرا در پشت زمینه به‌صورت یک سرویس و پذیرش دستورات</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>پذیرش اتصالات از بیرون (پیش فرض:1 بدون پراکسی یا اتصال)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation> هسته Litecoin </translation>
     </message>

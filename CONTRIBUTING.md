@@ -1,14 +1,10 @@
-Contributing to Litecoin Core
+Contributing to Bitcoin Core
 ============================
 
-<<<<<<< HEAD
-The Litecoin Core project operates an open contributor model where anyone is welcome to contribute towards development in the form of peer review, testing and patches. This document explains the practical process and guidelines for contributing.
-=======
 The Bitcoin Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
->>>>>>> pr/4
 
 Firstly in terms of structure, there is no particular concept of "Core
 developers" in the sense of privileged people. Open source often naturally
@@ -161,18 +157,12 @@ where possible keep them short, uncomplex and easy to verify.
 "Decision Making" Process
 -------------------------
 
-<<<<<<< HEAD
-The following applies to code changes to the Litecoin Core project (and related projects such as libsecp256k1), and is not to be confused with overall Litecoin Network Protocol consensus changes.
-
-Whether a pull request is merged into Litecoin Core rests with the project merge maintainers and ultimately the project lead.
-=======
 The following applies to code changes to the Bitcoin Core project (and related
 projects such as libsecp256k1), and is not to be confused with overall Bitcoin
 Network Protocol consensus changes.
 
 Whether a pull request is merged into Bitcoin Core rests with the project merge
 maintainers and ultimately the project lead.
->>>>>>> pr/4
 
 Maintainers will take into consideration if a patch is in line with the general
 principles of the project; meets the minimum standards for inclusion; and will
@@ -189,16 +179,12 @@ In general, all pull requests must:
   - where bugs are fixed, where possible, there should be unit tests
     demonstrating the bug and also proving the fix. This helps prevent regression.
 
-<<<<<<< HEAD
-Patches that change Litecoin consensus rules are considerably more involved than normal because they affect the entire ecosystem and so must be preceded by extensive mailing list discussions and have a numbered BIP. While each case will be different, one should be prepared to expend more time and effort than for other kinds of patches because of increased peer review and consensus building requirements.
-=======
 Patches that change Bitcoin consensus rules are considerably more involved than
 normal because they affect the entire ecosystem and so must be preceded by
 extensive mailing list discussions and have a numbered BIP. While each case will
 be different, one should be prepared to expend more time and effort than for
 other kinds of patches because of increased peer review and consensus building
 requirements.
->>>>>>> pr/4
 
 
 ###Peer Review
@@ -234,22 +220,15 @@ higher in terms of discussion and peer review requirements, keeping in mind that
 mistakes could be very costly to the wider community. This includes refactoring
 of consensus critical code.
 
-<<<<<<< HEAD
-Where a patch set proposes to change the Litecoin consensus, it must have been discussed extensively on the mailing list and IRC, be accompanied by a widely discussed BIP and have a generally widely perceived technical consensus of being a worthwhile change based on the judgement of the maintainers.
-=======
 Where a patch set proposes to change the Bitcoin consensus, it must have been
 discussed extensively on the mailing list and IRC, be accompanied by a widely
 discussed BIP and have a generally widely perceived technical consensus of being
 a worthwhile change based on the judgement of the maintainers.
->>>>>>> pr/4
 
 
 Release Policy
 --------------
 
-<<<<<<< HEAD
-The project leader is the release manager for each Litecoin Core release.
-=======
 The project leader is the release manager for each Bitcoin Core release.
 
 Copyright
@@ -259,4 +238,3 @@ By contributing to this repository, you agree to license your work under the
 MIT license unless specified otherwise in `contrib/debian/copyright` or at 
 the top of the file itself. Any work contributed where you are not the original 
 author must contain its license header with the original author(s) and source.
->>>>>>> pr/4

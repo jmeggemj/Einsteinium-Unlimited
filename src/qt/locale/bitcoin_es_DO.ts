@@ -340,13 +340,6 @@
         <source>Confirmed</source>
         <translation>Confirmado</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>Prioridad</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -650,12 +643,9 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -1133,13 +1123,6 @@
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Aceptar conexiones desde el exterior (predeterminado: 1 si no -proxy o -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Núcleo de Litecoin</translation>
     </message>

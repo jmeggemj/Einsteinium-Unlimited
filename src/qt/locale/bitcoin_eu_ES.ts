@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Ezabatu</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Aukeratu helbidea txanponak bidaltzeko</translation>
@@ -119,7 +113,6 @@
         <translation>(etiketarik ez)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -138,8 +131,6 @@
         <source>Repeat new passphrase</source>
         <translation>Errepikatu pasahitz berria</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Encrypt wallet</source>
         <translation>Enkriptatu zorroa</translation>
@@ -208,7 +199,6 @@
         <source>Wallet decryption failed</source>
         <translation>Zorroaren desenkriptazioak huts egin du</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>BanTableModel</name>
@@ -345,9 +335,6 @@
         <source>&amp;Address</source>
         <translation>&amp;Helbidea</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>New receiving address</source>
         <translation>Jasotzeko helbide berria</translation>
@@ -377,7 +364,6 @@
         <translation>Gako berriaren sorrerak huts egin du.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>FreespaceChecker</name>
     </context>
@@ -425,12 +411,9 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -496,9 +479,6 @@
         <source>(no label)</source>
         <translation>(etiketarik ez)</translation>
     </message>
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -578,9 +558,6 @@
     <name>SendConfirmationDialog</name>
     </context>
 <context>
-    <name>SendConfirmationDialog</name>
-    </context>
-<context>
     <name>ShutdownWindow</name>
     </context>
 <context>
@@ -610,8 +587,6 @@
     </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Open until %1</source>
         <translation>Zabalik %1 arte</translation>
@@ -648,7 +623,6 @@
         <source>Amount</source>
         <translation>Kopurua</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -659,12 +633,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-    </context>
-=======
     <message>
         <source>Date</source>
         <translation>Data</translation>
@@ -734,7 +702,6 @@
         <translation>Saldoan kendu edo gehitutako kopurua.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>TransactionView</name>
     <message>
@@ -834,11 +801,6 @@
     </context>
 <context>
     <name>WalletModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>WalletView</name>
-=======
     <message>
         <source>Send Coins</source>
         <translation>Bidali txanponak</translation>
@@ -854,7 +816,6 @@
         <source>Export the data in the current tab to a file</source>
         <translation>Esportatu datuak uneko fitxategian</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>

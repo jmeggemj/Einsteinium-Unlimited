@@ -288,13 +288,6 @@
         <source>Confirmed</source>
         <translation>Confirmado </translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>Prioridad</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -398,12 +391,9 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -599,15 +589,11 @@
     </context>
 <context>
     <name>WalletModel</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Send Coins</source>
         <translation>Enviar monedas</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>WalletView</name>
     </context>

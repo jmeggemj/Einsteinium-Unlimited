@@ -292,13 +292,6 @@
         <source>Confirmed</source>
         <translation>Confirmado</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>Prioridad</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -467,9 +460,6 @@
     </context>
 <context>
     <name>QObject::QObject</name>
-    </context>
-<context>
-    <name>QRImageWidget</name>
     </context>
 <context>
     <name>QRImageWidget</name>

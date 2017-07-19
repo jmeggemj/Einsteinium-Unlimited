@@ -63,19 +63,11 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-<<<<<<< HEAD
-        <translation>Tohle jsou tvé Litecoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
-    </message>
-    <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tohle jsou tvé Litecoinové adresy pro příjem plateb. Nezapomeň si pro každou transakci vždy vygenerovat novou adresu.</translation>
-=======
         <translation>Tohle jsou tvé litecoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Tohle jsou tvé litecoinové adresy pro příjem plateb. Nezapomeň si pro každou transakci vždy vygenerovat novou adresu.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -347,11 +339,7 @@
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
-<<<<<<< HEAD
-        <translation>Pošli mince na Litecoinovou adresu</translation>
-=======
         <translation>Pošli mince na litecoinovou adresu</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -403,19 +391,11 @@
     </message>
     <message>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
-<<<<<<< HEAD
-        <translation>Podepiš zprávy svými Litecoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Litecoinovými adresami</translation>
-=======
         <translation>Podepiš zprávy svými litecoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými litecoinovými adresami</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>&amp;File</source>
@@ -455,19 +435,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
-<<<<<<< HEAD
-        <translation><numerusform>%n aktivní spojení do Litecoinové sítě</numerusform><numerusform>%n aktivní spojení do Litecoinové sítě</numerusform><numerusform>%n aktivních spojení do Litecoinové sítě</numerusform></translation>
-    </message>
-    <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Vytvářím index bloků na disku...</translation>
-    </message>
-    <message>
-        <source>Processing blocks on disk...</source>
-        <translation>Zpracovávám bloky na disku...</translation>
-=======
         <translation><numerusform>%n aktivní spojení do litecoinové sítě</numerusform><numerusform>%n aktivní spojení do litecoinové sítě</numerusform><numerusform>%n aktivních spojení do litecoinové sítě</numerusform></translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -518,13 +486,10 @@
         <translation>%1 klient</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Connecting to peers...</source>
         <translation>Připojuji se…</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Catching up...</source>
         <translation>Stahuji...</translation>
     </message>
@@ -737,86 +702,6 @@
         <source>(change)</source>
         <translation>(drobné)</translation>
     </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Kopíruj adresu</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopíruj její označení</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopíruj částku</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Kopíruj ID transakce</translation>
-    </message>
-    <message>
-        <source>Lock unspent</source>
-        <translation>Zamkni neutracené</translation>
-    </message>
-    <message>
-        <source>Unlock unspent</source>
-        <translation>Odemkni k utracení</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Kopíruj počet</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Kopíruj poplatek</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Kopíruj čistou částku</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Kopíruj bajty</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Kopíruj prach</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Kopíruj drobné</translation>
-    </message>
-    <message>
-        <source>(%1 locked)</source>
-        <translation>(%1 zamčeno)</translation>
-    </message>
-    <message>
-        <source>yes</source>
-        <translation>ano</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>ne</translation>
-    </message>
-    <message>
-        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Popisek zčervená, pokud má některý příjemce obdržet částku menší, než je aktuální práh pro prach.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Může se lišit o +/– %1 satoshi na každý vstup.</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(bez označení)</translation>
-    </message>
-    <message>
-        <source>change from %1 (%2)</source>
-        <translation>drobné z %1 (%2)</translation>
-    </message>
-    <message>
-        <source>(change)</source>
-        <translation>(drobné)</translation>
-    </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
@@ -858,11 +743,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Litecoin address.</source>
-<<<<<<< HEAD
-        <translation>Zadaná adresa „%1“ není platná Litecoinová adresa.</translation>
-=======
         <translation>Zadaná adresa „%1“ není platná litecoinová adresa.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1176,11 +1057,7 @@
     </message>
     <message>
         <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-<<<<<<< HEAD
-        <translation>Připojí se do Litecoinové sítě přes SOCKS5 proxy.</translation>
-=======
         <translation>Připojí se do litecoinové sítě přes SOCKS5 proxy.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1220,11 +1097,7 @@
     </message>
     <message>
         <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-<<<<<<< HEAD
-        <translation>Připojí se do Litecoinové sítě přes SOCKS5 proxy vyhrazenou pro skryté služby v Tor síti.</translation>
-=======
         <translation>Připojí se do litecoinové sítě přes SOCKS5 proxy vyhrazenou pro skryté služby v Tor síti.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1323,11 +1196,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-<<<<<<< HEAD
-        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Litecoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
-=======
         <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s litecoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1396,7 +1265,6 @@
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
     <message>
         <source>Payment request error</source>
         <translation>Chyba platebního požadavku</translation>
@@ -1414,103 +1282,6 @@
         <translation>Zdrojová URL platebního požadavku není platná: %1</translation>
     </message>
     <message>
-        <source>Invalid payment address %1</source>
-        <translation>Neplatná platební adresa %1</translation>
-    </message>
-    <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Litecoinová adresa nebo poškozené parametry URI.</translation>
-    </message>
-    <message>
-        <source>Payment request file handling</source>
-        <translation>Zpracování souboru platebního požadavku</translation>
-    </message>
-    <message>
-        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Soubor platebního požadavku nejde přečíst nebo zpracovat! Příčinou může být špatný soubor platebního požadavku.</translation>
-    </message>
-    <message>
-        <source>Payment request rejected</source>
-        <translation>Platební požadavek byl odmítnut</translation>
-    </message>
-    <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>Síť platebního požadavku neodpovídá síti klienta.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Platební požadavek vypršel.</translation>
-    </message>
-    <message>
-        <source>Payment request is not initialized.</source>
-        <translation>Platební požadavek není zahájený.</translation>
-    </message>
-    <message>
-        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Neověřené platební požadavky k uživatelským platebním skriptům nejsou podporované.</translation>
-    </message>
-    <message>
-        <source>Invalid payment request.</source>
-        <translation>Neplatný platební požadavek.</translation>
-    </message>
-    <message>
-        <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Požadovaná platební částka %1 je příliš malá (je považována za prach).</translation>
-    </message>
-    <message>
-        <source>Refund from %1</source>
-        <translation>Vrácení peněz od %1</translation>
-    </message>
-    <message>
-        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Platební požadavek %1 je moc velký (%2 bajtů, povoleno %3 bajtů).</translation>
-    </message>
-    <message>
-        <source>Error communicating with %1: %2</source>
-        <translation>Chyba při komunikaci s %1: %2</translation>
-    </message>
-    <message>
-        <source>Payment request cannot be parsed!</source>
-        <translation>Platební požadavek je nečitelný!</translation>
-    </message>
-    <message>
-        <source>Bad response from server %1</source>
-        <translation>Chybná odpověď ze serveru %1</translation>
-    </message>
-    <message>
-        <source>Network request error</source>
-        <translation>Chyba síťového požadavku</translation>
-    </message>
-    <message>
-        <source>Payment acknowledged</source>
-        <translation>Platba potvrzena</translation>
-    </message>
-</context>
-<context>
-    <name>PeerTableModel</name>
-=======
->>>>>>> pr/4
-    <message>
-        <source>Payment request error</source>
-        <translation>Chyba platebního požadavku</translation>
-    </message>
-    <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit litecoin: obsluha click-to-pay</translation>
-    </message>
-    <message>
-        <source>URI handling</source>
-        <translation>Zpracování URI</translation>
-    </message>
-    <message>
-        <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Zdrojová URL platebního požadavku není platná: %1</translation>
-    </message>
-    <message>
-<<<<<<< HEAD
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Zadej Litecoinovou adresu (např. %1)</translation>
-=======
         <source>Invalid payment address %1</source>
         <translation>Neplatná platební adresa %1</translation>
     </message>
@@ -1611,7 +1382,6 @@
     <message>
         <source>Enter a Litecoin address (e.g. %1)</source>
         <translation>Zadej litecoinovou adresu (např. %1)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>%1 d</source>
@@ -1687,25 +1457,6 @@
     <message>
         <source>Error: %1</source>
         <translation>Chyba: %1</translation>
-    </message>
-</context>
-<context>
-    <name>QRImageWidget</name>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Ulož obrázek...</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Image</source>
-        <translation>&amp;Kopíruj obrázek</translation>
-    </message>
-    <message>
-        <source>Save QR Code</source>
-        <translation>Ulož QR kód</translation>
-    </message>
-    <message>
-        <source>PNG Image (*.png)</source>
-        <translation>PNG obrázek (*.png)</translation>
     </message>
 </context>
 <context>
@@ -1828,41 +1579,10 @@
     <message>
         <source>Starting Block</source>
         <translation>Počáteční blok</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Synced Headers</source>
         <translation>Aktuálně hlaviček</translation>
-=======
-    </message>
-    <message>
-        <source>Synced Headers</source>
-        <translation>Aktuálně hlaviček</translation>
-    </message>
-    <message>
-        <source>Synced Blocks</source>
-        <translation>Aktuálně bloků</translation>
-    </message>
-    <message>
-        <source>User Agent</source>
-        <translation>Typ klienta</translation>
-    </message>
-    <message>
-        <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři soubor s ladicími záznamy %1 z aktuálního datového adresáře. U velkých žurnálů to může pár vteřin zabrat.</translation>
-    </message>
-    <message>
-        <source>Decrease font size</source>
-        <translation>Zmenšit písmo</translation>
-    </message>
-    <message>
-        <source>Increase font size</source>
-        <translation>Zvětšit písmo</translation>
-    </message>
-    <message>
-        <source>Services</source>
-        <translation>Služby</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Synced Blocks</source>
@@ -1917,13 +1637,10 @@
         <translation>Doba čekání na odezvu</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Min Ping</source>
         <translation>Nejrychlejší odezva</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Time Offset</source>
         <translation>Časový posun</translation>
     </message>
@@ -1994,10 +1711,6 @@
     <message>
         <source>&amp;Unban</source>
         <translation>&amp;Odblokuj</translation>
-    </message>
-    <message>
-        <source>Welcome to the %1 RPC console.</source>
-        <translation>Vítej v RPC konzoli %1.</translation>
     </message>
     <message>
         <source>Welcome to the %1 RPC console.</source>
@@ -2092,11 +1805,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
-<<<<<<< HEAD
-        <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: tahle zpráva se neposílá s platbou po Litecoinové síti.</translation>
-=======
         <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: tahle zpráva se neposílá s platbou po litecoinové síti.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2143,13 +1852,10 @@
         <translation>Smazat</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Copy URI</source>
         <translation>Kopíruj URI</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Copy label</source>
         <translation>Kopíruj její označení</translation>
     </message>
@@ -3057,116 +2763,6 @@
         <source>Type of transaction.</source>
         <translation>Druh transakce.</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Copy quantity</source>
-        <translation>Kopíruj počet</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopíruj částku</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Kopíruj poplatek</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Kopíruj čistou částku</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Kopíruj bajty</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Kopíruj prach</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Kopíruj drobné</translation>
-    </message>
-    <message>
-        <source>%1 to %2</source>
-        <translation>%1 pro %2</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to send?</source>
-        <translation>Jsi si jistý, že to chceš poslat?</translation>
-    </message>
-    <message>
-        <source>added as transaction fee</source>
-        <translation>přidán jako transakční poplatek</translation>
-    </message>
-    <message>
-        <source>Total Amount %1</source>
-        <translation>Celková částka %1</translation>
-    </message>
-    <message>
-        <source>or</source>
-        <translation>nebo</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Potvrď odeslání mincí</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Adresa příjemce je neplatná – překontroluj ji prosím.</translation>
-    </message>
-    <message>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>Odesílaná částka musí být větší než 0.</translation>
-    </message>
-    <message>
-        <source>The amount exceeds your balance.</source>
-        <translation>Částka překračuje stav účtu.</translation>
-    </message>
-    <message>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Celková částka při připočítání poplatku %1 překročí stav účtu.</translation>
-    </message>
-    <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Zaznamenána duplicitní adresa: každá adresa by ale měla být použita vždy jen jednou.</translation>
-    </message>
-    <message>
-        <source>Transaction creation failed!</source>
-        <translation>Vytvoření transakce selhalo!</translation>
-    </message>
-    <message>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Poplatek vyšší než %1 je považován za absurdně vysoký.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Platební požadavek vypršel.</translation>
-    </message>
-    <message>
-        <source>Pay only the required fee of %1</source>
-        <translation>Zaplatit pouze vyžadovaný poplatek %1</translation>
-    </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Potvrzování by podle odhadu mělo začít během %n bloku.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform></translation>
-    </message>
-    <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Upozornění: Neplatná Litecoinová adresa</translation>
-    </message>
-    <message>
-        <source>Warning: Unknown change address</source>
-        <translation>Upozornění: Neznámá adresa pro drobné</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(bez označení)</translation>
-    </message>
-</context>
-<context>
-    <name>SendCoinsEntry</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
         <translation>Zda tato transakce zahrnuje i některou sledovanou adresu.</translation>
@@ -3191,13 +2787,8 @@
         <translation>Dnes</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address to send the payment to</source>
-        <translation>Litecoinová adresa příjemce</translation>
-=======
         <source>This week</source>
         <translation>Tento týden</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>This month</source>
@@ -3216,13 +2807,8 @@
         <translation>Rozsah...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatek se odečte od posílané částky. Příjemce tak dostane méně litecoinů, než zadáš do pole Částka. Pokud vybereš více příjemců, tak se poplatek rovnoměrně rozloží.</translation>
-=======
         <source>Received with</source>
         <translation>Přijato</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Sent to</source>
@@ -3245,13 +2831,8 @@
         <translation>Zadej adresu nebo označení pro její vyhledání</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Zpráva, která byla připojena k litecoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po Litecoinové síti.</translation>
-=======
         <source>Min amount</source>
         <translation>Minimální částka</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Abandon transaction</source>
@@ -3261,33 +2842,9 @@
         <source>Copy address</source>
         <translation>Kopíruj adresu</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Zadej označení této adresy; obojí se ti pak uloží do adresáře</translation>
-    </message>
-</context>
-<context>
-    <name>SendConfirmationDialog</name>
-    <message>
-        <source>Yes</source>
-        <translation>Ano</translation>
-    </message>
-</context>
-<context>
-    <name>ShutdownWindow</name>
-    <message>
-        <source>%1 is shutting down...</source>
-        <translation>%1 se ukončuje...</translation>
-    </message>
-    <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Nevypínej počítač, dokud toto okno nezmizí.</translation>
-=======
     <message>
         <source>Copy label</source>
         <translation>Kopíruj její označení</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Copy amount</source>
@@ -3298,21 +2855,12 @@
         <translation>Kopíruj ID transakce</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Podepsáním zprávy/smlouvy svými adresami můžeš prokázat, že jsi na ně schopen přijmout litecoiny. Buď opatrný a nepodepisuj nic vágního nebo náhodného; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze naprosto úplná a detailní prohlášení, se kterými souhlasíš.</translation>
-    </message>
-    <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>Litecoinová adresa, kterou se zpráva podepíše</translation>
-=======
         <source>Copy raw transaction</source>
         <translation>Kopíruj surovou transakci</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
         <translation>Kopíruj kompletní podrobnosti o transakci</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Edit label</source>
@@ -3343,13 +2891,8 @@
         <translation>Datum</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Litecoinové adresy</translation>
-=======
         <source>Type</source>
         <translation>Typ</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Label</source>
@@ -3372,21 +2915,12 @@
         <translation>Při ukládání transakční historie do %1 se přihodila nějaká chyba.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address the message was signed with</source>
-        <translation>Litecoinová adresa, kterou je zpráva podepsána</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Litecoinovou adresou</translation>
-=======
         <source>Exporting Successful</source>
         <translation>Úspěšně vyexportováno</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
         <translation>Transakční historie byla v pořádku uložena do %1.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Range:</source>
@@ -3395,58 +2929,6 @@
     <message>
         <source>to</source>
         <translation>až</translation>
-    </message>
-    <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>Kliknutím na „Podepiš zprávu“ vygeneruješ podpis</translation>
-    </message>
-    <message>
-        <source>The entered address is invalid.</source>
-        <translation>Zadaná adresa je neplatná.</translation>
-    </message>
-    <message>
-        <source>Please check the address and try again.</source>
-        <translation>Zkontroluj ji prosím a zkus to pak znovu.</translation>
-    </message>
-    <message>
-        <source>The entered address does not refer to a key.</source>
-        <translation>Zadaná adresa nepasuje ke klíči.</translation>
-    </message>
-    <message>
-        <source>Wallet unlock was cancelled.</source>
-        <translation>Odemčení peněženky bylo zrušeno.</translation>
-    </message>
-    <message>
-        <source>Private key for the entered address is not available.</source>
-        <translation>Soukromý klíč pro zadanou adresu není dostupný.</translation>
-    </message>
-    <message>
-        <source>Message signing failed.</source>
-        <translation>Nepodařilo se podepsat zprávu.</translation>
-    </message>
-    <message>
-        <source>Message signed.</source>
-        <translation>Zpráva podepsána.</translation>
-    </message>
-    <message>
-        <source>The signature could not be decoded.</source>
-        <translation>Podpis nejde dekódovat.</translation>
-    </message>
-    <message>
-        <source>Please check the signature and try again.</source>
-        <translation>Zkontroluj ho prosím a zkus to pak znovu.</translation>
-    </message>
-    <message>
-        <source>The signature did not match the message digest.</source>
-        <translation>Podpis se neshoduje s hašem zprávy.</translation>
-    </message>
-    <message>
-        <source>Message verification failed.</source>
-        <translation>Nepodařilo se ověřit zprávu.</translation>
-    </message>
-    <message>
-        <source>Message verified.</source>
-        <translation>Zpráva ověřena.</translation>
     </message>
 </context>
 <context>
@@ -3454,504 +2936,6 @@
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
         <translation>Jednotka pro částky. Klikni pro výběr nějaké jiné.</translation>
-    </message>
-</context>
-<context>
-    <name>WalletFrame</name>
-    <message>
-        <source>No wallet has been loaded.</source>
-        <translation>Žádná peněženka se nenačetla.</translation>
-    </message>
-</context>
-<context>
-<<<<<<< HEAD
-    <name>TransactionDesc</name>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otevřeno pro %n další blok</numerusform><numerusform>Otevřeno pro %n další bloky</numerusform><numerusform>Otevřeno pro %n dalších bloků</numerusform></translation>
-    </message>
-    <message>
-        <source>Open until %1</source>
-        <translation>Otřevřeno dokud %1</translation>
-    </message>
-    <message>
-        <source>conflicted with a transaction with %1 confirmations</source>
-        <translation>koliduje s transakcí o %1 konfirmacích</translation>
-    </message>
-    <message>
-        <source>%1/offline</source>
-        <translation>%1/offline</translation>
-    </message>
-    <message>
-        <source>0/unconfirmed, %1</source>
-        <translation>0/nepotvrzeno, %1</translation>
-    </message>
-    <message>
-        <source>in memory pool</source>
-        <translation>v transakčním zásobníku</translation>
-    </message>
-    <message>
-        <source>not in memory pool</source>
-        <translation>není ani v transakčním zásobníku</translation>
-    </message>
-    <message>
-        <source>abandoned</source>
-        <translation>zanechaná</translation>
-    </message>
-    <message>
-        <source>%1/unconfirmed</source>
-        <translation>%1/nepotvrzeno</translation>
-    </message>
-    <message>
-        <source>%1 confirmations</source>
-        <translation>%1 potvrzení</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation>Stav</translation>
-    </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, ještě nebylo rozesláno</translation>
-    </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, rozesláno přes %n uzel</numerusform><numerusform>, rozesláno přes %n uzly</numerusform><numerusform>, rozesláno přes %n uzlů</numerusform></translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Source</source>
-        <translation>Zdroj</translation>
-    </message>
-    <message>
-        <source>Generated</source>
-        <translation>Vygenerováno</translation>
-    </message>
-    <message>
-        <source>From</source>
-        <translation>Od</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>neznámo</translation>
-    </message>
-    <message>
-        <source>To</source>
-        <translation>Pro</translation>
-    </message>
-    <message>
-        <source>own address</source>
-        <translation>vlastní adresa</translation>
-    </message>
-    <message>
-        <source>watch-only</source>
-        <translation>sledovaná</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation>označení</translation>
-    </message>
-    <message>
-        <source>Credit</source>
-        <translation>Příjem</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>dozraje po %n bloku</numerusform><numerusform>dozraje po %n blocích</numerusform><numerusform>dozraje po %n blocích</numerusform></translation>
-    </message>
-    <message>
-        <source>not accepted</source>
-        <translation>neakceptováno</translation>
-    </message>
-    <message>
-        <source>Debit</source>
-        <translation>Výdaj</translation>
-    </message>
-    <message>
-        <source>Total debit</source>
-        <translation>Celkové výdaje</translation>
-    </message>
-    <message>
-        <source>Total credit</source>
-        <translation>Celkové příjmy</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Transakční poplatek</translation>
-    </message>
-    <message>
-        <source>Net amount</source>
-        <translation>Čistá částka</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Zpráva</translation>
-    </message>
-    <message>
-        <source>Comment</source>
-        <translation>Komentář</translation>
-    </message>
-    <message>
-        <source>Transaction ID</source>
-        <translation>ID transakce</translation>
-    </message>
-    <message>
-        <source>Output index</source>
-        <translation>Pořadí výstupu</translation>
-    </message>
-    <message>
-        <source>Merchant</source>
-        <translation>Obchodník</translation>
-    </message>
-    <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Vygenerované mince musí čekat %1 bloků, než mohou být utraceny. Když jsi vygeneroval tenhle blok, tak byl rozposlán do sítě, aby byl přidán do řetězce bloků. Pokud se mu nepodaří dostat se do řetězce, změní se na „neakceptovaný“ a nepůjde utratit. To se občas může stát, pokud jiný uzel vygeneruje blok zhruba ve stejném okamžiku jako ty.</translation>
-    </message>
-    <message>
-        <source>Debug information</source>
-        <translation>Ladicí informace</translation>
-    </message>
-    <message>
-        <source>Transaction</source>
-        <translation>Transakce</translation>
-    </message>
-    <message>
-        <source>Inputs</source>
-        <translation>Vstupy</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Částka</translation>
-    </message>
-    <message>
-        <source>true</source>
-        <translation>true</translation>
-    </message>
-    <message>
-        <source>false</source>
-        <translation>false</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionDescDialog</name>
-=======
-    <name>WalletModel</name>
->>>>>>> pr/4
-    <message>
-        <source>Send Coins</source>
-        <translation>Pošli mince</translation>
-    </message>
-    <message>
-        <source>Details for %1</source>
-        <translation>Podrobnosti o %1</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Typ</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Označení</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otevřeno pro %n další blok</numerusform><numerusform>Otevřeno pro %n další bloky</numerusform><numerusform>Otevřeno pro %n dalších bloků</numerusform></translation>
-    </message>
-    <message>
-        <source>Open until %1</source>
-        <translation>Otřevřeno dokud %1</translation>
-    </message>
-    <message>
-        <source>Offline</source>
-        <translation>Offline</translation>
-    </message>
-    <message>
-        <source>Unconfirmed</source>
-        <translation>Nepotvrzeno</translation>
-    </message>
-    <message>
-        <source>Abandoned</source>
-        <translation>Zanechaná</translation>
-    </message>
-    <message>
-        <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Potvrzuje se (%1 z %2 doporučených potvrzení)</translation>
-    </message>
-    <message>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>Potvrzeno (%1 potvrzení)</translation>
-    </message>
-    <message>
-        <source>Conflicted</source>
-        <translation>V kolizi</translation>
-    </message>
-    <message>
-        <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Nedozráno (%1 potvrzení, dozraje při %2 potvrzeních)</translation>
-    </message>
-    <message>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Tento blok nedostal žádný jiný uzel a pravděpodobně nebude akceptován!</translation>
-    </message>
-    <message>
-        <source>Generated but not accepted</source>
-        <translation>Vygenerováno, ale neakceptováno</translation>
-    </message>
-    <message>
-        <source>Received with</source>
-        <translation>Přijato do</translation>
-    </message>
-    <message>
-        <source>Received from</source>
-        <translation>Přijato od</translation>
-    </message>
-    <message>
-        <source>Sent to</source>
-        <translation>Posláno na</translation>
-    </message>
-    <message>
-        <source>Payment to yourself</source>
-        <translation>Platba sama sobě</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Vytěženo</translation>
-    </message>
-    <message>
-        <source>watch-only</source>
-        <translation>sledovací</translation>
-    </message>
-    <message>
-        <source>(n/a)</source>
-        <translation>(n/a)</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(bez označení)</translation>
-    </message>
-    <message>
-        <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Stav transakce. Najetím myši na toto políčko si zobrazíš počet potvrzení.</translation>
-    </message>
-    <message>
-        <source>Date and time that the transaction was received.</source>
-        <translation>Datum a čas přijetí transakce.</translation>
-    </message>
-    <message>
-        <source>Type of transaction.</source>
-        <translation>Druh transakce.</translation>
-    </message>
-    <message>
-        <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Zda tato transakce zahrnuje i některou sledovanou adresu.</translation>
-    </message>
-    <message>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Uživatelsky určený účel transakce.</translation>
-    </message>
-    <message>
-        <source>Amount removed from or added to balance.</source>
-        <translation>Částka odečtená z nebo přičtená k účtu.</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionView</name>
-    <message>
-        <source>All</source>
-        <translation>Vše</translation>
-    </message>
-    <message>
-        <source>Today</source>
-        <translation>Dnes</translation>
-    </message>
-    <message>
-        <source>This week</source>
-        <translation>Tento týden</translation>
-    </message>
-    <message>
-        <source>This month</source>
-        <translation>Tento měsíc</translation>
-    </message>
-    <message>
-        <source>Last month</source>
-        <translation>Minulý měsíc</translation>
-    </message>
-    <message>
-        <source>This year</source>
-        <translation>Letos</translation>
-    </message>
-    <message>
-        <source>Range...</source>
-        <translation>Rozsah...</translation>
-    </message>
-    <message>
-        <source>Received with</source>
-        <translation>Přijato</translation>
-    </message>
-    <message>
-        <source>Sent to</source>
-        <translation>Posláno</translation>
-    </message>
-    <message>
-        <source>To yourself</source>
-        <translation>Sám sobě</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Vytěženo</translation>
-    </message>
-    <message>
-        <source>Other</source>
-        <translation>Ostatní</translation>
-    </message>
-    <message>
-        <source>Enter address or label to search</source>
-        <translation>Zadej adresu nebo označení pro její vyhledání</translation>
-    </message>
-    <message>
-        <source>Min amount</source>
-        <translation>Minimální částka</translation>
-    </message>
-    <message>
-        <source>Abandon transaction</source>
-        <translation>Zapomenout transakci</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Kopíruj adresu</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopíruj její označení</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopíruj částku</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Kopíruj ID transakce</translation>
-    </message>
-    <message>
-        <source>Copy raw transaction</source>
-        <translation>Kopíruj surovou transakci</translation>
-    </message>
-    <message>
-        <source>Copy full transaction details</source>
-        <translation>Kopíruj kompletní podrobnosti o transakci</translation>
-    </message>
-    <message>
-        <source>Edit label</source>
-        <translation>Uprav označení</translation>
-    </message>
-    <message>
-        <source>Show transaction details</source>
-        <translation>Zobraz detaily transakce</translation>
-    </message>
-    <message>
-        <source>Export Transaction History</source>
-        <translation>Exportuj transakční historii</translation>
-    </message>
-    <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Formát CSV (*.csv)</translation>
-    </message>
-    <message>
-        <source>Confirmed</source>
-        <translation>Potvrzeno</translation>
-    </message>
-    <message>
-        <source>Watch-only</source>
-        <translation>Sledovaná</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Typ</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Označení</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adresa</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <translation>ID</translation>
-    </message>
-    <message>
-        <source>Exporting Failed</source>
-        <translation>Exportování selhalo</translation>
-    </message>
-    <message>
-        <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Při ukládání transakční historie do %1 se přihodila nějaká chyba.</translation>
-    </message>
-    <message>
-        <source>Exporting Successful</source>
-        <translation>Úspěšně vyexportováno</translation>
-    </message>
-    <message>
-        <source>The transaction history was successfully saved to %1.</source>
-        <translation>Transakční historie byla v pořádku uložena do %1.</translation>
-    </message>
-    <message>
-        <source>Range:</source>
-        <translation>Rozsah:</translation>
-    </message>
-    <message>
-        <source>to</source>
-        <translation>až</translation>
-    </message>
-</context>
-<context>
-    <name>WalletView</name>
-    <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Export</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exportuj data z tohoto panelu do souboru</translation>
-    </message>
-    <message>
-        <source>Backup Wallet</source>
-        <translation>Záloha peněženky</translation>
-    </message>
-    <message>
-        <source>Wallet Data (*.dat)</source>
-        <translation>Data peněženky (*.dat)</translation>
-    </message>
-    <message>
-        <source>Backup Failed</source>
-        <translation>Zálohování selhalo</translation>
-    </message>
-    <message>
-        <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Při ukládání peněženky do %1 se přihodila nějaká chyba.</translation>
-    </message>
-    <message>
-        <source>Backup Successful</source>
-        <translation>Úspěšně zazálohováno</translation>
-    </message>
-    <message>
-        <source>The wallet data was successfully saved to %1.</source>
-        <translation>Data z peněženky byla v pořádku uložena do %1.</translation>
     </message>
 </context>
 <context>
@@ -4074,13 +3058,6 @@
         <translation>Nemohu spustit HTTP server. Detaily viz v debug.log.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Přijímat spojení zvenčí (výchozí: 1, pokud není zadáno -proxy nebo -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>
@@ -4121,8 +3098,6 @@
         <translation>Spustit příkaz, když se objeví transakce týkající se peněženky (%s se v příkazu nahradí za TxID)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
         <translation>Počet extra transakcí, které se mají držet v paměti pro účely rekonstrukce kompaktních bloků (výchozí: %u)</translation>
     </message>
@@ -4135,7 +3110,6 @@
         <translation>Maximální povolené seřizování času mediánem časů protějšků. Místní vnímání času může být ovlivněno protějšky, a to dopředu nebo dozadu až o toto množství. (výchozí: %u vteřin)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
         <translation>Horní hranice pro celkový poplatek (v %s) za jednu transakci z peněženky nebo jednu surovou transakci; příliš nízká hodnota může zmařit velké transakce (výchozí: %s)</translation>
     </message>
@@ -4146,8 +3120,6 @@
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
         <translation>Prosíme, zapoj se nebo přispěj, pokud ti %s přijde užitečný. Více informací o programu je na %s.</translation>
-<<<<<<< HEAD
-=======
     </message>
     <message>
         <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
@@ -4156,7 +3128,6 @@
     <message>
         <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
         <translation>Nastavit nejnižší akceptovatelný poplatek (v %s/kB) pro transakce, které mají být zahrnuty do nových bloků. (výchozí: %s)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
@@ -4203,14 +3174,6 @@
         <translation>%s je poškozen, jeho záchrana se nezdařila</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>Je třeba přestavět databázi použitím -reindex-chainstate, aby bylo možné změnit -txindex</translation>
-    </message>
-    <message>
-        <source>%s corrupt, salvage failed</source>
-        <translation>%s je poškozen, jeho záchrana se nezdařila</translation>
-    </message>
-    <message>
         <source>-maxmempool must be at least %d MB</source>
         <translation>-maxmempool musí být alespoň %d MB</translation>
     </message>
@@ -4235,17 +3198,12 @@
         <translation>Nemohu přeložit -%s adresu: '%s'</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Connect only to the specified node(s)</source>
-        <translation>Připojit se pouze k zadanému uzlu (příp. zadaným uzlům)</translation>
-=======
         <source>Chain selection options:</source>
         <translation>Možnosti výběru řetězce:</translation>
     </message>
     <message>
         <source>Change index out of range</source>
         <translation>Index drobných je mimo platný rozsah</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Connection options:</source>
@@ -4272,8 +3230,6 @@
         <translation>Chceš přestavět databázi bloků hned teď?</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Enable publish hash block in &lt;address&gt;</source>
         <translation>Zapnout oznamování hashů bloků na adrese &lt;address&gt;</translation>
     </message>
@@ -4290,7 +3246,6 @@
         <translation>Zapnout oznamování surových transakcí na adrese &lt;address&gt;</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Enable transaction replacement in the memory pool (default: %u)</source>
         <translation>Povolit výměnu transakcí v transakčním zásobníku (výchozí: %u)</translation>
     </message>
@@ -4315,13 +3270,10 @@
         <translation>Chyba při načítání %s: peněženka vyžaduje novější verzi %s</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
         <translation>Chyba při načítání %s: nemůžeš vypnout HD u existující HD peněženky</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Error loading block database</source>
         <translation>Chyba při načítání databáze bloků</translation>
     </message>
@@ -4402,8 +3354,6 @@
         <translation>Při startu znovu vytvořit index řetězce bloků z aktuálních blk*.dat souborů</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Rebuild chain state from the currently indexed blocks</source>
         <translation>Znovu vytvořit stav řetězce bloků z aktuálně indexovaných bloků</translation>
     </message>
@@ -4412,7 +3362,6 @@
         <translation>Vracím bloky…</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
         <translation>Nastavit velikost databázové vyrovnávací paměti v megabajtech (%d až %d, výchozí: %d)</translation>
     </message>
@@ -4425,13 +3374,10 @@
         <translation>Udej název souboru s peněženkou (v rámci datového adresáře)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>The source code is available from %s.</source>
         <translation>Zdrojový kód je dostupný na %s.</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
         <translation>Nedaří se mi připojit na %s na tomhle počítači. %s už pravděpodobně jednou běží.</translation>
     </message>
@@ -4514,10 +3460,6 @@
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
         <translation>Poplatky (v %s/kB) menší než tato hodnota jsou považovány za nulové pro účely přeposílání, těžení a vytváření transakcí (výchozí: %s)</translation>
-    </message>
-    <message>
-        <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>Vynutit přeposílání transakcí od vždy vítaných protějšků (tj. těch na bílé listině), i když porušují místní zásady pro přeposílání (výchozí: %d)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -4808,10 +3750,6 @@
         <translation>%s je nastaveno velmi vysoko!</translation>
     </message>
     <message>
-        <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Upozornění: soubor s peněženkou je poškozený, data jsou však zachráněna! Původní soubor %s je uložený jako %s v %s. Pokud nejsou stav tvého účtu nebo transakce v pořádku, zřejmě bys měl obnovit zálohu.</translation>
-    </message>
-    <message>
         <source>(default: %s)</source>
         <translation>(výchozí: %s)</translation>
     </message>
@@ -4880,13 +3818,10 @@
         <translation>Nastavit zásobník klíčů na velikost &lt;n&gt; (výchozí: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>Nastavit maximální váhu bloku pro BIP141 (výchozí: %d)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Nastavení počtu vláken pro servisní RPC volání (výchozí: %d)</translation>
     </message>

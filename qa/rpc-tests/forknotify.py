@@ -22,11 +22,7 @@ class ForkNotifyTest(BitcoinTestFramework):
     def setup_network(self):
         self.nodes = []
         self.alert_filename = os.path.join(self.options.tmpdir, "alert.txt")
-<<<<<<< HEAD
-        with open(self.alert_filename, 'w', encoding='utf8') as f:
-=======
         with open(self.alert_filename, 'w', encoding='utf8'):
->>>>>>> pr/4
             pass  # Just open then close to create zero-length file
         self.nodes.append(start_node(0, self.options.tmpdir,
                             ["-blockversion=2", "-alertnotify=echo %s >> \"" + self.alert_filename + "\""]))

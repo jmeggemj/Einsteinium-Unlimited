@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Видалити</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Оберіть адресу для відправки монет</translation>
@@ -103,7 +97,6 @@
         <translation>(немає мітки)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -315,13 +308,6 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n активне з'єднання з мережею Litecoin</numerusform><numerusform>%n активні з'єднання з мережею Litecoin</numerusform><numerusform>%n активних з'єднань з мережею Litecoin</numerusform></translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>Недоступно жодного джерела блоків...</translation>
-=======
->>>>>>> pr/4
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -993,9 +979,6 @@
     <name>QRImageWidget</name>
     </context>
 <context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
@@ -1343,11 +1326,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Зберегти зображення...</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-=======
     <message>
         <source>Label</source>
         <translation>Мітка</translation>
@@ -1363,7 +1341,6 @@
         <source>(no label)</source>
         <translation>немає мітки</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1507,15 +1484,11 @@
         <source>S&amp;end</source>
         <translation>&amp;Відправити</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>(no label)</source>
         <translation>немає мітки</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1718,11 +1691,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Label</source>
         <translation>Мітка</translation>
@@ -1746,7 +1714,6 @@
         <source>Exporting Failed</source>
         <translation>Експортування пройшло не успішно</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1823,13 +1790,6 @@
         <translation>Неможливо запустити HTTP-сервер. Детальніший опис наведено в журналі зневадження.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Приймати підключення ззовні (типово: 1 за відсутності -proxy чи -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>

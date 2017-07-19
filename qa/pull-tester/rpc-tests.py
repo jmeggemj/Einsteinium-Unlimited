@@ -75,15 +75,8 @@ for arg in sys.argv[1:]:
         opts.add(arg)
 
 #Set env vars
-<<<<<<< HEAD
-if "LITECOIND" not in os.environ:
-    os.environ["LITECOIND"] = BUILDDIR + '/src/litecoind' + EXEEXT
-if "LITECOINCLI" not in os.environ:
-    os.environ["LITECOINCLI"] = BUILDDIR + '/src/litecoin-cli' + EXEEXT
-=======
 if "BITCOIND" not in os.environ:
     os.environ["BITCOIND"] = BUILDDIR + '/src/litecoind' + EXEEXT
->>>>>>> pr/4
 
 if EXEEXT == ".exe" and "-win" not in opts:
     # https://github.com/bitcoin/bitcoin/commit/d52802551752140cf41f0d9a225a43e84404d3e9
@@ -116,12 +109,8 @@ testScripts = [
     'segwit.py',
     # vv Tests less than 2m vv
     'wallet.py',
-<<<<<<< HEAD
-    'wallet-hd.py',
-=======
     'wallet-accounts.py',
     'p2p-segwit.py',
->>>>>>> pr/4
     'wallet-dump.py',
     'listtransactions.py',
     # vv Tests less than 60s vv
@@ -160,17 +149,12 @@ testScripts = [
     'preciousblock.py',
     'importprunedfunds.py',
     'signmessages.py',
-<<<<<<< HEAD
-    'p2p-compactblocks.py',
-    'nulldummy.py',
-=======
     'nulldummy.py',
     'import-rescan.py',
     'bumpfee.py',
     'rpcnamedargs.py',
     'listsinceblock.py',
     'p2p-leaktests.py',
->>>>>>> pr/4
     'test_script_address2.py'
 ]
 if ENABLE_ZMQ:
@@ -201,11 +185,6 @@ testScriptsExt = [
     'txn_clone.py --mineblock',
     'forknotify.py',
     'invalidateblock.py',
-<<<<<<< HEAD
-    'rpcbind_test.py',
-    'smartfees.py',
-=======
->>>>>>> pr/4
     'maxblocksinflight.py',
     'p2p-acceptblock.py',
     'replace-by-fee.py',

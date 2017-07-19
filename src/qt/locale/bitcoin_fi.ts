@@ -264,17 +264,6 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktiivinen yhteys Litecoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Litecoin-verkkoon</numerusform></translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Ladataan lohkoindeksiä...</translation>
-    </message>
-    <message>
-        <source>Processing blocks on disk...</source>
-        <translation>Käsitellään lohkoja levyllä...</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -445,13 +434,6 @@
         <source>Confirmed</source>
         <translation>Vahvistettu</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>Prioriteetti</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -997,9 +979,6 @@
     <name>QRImageWidget</name>
     </context>
 <context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
@@ -1366,13 +1345,10 @@
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Date</source>
         <translation>Aika</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1697,13 +1673,10 @@
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Date</source>
         <translation>Aika</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1714,11 +1687,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Date</source>
         <translation>Aika</translation>
@@ -1730,7 +1698,6 @@
         <source>Date</source>
         <translation>Aika</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1747,13 +1714,10 @@
     </context>
 <context>
     <name>WalletView</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>&amp;Export</source>
         <translation>&amp;Vie</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -1814,21 +1778,8 @@
         <translation>HTTP-palvelinta ei voitu käynnistää. Katso debug-lokista lisätietoja.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Hyväksy yhteyksiä ulkopuolelta (vakioasetus: 1 jos -proxy tai -connect ei määritelty)</translation>
-    </message>
-    <message>
         <source>Litecoin Core</source>
         <translation>Litecoin-ydin</translation>
-    </message>
-    <message>
-        <source>The %s developers</source>
-        <translation>%s kehittäjät</translation>
-=======
-        <source>Litecoin Core</source>
-        <translation>Litecoin-ydin</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>The %s developers</source>
@@ -1843,13 +1794,6 @@
         <translation>Ei voida lukita data-hakemistoa %s. %s on luultavasti jo käynnissä.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Jaettu MIT-ohjelmistolisenssin alla, katso mukana tullut tiedosto COPYING tai &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Suorita käsky kun lompakossa rahansiirto muuttuu (%s cmd on vaihdettu TxID kanssa)</translation>
     </message>
@@ -1868,25 +1812,10 @@
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
         <translation>Lohkotietokanta sisältää lohkon, joka vaikuttaa olevan tulevaisuudesta. Tämä saattaa johtua tietokoneesi virheellisesti asetetuista aika-asetuksista. Rakenna lohkotietokanta uudelleen vain jos olet varma, että tietokoneesi päivämäärä ja aika ovat oikein.</translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Tämä on esi-julkaistu testiversio - Käytä omalla riskillä - Ei saa käytää louhimiseen tai kauppasovelluksiin.</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>Käytä UPnP:ta kuuntelevan portin kartoitukseen (oletus: 1 kun kuunnellaan ja -proxy ei käytössä)</translation>
-    </message>
-    <message>
-        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>Sinun tulee uudelleenrakentaa tietokanta käyttäen -reindex-chainstate vaihtaaksesi -txindex</translation>
-    </message>
-    <message>
-        <source>%s corrupt, salvage failed</source>
-        <translation>%s korruptoitunut, korjaaminen epäonnistui</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
@@ -1915,13 +1844,6 @@
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
         <translation>-%s -osoitteen '%s' selvittäminen epäonnistui</translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Yhidstä ainoastaan määrättyihin noodeihin</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Connection options:</source>
@@ -2040,10 +1962,6 @@
         <translation>Aseta tietokannan välimuistin koko megatavuissa (%d - %d, oletus: %d</translation>
     </message>
     <message>
-        <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>Aseta suurin BIP141-lohkopaino (oletus: %d)</translation>
-    </message>
-    <message>
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Aseta lohkon maksimikoko tavuissa (oletus: %d)</translation>
     </message>
@@ -2116,13 +2034,6 @@
         <translation>Siirtomäärä on liian pieni lähetettäväksi kulun vähentämisen jälkeen.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Tämä tuote sisältää ohjelmistoa, jonka on kehittänyt OpenSSL Project käytettäväksi OpenSSL Toolkit -ohjelmistossa &lt;https://www.openssl.org/&gt;, ja Eric Youngin kirjoittamaa salausohjelmistoa sekä Thomas Bernardin kirjoittamaa UPnP-ohjelmistoa.</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>(default: %u)</source>
         <translation>(oletus: %u)</translation>
     </message>
@@ -2343,13 +2254,10 @@
         <translation>Aseta avainaltaan kooksi &lt;n&gt; (oletus: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>Aseta suurin BIP141-lohkopaino (oletus: %d)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Aseta RPC-kutsujen palvelemiseen tarkoitettujen säikeiden lukumäärä (oletus: %d)</translation>
     </message>

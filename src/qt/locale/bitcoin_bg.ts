@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Изтриване</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Изберете адрес, на който да се изпращат монети</translation>
@@ -119,7 +113,6 @@
         <translation>(без име)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -138,9 +131,6 @@
         <source>Repeat new passphrase</source>
         <translation>Въведете новата парола повторно</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Въведете новата парола към портфейла.&lt;br/&gt;Моля ползвайте парола съставена от &lt;b&gt;десет или повече произволни символа&lt;/b&gt;, или &lt;b&gt;осем или повече думи&lt;/b&gt;.</translation>
@@ -226,7 +216,6 @@
         <translation>Внимание: Caps Lock (главни букви) е включен.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>BanTableModel</name>
     <message>
@@ -330,11 +319,7 @@
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
-<<<<<<< HEAD
-        <translation>Изпращане към Litecoin адрес</translation>
-=======
         <translation>Изпращане към Биткоин адрес</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -357,13 +342,8 @@
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Bitcoin</source>
-        <translation>Litecoin</translation>
-=======
         <source>Litecoin</source>
         <translation>Биткоин</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Wallet</source>
@@ -433,13 +413,6 @@
         <source>&amp;Command-line options</source>
         <translation>&amp;Налични команди</translation>
     </message>
-<<<<<<< HEAD
-    <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n активна връзка към Litecoin мрежата</numerusform><numerusform>%n активни връзки към Litecoin мрежата</numerusform></translation>
-    </message>
-=======
->>>>>>> pr/4
     <message>
         <source>Indexing blocks on disk...</source>
         <translation>Индексиране на блокове на диска...</translation>
@@ -677,7 +650,7 @@
         <source>(change)</source>
         <translation>(промени)</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -700,9 +673,6 @@
         <source>&amp;Address</source>
         <translation>&amp;Адрес</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>New receiving address</source>
         <translation>Нов адрес за получаване</translation>
@@ -736,7 +706,6 @@
         <translation>Създаването на ключ беше неуспешно.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -1039,11 +1008,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-<<<<<<< HEAD
-        <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Litecoin, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
-=======
         <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Биткоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1092,12 +1057,6 @@
     </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>PeerTableModel</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Payment request error</source>
         <translation>Възникна грешка по време назаявката за плащане</translation>
@@ -1235,9 +1194,6 @@
         <translation>PNG Изображение (*.png)</translation>
     </message>
 </context>
-<context>
-    <name>QRImageWidget</name>
-    </context>
 <context>
     <name>RPCConsole</name>
     <message>
@@ -1471,9 +1427,6 @@
         <source>Remove</source>
         <translation>Премахване</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy label</source>
         <translation>Копирай име</translation>
@@ -1487,7 +1440,6 @@
         <translation>Копирай сума</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -1506,12 +1458,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Запиши изображение...</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-    </context>
-=======
     <message>
         <source>Request payment to %1</source>
         <translation>Изискване на плащане от %1</translation>
@@ -1541,7 +1487,6 @@
         <translation>Грешка при създаването на QR Code от URI.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
@@ -1679,9 +1624,6 @@
         <source>S&amp;end</source>
         <translation>И&amp;зпрати</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy quantity</source>
         <translation>Копиране на количеството</translation>
@@ -1759,7 +1701,6 @@
         <translation>(без име)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1810,12 +1751,6 @@
         <source>Memo:</source>
         <translation>Бележка:</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendConfirmationDialog</name>
-    </context>
-=======
     <message>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Въведете име за този адрес, за да го добавите в списъка с адреси</translation>
@@ -1828,7 +1763,6 @@
         <translation>Да</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ShutdownWindow</name>
     <message>
@@ -1892,11 +1826,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-<<<<<<< HEAD
-        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Litecoin адрес</translation>
-=======
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1971,9 +1901,6 @@
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Open until %1</source>
         <translation>Подлежи на промяна до %1</translation>
@@ -2103,7 +2030,6 @@
         <translation>false</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>TransactionDescDialog</name>
     <message>
@@ -2113,12 +2039,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-    </context>
-=======
     <message>
         <source>Date</source>
         <translation>Дата</translation>
@@ -2355,23 +2275,11 @@
         <translation>до</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
     <name>WalletFrame</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
-<context>
-    <name>WalletView</name>
-    </context>
-<context>
-    <name>litecoin-core</name>
-=======
     <message>
         <source>No wallet has been loaded.</source>
         <translation>Няма зареден портфейл.</translation>
@@ -2421,7 +2329,6 @@
 </context>
 <context>
     <name>bitcoin-core</name>
->>>>>>> pr/4
     <message>
         <source>Options:</source>
         <translation>Опции:</translation>
@@ -2439,21 +2346,8 @@
         <translation>Въведете Ваш публичен адрес</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Приемайте връзки отвън.(по подразбиране:1 в противен случай -proxy или -connect)</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation>Litecoin ядро</translation>
-    </message>
-    <message>
-        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>Сложете в бял списък пиъри,свързващи се от дадената интернет маска или айпи адрес.Може да бъде заложено неколкократно.</translation>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin ядро</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

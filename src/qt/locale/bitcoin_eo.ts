@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Forigi</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Elekti la adreson por sendi monerojn</translation>
@@ -119,7 +113,6 @@
         <translation>(neniu etikedo)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -246,11 +239,7 @@
     </message>
     <message>
         <source>Litecoin</source>
-<<<<<<< HEAD
-        <translation>Litecoin</translation>
-=======
         <translation>Litecoino</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Wallet</source>
@@ -640,11 +629,7 @@
     </message>
     <message>
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-<<<<<<< HEAD
-        <translation>Aŭtomate malfermi la kursilan pordon por Litecoin. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
-=======
         <translation>Aŭtomate malfermi la kursilan pordon por Litecoino. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -700,11 +685,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-<<<<<<< HEAD
-        <translation>Elekti la defaŭltan manieron por montri litecoin sumojn en la interfaco, kaj kiam vi sendos litecoin.</translation>
-=======
         <translation>Elekti la defaŭltan manieron por montri liteoinjn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -743,11 +724,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-<<<<<<< HEAD
-        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la litecoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
-=======
         <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la liteoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -825,9 +802,6 @@
     </context>
 <context>
     <name>QObject::QObject</name>
-    </context>
-<context>
-    <name>QRImageWidget</name>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -1032,11 +1006,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Konservi Bildon...</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-=======
     <message>
         <source>Address</source>
         <translation>Adreso</translation>
@@ -1056,17 +1025,12 @@
         <source>(no label)</source>
         <translation>(neniu etikedo)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-<<<<<<< HEAD
-        <translation>Sendi Litecoin</translation>
-=======
         <translation>Sendi Litecoinon</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1140,15 +1104,11 @@
         <source>S&amp;end</source>
         <translation>Ŝendi</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>(no label)</source>
         <translation>(neniu etikedo)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1311,11 +1271,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Label</source>
         <translation>Etikedo</translation>
@@ -1343,7 +1298,6 @@
         <source>Exporting Failed</source>
         <translation>ekspotado malsukcesinta</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1384,13 +1338,6 @@
         <translation>Ruli fone kiel demono kaj akcepti komandojn</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Akcepti konektojn el ekstere (defaŭlte: 1 se ne estas -proxy nek -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Kerno de Litecoin</translation>
     </message>

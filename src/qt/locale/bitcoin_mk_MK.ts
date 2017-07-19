@@ -139,11 +139,7 @@
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
-<<<<<<< HEAD
-        <translation>Испрати Litecoin на Litecoin адреса</translation>
-=======
         <translation>Испрати биткоини на Биткоин адреса</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -151,11 +147,7 @@
     </message>
     <message>
         <source>Litecoin</source>
-<<<<<<< HEAD
-        <translation>Litecoin</translation>
-=======
         <translation>Биткоин</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Wallet</source>
@@ -270,13 +262,6 @@
         <source>Date</source>
         <translation>Дата</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>Приоритет</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -413,9 +398,6 @@
     </context>
 <context>
     <name>QObject::QObject</name>
-    </context>
-<context>
-    <name>QRImageWidget</name>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -597,11 +579,7 @@
     </message>
     <message>
         <source>Litecoin Core</source>
-<<<<<<< HEAD
-        <translation>Litecoin Core</translation>
-=======
         <translation>Биткоин Core</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Warning</source>

@@ -443,12 +443,9 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -755,13 +752,6 @@
         <translation>Gumana king gulut bilang daemon at tumanggap commands</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Tumanggap koneksion menibat king kilwal (default: 1 if no -proxy or -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Kapilubluban ning Litecoin</translation>
     </message>

@@ -131,13 +131,8 @@ UniValue generateBlocks(boost::shared_ptr<CReserveScript> coinbaseScript, int nG
         if (pblock->nNonce == nInnerLoopCount) {
             continue;
         }
-<<<<<<< HEAD
-        CValidationState state;
-        if (!ProcessNewBlock(state, Params(), NULL, pblock, true, NULL, false))
-=======
         std::shared_ptr<const CBlock> shared_pblock = std::make_shared<const CBlock>(*pblock);
         if (!ProcessNewBlock(Params(), shared_pblock, true, NULL))
->>>>>>> pr/4
             throw JSONRPCError(RPC_INTERNAL_ERROR, "ProcessNewBlock, block not accepted");
         ++nHeight;
         blockHashes.push_back(pblock->GetHash().GetHex());
@@ -194,13 +189,8 @@ UniValue generatetoaddress(const JSONRPCRequest& request)
             "generatetoaddress nblocks address (maxtries)\n"
             "\nMine blocks immediately to a specified address (before the RPC call returns)\n"
             "\nArguments:\n"
-<<<<<<< HEAD
-            "1. numblocks    (numeric, required) How many blocks are generated immediately.\n"
-            "2. address    (string, required) The address to send the newly generated litecoin to.\n"
-=======
             "1. nblocks      (numeric, required) How many blocks are generated immediately.\n"
             "2. address      (string, required) The address to send the newly generated litecoin to.\n"
->>>>>>> pr/4
             "3. maxtries     (numeric, optional) How many iterations to try (default = 1000000).\n"
             "\nResult:\n"
             "[ blockhashes ]     (array) hashes of blocks generated\n"
@@ -241,10 +231,6 @@ UniValue getmininginfo(const JSONRPCRequest& request)
             "  \"errors\": \"...\"            (string) Current errors\n"
             "  \"networkhashps\": nnn,      (numeric) The network hashes per second\n"
             "  \"pooledtx\": n              (numeric) The size of the mempool\n"
-<<<<<<< HEAD
-            "  \"testnet\": true|false      (boolean) If using testnet or not\n"
-=======
->>>>>>> pr/4
             "  \"chain\": \"xxxx\",           (string) current network name as defined in BIP70 (main, test, regtest)\n"
             "}\n"
             "\nExamples:\n"
@@ -343,28 +329,16 @@ UniValue getblocktemplate(const JSONRPCRequest& request)
             "    https://github.com/bitcoin/bips/blob/master/bip-0145.mediawiki\n"
 
             "\nArguments:\n"
-<<<<<<< HEAD
-            "1. TemplateRequest          (json object, optional) A json object in the following spec\n"
-=======
             "1. template_request         (json object, optional) A json object in the following spec\n"
->>>>>>> pr/4
             "     {\n"
             "       \"mode\":\"template\"    (string, optional) This must be set to \"template\", \"proposal\" (see BIP 23), or omitted\n"
             "       \"capabilities\":[     (array, optional) A list of strings\n"
             "           \"support\"          (string) client side supported feature, 'longpoll', 'coinbasetxn', 'coinbasevalue', 'proposal', 'serverlist', 'workid'\n"
-<<<<<<< HEAD
             "           ,...\n"
             "       ],\n"
             "       \"rules\":[            (array, optional) A list of strings\n"
             "           \"support\"          (string) client side supported softfork deployment\n"
             "           ,...\n"
-=======
-            "           ,...\n"
-            "       ],\n"
-            "       \"rules\":[            (array, optional) A list of strings\n"
-            "           \"support\"          (string) client side supported softfork deployment\n"
-            "           ,...\n"
->>>>>>> pr/4
             "       ]\n"
             "     }\n"
             "\n"
@@ -488,14 +462,10 @@ UniValue getblocktemplate(const JSONRPCRequest& request)
     if (strMode != "template")
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid mode");
 
-<<<<<<< HEAD
-    if (vNodes.empty())
-=======
     if(!g_connman)
         throw JSONRPCError(RPC_CLIENT_P2P_DISABLED, "Error: Peer-to-peer functionality missing or disabled");
 
     if (g_connman->GetNodeCount(CConnman::CONNECTIONS_ALL) == 0)
->>>>>>> pr/4
         throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Litecoin is not connected!");
 
     if (IsInitialBlockDownload())
@@ -717,27 +687,17 @@ UniValue getblocktemplate(const JSONRPCRequest& request)
         nSigOpLimit /= WITNESS_SCALE_FACTOR;
     }
     result.push_back(Pair("sigoplimit", nSigOpLimit));
-<<<<<<< HEAD
-    result.push_back(Pair("sizelimit", (int64_t)MAX_BLOCK_SERIALIZED_SIZE));
-    result.push_back(Pair("weightlimit", (int64_t)MAX_BLOCK_WEIGHT));
-=======
     if (fPreSegWit) {
         result.push_back(Pair("sizelimit", (int64_t)MAX_BLOCK_BASE_SIZE));
     } else {
         result.push_back(Pair("sizelimit", (int64_t)MAX_BLOCK_SERIALIZED_SIZE));
         result.push_back(Pair("weightlimit", (int64_t)MAX_BLOCK_WEIGHT));
     }
->>>>>>> pr/4
     result.push_back(Pair("curtime", pblock->GetBlockTime()));
     result.push_back(Pair("bits", strprintf("%08x", pblock->nBits)));
     result.push_back(Pair("height", (int64_t)(pindexPrev->nHeight+1)));
 
-<<<<<<< HEAD
-    const struct BIP9DeploymentInfo& segwit_info = VersionBitsDeploymentInfo[Consensus::DEPLOYMENT_SEGWIT];
-    if (!pblocktemplate->vchCoinbaseCommitment.empty() && setClientRules.find(segwit_info.name) != setClientRules.end()) {
-=======
     if (!pblocktemplate->vchCoinbaseCommitment.empty() && fSupportsSegwit) {
->>>>>>> pr/4
         result.push_back(Pair("default_witness_commitment", HexStr(pblocktemplate->vchCoinbaseCommitment.begin(), pblocktemplate->vchCoinbaseCommitment.end())));
     }
 
@@ -818,11 +778,7 @@ UniValue submitblock(const JSONRPCRequest& request)
 
     submitblock_StateCatcher sc(block.GetHash());
     RegisterValidationInterface(&sc);
-<<<<<<< HEAD
-    bool fAccepted = ProcessNewBlock(state, Params(), NULL, &block, true, NULL, false);
-=======
     bool fAccepted = ProcessNewBlock(Params(), blockptr, true, NULL);
->>>>>>> pr/4
     UnregisterValidationInterface(&sc);
     if (fBlockPresent)
     {

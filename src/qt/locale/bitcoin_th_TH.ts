@@ -41,8 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;ลบ</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>เลือกที่อยู่เพื่อส่งเหรียญไปไว้</translation>
@@ -55,7 +53,6 @@
         <source>Sending addresses</source>
         <translation>ส่งที่อยู่</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -449,13 +446,6 @@
         <source>Confirmed</source>
         <translation>ยืนยันแล้ว</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>ระดับความสำคัญ</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -820,9 +810,6 @@
     </context>
 <context>
     <name>QObject::QObject</name>
-    </context>
-<context>
-    <name>QRImageWidget</name>
     </context>
 <context>
     <name>QRImageWidget</name>

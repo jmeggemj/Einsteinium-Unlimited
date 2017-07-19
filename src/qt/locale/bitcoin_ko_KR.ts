@@ -42,8 +42,6 @@
         <translation>삭제(&amp;D)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Choose the address to send coins to</source>
         <translation>코인을 보내실 주소를 선택하세요</translation>
     </message>
@@ -52,24 +50,10 @@
         <translation>코인을 받으실 주소를 선택하세요</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>C&amp;hoose</source>
         <translation>선택 (&amp;H)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>&amp;Edit</source>
-        <translation>편집 (&amp;E)</translation>
-    </message>
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    <message>
-        <source>Address</source>
-        <translation>주소</translation>
-    </message>
-    </context>
-=======
         <source>Sending addresses</source>
         <translation>보내는 주소들</translation>
     </message>
@@ -129,7 +113,6 @@
         <translation>(라벨 없음)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -148,9 +131,6 @@
         <source>Repeat new passphrase</source>
         <translation>새로운 암호 재확인</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>지갑에 새로운 비밀문구를 입력하세요.&lt;br/&gt;비밀문구를 &lt;b&gt;열 개 이상의 무작위 글자&lt;/b&gt; 혹은 &lt;b&gt;여덟개 이상의 단어로&lt;b&gt; 정하세요.</translation>
@@ -240,7 +220,6 @@
         <translation>경고: Caps Lock키가 켜져있습니다!</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>BanTableModel</name>
     <message>
@@ -457,17 +436,6 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>라이트코인을 네트워크에 %n개의 연결이 활성화되어 있습니다.</numerusform></translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>디스크에서 블록 색인중...</translation>
-    </message>
-    <message>
-        <source>Processing blocks on disk...</source>
-        <translation>디스크에서 블록 처리중...</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -518,13 +486,10 @@
         <translation>%1 클라이언트</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Connecting to peers...</source>
         <translation>피어에 연결중...</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Catching up...</source>
         <translation>블록 따라잡기...</translation>
     </message>
@@ -737,11 +702,7 @@
         <source>(change)</source>
         <translation>(잔돈)</translation>
     </message>
-    <message>
-        <source>Copy address</source>
-        <translation>주소 복사</translation>
-    </message>
-    </context>
+</context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -764,9 +725,6 @@
         <source>&amp;Address</source>
         <translation>주소(&amp;A)</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>New receiving address</source>
         <translation>새 받는 주소</translation>
@@ -800,7 +758,6 @@
         <translation>새로운 키 생성이 실패하였습니다.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -895,11 +852,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Litecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-<<<<<<< HEAD
-        <translation>%1가 블럭체인의 복사본을 다운로드 저장합니다. 적어도 %2GB의 데이터가 이 폴더에 저장되며 시간이 경과할수록 점차 증가합니다. 그리고 지갑 또한 이 폴더에 저장됩니다. </translation>
-=======
         <translation>%1가 블록체인의 복사본을 다운로드 저장합니다. 적어도 %2GB의 데이터가 이 폴더에 저장되며 시간이 경과할수록 점차 증가합니다. 그리고 지갑 또한 이 폴더에 저장됩니다. </translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -995,15 +948,11 @@
         <source>Select payment request file</source>
         <translation>지불 요청 파일을 선택하세요</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Select payment request file to open</source>
         <translation>지불 요청 파일을 열기 위해서 선택하세요</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -1316,12 +1265,6 @@
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>PeerTableModel</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Payment request error</source>
         <translation>지불 요청 오류</translation>
@@ -1339,13 +1282,8 @@
         <translation>지불 요청의 URL이 올바르지 않습니다: %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>라이트코인을 주소를 입력하기 (예. %1)</translation>
-=======
         <source>Invalid payment address %1</source>
         <translation>잘못된 지불 주소입니다 %1</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
@@ -1540,9 +1478,6 @@
         <translation>PNG 이미지(*.png)</translation>
     </message>
 </context>
-<context>
-    <name>QRImageWidget</name>
-    </context>
 <context>
     <name>RPCConsole</name>
     <message>
@@ -1916,9 +1851,6 @@
         <source>Remove</source>
         <translation>삭제</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy URI</source>
         <translation>URI 복사</translation>
@@ -1936,7 +1868,6 @@
         <translation>거래액 복사</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -1956,15 +1887,6 @@
         <translation>이미지 저장(&amp;S)...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Address</source>
-        <translation>주소</translation>
-    </message>
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-    </context>
-=======
         <source>Request payment to %1</source>
         <translation>%1에 지불을 요청했습니다</translation>
     </message>
@@ -2032,7 +1954,6 @@
         <translation>요청됨</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -2117,11 +2038,7 @@
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-<<<<<<< HEAD
-        <translation>블록의 용량보다 트랜잭션의 용량이 작은 경우에는 최소한의 수수료만으로도 충분합니다. 그러나 라이트코인을 네트워크의 처리량보다 더 많은 트랜잭션 요구는 영원히 검증이 안 될 수도 있습니다.</translation>
-=======
         <translation>블록의 용량보다 거래의 용량이 작은 경우에는 최소한의 수수료만으로도 충분합니다. 그러나 라이트코인을 네트워크의 처리량보다 더 많은 거래 요구는 영원히 검증이 안 될 수도 있습니다.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2846,32 +2763,17 @@
         <source>Type of transaction.</source>
         <translation>거래의 종류.</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendCoinsEntry</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
         <translation>조회전용 주소가 이 거래에 참여하는지 여부입니다.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Pay &amp;To:</source>
-        <translation>송금할 대상(&amp;T):</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>라벨(&amp;L):</translation>
-=======
         <source>User-defined intent/purpose of the transaction.</source>
         <translation>거래에 대한 사용자 정의 intent/purpose</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
         <translation>변경된 잔고.</translation>
->>>>>>> pr/4
     </message>
 </context>
 <context>
@@ -2885,13 +2787,8 @@
         <translation>오늘</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address to send the payment to</source>
-        <translation>이 라이트코인을 주소로 송금됩니다</translation>
-=======
         <source>This week</source>
         <translation>이번주</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>This month</source>
@@ -2910,13 +2807,8 @@
         <translation>범위...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>수수료가 송금되는 금액에서 공제됩니다. 수령자는 금액 필드에서 입력한 금액보다 적은 금액을 전송받게 됩니다. 받는 사람이 여러 명인 경우 수수료는 균등하게 나누어집니다.</translation>
-=======
         <source>Received with</source>
         <translation>받은 주소</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Sent to</source>
@@ -2939,45 +2831,20 @@
         <translation>검색하기 위한 주소 또는 표 입력</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>라이트코인을에 첨부된 메시지: 참고용으로 거래와 함께 저장될 URI. 메모: 이 메시지는 라이트코인을 네트워크로 전송되지 않습니다.</translation>
-    </message>
-    <message>
-        <source>Pay To:</source>
-        <translation>송금할 대상:</translation>
-=======
         <source>Min amount</source>
         <translation>최소 거래액</translation>
     </message>
     <message>
         <source>Abandon transaction</source>
         <translation>버려진 거래</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Copy address</source>
         <translation>주소 복사</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendConfirmationDialog</name>
-    </context>
-<context>
-    <name>ShutdownWindow</name>
-    <message>
-        <source>%1 is shutting down...</source>
-        <translation>%1이 종료 중입니다...</translation>
-    </message>
-    <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>창이 사라지기 전까지 컴퓨터를 끄지마시오.</translation>
-=======
     <message>
         <source>Copy label</source>
         <translation>라벨 복사</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Copy amount</source>
@@ -2988,21 +2855,12 @@
         <translation>거래 아이디 복사</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>여러분 자신을 증명하기 위해 주소를 첨가하고 서명할 수 있습니다. 피싱 공격으로 말미암아 여러분의 서명을 통해 속아 넘어가게 할 수 있으므로, 서명하지 않은 모든 모호한 요소를 주의하십시오. 조항들이 완전 무결한지 확인 후 동의하는 경우에만 서명하십시오.</translation>
-    </message>
-    <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>메세지를 서명한 라이트코인을 주소</translation>
-=======
         <source>Copy raw transaction</source>
         <translation>원시 거래 복사</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
         <translation>거래 세부 내역 복사</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Edit label</source>
@@ -3033,13 +2891,8 @@
         <translation>날짜</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>여러분의 라이트코인을 주소를 증명하려면 메시지 서명하십시오</translation>
-=======
         <source>Type</source>
         <translation>형식</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Label</source>
@@ -3062,21 +2915,12 @@
         <translation>%1으로 거래 기록을 저장하는데 에러가 있었습니다.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address the message was signed with</source>
-        <translation>메세지의 서명에 사용된 라이트코인을 주소</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>정확한 라이트코인을주소가 입력됬는지 메시지를 확인하시오</translation>
-=======
         <source>Exporting Successful</source>
         <translation>내보내기 성공</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
         <translation>거래 기록이 성공적으로 %1에 저장되었습니다.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Range:</source>
@@ -3086,7 +2930,7 @@
         <source>to</source>
         <translation>상대방</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
@@ -3102,33 +2946,12 @@
     </message>
 </context>
 <context>
-<<<<<<< HEAD
-    <name>TransactionDesc</name>
-    </context>
-<context>
-    <name>TransactionDescDialog</name>
-=======
     <name>WalletModel</name>
->>>>>>> pr/4
     <message>
         <source>Send Coins</source>
         <translation>코인 보내기</translation>
     </message>
-    </context>
-<context>
-    <name>TransactionTableModel</name>
-    </context>
-<context>
-    <name>TransactionView</name>
-    <message>
-        <source>Copy address</source>
-        <translation>주소 복사</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>주소</translation>
-    </message>
-    </context>
+</context>
 <context>
     <name>WalletView</name>
     <message>
@@ -3164,15 +2987,6 @@
         <translation>지갑 정보가 %1에 성공적으로 저장되었습니다.</translation>
     </message>
 </context>
-<context>
-    <name>WalletFrame</name>
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
-<context>
-    <name>WalletView</name>
-    </context>
 <context>
     <name>bitcoin-core</name>
     <message>
@@ -3244,21 +3058,8 @@
         <translation>HTTP 서버를 시작할 수 없습니다. 자세한 사항은 디버그 로그를 확인 하세요.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>외부 접속을 승인합니다</translation>
-    </message>
-    <message>
         <source>Litecoin Core</source>
         <translation>라이트코인을 코어</translation>
-    </message>
-    <message>
-        <source>The %s developers</source>
-        <translation>%s 코어 개발자</translation>
-=======
-        <source>Litecoin Core</source>
-        <translation>라이트코인을 코어</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>The %s developers</source>
@@ -3293,22 +3094,10 @@
         <translation>%s 불러오기 오류: 주소 키는 모두 정확하게 로드되었으나 거래 데이터와 주소록 필드에서 누락이나 오류가 존재할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>%s 불러오기 오류: 비-HD 지갑이 존재하는 상태에서 HD 지갑을 활성화 할 수 없습니다</translation>
-    </message>
-    <message>
-        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>%s 불러오기 오류: 주소 키는 모두 정확하게 로드되었으나 거래 데이터와 주소록 필드에서 누락이나 오류가 존재할 수 있습니다.</translation>
-    </message>
-    <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>지갑 거래가 바뀌면 명령을 실행합니다.(%s 안의 명령어가 TxID로 바뀝니다)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>하나의 지갑 트랜잭션에서의 총 수수료(%s)의 최대치; 너무 낮게 설정하면 큰 트랜잭션이 중지 됩니다 (기본값: %s)</translation>
-=======
         <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
         <translation>압축 블록 재구성을 위해 메모리에 보관해야하는 추가 거래 (기본값: %u)</translation>
     </message>
@@ -3319,7 +3108,6 @@
     <message>
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
         <translation>허용 된 최대 중간 피어 시간 오프셋 조정. 시간에 대한 지역적 전망치는 전방 또는 후방의 피어에 의해 영향을 받을 수 있습니다. (기본값: %u 초)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
@@ -3328,13 +3116,10 @@
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
         <translation>%s가 유용하다고 생각한다면 프로젝트에 공헌해주세요. 이 소프트웨어에 대한 보다 자세한 정보는 %s를 방문해주십시오.</translation>
-<<<<<<< HEAD
-=======
     </message>
     <message>
         <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
         <translation>블록 생성시 거래가 포함되도록 최저 수수료율을 설정하십시오 (%s/kB 단위). (기본값: %s)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
@@ -3347,10 +3132,6 @@
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>출시 전의 테스트 빌드 입니다. - 스스로의 책임하에 사용하십시오 - 채굴이나 상업적 용도로 프로그램으로 사용하지 마십시오</translation>
-    </message>
-    <message>
-        <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
-        <translation>데이터베이스를 포크 전 상태로 돌리지 못했습니다. 블록체인을 다시 다운로드 해주십시오.</translation>
     </message>
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
@@ -3374,23 +3155,11 @@
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-<<<<<<< HEAD
-        <translation>경고: 현재 라이트코인을 버전이 다른 네트워크 참여자들과 동일하지 않는 것 같습니다. 당신 또는 다른 참여자들이 동일한 라이트코인을 버전으로 업그레이드 할 필요가 있습니다.</translation>
-=======
         <translation>경고: 현재 라이트코인을 버전이 다른 네트워크 참여자들과 동일하지 않은 것 같습니다. 당신 또는 다른 참여자들이 동일한 라이트코인을 버전으로 업그레이드 할 필요가 있습니다.</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
         <translation>-txindex를 바꾸기 위해서는 -reindex-chainstate 를 사용해서 데이터베이스를 재구성해야 합니다. </translation>
->>>>>>> pr/4
-    </message>
-    <message>
-        <source>%s corrupt, salvage failed</source>
-        <translation>%s 손상되었고 복구가 실패하였습니다</translation>
-    </message>
-    <message>
-        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>-txindex를 바꾸기 위해서는 -reindex-chainstate를 사용해서 데이터베이스를 재구성해야 합니다. </translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
@@ -3421,17 +3190,12 @@
         <translation>%s 주소를 확인할 수 없습니다: '%s'</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Connect only to the specified node(s)</source>
-        <translation>지정된 노드에만 연결하기</translation>
-=======
         <source>Chain selection options:</source>
         <translation>체인 선택 옵션:</translation>
     </message>
     <message>
         <source>Change index out of range</source>
         <translation>범위 밖의 인덱스 변경</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Connection options:</source>
@@ -3966,8 +3730,6 @@
         <translation>경고 : 지갑파일이 손상되어 데이터가 복구되었습니다. 원래의 %s 파일은 %s 후에 %s 이름으로 저장됩니다. 잔액과 거래 내역이 정확하지 않다면 백업 파일로 부터 복원해야 합니다. </translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
         <translation>설정된 IP주소 (보기 1.2.3.4) 혹은 CIDR로 작성된 네트워크 (보기 1.2.3.0/24)로 화이트리스트에 포함된 피어에 접속합니다. 이 설정은 복수로 지정 할 수 있습니다.</translation>
     </message>
@@ -3980,7 +3742,6 @@
         <translation>(기본값: %s)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
         <translation>DNS lookup을 통해 항상 피어주소에 대한 쿼리 보내기 (기본값: %u)</translation>
     </message>

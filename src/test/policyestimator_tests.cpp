@@ -100,17 +100,8 @@ BOOST_AUTO_TEST_CASE(BlockPolicyEstimates)
     // so estimateFee(2) should return 9*baseRate etc...
     for (int i = 1; i < 10;i++) {
         origFeeEst.push_back(mpool.estimateFee(i).GetFeePerK());
-<<<<<<< HEAD
-        origPriEst.push_back(mpool.estimatePriority(i));
-        if (i > 1) { // Fee estimates should be monotonically decreasing
-            if (i > 2) {
-                BOOST_CHECK(origFeeEst[i-1] <= origFeeEst[i-2]);
-            }
-            BOOST_CHECK(origPriEst[i-1] <= origPriEst[i-2]);
-=======
         if (i > 2) { // Fee estimates should be monotonically decreasing
             BOOST_CHECK(origFeeEst[i-1] <= origFeeEst[i-2]);
->>>>>>> pr/4
         }
         int mult = 11-i;
         if (i > 1) {
@@ -120,11 +111,6 @@ BOOST_AUTO_TEST_CASE(BlockPolicyEstimates)
         else {
             BOOST_CHECK(origFeeEst[i-1] == CFeeRate(0).GetFeePerK());
         }
-<<<<<<< HEAD
-        BOOST_CHECK(origPriEst[i-1] < pow(10,mult) * basepri + deltaPri);
-        BOOST_CHECK(origPriEst[i-1] > pow(10,mult) * basepri - deltaPri);
-=======
->>>>>>> pr/4
     }
 
     // Mine 50 more blocks with no transactions happening, estimates shouldn't change
@@ -133,19 +119,9 @@ BOOST_AUTO_TEST_CASE(BlockPolicyEstimates)
         mpool.removeForBlock(block, ++blocknum);
 
     BOOST_CHECK(mpool.estimateFee(1) == CFeeRate(0));
-<<<<<<< HEAD
-    for (int i = 1; i < 10;i++) {
-        if (i > 1) {
-            BOOST_CHECK(mpool.estimateFee(i).GetFeePerK() < origFeeEst[i-1] + deltaFee);
-            BOOST_CHECK(mpool.estimateFee(i).GetFeePerK() > origFeeEst[i-1] - deltaFee);
-        }
-        BOOST_CHECK(mpool.estimatePriority(i) < origPriEst[i-1] + deltaPri);
-        BOOST_CHECK(mpool.estimatePriority(i) > origPriEst[i-1] - deltaPri);
-=======
     for (int i = 2; i < 10;i++) {
         BOOST_CHECK(mpool.estimateFee(i).GetFeePerK() < origFeeEst[i-1] + deltaFee);
         BOOST_CHECK(mpool.estimateFee(i).GetFeePerK() > origFeeEst[i-1] - deltaFee);
->>>>>>> pr/4
     }
 
 
@@ -182,15 +158,8 @@ BOOST_AUTO_TEST_CASE(BlockPolicyEstimates)
     mpool.removeForBlock(block, 265);
     block.clear();
     BOOST_CHECK(mpool.estimateFee(1) == CFeeRate(0));
-<<<<<<< HEAD
-    for (int i = 1; i < 10;i++) {
-        if (i > 1)
-            BOOST_CHECK(mpool.estimateFee(i).GetFeePerK() > origFeeEst[i-1] - deltaFee);
-        BOOST_CHECK(mpool.estimatePriority(i) > origPriEst[i-1] - deltaPri);
-=======
     for (int i = 2; i < 10;i++) {
         BOOST_CHECK(mpool.estimateFee(i).GetFeePerK() > origFeeEst[i-1] - deltaFee);
->>>>>>> pr/4
     }
 
     // Mine 200 more blocks where everything is mined every block
@@ -211,15 +180,8 @@ BOOST_AUTO_TEST_CASE(BlockPolicyEstimates)
         block.clear();
     }
     BOOST_CHECK(mpool.estimateFee(1) == CFeeRate(0));
-<<<<<<< HEAD
-    for (int i = 1; i < 10; i++) {
-        if (i > 1)
-            BOOST_CHECK(mpool.estimateFee(i).GetFeePerK() < origFeeEst[i-1] - deltaFee);
-        BOOST_CHECK(mpool.estimatePriority(i) < origPriEst[i-1] - deltaPri);
-=======
     for (int i = 2; i < 10; i++) {
         BOOST_CHECK(mpool.estimateFee(i).GetFeePerK() < origFeeEst[i-1] - deltaFee);
->>>>>>> pr/4
     }
 
     // Test that if the mempool is limited, estimateSmartFee won't return a value below the mempool min fee

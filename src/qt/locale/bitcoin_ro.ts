@@ -222,13 +222,6 @@
         <translation>Deschide un litecoin: URI sau cerere de plată</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>%1 and %2</source>
-        <translation>%1 și %2</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>%1 behind</source>
         <translation>%1 în urmă</translation>
     </message>
@@ -292,11 +285,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Portofelul este &lt;b&gt;criptat&lt;/b&gt; și în prezent &lt;b&gt;blocat&lt;/b&gt;</translation>
     </message>
-<<<<<<< HEAD
-</context>
-=======
     </context>
->>>>>>> pr/4
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -316,13 +305,6 @@
         <translation>Cantitate:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Priority:</source>
-        <translation>Prioritate:</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Fee:</source>
         <translation>Taxa:</translation>
     </message>
@@ -362,13 +344,6 @@
         <source>Confirmed</source>
         <translation>Confirmat</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>Prioritate</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -425,12 +400,9 @@
         <source>%n GB of free space available</source>
         <translation><numerusform>%n GB de spațiu liber disponibil</numerusform><numerusform>%n GB de spațiu liber disponibil</numerusform><numerusform>%n GB de spațiu liber disponibil</numerusform></translation>
     </message>
-<<<<<<< HEAD
-=======
     </context>
 <context>
     <name>ModalOverlay</name>
->>>>>>> pr/4
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -502,13 +474,10 @@
         <translation>Tor</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>&amp;Window</source>
         <translation>&amp;Fereastra</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
@@ -568,13 +537,6 @@
         <source>Amount</source>
         <translation>Cantitate</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
-=======
     <message>
         <source>%1 and %2</source>
         <translation>%1 și %2</translation>
@@ -587,7 +549,6 @@
     <name>QRImageWidget</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>RPCConsole</name>
     <message>
         <source>Client version</source>
@@ -693,13 +654,10 @@
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
-<<<<<<< HEAD
-=======
         <source>&amp;Message:</source>
         <translation>&amp;Mesaj:</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Show</source>
         <translation>Arată</translation>
     </message>
@@ -733,13 +691,6 @@
         <translation>Cantitate:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Priority:</source>
-        <translation>Prioritate:</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Fee:</source>
         <translation>Taxa:</translation>
     </message>

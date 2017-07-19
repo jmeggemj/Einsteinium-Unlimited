@@ -1,19 +1,11 @@
-<<<<<<< HEAD
-Litecoin Core 0.13.2
-=======
 Litecoin Core 0.14.2
->>>>>>> pr/4
 =====================
 
 Setup
 ---------------------
-<<<<<<< HEAD
-[Litecoin Core](http://litecoin.org/en/download) is the original Litecoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Litecoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
-=======
 Litecoin Core is the original Litecoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Litecoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
 To download Litecoin Core, visit [litecoin.org](https://litecoin.org).
->>>>>>> pr/4
 
 Running
 ---------------------
@@ -70,11 +62,7 @@ The Litecoin repo's [root README](/README.md) contains relevant information on t
 
 ### Resources
 * Discuss on the [LitecoinTalk](https://litecointalk.io/) forums.
-<<<<<<< HEAD
-* Discuss project-specific development on #litecoin on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=litecoin).
-=======
 * Discuss general Litecoin development on #litecoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=litecoin-dev).
->>>>>>> pr/4
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

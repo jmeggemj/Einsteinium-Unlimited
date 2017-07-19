@@ -223,11 +223,7 @@ void CWalletDB::ListAccountCreditDebit(const string& strAccount, list<CAccountin
     Dbc* pcursor = GetCursor();
     if (!pcursor)
         throw runtime_error(std::string(__func__) + ": cannot create DB cursor");
-<<<<<<< HEAD
-    unsigned int fFlags = DB_SET_RANGE;
-=======
     bool setRange = true;
->>>>>>> pr/4
     while (true)
     {
         // Read next record
@@ -788,7 +784,7 @@ DBErrors CWalletDB::ZapWalletTx(CWallet* pwallet, vector<CWalletTx>& vWtx)
 void ThreadFlushWalletDB()
 {
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("litecoin-wallet");
+    RenameThread("bitcoin-wallet");
 
     static bool fOneThread;
     if (fOneThread)

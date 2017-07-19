@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Hapus</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Pilih alamat untuk mengirim koin</translation>
@@ -115,7 +109,6 @@
         <translation>(tidak ada label)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -134,9 +127,6 @@
         <source>Repeat new passphrase</source>
         <translation>Ulangi kata kunci baru</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Masukan kata sandi baru ke dompet.&lt;br/&gt;Mohon gunakan kata sandi &lt;b&gt;sepuluh karakter acak atau lebih&lt;/b&gt;, atau &lt;b&gt; delapan atau lebih beberapa kata &lt;/​​b&gt;.</translation>
@@ -226,7 +216,6 @@
         <translation>Peringatan: Tombol Caps Lock aktif!</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>BanTableModel</name>
     <message>
@@ -621,8 +610,6 @@
         <source>Copy address</source>
         <translation>Salin alamat</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Copy label</source>
         <translation>Salin label</translation>
@@ -635,7 +622,6 @@
         <source>(no label)</source>
         <translation>(tidak ada label)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -1077,9 +1063,6 @@
     <name>QRImageWidget</name>
     </context>
 <context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
@@ -1298,13 +1281,10 @@
         <source>Remove</source>
         <translation>Menghapus</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Copy label</source>
         <translation>Salin label</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
@@ -1324,11 +1304,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Simpan Gambaran...</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-=======
     <message>
         <source>Address</source>
         <translation>Alamat</translation>
@@ -1352,7 +1327,6 @@
         <source>(no label)</source>
         <translation>(tidak ada label)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1456,9 +1430,6 @@
         <source>S&amp;end</source>
         <translation>K&amp;irim</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy fee</source>
         <translation>Salin biaya</translation>
@@ -1468,7 +1439,6 @@
         <translation>(tidak ada label)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1617,13 +1587,10 @@
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Amount</source>
         <translation>Jumlah</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1634,11 +1601,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Label</source>
         <translation>Label</translation>
@@ -1674,7 +1636,6 @@
         <source>Exporting Failed</source>
         <translation>Mengekspor Gagal</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1715,13 +1676,6 @@
         <translation>Berjalan dibelakang sebagai daemin dan menerima perintah</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Terima hubungan dari luar (standar: 1 kalau -proxy atau -connect tidak dipilih)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>

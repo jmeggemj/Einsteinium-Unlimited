@@ -415,11 +415,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
-<<<<<<< HEAD
-        <translation>Anmod om betalinger (genererer QR-koder og "litecoin:"-URI'er)</translation>
-=======
         <translation>Anmod om betalinger (genererer QR-koder og “litecoin:”-URI'er)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -431,11 +427,7 @@
     </message>
     <message>
         <source>Open a litecoin: URI or payment request</source>
-<<<<<<< HEAD
-        <translation>Åbn en "litecoin:"-URI eller betalingsanmodning</translation>
-=======
         <translation>Åbn en “litecoin:”-URI eller betalingsanmodning</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -710,150 +702,6 @@
         <source>(change)</source>
         <translation>(byttepange)</translation>
     </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Kopiér adresse</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopiér mærkat</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopiér beløb</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Kopiér transaktions-ID</translation>
-    </message>
-    <message>
-        <source>Lock unspent</source>
-        <translation>Fastlås ubrugte</translation>
-    </message>
-    <message>
-        <source>Unlock unspent</source>
-        <translation>Lås ubrugte op</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Kopiér mængde</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Kopiér gebyr</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Kopiér eftergebyr</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Kopiér byte</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Kopiér prioritet</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Kopiér støv</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Kopiér byttepenge</translation>
-    </message>
-    <message>
-        <source>highest</source>
-        <translation>højest</translation>
-    </message>
-    <message>
-        <source>higher</source>
-        <translation>højere</translation>
-    </message>
-    <message>
-        <source>high</source>
-        <translation>højt</translation>
-    </message>
-    <message>
-        <source>medium-high</source>
-        <translation>mellemhøjt</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>medium</translation>
-    </message>
-    <message>
-        <source>low-medium</source>
-        <translation>mellemlavt</translation>
-    </message>
-    <message>
-        <source>low</source>
-        <translation>lavt</translation>
-    </message>
-    <message>
-        <source>lower</source>
-        <translation>lavere</translation>
-    </message>
-    <message>
-        <source>lowest</source>
-        <translation>lavest</translation>
-    </message>
-    <message>
-        <source>(%1 locked)</source>
-        <translation>(%1 fastlåst)</translation>
-    </message>
-    <message>
-        <source>none</source>
-        <translation>ingen</translation>
-    </message>
-    <message>
-        <source>yes</source>
-        <translation>ja</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>nej</translation>
-    </message>
-    <message>
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>Denne mærkat bliver rød, hvis transaktionsstørrelsen er større end 1000 byte.</translation>
-    </message>
-    <message>
-        <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Dette betyder, at et gebyr på mindst %1 pr. kB er nødvendigt.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- 1 byte per input.</source>
-        <translation>Kan variere ±1 byte pr. input.</translation>
-    </message>
-    <message>
-        <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Transaktioner med højere prioritet har højere sansynlighed for at blive inkluderet i en blok.</translation>
-    </message>
-    <message>
-        <source>This label turns red if the priority is smaller than "medium".</source>
-        <translation>Denne mærkat bliver rød, hvis prioriteten er mindre end "medium".</translation>
-    </message>
-    <message>
-        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Denne mærkat bliver rød, hvis en eller flere modtagere modtager et beløb, der er mindre end den aktuelle støvgrænse.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Kan variere med ±%1 satoshi per input.</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(ingen mærkat)</translation>
-    </message>
-    <message>
-        <source>change from %1 (%2)</source>
-        <translation>byttepenge fra %1 (%2)</translation>
-    </message>
-    <message>
-        <source>(change)</source>
-        <translation>(byttepange)</translation>
-    </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
@@ -895,19 +743,11 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Litecoin address.</source>
-<<<<<<< HEAD
-        <translation>Den indtastede adresse "%1" er ikke en gyldig Litecoin-adresse.</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>Den indtastede adresse "%1" er allerede i adressebogen.</translation>
-=======
         <translation>Den indtastede adresse “%1” er ikke en gyldig Litecoin-adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
         <translation>Den indtastede adresse “%1” er allerede i adressebogen.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1037,8 +877,6 @@
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation><numerusform>(ud af %n GB nødvendig)</numerusform><numerusform>(ud af %n GB nødvendig)</numerusform></translation>
-<<<<<<< HEAD
-=======
     </message>
 </context>
 <context>
@@ -1090,7 +928,6 @@
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
         <translation>Ukendt. Synkroniserer hoveder (%1)…</translation>
->>>>>>> pr/4
     </message>
 </context>
 <context>
@@ -1428,7 +1265,6 @@
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
     <message>
         <source>Payment request error</source>
         <translation>Fejl i betalingsanmodning</translation>
@@ -1477,129 +1313,6 @@
         <source>Payment request is not initialized.</source>
         <translation>Betalingsanmodning er ikke klargjort.</translation>
     </message>
-    <message>
-        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Ikke-verificerede betalingsanmodninger for tilpassede betalings-scripts understøttes ikke.</translation>
-    </message>
-    <message>
-        <source>Invalid payment request.</source>
-        <translation>Ugyldig betalingsanmodning.</translation>
-    </message>
-    <message>
-        <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Anmodet betalingsbeløb på %1 er for lille (regnes som støv).</translation>
-    </message>
-    <message>
-        <source>Refund from %1</source>
-        <translation>Tilbagebetaling fra %1</translation>
-    </message>
-    <message>
-        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Betalingsanmodning %1 er for stor (%2 byte; %3 byte tilladt).</translation>
-    </message>
-    <message>
-        <source>Error communicating with %1: %2</source>
-        <translation>Fejl under kommunikation med %1: %2</translation>
-    </message>
-    <message>
-        <source>Payment request cannot be parsed!</source>
-        <translation>Betalingsanmodning kan ikke tolkes!</translation>
-    </message>
-    <message>
-        <source>Bad response from server %1</source>
-        <translation>Fejlagtigt svar fra server %1</translation>
-    </message>
-    <message>
-        <source>Network request error</source>
-        <translation>Fejl i netværksforespørgsel</translation>
-    </message>
-    <message>
-        <source>Payment acknowledged</source>
-        <translation>Betaling anerkendt</translation>
-    </message>
-</context>
-<context>
-    <name>PeerTableModel</name>
-=======
->>>>>>> pr/4
-    <message>
-        <source>Payment request error</source>
-        <translation>Fejl i betalingsanmodning</translation>
-    </message>
-    <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Kan ikke starte litecoin: click-to-pay-håndtering</translation>
-    </message>
-    <message>
-        <source>URI handling</source>
-        <translation>URI-håndtering</translation>
-    </message>
-    <message>
-        <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Hentnings-URL for betalingsanmodning er ugyldig: %1</translation>
-    </message>
-    <message>
-<<<<<<< HEAD
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Indtast en Litecoin-adresse (fx %1)</translation>
-=======
-        <source>Invalid payment address %1</source>
-        <translation>Ugyldig betalingsadresse %1</translation>
->>>>>>> pr/4
-    </message>
-    <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig Litecoin-adresse eller forkert udformede URL-parametre.</translation>
-    </message>
-    <message>
-        <source>Payment request file handling</source>
-        <translation>Filhåndtering for betalingsanmodninger</translation>
-    </message>
-    <message>
-        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Fil for betalingsanmodning kan ikke læses! Dette kan skyldes en ugyldig fil for betalingsanmodning.</translation>
-    </message>
-    <message>
-        <source>Payment request rejected</source>
-        <translation>Betalingsanmodning afvist</translation>
-    </message>
-    <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>Netværk for betalingsanmodning stemmer ikke overens med klientens netværk.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Betalingsanmodning er udløbet.</translation>
-    </message>
-    <message>
-        <source>Payment request is not initialized.</source>
-        <translation>Betalingsanmodning er ikke klargjort.</translation>
-    </message>
-<<<<<<< HEAD
-</context>
-<context>
-    <name>QRImageWidget</name>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>Gem billede…</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Image</source>
-        <translation>&amp;Kopiér foto</translation>
-    </message>
-    <message>
-        <source>Save QR Code</source>
-        <translation>Gem QR-kode</translation>
-    </message>
-    <message>
-        <source>PNG Image (*.png)</source>
-        <translation>PNG-billede (*.png)</translation>
-    </message>
-</context>
-<context>
-    <name>RPCConsole</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Ikke-verificerede betalingsanmodninger for tilpassede betalings-scripts understøttes ikke.</translation>
@@ -2139,13 +1852,10 @@
         <translation>Fjern</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Copy URI</source>
         <translation>Kopiér URI</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Copy label</source>
         <translation>Kopiér mærkat</translation>
     </message>
@@ -2176,11 +1886,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Gem billede…</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Request payment to %1</source>
-        <translation>Anmod om betaling til %1</translation>
-=======
     <message>
         <source>Request payment to %1</source>
         <translation>Anmod om betaling til %1</translation>
@@ -2254,56 +1959,36 @@
     <message>
         <source>Send Coins</source>
         <translation>Send litecoins</translation>
->>>>>>> pr/4
     </message>
     <message>
-        <source>Payment information</source>
-        <translation>Betalingsinformation</translation>
+        <source>Coin Control Features</source>
+        <translation>Egenskaber for coin-styring</translation>
     </message>
     <message>
-        <source>URI</source>
-        <translation>URI</translation>
+        <source>Inputs...</source>
+        <translation>Inputs…</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Adresse</translation>
+        <source>automatically selected</source>
+        <translation>valgt automatisk</translation>
     </message>
     <message>
-        <source>Amount</source>
-        <translation>Beløb</translation>
+        <source>Insufficient funds!</source>
+        <translation>Utilstrækkelige midler!</translation>
     </message>
     <message>
-        <source>Label</source>
-        <translation>Mærkat</translation>
+        <source>Quantity:</source>
+        <translation>Mængde:</translation>
     </message>
     <message>
-        <source>Message</source>
-        <translation>Besked</translation>
+        <source>Bytes:</source>
+        <translation>Byte:</translation>
     </message>
     <message>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resulterende URI var for lang; prøv at forkorte teksten til mærkaten/beskeden.</translation>
+        <source>Amount:</source>
+        <translation>Beløb:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Error encoding URI into QR Code.</source>
-        <translation>Fejl ved kodning fra URI til QR-kode.</translation>
-    </message>
-</context>
-<context>
-    <name>RecentRequestsTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Dato</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Mærkat</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Besked</translation>
-=======
         <source>Fee:</source>
         <translation>Gebyr:</translation>
     </message>
@@ -2530,64 +2215,11 @@
     <message>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
         <translation>Den adresse, du har valgt til byttepenge, er ikke en del af denne tegnebog. Nogle af eller alle penge i din tegnebog kan blive sendt til denne adresse. Er du sikker?</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>(no label)</source>
         <translation>(ingen mærkat)</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>(no message)</source>
-        <translation>(ingen besked)</translation>
-    </message>
-    <message>
-        <source>(no amount requested)</source>
-        <translation>(intet anmodet beløb)</translation>
-    </message>
-    <message>
-        <source>Requested</source>
-        <translation>Anmodet</translation>
-    </message>
-</context>
-<context>
-    <name>SendCoinsDialog</name>
-    <message>
-        <source>Send Coins</source>
-        <translation>Send litecoins</translation>
-    </message>
-    <message>
-        <source>Coin Control Features</source>
-        <translation>Egenskaber for coin-styring</translation>
-    </message>
-    <message>
-        <source>Inputs...</source>
-        <translation>Inputs…</translation>
-    </message>
-    <message>
-        <source>automatically selected</source>
-        <translation>valgt automatisk</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Utilstrækkelige midler!</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Mængde:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Byte:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Beløb:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioritet:</translation>
-=======
 </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -3004,7 +2636,6 @@
     <message>
         <source>Inputs</source>
         <translation>Input</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Amount</source>
@@ -3065,13 +2696,8 @@
         <translation>Opgivet</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>Det er helt fint kun at betale det minimale gebyr, så længe den totale transaktionsvolumen er mindre end den plads, der er tilgængelig i blokkene. Men vær opmærksom på, at dette kan ende ud i transaktioner, der aldrig bliver bekræftet, når der bliver større forespørgsel efter litecoin-transaktioner, end hvad netværket kan bearbejde.</translation>
-=======
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>Bekræfter (%1 af %2 anbefalede bekræftelser)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -3133,124 +2759,6 @@
         <source>Date and time that the transaction was received.</source>
         <translation>Dato og klokkeslæt for modtagelse af transaktionen.</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Copy quantity</source>
-        <translation>Kopiér mængde</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopiér beløb</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Kopiér gebyr</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Kopiér eftergebyr</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Kopiér byte</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Kopiér prioritet</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Kopiér støv</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Kopiér byttepenge</translation>
-    </message>
-    <message>
-        <source>%1 to %2</source>
-        <translation>%1 til %2</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to send?</source>
-        <translation>Er du sikker på, at du vil sende?</translation>
-    </message>
-    <message>
-        <source>added as transaction fee</source>
-        <translation>tilføjet som transaktionsgebyr</translation>
-    </message>
-    <message>
-        <source>Total Amount %1</source>
-        <translation>Beløb i alt %1</translation>
-    </message>
-    <message>
-        <source>or</source>
-        <translation>eller</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Bekræft afsendelse af litecoins</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Modtageradressen er ikke gyldig. Tjek venligst igen.</translation>
-    </message>
-    <message>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>Beløbet til betaling skal være større end 0.</translation>
-    </message>
-    <message>
-        <source>The amount exceeds your balance.</source>
-        <translation>Beløbet overstiger din saldo.</translation>
-    </message>
-    <message>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Totalen overstiger din saldo, når transaktionsgebyret på %1 er inkluderet.</translation>
-    </message>
-    <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Adressegenganger fundet. Adresser bør kun bruges én gang hver.</translation>
-    </message>
-    <message>
-        <source>Transaction creation failed!</source>
-        <translation>Oprettelse af transaktion mislykkedes!</translation>
-    </message>
-    <message>
-        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Transaktionen blev afvist! Dette kan ske, hvis nogle af dine litecoins i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine litecoins er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
-    </message>
-    <message>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Et gebyr højere end %1 opfattes som et absurd højt gebyr.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Betalingsanmodning er udløbet.</translation>
-    </message>
-    <message>
-        <source>Pay only the required fee of %1</source>
-        <translation>Betal kun det påkrævede gebyr på %1</translation>
-    </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Bekræftelse estimeret til at begynde inden for %n blok.</numerusform><numerusform>Bekræftelse estimeret til at begynde inden for %n blokke.</numerusform></translation>
-    </message>
-    <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Advarsel: Ugyldig Litecoin-adresse</translation>
-    </message>
-    <message>
-        <source>Warning: Unknown change address</source>
-        <translation>Advarsel: Ukendt byttepengeadresse</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(ingen mærkat)</translation>
-    </message>
-</context>
-<context>
-    <name>SendCoinsEntry</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Type of transaction.</source>
         <translation>Transaktionstype.</translation>
@@ -3275,13 +2783,8 @@
         <translation>Alle</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address to send the payment to</source>
-        <translation>Litecoin-adresse, som betalingen skal sendes til</translation>
-=======
         <source>Today</source>
         <translation>I dag</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>This week</source>
@@ -3300,13 +2803,8 @@
         <translation>I år</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Gebyret vil blive trukket fra det sendte beløb. Modtageren vil modtage færre litecoin, end du indtaster i beløbfeltet. Hvis flere modtagere vælges, vil gebyret deles ligeligt.</translation>
-=======
         <source>Range...</source>
         <translation>Interval…</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Received with</source>
@@ -3329,13 +2827,8 @@
         <translation>Andet</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>En besked, som blev føjet til "bitcon:"-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Litecoin-netværket.</translation>
-=======
         <source>Enter address or label to search</source>
         <translation>Indtast adresse eller mærkat for at søge</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Min amount</source>
@@ -3345,23 +2838,6 @@
         <source>Abandon transaction</source>
         <translation>Opgiv transaktion</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Indtast en mærkat for denne adresse for at føje den til din adressebog</translation>
-    </message>
-</context>
-<context>
-    <name>SendConfirmationDialog</name>
-    <message>
-        <source>Yes</source>
-        <translation>Ja</translation>
-    </message>
-</context>
-<context>
-    <name>ShutdownWindow</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Copy address</source>
         <translation>Kopiér adresse</translation>
@@ -3371,22 +2847,6 @@
         <translation>Kopiér mærkat</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Signatures - Sign / Verify a Message</source>
-        <translation>Signaturer – Underskriv/verificér en besked</translation>
-    </message>
-    <message>
-        <source>&amp;Sign Message</source>
-        <translation>&amp;Singér besked</translation>
-    </message>
-    <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage litecoin, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
-    </message>
-    <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>Litecoin-adresse, som beskeden skal signeres med</translation>
-=======
         <source>Copy amount</source>
         <translation>Kopiér beløb</translation>
     </message>
@@ -3401,7 +2861,6 @@
     <message>
         <source>Copy full transaction details</source>
         <translation>Kopiér komplette transaktionsdetaljer</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Edit label</source>
@@ -3420,30 +2879,6 @@
         <translation>Kommasepareret fil (*.csv)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Enter the message you want to sign here</source>
-        <translation>Indtast her beskeden, du ønsker at signere</translation>
-    </message>
-    <message>
-        <source>Signature</source>
-        <translation>Signatur</translation>
-    </message>
-    <message>
-        <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopiér den nuværende signatur til systemets udklipsholder</translation>
-    </message>
-    <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Signér denne besked for at bevise, at Litecoin-adressen tilhører dig</translation>
-    </message>
-    <message>
-        <source>Sign &amp;Message</source>
-        <translation>Signér &amp;besked</translation>
-    </message>
-    <message>
-        <source>Reset all sign message fields</source>
-        <translation>Nulstil alle "signér besked"-felter</translation>
-=======
         <source>Confirmed</source>
         <translation>Bekræftet</translation>
     </message>
@@ -3466,7 +2901,6 @@
     <message>
         <source>Address</source>
         <translation>Adresse</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>ID</source>
@@ -3481,21 +2915,12 @@
         <translation>En fejl opstod under gemning af transaktionshistorik til %1.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address the message was signed with</source>
-        <translation>Litecoin-adressen, som beskeden blev signeret med</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Verificér beskeden for at sikre, at den er signeret med den angivne Litecoin-adresse</translation>
-=======
         <source>Exporting Successful</source>
         <translation>Eksport problemfri</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
         <translation>Transaktionshistorikken blev gemt til %1.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Range:</source>
@@ -3504,58 +2929,6 @@
     <message>
         <source>to</source>
         <translation>til</translation>
-    </message>
-    <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>Klik "Signér besked" for at generere underskriften</translation>
-    </message>
-    <message>
-        <source>The entered address is invalid.</source>
-        <translation>Den indtastede adresse er ugyldig.</translation>
-    </message>
-    <message>
-        <source>Please check the address and try again.</source>
-        <translation>Tjek venligst adressen og forsøg igen.</translation>
-    </message>
-    <message>
-        <source>The entered address does not refer to a key.</source>
-        <translation>Den indtastede adresse henviser ikke til en nøgle.</translation>
-    </message>
-    <message>
-        <source>Wallet unlock was cancelled.</source>
-        <translation>Tegnebogsoplåsning annulleret.</translation>
-    </message>
-    <message>
-        <source>Private key for the entered address is not available.</source>
-        <translation>Den private nøgle for den indtastede adresse er ikke tilgængelig.</translation>
-    </message>
-    <message>
-        <source>Message signing failed.</source>
-        <translation>Signering af besked mislykkedes.</translation>
-    </message>
-    <message>
-        <source>Message signed.</source>
-        <translation>Besked signeret.</translation>
-    </message>
-    <message>
-        <source>The signature could not be decoded.</source>
-        <translation>Signaturen kunne ikke afkodes.</translation>
-    </message>
-    <message>
-        <source>Please check the signature and try again.</source>
-        <translation>Tjek venligst signaturen og forsøg igen.</translation>
-    </message>
-    <message>
-        <source>The signature did not match the message digest.</source>
-        <translation>Signaturen passer ikke overens med beskedens indhold.</translation>
-    </message>
-    <message>
-        <source>Message verification failed.</source>
-        <translation>Verificering af besked mislykkedes.</translation>
-    </message>
-    <message>
-        <source>Message verified.</source>
-        <translation>Besked verificeret.</translation>
     </message>
 </context>
 <context>
@@ -3563,504 +2936,6 @@
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
         <translation>Enhed, som beløb vises i. Klik for at vælge en anden enhed.</translation>
-    </message>
-</context>
-<context>
-    <name>WalletFrame</name>
-    <message>
-        <source>No wallet has been loaded.</source>
-        <translation>Ingen tegnebog er indlæst.</translation>
-    </message>
-</context>
-<context>
-<<<<<<< HEAD
-    <name>TransactionDesc</name>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Åbn yderligere %n blok</numerusform><numerusform>Åbn yderligere %n blokke</numerusform></translation>
-    </message>
-    <message>
-        <source>Open until %1</source>
-        <translation>Åben indtil %1</translation>
-    </message>
-    <message>
-        <source>conflicted with a transaction with %1 confirmations</source>
-        <translation>i konflikt med en transaktion, der har %1 bekræftelser</translation>
-    </message>
-    <message>
-        <source>%1/offline</source>
-        <translation>%1/offline</translation>
-    </message>
-    <message>
-        <source>0/unconfirmed, %1</source>
-        <translation>0/ubekræftet, %1</translation>
-    </message>
-    <message>
-        <source>in memory pool</source>
-        <translation>i hukommelsespulje</translation>
-    </message>
-    <message>
-        <source>not in memory pool</source>
-        <translation>ikke i hukommelsespulje</translation>
-    </message>
-    <message>
-        <source>abandoned</source>
-        <translation>opgivet</translation>
-    </message>
-    <message>
-        <source>%1/unconfirmed</source>
-        <translation>%1/ubekræftet</translation>
-    </message>
-    <message>
-        <source>%1 confirmations</source>
-        <translation>%1 bekræftelser</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation>Status</translation>
-    </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, er ikke blevet transmitteret endnu</translation>
-    </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, transmitteret igennem %n knude</numerusform><numerusform>, transmitteret igennem %n knuder</numerusform></translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Dato</translation>
-    </message>
-    <message>
-        <source>Source</source>
-        <translation>Kilde</translation>
-    </message>
-    <message>
-        <source>Generated</source>
-        <translation>Genereret</translation>
-    </message>
-    <message>
-        <source>From</source>
-        <translation>Fra</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>ukendt</translation>
-    </message>
-    <message>
-        <source>To</source>
-        <translation>Til</translation>
-    </message>
-    <message>
-        <source>own address</source>
-        <translation>egen adresse</translation>
-    </message>
-    <message>
-        <source>watch-only</source>
-        <translation>kigge</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation>mærkat</translation>
-    </message>
-    <message>
-        <source>Credit</source>
-        <translation>Kredit</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>modner efter yderligere %n blok</numerusform><numerusform>modner efter yderligere %n blokke</numerusform></translation>
-    </message>
-    <message>
-        <source>not accepted</source>
-        <translation>ikke accepteret</translation>
-    </message>
-    <message>
-        <source>Debit</source>
-        <translation>Debet</translation>
-    </message>
-    <message>
-        <source>Total debit</source>
-        <translation>Total debet</translation>
-    </message>
-    <message>
-        <source>Total credit</source>
-        <translation>Total kredit</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Transaktionsgebyr</translation>
-    </message>
-    <message>
-        <source>Net amount</source>
-        <translation>Nettobeløb</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Besked</translation>
-    </message>
-    <message>
-        <source>Comment</source>
-        <translation>Kommentar</translation>
-    </message>
-    <message>
-        <source>Transaction ID</source>
-        <translation>Transaktions-ID</translation>
-    </message>
-    <message>
-        <source>Output index</source>
-        <translation>Outputindeks</translation>
-    </message>
-    <message>
-        <source>Merchant</source>
-        <translation>Forretningsdrivende</translation>
-    </message>
-    <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Minede litecoins skal modne %1 blokke, før de kan bruges. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det ikke lykkes at få den i kæden, vil dens tilstand ændres til "ikke accepteret", og den vil ikke kunne bruges. Dette kan ske nu og da, hvis en anden knude udvinder en blok inden for nogle få sekunder fra din.</translation>
-    </message>
-    <message>
-        <source>Debug information</source>
-        <translation>Fejlsøgningsinformation</translation>
-    </message>
-    <message>
-        <source>Transaction</source>
-        <translation>Transaktion</translation>
-    </message>
-    <message>
-        <source>Inputs</source>
-        <translation>Input</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Beløb</translation>
-    </message>
-    <message>
-        <source>true</source>
-        <translation>sand</translation>
-    </message>
-    <message>
-        <source>false</source>
-        <translation>falsk</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionDescDialog</name>
-=======
-    <name>WalletModel</name>
->>>>>>> pr/4
-    <message>
-        <source>Send Coins</source>
-        <translation>Send litecoins</translation>
-    </message>
-    <message>
-        <source>Details for %1</source>
-        <translation>Detaljer for %1</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Dato</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Type</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Mærkat</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Åben i yderligere %n blok</numerusform><numerusform>Åben i yderligere %n blokke</numerusform></translation>
-    </message>
-    <message>
-        <source>Open until %1</source>
-        <translation>Åben indtil %1</translation>
-    </message>
-    <message>
-        <source>Offline</source>
-        <translation>Offline</translation>
-    </message>
-    <message>
-        <source>Unconfirmed</source>
-        <translation>Ubekræftet</translation>
-    </message>
-    <message>
-        <source>Abandoned</source>
-        <translation>Opgivet</translation>
-    </message>
-    <message>
-        <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Bekræfter (%1 af %2 anbefalede bekræftelser)</translation>
-    </message>
-    <message>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>Bekræftet (%1 bekræftelser)</translation>
-    </message>
-    <message>
-        <source>Conflicted</source>
-        <translation>Konflikt</translation>
-    </message>
-    <message>
-        <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Umoden (%1 bekræftelser; vil være tilgængelig efter %2)</translation>
-    </message>
-    <message>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Denne blok blev ikke modtaget af nogen andre knuder og vil formentlig ikke blive accepteret!</translation>
-    </message>
-    <message>
-        <source>Generated but not accepted</source>
-        <translation>Genereret, men ikke accepteret</translation>
-    </message>
-    <message>
-        <source>Received with</source>
-        <translation>Modtaget med</translation>
-    </message>
-    <message>
-        <source>Received from</source>
-        <translation>Modtaget fra</translation>
-    </message>
-    <message>
-        <source>Sent to</source>
-        <translation>Sendt til</translation>
-    </message>
-    <message>
-        <source>Payment to yourself</source>
-        <translation>Betaling til dig selv</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Minet</translation>
-    </message>
-    <message>
-        <source>watch-only</source>
-        <translation>kigge</translation>
-    </message>
-    <message>
-        <source>(n/a)</source>
-        <translation>(n/a)</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(ingen mærkat)</translation>
-    </message>
-    <message>
-        <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transaktionsstatus. Hold musen over dette felt for at vise antallet af bekræftelser.</translation>
-    </message>
-    <message>
-        <source>Date and time that the transaction was received.</source>
-        <translation>Dato og klokkeslæt for modtagelse af transaktionen.</translation>
-    </message>
-    <message>
-        <source>Type of transaction.</source>
-        <translation>Transaktionstype.</translation>
-    </message>
-    <message>
-        <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Afgør hvorvidt en kigge-adresse er involveret i denne transaktion.</translation>
-    </message>
-    <message>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Brugerdefineret hensigt/formål med transaktionen.</translation>
-    </message>
-    <message>
-        <source>Amount removed from or added to balance.</source>
-        <translation>Beløb trukket fra eller tilføjet balance.</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionView</name>
-    <message>
-        <source>All</source>
-        <translation>Alle</translation>
-    </message>
-    <message>
-        <source>Today</source>
-        <translation>I dag</translation>
-    </message>
-    <message>
-        <source>This week</source>
-        <translation>Denne uge</translation>
-    </message>
-    <message>
-        <source>This month</source>
-        <translation>Denne måned</translation>
-    </message>
-    <message>
-        <source>Last month</source>
-        <translation>Sidste måned</translation>
-    </message>
-    <message>
-        <source>This year</source>
-        <translation>I år</translation>
-    </message>
-    <message>
-        <source>Range...</source>
-        <translation>Interval…</translation>
-    </message>
-    <message>
-        <source>Received with</source>
-        <translation>Modtaget med</translation>
-    </message>
-    <message>
-        <source>Sent to</source>
-        <translation>Sendt til</translation>
-    </message>
-    <message>
-        <source>To yourself</source>
-        <translation>Til dig selv</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Minet</translation>
-    </message>
-    <message>
-        <source>Other</source>
-        <translation>Andet</translation>
-    </message>
-    <message>
-        <source>Enter address or label to search</source>
-        <translation>Indtast adresse eller mærkat for at søge</translation>
-    </message>
-    <message>
-        <source>Min amount</source>
-        <translation>Minimumsbeløb</translation>
-    </message>
-    <message>
-        <source>Abandon transaction</source>
-        <translation>Opgiv transaktion</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Kopiér adresse</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopiér mærkat</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopiér beløb</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Kopiér transaktions-ID</translation>
-    </message>
-    <message>
-        <source>Copy raw transaction</source>
-        <translation>Kopiér rå transaktion</translation>
-    </message>
-    <message>
-        <source>Copy full transaction details</source>
-        <translation>Kopiér komplette transaktionsdetaljer</translation>
-    </message>
-    <message>
-        <source>Edit label</source>
-        <translation>Redigér mærkat</translation>
-    </message>
-    <message>
-        <source>Show transaction details</source>
-        <translation>Vis transaktionsdetaljer</translation>
-    </message>
-    <message>
-        <source>Export Transaction History</source>
-        <translation>Eksportér transaktionshistorik</translation>
-    </message>
-    <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Kommasepareret fil (*.csv)</translation>
-    </message>
-    <message>
-        <source>Confirmed</source>
-        <translation>Bekræftet</translation>
-    </message>
-    <message>
-        <source>Watch-only</source>
-        <translation>Kigge</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Dato</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Type</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Mærkat</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adresse</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <translation>ID</translation>
-    </message>
-    <message>
-        <source>Exporting Failed</source>
-        <translation>Eksport mislykkedes</translation>
-    </message>
-    <message>
-        <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>En fejl opstod under gemning af transaktionshistorik til %1.</translation>
-    </message>
-    <message>
-        <source>Exporting Successful</source>
-        <translation>Eksport problemfri</translation>
-    </message>
-    <message>
-        <source>The transaction history was successfully saved to %1.</source>
-        <translation>Transaktionshistorikken blev gemt til %1.</translation>
-    </message>
-    <message>
-        <source>Range:</source>
-        <translation>Interval:</translation>
-    </message>
-    <message>
-        <source>to</source>
-        <translation>til</translation>
-    </message>
-</context>
-<context>
-    <name>WalletView</name>
-    <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Eksportér</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Eksportér den aktuelle visning til en fil</translation>
-    </message>
-    <message>
-        <source>Backup Wallet</source>
-        <translation>Sikkerhedskopiér tegnebog</translation>
-    </message>
-    <message>
-        <source>Wallet Data (*.dat)</source>
-        <translation>Tegnebogsdata (*.dat)</translation>
-    </message>
-    <message>
-        <source>Backup Failed</source>
-        <translation>Sikkerhedskopiering mislykkedes</translation>
-    </message>
-    <message>
-        <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Der skete en fejl under gemning af tegnebogsdata til %1.</translation>
-    </message>
-    <message>
-        <source>Backup Successful</source>
-        <translation>Sikkerhedskopiering problemfri</translation>
-    </message>
-    <message>
-        <source>The wallet data was successfully saved to %1.</source>
-        <translation>Tegnebogsdata blev gemt til %1.</translation>
     </message>
 </context>
 <context>
@@ -4183,13 +3058,6 @@
         <translation>Kunne ikke starte HTTP-server. Se fejlretningslog for detaljer.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Acceptér forbindelser udefra (standard: 1 hvis hverken -proxy eller -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>
@@ -4218,17 +3086,6 @@
         <translation>Slet alle transaktioner i tegnebogen og genskab kun disse dele af blokkæden gennem -rescan under opstart</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Distribueret under MIT-softwarelicensen; se den vedlagte fil COPYING eller &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
-    </message>
-    <message>
-        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
-        <translation>Tilsvarende bytes pr. sigop i transaktioner, som videresendes og mines (standard: %u)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
         <translation>Fejl under indlæsning af %s: Du kan ikke aktivere HD på en allerede eksisterende ikke-HD-tegnebog</translation>
     </message>
@@ -4241,8 +3098,6 @@
         <translation>Udfør kommando, når en transaktion i tegnebogen ændres (%s i kommandoen erstattes med TxID)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
         <translation>Ekstra transaktioner, der skal beholdes i hukommelsen til kompakte blokgenopbygninger (standard: %u)</translation>
     </message>
@@ -4251,7 +3106,6 @@
         <translation>Hvis denne blok er i kæden, så antag at den og dens forgængere er gyldige, og spring potentielt deres scriptverificering over (0 for at verificere alle, standard: %s, testnet: %s)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
         <translation>Justering af maksimalt tilladt gennemsnitlig afvigelse fra peer-tid. Den lokale opfattelse af tid kan blive påvirket frem eller tilbage af peers med denne mængde tid. (standard: %u sekunder)</translation>
     </message>
@@ -4512,23 +3366,12 @@
         <translation>Sæt cache-størrelse for database i megabytes (%d til %d; standard: %d)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>Sæt maksimal BIP141-blokvægt (standard: %d)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Sæt maksimum blokstørrelse i byte (standard: %d)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Angiv tegnebogsfil (inden for datamappe)</translation>
-    </message>
-    <message>
-        <source>Starting network threads...</source>
-        <translation>Starter netværkstråde…</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
@@ -4617,10 +3460,6 @@
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
         <translation>Gebyrer (i %s/kB) mindre end dette opfattes som intet gebyr for videresendelse, mining og oprettelse af transaktioner (standard: %s)</translation>
-    </message>
-    <message>
-        <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>Gennemtving videresendelse af transaktioner fra hvidlistede knuder, selv om de overtræder lokal videresendelsespolitik (standard: %d)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -4980,13 +3819,10 @@
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>Sæt maksimal BIP141-blokvægt (standard: %d)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Angiv antallet af tråde til at håndtere RPC-kald (standard: %d)</translation>
     </message>

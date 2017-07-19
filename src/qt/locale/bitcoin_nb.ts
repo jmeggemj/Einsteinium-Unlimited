@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Slett</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Velg adressen å sende mynter til</translation>
@@ -115,7 +109,6 @@
         <translation>(ingen merkelapp)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -134,8 +127,6 @@
         <source>Repeat new passphrase</source>
         <translation>Gjenta ny adgangsfrase</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Oppgi adgangsfrasen til lommeboken.&lt;br/&gt;Vennligst bruk en adgangsfrase med &lt;b&gt;ti eller flere tilfeldige tegn&lt;/b&gt;, eller &lt;b&gt;åtte eller flere ord&lt;/b&gt;.</translation>
@@ -156,7 +147,6 @@
         <source>Change passphrase</source>
         <translation>Endre adgangsfrase</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>BanTableModel</name>
@@ -358,13 +348,6 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktiv forbindelse til Litecoin-nettverket</numerusform><numerusform>%n aktive forbindelser til Litecoin-nettverket</numerusform></translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>Ingen kilde for blokker tilgjengelig...</translation>
-=======
->>>>>>> pr/4
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -1052,9 +1035,6 @@
     <name>QRImageWidget</name>
     </context>
 <context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
@@ -1410,11 +1390,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Lagre Bilde...</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-=======
     <message>
         <source>Address</source>
         <translation>Adresse</translation>
@@ -1434,7 +1409,6 @@
         <source>(no label)</source>
         <translation>(ingen merkelapp)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1578,15 +1552,11 @@
         <source>S&amp;end</source>
         <translation>S&amp;end</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>(no label)</source>
         <translation>(ingen merkelapp)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1789,11 +1759,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Label</source>
         <translation>Merkelapp</translation>
@@ -1821,7 +1786,6 @@
         <source>Exporting Failed</source>
         <translation>Eksportering feilet</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1898,13 +1862,6 @@
         <translation>Kunne ikke starte HTTP server. Se debug logg for detaljer.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Ta imot tilkoblinger fra utsiden (standardverdi: 1 hvis uten -proxy eller -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>

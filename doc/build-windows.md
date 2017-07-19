@@ -1,11 +1,7 @@
 WINDOWS BUILD NOTES
 ====================
 
-<<<<<<< HEAD
-Some notes on how to build Litecoin Core for Windows.
-=======
 Below are some notes on how to build Litecoin Core for Windows.
->>>>>>> pr/4
 
 Most developers use cross-compilation from Ubuntu to build executables for
 Windows. This is also used to build the release binaries.
@@ -55,13 +51,6 @@ These steps can be performed on, for example, an Ubuntu VM. The depends system
 will also work on other Linux distributions, however the commands for
 installing the toolchain will be different.
 
-<<<<<<< HEAD
-Make sure you install the build requirements mentioned in
-[build-unix.md](/doc/build-unix.md).
-Then, install the toolchains and curl:
-
-    sudo apt-get install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mingw-w64-x86-64 mingw-w64-x86-64-dev curl
-=======
 First, install the general dependencies:
 
     sudo apt-get install build-essential libtool autotools-dev automake pkg-config bsdmainutils curl
@@ -71,7 +60,6 @@ packages (such as `protobuf`) need to build host utilities that are used in the
 build process.
 
 ## Building for 64-bit Windows
->>>>>>> pr/4
 
 To build executables for Windows 64-bit, install the following dependencies:
 

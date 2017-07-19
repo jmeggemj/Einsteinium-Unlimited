@@ -186,11 +186,7 @@ Threads
 
 - ThreadRPCServer : Remote procedure call handler, listens on port 9332 for connections and services them.
 
-<<<<<<< HEAD
-- LitecoinMiner : Generates litecoins (if wallet is enabled).
-=======
 - BitcoinMiner : Generates litecoins (if wallet is enabled).
->>>>>>> pr/4
 
 - Shutdown : Does an orderly shutdown of everything.
 
@@ -343,8 +339,6 @@ Strings and formatting
 - For `strprintf`, `LogPrint`, `LogPrintf` formatting characters don't need size specifiers
 
   - *Rationale*: Litecoin Core uses tinyformat, which is type safe. Leave them out to avoid confusion
-<<<<<<< HEAD
-=======
 
 Variable names
 --------------
@@ -371,7 +365,6 @@ AddressBookPage::AddressBookPage(Mode _mode) :
 When using nested cycles, do not name the inner cycle variable the same as in
 upper cycle etc.
 
->>>>>>> pr/4
 
 Threads and synchronization
 ----------------------------

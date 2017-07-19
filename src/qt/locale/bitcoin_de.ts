@@ -79,11 +79,7 @@
     </message>
     <message>
         <source>&amp;Edit</source>
-<<<<<<< HEAD
-        <translation>&amp;Editieren</translation>
-=======
         <translation>B&amp;earbeiten</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Export Address List</source>
@@ -137,11 +133,7 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-<<<<<<< HEAD
-        <translation>Geben Sie die neue Passphrase für die Wallet ein.&lt;br&gt;Bitte benutzen Sie eine Passphrase bestehend aus &lt;b&gt;zehn oder mehr zufälligen Zeichen&lt;/b&gt; oder &lt;b&gt;acht oder mehr Wörtern&lt;/b&gt;.</translation>
-=======
         <translation>Geben Sie die neue Passphrase für die Brieftasche ein.&lt;br&gt;Bitte benutzen Sie eine Passphrase bestehend aus &lt;b&gt;zehn oder mehr zufälligen Zeichen&lt;/b&gt; oder &lt;b&gt;acht oder mehr Wörtern&lt;/b&gt;.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -149,11 +141,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-<<<<<<< HEAD
-        <translation>Dieser Vorgang benötigt ihre Passphrase, um die Wallet zu entsperren.</translation>
-=======
         <translation>Dieser Vorgang benötigt ihre Passphrase, um die Brieftasche zu entsperren.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -161,19 +149,11 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-<<<<<<< HEAD
-        <translation>Dieser Vorgang benötigt Ihre Passphrase, um die Wallet zu entschlüsseln.</translation>
-    </message>
-    <message>
-        <source>Decrypt wallet</source>
-        <translation>Wallet entschlüsseln</translation>
-=======
         <translation>Dieser Vorgang benötigt Ihre Passphrase, um die Brieftasche zu entschlüsseln.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
         <translation>Brieftasche entschlüsseln</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Change passphrase</source>
@@ -181,41 +161,6 @@
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-<<<<<<< HEAD
-        <translation>Geben Sie die alte und neue Wallet-Passphrase ein.</translation>
-    </message>
-    <message>
-        <source>Confirm wallet encryption</source>
-        <translation>Wallet-Verschlüsselung bestätigen</translation>
-    </message>
-    <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie Ihre Wallet verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;alle Ihre Litecoins verlieren&lt;/b&gt;!</translation>
-    </message>
-    <message>
-        <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Sind Sie sich sicher, dass Sie Ihre Wallet verschlüsseln möchten?</translation>
-    </message>
-    <message>
-        <source>Wallet encrypted</source>
-        <translation>Wallet verschlüsselt</translation>
-    </message>
-    <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl Ihrer Litecoins durch Schadprogramme schützt, die Ihren Computer befällt.</translation>
-    </message>
-    <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>WICHTIG: Alle vorherigen Wallet-Sicherungen sollten durch die neu erzeugte, verschlüsselte Wallet ersetzt werden. Aus Sicherheitsgründen werden vorherige Sicherungen der unverschlüsselten Wallet nutzlos, sobald Sie die neue, verschlüsselte Wallet verwenden.</translation>
-    </message>
-    <message>
-        <source>Wallet encryption failed</source>
-        <translation>Wallet-Verschlüsselung fehlgeschlagen</translation>
-    </message>
-    <message>
-        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Die Wallet-Verschlüsselung ist aufgrund eines internen Fehlers fehlgeschlagen. Ihre Wallet wurde nicht verschlüsselt.</translation>
-=======
         <translation>Geben Sie die alte und neue Brieftschen-Passphrase ein.</translation>
     </message>
     <message>
@@ -249,7 +194,6 @@
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Die Brieftaschen-Verschlüsselung ist aufgrund eines internen Fehlers fehlgeschlagen. Ihre Brieftasche wurde nicht verschlüsselt.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -257,21 +201,6 @@
     </message>
     <message>
         <source>Wallet unlock failed</source>
-<<<<<<< HEAD
-        <translation>Wallet-Entsperrung fehlgeschlagen</translation>
-    </message>
-    <message>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Die eingegebene Passphrase zur Wallet-Entschlüsselung war nicht korrekt.</translation>
-    </message>
-    <message>
-        <source>Wallet decryption failed</source>
-        <translation>Wallet-Entschlüsselung fehlgeschlagen</translation>
-    </message>
-    <message>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation>Die Wallet-Passphrase wurde erfolgreich geändert.</translation>
-=======
         <translation>Brieftaschen-Entsperrung fehlgeschlagen</translation>
     </message>
     <message>
@@ -285,7 +214,6 @@
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Die Brieftaschen-Passphrase wurde erfolgreich geändert.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -774,150 +702,6 @@
         <source>(change)</source>
         <translation>(Wechselgeld)</translation>
     </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Adresse kopieren</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Bezeichnung kopieren</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Transaktionskennung kopieren</translation>
-    </message>
-    <message>
-        <source>Lock unspent</source>
-        <translation>Nicht ausgegebenen Betrag sperren</translation>
-    </message>
-    <message>
-        <source>Unlock unspent</source>
-        <translation>Nicht ausgegebenen Betrag entsperren</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Anzahl kopieren</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Gebühr kopieren</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Abzüglich Gebühr kopieren</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Byte kopieren</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Priorität kopieren</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>"Staub" kopieren</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Wechselgeld kopieren</translation>
-    </message>
-    <message>
-        <source>highest</source>
-        <translation>am höchsten</translation>
-    </message>
-    <message>
-        <source>higher</source>
-        <translation>höher</translation>
-    </message>
-    <message>
-        <source>high</source>
-        <translation>hoch</translation>
-    </message>
-    <message>
-        <source>medium-high</source>
-        <translation>mittel-hoch</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>mittel</translation>
-    </message>
-    <message>
-        <source>low-medium</source>
-        <translation>niedrig-mittel</translation>
-    </message>
-    <message>
-        <source>low</source>
-        <translation>niedrig</translation>
-    </message>
-    <message>
-        <source>lower</source>
-        <translation>niedriger</translation>
-    </message>
-    <message>
-        <source>lowest</source>
-        <translation>am niedrigsten</translation>
-    </message>
-    <message>
-        <source>(%1 locked)</source>
-        <translation>(%1 gesperrt)</translation>
-    </message>
-    <message>
-        <source>none</source>
-        <translation>keine</translation>
-    </message>
-    <message>
-        <source>yes</source>
-        <translation>ja</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>nein</translation>
-    </message>
-    <message>
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>Diese Bezeichnung wird rot, wenn die Transaktion größer als 1000 Byte ist.</translation>
-    </message>
-    <message>
-        <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Das bedeutet, dass eine Gebühr von mindestens %1 pro kB erforderlich ist.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- 1 byte per input.</source>
-        <translation>Kann um +/- 1 Byte pro Eingabe variieren.</translation>
-    </message>
-    <message>
-        <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Transaktionen mit höherer Priorität haben eine größere Chance in einen Block aufgenommen zu werden.</translation>
-    </message>
-    <message>
-        <source>This label turns red if the priority is smaller than "medium".</source>
-        <translation>Diese Bezeichnung wird rot, wenn die Priorität niedriger als "mittel" ist.</translation>
-    </message>
-    <message>
-        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Diese Bezeichnung wird rot, wenn irgendein Empfänger einen Betrag kleiner als die derzeitige "Staubgrenze" erhält.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Kann pro Eingabe um +/- %1 Satoshi(s) abweichen.</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(keine Bezeichnung)</translation>
-    </message>
-    <message>
-        <source>change from %1 (%2)</source>
-        <translation>Wechselgeld von %1 (%2)</translation>
-    </message>
-    <message>
-        <source>(change)</source>
-        <translation>(Wechselgeld)</translation>
-    </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
@@ -967,11 +751,7 @@
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-<<<<<<< HEAD
-        <translation>Wallet konnte nicht entsperrt werden.</translation>
-=======
         <translation>Brieftasche konnte nicht entsperrt werden.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -1485,100 +1265,6 @@
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-    <message>
-        <source>Payment request error</source>
-        <translation>fehlerhafte Zahlungsanforderung</translation>
-    </message>
-    <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>"litecoin: Klicken-zum-Bezahlen"-Handler konnte nicht gestartet werden</translation>
-    </message>
-    <message>
-        <source>URI handling</source>
-        <translation>URI-Verarbeitung</translation>
-    </message>
-    <message>
-        <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Abruf-URL der Zahlungsanforderung ist ungültig: %1</translation>
-    </message>
-    <message>
-        <source>Invalid payment address %1</source>
-        <translation>Ungültige Zahlungsadresse %1</translation>
-    </message>
-    <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige Litecoin-Adresse oder fehlerhafte URI-Parameter verursacht werden.</translation>
-    </message>
-    <message>
-        <source>Payment request file handling</source>
-        <translation>Zahlungsanforderungsdatei-Verarbeitung</translation>
-    </message>
-    <message>
-        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Zahlungsanforderungsdatei kann nicht gelesen werden! Dies kann durch eine ungültige Zahlungsanforderungsdatei verursacht werden.</translation>
-    </message>
-    <message>
-        <source>Payment request rejected</source>
-        <translation>Zahlungsanforderung abgelehnt</translation>
-    </message>
-    <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>Netzwerk der Zahlungsanforderung stimmt nicht mit dem Client-Netzwerk überein.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Zahlungsanforderung abgelaufen.</translation>
-    </message>
-    <message>
-        <source>Payment request is not initialized.</source>
-        <translation>Zahlungsanforderung ist nicht initialisiert.</translation>
-    </message>
-    <message>
-        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Unverifizierte Zahlungsanforderungen an benutzerdefinierte Zahlungsskripte werden nicht unterstützt.</translation>
-    </message>
-    <message>
-        <source>Invalid payment request.</source>
-        <translation>Ungültige Zahlungsanforderung.</translation>
-    </message>
-    <message>
-        <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Angeforderter Zahlungsbetrag in Höhe von %1 ist zu niedrig und wurde als "Staub" eingestuft.</translation>
-    </message>
-    <message>
-        <source>Refund from %1</source>
-        <translation>Rücküberweisung von %1</translation>
-    </message>
-    <message>
-        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Zahlungsanforderung %1 ist zu groß (%2 Byte, erlaubt sind %3 Byte).</translation>
-    </message>
-    <message>
-        <source>Error communicating with %1: %2</source>
-        <translation>Kommunikationsfehler mit %1: %2</translation>
-    </message>
-    <message>
-        <source>Payment request cannot be parsed!</source>
-        <translation>Zahlungsanforderung kann nicht verarbeitet werden!</translation>
-    </message>
-    <message>
-        <source>Bad response from server %1</source>
-        <translation>Fehlerhafte Antwort vom Server: %1</translation>
-    </message>
-    <message>
-        <source>Network request error</source>
-        <translation>fehlerhafte Netzwerkanfrage</translation>
-    </message>
-    <message>
-        <source>Payment acknowledged</source>
-        <translation>Zahlung bestätigt</translation>
-    </message>
-</context>
-<context>
-    <name>PeerTableModel</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Payment request error</source>
         <translation>fehlerhafte Zahlungsanforderung</translation>
@@ -1596,13 +1282,8 @@
         <translation>Abruf-URL der Zahlungsanforderung ist ungültig: %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Litecoin-Adresse eingeben (z.B. %1)</translation>
-=======
         <source>Invalid payment address %1</source>
         <translation>Ungültige Zahlungsadresse %1</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
@@ -1632,31 +1313,6 @@
         <source>Payment request is not initialized.</source>
         <translation>Zahlungsanforderung ist nicht initialisiert.</translation>
     </message>
-<<<<<<< HEAD
-</context>
-<context>
-    <name>QRImageWidget</name>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>Grafik &amp;speichern...</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Image</source>
-        <translation>Grafik &amp;kopieren</translation>
-    </message>
-    <message>
-        <source>Save QR Code</source>
-        <translation>QR-Code speichern</translation>
-    </message>
-    <message>
-        <source>PNG Image (*.png)</source>
-        <translation>PNG-Grafik (*.png)</translation>
-    </message>
-</context>
-<context>
-    <name>RPCConsole</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Unverifizierte Zahlungsanforderungen an benutzerdefinierte Zahlungsskripte werden nicht unterstützt.</translation>
@@ -2192,13 +1848,10 @@
         <translation>Entfernen</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Copy URI</source>
         <translation>&amp;URI kopieren</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Copy label</source>
         <translation>Bezeichnung kopieren</translation>
     </message>
@@ -3039,13 +2692,8 @@
         <translation>Eingestellt</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>Nur die minimale Gebühr zu bezahlen ist so lange in Ordnung, wie weniger Transaktionsvolumen als Platz in den Blöcken vorhanden ist. Aber Vorsicht, diese Option kann dazu führen, dass Transaktionen nicht bestätigt werden, wenn mehr Bedarf an Litecoin-Transaktionen besteht als das Netzwerk verarbeiten kann.</translation>
-=======
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>Wird bestätigt (%1 von %2 empfohlenen Bestätigungen)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -3107,120 +2755,6 @@
         <source>Date and time that the transaction was received.</source>
         <translation>Datum und Zeit als die Transaktion empfangen wurde.</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Copy quantity</source>
-        <translation>Anzahl kopieren</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Gebühr kopieren</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Abzüglich Gebühr kopieren</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Byte kopieren</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Priorität kopieren</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>"Staub" kopieren</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Wechselgeld kopieren</translation>
-    </message>
-    <message>
-        <source>%1 to %2</source>
-        <translation>%1 an %2</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to send?</source>
-        <translation>Wollen Sie die Überweisung ausführen?</translation>
-    </message>
-    <message>
-        <source>added as transaction fee</source>
-        <translation>als Transaktionsgebühr hinzugefügt</translation>
-    </message>
-    <message>
-        <source>Total Amount %1</source>
-        <translation>Gesamtbetrag %1</translation>
-    </message>
-    <message>
-        <source>or</source>
-        <translation>oder</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Überweisung bestätigen</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Die Zahlungsadresse ist ungültig, bitte nochmals überprüfen.</translation>
-    </message>
-    <message>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>Der zu zahlende Betrag muss größer als 0 sein.</translation>
-    </message>
-    <message>
-        <source>The amount exceeds your balance.</source>
-        <translation>Der angegebene Betrag übersteigt Ihren Kontostand.</translation>
-    </message>
-    <message>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Der angegebene Betrag übersteigt aufgrund der Transaktionsgebühr in Höhe von %1 Ihren Kontostand.</translation>
-    </message>
-    <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Doppelte Adresse entdeckt: Adressen dürfen jeweils nur einmal vorkommen.</translation>
-    </message>
-    <message>
-        <source>Transaction creation failed!</source>
-        <translation>Transaktionserstellung fehlgeschlagen!</translation>
-    </message>
-    <message>
-        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Die Transaktion wurde abgelehnt! Dies kann passieren, wenn einige Litecoins aus Ihrer Wallet bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die Litecoins dort ausgegeben haben und dies daher in der derzeit aktiven Wallet nicht vermerkt ist.</translation>
-    </message>
-    <message>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Eine höhere Gebühr als %1 wird als unsinnig hohe Gebühr angesehen.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Zahlungsanforderung abgelaufen.</translation>
-    </message>
-    <message>
-        <source>Pay only the required fee of %1</source>
-        <translation>Nur die notwendige Gebühr in Höhe von %1 zahlen</translation>
-    </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Voraussichtlicher Beginn der Bestätigung innerhalb von %n Blöcken.</numerusform><numerusform>Voraussichtlicher Beginn der Bestätigung innerhalb von %n Blöcken.</numerusform></translation>
-    </message>
-    <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Warnung: Ungültige Litecoin-Adresse</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(keine Bezeichnung)</translation>
-    </message>
-</context>
-<context>
-    <name>SendCoinsEntry</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Type of transaction.</source>
         <translation>Art der Transaktion</translation>
@@ -3245,13 +2779,8 @@
         <translation>Alle</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address to send the payment to</source>
-        <translation>Die Zahlungsadresse der Überweisung</translation>
-=======
         <source>Today</source>
         <translation>Heute</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>This week</source>
@@ -3270,13 +2799,8 @@
         <translation>Dieses Jahr</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Die Gebühr wird vom zu überweisenden Betrag abgezogen. Der Empfänger wird also weniger Litecoins erhalten, als Sie im Betrags-Feld eingegeben haben. Falls mehrere Empfänger ausgewählt wurden, wird die Gebühr gleichmäßig verteilt.</translation>
-=======
         <source>Range...</source>
         <translation>Zeitraum...</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Received with</source>
@@ -3299,13 +2823,8 @@
         <translation>Andere</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Eine an die "litecoin:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Litecoin-Netzwerk gesendet.</translation>
-=======
         <source>Enter address or label to search</source>
         <translation>Zu suchende Adresse oder Bezeichnung eingeben</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Min amount</source>
@@ -3315,15 +2834,6 @@
         <source>Abandon transaction</source>
         <translation>Transaktion einstellen</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendConfirmationDialog</name>
-    </context>
-<context>
-    <name>ShutdownWindow</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Copy address</source>
         <translation>Adresse kopieren</translation>
@@ -3341,21 +2851,12 @@
         <translation>Transaktionskennung kopieren</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Sie können Nachrichten/Vereinbarungen mit Hilfe Ihrer Adressen signieren, um zu beweisen, dass Sie Litecoins empfangen können, die an diese Adressen überwiesen werden. Seien Sie vorsichtig und signieren Sie nichts Vages oder Willkürliches, um Ihre Indentität vor Phishingangriffen zu schützen. Signieren Sie nur vollständig-detaillierte Aussagen, mit denen Sie auch einverstanden sind.</translation>
-    </message>
-    <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>Die Litecoin-Adresse mit der die Nachricht signiert wird</translation>
-=======
         <source>Copy raw transaction</source>
         <translation>Rohe Transaktion kopieren</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
         <translation>Vollständige Transaktionsdetails kopieren</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Edit label</source>
@@ -3386,13 +2887,8 @@
         <translation>Datum</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Die Nachricht signieren, um den Besitz dieser Litecoin-Adresse zu beweisen</translation>
-=======
         <source>Type</source>
         <translation>Typ</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Label</source>
@@ -3415,21 +2911,12 @@
         <translation>Beim Speichern des Transaktionsverlaufs nach %1 ist ein Fehler aufgetreten.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address the message was signed with</source>
-        <translation>Die Litecoin-Adresse mit der die Nachricht signiert wurde</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen Litecoin-Adresse signiert wurde</translation>
-=======
         <source>Exporting Successful</source>
         <translation>Exportieren erfolgreich</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
         <translation>Speichern des Transaktionsverlaufs nach %1 war erfolgreich.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Range:</source>
@@ -3439,7 +2926,7 @@
         <source>to</source>
         <translation>bis</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
@@ -3455,126 +2942,12 @@
     </message>
 </context>
 <context>
-<<<<<<< HEAD
-    <name>TransactionDesc</name>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Nachricht</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Betrag</translation>
-    </message>
-    </context>
-<context>
-    <name>TransactionDescDialog</name>
-=======
     <name>WalletModel</name>
->>>>>>> pr/4
     <message>
         <source>Send Coins</source>
         <translation>Litecoins überweisen</translation>
     </message>
-    </context>
-<context>
-    <name>TransactionTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Bezeichnung</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(keine Bezeichnung)</translation>
-    </message>
-    </context>
-<context>
-    <name>TransactionView</name>
-    <message>
-        <source>Copy address</source>
-        <translation>Adresse kopieren</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Bezeichnung kopieren</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Transaktionskennung kopieren</translation>
-    </message>
-    <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Kommagetrennte-Datei (*.csv)</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Bezeichnung</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adresse</translation>
-    </message>
-    <message>
-        <source>Exporting Failed</source>
-        <translation>Exportieren fehlgeschlagen</translation>
-    </message>
-    </context>
-<context>
-    <name>WalletView</name>
-    <message>
-        <source>&amp;Export</source>
-        <translation>E&amp;xportieren</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Daten der aktuellen Ansicht in eine Datei exportieren</translation>
-    </message>
-    <message>
-        <source>Backup Wallet</source>
-        <translation>Wallet sichern</translation>
-    </message>
-    <message>
-        <source>Wallet Data (*.dat)</source>
-        <translation>Wallet-Daten (*.dat)</translation>
-    </message>
-    <message>
-        <source>Backup Failed</source>
-        <translation>Sicherung fehlgeschlagen</translation>
-    </message>
-    <message>
-        <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Beim Speichern der Wallet-Daten nach %1 ist ein Fehler aufgetreten.</translation>
-    </message>
-    <message>
-        <source>Backup Successful</source>
-        <translation>Sicherung erfolgreich</translation>
-    </message>
-    <message>
-        <source>The wallet data was successfully saved to %1.</source>
-        <translation>Speichern der Wallet-Daten nach %1 war erfolgreich.</translation>
-    </message>
 </context>
-<context>
-    <name>WalletFrame</name>
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
 <context>
     <name>WalletView</name>
     <message>
@@ -3657,15 +3030,6 @@
         <translation>Prune (Kürzung): Die letzte Syncronisation der Wallet liegt vor gekürzten (gelöschten) Blöcken. Es ist ein -reindex (download der gesamten Blockkette) notwendig.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Reduce storage requirements by pruning (deleting) old blocks. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
-        <translation>Speicherplatzanforderung durch kürzen (löschen) alter Blöcke reduzieren. Dieser Modus ist nicht mit -txindex und -rescan kompatibel. Warnung: Die Umkehr dieser Einstellung erfordert das erneute Herunterladen der gesamten Blockkette. (Standard: 0 = deaktiviert das Kürzen von Blöcken, &gt;%u = Zielgröße in MiB, die für Blockdateien verwendet werden darf)</translation>
-=======
-        <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Rescans sind im pruned mode nicht möglich. Ein -reindex ist notwendig, welcher die gesmate Blockkette erneut herunterlädt.</translation>
->>>>>>> pr/4
-    </message>
-    <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
         <translation>Rescans sind im pruned mode nicht möglich. Ein -reindex ist notwendig, welcher die gesmate Blockkette erneut herunterlädt.</translation>
     </message>
@@ -3694,17 +3058,8 @@
         <translation>Litecoin Core</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
-    </message>
-    <message>
-        <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>-fallbackfee ist sehr hoch eingestellt! Das ist die Transaktionsgebühr, welche du zahlen müsstest, wenn die Gebührenschätzungen nicht verfügbar sind.</translation>
-=======
         <source>The %s developers</source>
         <translation>Die %s-Entwickler</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
@@ -3731,16 +3086,10 @@
         <translation>Lesen von %s fehlgeschlagen! Alle Schlüssel wurden korrekt gelesen, Transaktionsdaten bzw. Adressbucheinträge fehlen aber möglicherweise oder sind inkorrekt.</translation>
     </message>
     <message>
-        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
-        <translation>Maximale Datengröße in "Data Carrier"-Transaktionen die weitergeleitet und erarbeitet werden (Standard: %u)</translation>
-    </message>
-    <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Befehl ausführen wenn sich eine Wallet-Transaktion verändert (%s im Befehl wird durch die Transaktions-ID ersetzt)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
         <translation>Zusätzliche Transaktionen für kompakten Block-Nachbau im Speicher vorhalten (default: %u)</translation>
     </message>
@@ -3749,7 +3098,6 @@
         <translation>Sofern dieser Block Bestandteil der Blockchain ist, nehme an das er und seine Vorgänger gültig sind und überspringe ggf. dessen Skriptverifikation (0 um alle zu verifizieren, default: %s, testnet: %s)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
         <translation>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</translation>
     </message>
@@ -3842,21 +3190,12 @@
         <translation>Kann Adresse in -%s nicht auflösen: '%s'</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Change index out of range</source>
-        <translation>Position des Wechselgelds außerhalb des Bereichs</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Mit nur dem oder den angegebenen Knoten verbinden</translation>
-=======
         <source>Chain selection options:</source>
         <translation>Chain Auswahloptionen:</translation>
     </message>
     <message>
         <source>Change index out of range</source>
         <translation>Position des Wechselgelds außerhalb des Bereichs</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Connection options:</source>
@@ -4015,10 +3354,6 @@
         <translation>Größe des Datenbankcaches in Megabyte festlegen (%d bis %d, Standard: %d)</translation>
     </message>
     <message>
-        <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>Maximales BIP141 Blockgewicht festlegen (Standard: %d)</translation>
-    </message>
-    <message>
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Maximale Blockgröße in Byte festlegen (Standard: %d)</translation>
     </message>
@@ -4075,13 +3410,10 @@
         <translation>Wallet Debugging-/Testoptionen:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Wallet needed to be rewritten: restart %s to complete</source>
         <translation>Wallet musste neu geschrieben werden: starten Sie %s zur Fertigstellung neu</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Wallet options:</source>
         <translation>Wallet-Optionen:</translation>
     </message>
@@ -4118,10 +3450,6 @@
         <translation>Niedrigere Gebühren (in %s/Kb) als diese werden bei der Transaktionserstellung als gebührenfrei angesehen (Standard: %s)</translation>
     </message>
     <message>
-        <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>Leite Transaktionen von Peers auf der Positivliste auf jeden Fall weiter, auch wenn sie die lokale Weiterleitungsregeln verletzen (Standardeinstellung: %d)</translation>
-    </message>
-    <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>Wenn -paytxfee nicht festgelegt wurde Gebühren einschließen, so dass mit der Bestätigung von Transaktionen im Schnitt innerhalb von n Blöcken begonnen wird (Standard: %u)</translation>
     </message>
@@ -4144,10 +3472,6 @@
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>Der Transaktionsbetrag ist zum senden zu niedrig, nachdem die Gebühr abgezogen wurde.</translation>
-    </message>
-    <message>
-        <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
-        <translation>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
@@ -4474,13 +3798,10 @@
         <translation>Größe des Schlüsselpools festlegen auf &lt;n&gt; (Standard: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>Maximales BIP141 Blockgewicht festlegen (Standard: %d)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Maximale Anzahl an Threads zur Verarbeitung von RPC-Anfragen festlegen (Standard: %d)</translation>
     </message>

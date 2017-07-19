@@ -13,14 +13,11 @@ Before every minor and major release:
 * Update version in sources (see below)
 * Write release notes (see below)
 * Update `src/chainparams.cpp` nMinimumChainWork with information from the getblockchaininfo rpc.
-<<<<<<< HEAD
-=======
 * Update `src/chainparams.cpp` defaultAssumeValid  with information from the getblockhash rpc.
   - The selected value must not be orphaned so it may be useful to set the value two blocks back from the tip.
   - Testnet should be set some tens of thousands back from the tip due to reorgs there.
   - This update should be reviewed with a reindex-chainstate with assumevalid=0 to catch any defect
      that causes rejection of blocks in the past history.
->>>>>>> pr/4
 
 Before every major release:
 
@@ -156,10 +153,7 @@ Build output expected:
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
     gpg --import litecoin/contrib/gitian-keys/*.pgp
-<<<<<<< HEAD
-=======
     gpg --refresh-keys
->>>>>>> pr/4
 
 Verify the signatures
 
@@ -252,28 +246,12 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
 - Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the litecoin.org server.
 
-<<<<<<< HEAD
-=======
 ```
 
->>>>>>> pr/4
 - Update litecoin.org version
 
 - Announce the release:
 
-<<<<<<< HEAD
-  - litecoin-dev mailing list
-
-  - Litecoin Core announcements list https://groups.google.com/forum/#!forum/litecoin-dev
-
-  - blog.litecoin.org blog post
-
-  - litecointalk.io forum announcement
-
-  - Update title of #litecoin on Freenode IRC
-
-  - Optionally twitter, reddit /r/Litecoin, ... but this will usually sort out itself
-=======
   - litecoin-dev and litecoin-dev mailing list
 
   - blog.litecoin.org blog post
@@ -283,7 +261,6 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
   - Optionally twitter, reddit /r/Litecoin, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
->>>>>>> pr/4
 
   - Create a [new GitHub release](https://github.com/litecoin-project/litecoin/releases/new) with a link to the archived release notes.
 

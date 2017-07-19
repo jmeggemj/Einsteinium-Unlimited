@@ -620,13 +620,6 @@ Var vänlig och försök igen.</translation>
         <translation>Kopiera adress</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Copy address</source>
-        <translation>Kopiera adress</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Copy label</source>
         <translation>Kopiera etikett</translation>
     </message>
@@ -635,8 +628,6 @@ Var vänlig och försök igen.</translation>
         <translation>Kopiera belopp</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Copy transaction ID</source>
         <translation>Kopiera transaktions-ID</translation>
     </message>
@@ -649,7 +640,6 @@ Var vänlig och försök igen.</translation>
         <translation>nej</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>(no label)</source>
         <translation>(Ingen etikett)</translation>
     </message>
@@ -676,13 +666,10 @@ Var vänlig och försök igen.</translation>
         <source>&amp;Address</source>
         <translation>&amp;Adress</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Could not unlock wallet.</source>
         <translation>Kunde inte låsa upp plånboken.</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>FreespaceChecker</name>
@@ -1171,8 +1158,6 @@ Var vänlig och försök igen.</translation>
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>URI handling</source>
         <translation>URI-hantering</translation>
@@ -1185,7 +1170,6 @@ Var vänlig och försök igen.</translation>
         <source>Bad response from server %1</source>
         <translation>Felaktigt svar från server %1</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>PeerTableModel</name>
@@ -1629,24 +1613,18 @@ Var vänlig och försök igen.</translation>
         <translation>Ta bort</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Copy URI</source>
         <translation>Kopiera URI</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Copy label</source>
         <translation>Kopiera etikett</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Copy message</source>
         <translation>Kopiera meddelande</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Copy amount</source>
         <translation>Kopiera belopp</translation>
     </message>
@@ -1670,8 +1648,6 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Spara Bild...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Payment information</source>
         <translation>Betalinformaton</translation>
     </message>
@@ -1680,7 +1656,6 @@ Var vänlig och försök igen.</translation>
         <translation>URI</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Address</source>
         <translation>Adress</translation>
     </message>
@@ -1688,33 +1663,22 @@ Var vänlig och försök igen.</translation>
         <source>Label</source>
         <translation>Etikett</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Message</source>
         <translation>Meddelande</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
-<<<<<<< HEAD
-=======
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Label</source>
         <translation>Etikett</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>(no label)</source>
-        <translation>(Ingen etikett)</translation>
-    </message>
-=======
         <source>Message</source>
         <translation>Meddelande</translation>
     </message>
@@ -1726,7 +1690,6 @@ Var vänlig och försök igen.</translation>
         <source>(no message)</source>
         <translation>(inget meddelande)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1875,8 +1838,6 @@ Var vänlig och försök igen.</translation>
         <translation>Kopiera belopp</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>%1 to %2</source>
         <translation>%1 till %2</translation>
     </message>
@@ -1889,7 +1850,6 @@ Var vänlig och försök igen.</translation>
         <translation><numerusform>%n block</numerusform><numerusform>%n block</numerusform></translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>(no label)</source>
         <translation>(Ingen etikett)</translation>
     </message>
@@ -1975,15 +1935,11 @@ Var vänlig och försök igen.</translation>
     </context>
 <context>
     <name>SendConfirmationDialog</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Yes</source>
         <translation>Ja</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ShutdownWindow</name>
     <message>
@@ -2081,9 +2037,6 @@ Var vänlig och försök igen.</translation>
         <source>Reset all verify message fields</source>
         <translation>Rensa alla fält</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Message signed.</source>
         <translation>Meddelande signerat.</translation>
@@ -2097,7 +2050,6 @@ Var vänlig och försök igen.</translation>
         <translation>Meddelande verifierat.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SplashScreen</name>
     <message>
@@ -2114,8 +2066,6 @@ Var vänlig och försök igen.</translation>
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Status</source>
         <translation>Status</translation>
@@ -2128,7 +2078,6 @@ Var vänlig och försök igen.</translation>
         <source>Message</source>
         <translation>Meddelande</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -2140,13 +2089,10 @@ Var vänlig och försök igen.</translation>
 <context>
     <name>TransactionTableModel</name>
     <message>
-<<<<<<< HEAD
-=======
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Label</source>
         <translation>Etikett</translation>
     </message>
@@ -2158,8 +2104,6 @@ Var vänlig och försök igen.</translation>
 <context>
     <name>TransactionView</name>
     <message>
-<<<<<<< HEAD
-=======
         <source>Enter address or label to search</source>
         <translation>Ange en adress eller etikett att söka efter</translation>
     </message>
@@ -2172,7 +2116,6 @@ Var vänlig och försök igen.</translation>
         <translation>Avbryt transaktionen</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Copy address</source>
         <translation>Kopiera adress</translation>
     </message>
@@ -2185,24 +2128,18 @@ Var vänlig och försök igen.</translation>
         <translation>Kopiera belopp</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Copy transaction ID</source>
         <translation>Kopiera transaktions-ID</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Comma separated file (*.csv)</source>
         <translation>Kommaseparerad fil (*.csv)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Label</source>
         <translation>Etikett</translation>
     </message>
@@ -2294,17 +2231,8 @@ Var vänlig och försök igen.</translation>
         <translation>Litecoin Core</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
-    </message>
-    <message>
-        <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>-fallbackfee är satt väldigt högt! Detta är avgiften du kan komma att betala om uppskattad avgift inte finns tillgänglig.</translation>
-=======
         <source>The %s developers</source>
         <translation>%s-utvecklarna</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
@@ -2327,17 +2255,6 @@ Var vänlig och försök igen.</translation>
         <translation>Ta bort alla plånbokstransaktioner och återskapa bara dom som är en del av blockkedjan genom att ange -rescan vid uppstart</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Distribuerad under MIT mjukvarulicens, se den bifogade filen COPYING eller &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
-    </message>
-    <message>
-        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
-        <translation>Samma antal byte per sigop i transaktioner som vi reläar och bryter (förvalt: %u)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
         <translation>Fel vid laddning av %s: Du kan inte aktivera HD på en existerande icke-HD plånbok</translation>
     </message>
@@ -2578,13 +2495,6 @@ Var vänlig och försök igen.</translation>
         <translation>Sätt databasens cachestorlek i megabyte (%d till %d, förvalt: %d)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>Sätt maximal BIP141 blockvikt (förvalt: %d)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Sätt maximal blockstorlek i byte (förvalt: %d)</translation>
     </message>
@@ -2997,13 +2907,10 @@ Var vänlig och försök igen.</translation>
         <translation>Sätt storleken på nyckelpoolen till &lt;n&gt; (förvalt: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>Sätt maximal BIP141 blockvikt (förvalt: %d)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Ange antalet trådar för att hantera RPC anrop (förvalt: %d)</translation>
     </message>

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-Litecoin Core 0.13.2
-=======
 Litecoin Core 0.14.2
->>>>>>> pr/4
 =====================
 
 Intro

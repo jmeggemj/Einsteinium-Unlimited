@@ -27,14 +27,7 @@ JSON-RPC server. Running `litecoind` or `litecoin-qt -server` will be sufficient
     $ ./linearize-data.py linearize.cfg
 
 Required configuration file settings:
-<<<<<<< HEAD
-* "input": litecoind blocks/ directory containing blkNNNNN.dat
-* "hashlist": text file containing list of block hashes, linearized-hashes.py
-output.
-* "output_file": bootstrap.dat
-=======
 * `output_file`: The file that will contain the final blockchain.
->>>>>>> pr/4
       or
 * `output`: Output directory for linearized `blocks/blkNNNNN.dat` output.
 

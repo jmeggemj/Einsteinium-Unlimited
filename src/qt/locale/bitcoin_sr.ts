@@ -37,8 +37,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Избриши</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Izbirajte adresu za slanje</translation>
@@ -55,7 +53,6 @@
         <source>Receiving addresses</source>
         <translation>Adresa za primanje</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -298,12 +295,9 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -390,15 +384,11 @@
     </context>
 <context>
     <name>SendConfirmationDialog</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Yes</source>
         <translation>Da</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ShutdownWindow</name>
     </context>

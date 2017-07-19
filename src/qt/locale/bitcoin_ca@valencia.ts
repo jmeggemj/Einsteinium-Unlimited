@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Elimina</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Trieu una adreça on voleu enviar monedes</translation>
@@ -119,7 +113,6 @@
         <translation>(sense etiqueta)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -138,9 +131,6 @@
         <source>Repeat new passphrase</source>
         <translation>Repetiu la nova contrasenya</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Introduïu la contrasenya nova al moneder.&lt;br/&gt;Utilitzeu una contrasenya de &lt;b&gt;deu o més caràcters aleatoris&lt;/b&gt;, o &lt;b&gt;vuit o més paraules&lt;/b&gt;.</translation>
@@ -226,7 +216,6 @@
         <translation>Avís: Les lletres majúscules estan activades!</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>BanTableModel</name>
     </context>
@@ -404,41 +393,6 @@
         <source>&amp;Command-line options</source>
         <translation>Opcions de la &amp;línia d'ordes</translation>
     </message>
-<<<<<<< HEAD
-    <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Litecoin</numerusform><numerusform>%n connexions actives a la xarxa Litecoin</numerusform></translation>
-    </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>No hi ha cap font de bloc disponible...</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Proccessats %n bloc de l'historial de transaccions.</numerusform><numerusform>Proccessats %n blocs de l'historial de transaccions.</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n hora</numerusform><numerusform>%n hores</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n dia</numerusform><numerusform>%n dies</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n setmana</numerusform><numerusform>%n setmanes</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 i %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n any</numerusform><numerusform>%n anys</numerusform></translation>
-    </message>
-=======
->>>>>>> pr/4
     <message>
         <source>%1 behind</source>
         <translation>%1 darrere</translation>
@@ -664,7 +618,7 @@
         <source>(change)</source>
         <translation>(canvia)</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -687,9 +641,6 @@
         <source>&amp;Address</source>
         <translation>&amp;Adreça</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>New receiving address</source>
         <translation>Nova adreça de recepció.</translation>
@@ -723,7 +674,6 @@
         <translation>Ha fallat la generació d'una nova clau.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -842,15 +792,11 @@
         <source>Select payment request file</source>
         <translation>Selecciona un fitxer de sol·licitud de pagament</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Select payment request file to open</source>
         <translation>Selecciona el fitxer de sol·licitud de pagament per obrir</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -1119,9 +1065,6 @@
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Payment request error</source>
         <translation>Error en la sol·licitud de pagament</translation>
@@ -1211,7 +1154,6 @@
         <translation>Pagament reconegut</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>PeerTableModel</name>
     <message>
@@ -1288,9 +1230,6 @@
         <translation>Imatge PNG (*.png)</translation>
     </message>
 </context>
-<context>
-    <name>QRImageWidget</name>
-    </context>
 <context>
     <name>RPCConsole</name>
     <message>
@@ -1560,9 +1499,6 @@
         <source>Remove</source>
         <translation>Esborra</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy label</source>
         <translation>Copiar etiqueta</translation>
@@ -1576,7 +1512,6 @@
         <translation>Copia l'import</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -1595,15 +1530,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Guarda la imatge...</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-    </context>
-<context>
-    <name>SendCoinsDialog</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Request payment to %1</source>
         <translation>Sol·licita un pagament a %1</translation>
@@ -1806,9 +1732,6 @@
         <source>S&amp;end</source>
         <translation>E&amp;nvia</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy quantity</source>
         <translation>Copia la quantitat</translation>
@@ -1902,7 +1825,6 @@
         <translation>(sense etiqueta)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1981,12 +1903,6 @@
         <source>Memo:</source>
         <translation>Memo:</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendConfirmationDialog</name>
-    </context>
-=======
     <message>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Introduïu una etiqueta per a esta adreça per afegir-la a la llibreta d'adreces</translation>
@@ -1999,7 +1915,6 @@
         <translation>Sí</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ShutdownWindow</name>
     <message>
@@ -2093,9 +2008,6 @@
         <source>Reset all verify message fields</source>
         <translation>Neteja tots els camps de verificació de missatge</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Click "Sign Message" to generate signature</source>
         <translation>Feu clic a «Signa el missatge» per a generar una signatura</translation>
@@ -2149,7 +2061,6 @@
         <translation>Missatge verificat.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SplashScreen</name>
     <message>
@@ -2166,9 +2077,6 @@
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Open until %1</source>
         <translation>Obert fins %1</translation>
@@ -2302,7 +2210,6 @@
         <translation>fals</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>TransactionDescDialog</name>
     <message>
@@ -2312,12 +2219,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-    </context>
-=======
     <message>
         <source>Date</source>
         <translation>Data</translation>
@@ -2566,7 +2467,6 @@
         <translation>a</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
@@ -2576,15 +2476,6 @@
 </context>
 <context>
     <name>WalletFrame</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
-<context>
-    <name>WalletView</name>
-    </context>
-=======
     <message>
         <source>No wallet has been loaded.</source>
         <translation>No s'ha carregat cap moneder.</translation>
@@ -2632,7 +2523,6 @@
         <translation>S'han guardat les dades del moneder correctament a %1.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>bitcoin-core</name>
     <message>
@@ -2664,13 +2554,10 @@
         <translation>S'està podant l'emmagatzemament de blocs...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Executa en segon pla com a programa dimoni i accepta ordes</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>

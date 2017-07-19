@@ -703,11 +703,7 @@ UniValue getblock(const JSONRPCRequest& request)
             "  \"confirmations\" : n,   (numeric) The number of confirmations, or -1 if the block is not on the main chain\n"
             "  \"size\" : n,            (numeric) The block size\n"
             "  \"strippedsize\" : n,    (numeric) The block size excluding witness data\n"
-<<<<<<< HEAD
-            "  \"weight\" : n           (numeric) The block weight (BIP 141)\n"
-=======
             "  \"weight\" : n           (numeric) The block weight as defined in BIP 141\n"
->>>>>>> pr/4
             "  \"height\" : n,          (numeric) The block height or index\n"
             "  \"version\" : n,         (numeric) The block version\n"
             "  \"versionHex\" : \"00000000\", (string) The block version formatted in hexadecimal\n"
@@ -916,11 +912,7 @@ UniValue gettxout(const JSONRPCRequest& request)
             "\nArguments:\n"
             "1. \"txid\"       (string, required) The transaction id\n"
             "2. n              (numeric, required) vout number\n"
-<<<<<<< HEAD
-            "3. includemempool  (boolean, optional) Whether to include the mempool\n"
-=======
             "3. include_mempool  (boolean, optional) Whether to include the mempool\n"
->>>>>>> pr/4
             "\nResult:\n"
             "{\n"
             "  \"bestblock\" : \"hash\",    (string) the block hash\n"
@@ -932,11 +924,7 @@ UniValue gettxout(const JSONRPCRequest& request)
             "     \"reqSigs\" : n,          (numeric) Number of required signatures\n"
             "     \"type\" : \"pubkeyhash\", (string) The type, eg pubkeyhash\n"
             "     \"addresses\" : [          (array of string) array of litecoin addresses\n"
-<<<<<<< HEAD
-            "        \"litecoinaddress\"     (string) litecoin address\n"
-=======
             "        \"address\"     (string) litecoin address\n"
->>>>>>> pr/4
             "        ,...\n"
             "     ]\n"
             "  },\n"

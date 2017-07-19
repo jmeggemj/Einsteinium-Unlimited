@@ -208,13 +208,6 @@
     <message>
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Pide pagos (genera codigos QR and litecoin: URls)</translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 y %2</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Error</source>
@@ -280,13 +273,6 @@
         <source>Confirmed</source>
         <translation>Confirmado</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>prioridad</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -476,9 +462,6 @@
     </context>
 <context>
     <name>QObject::QObject</name>
-    </context>
-<context>
-    <name>QRImageWidget</name>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -791,14 +774,6 @@
     <message>
         <source>Litecoin Core</source>
         <translation>litecoin core</translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Conecta solo al nodo especificado
-</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Error loading block database</source>

@@ -515,7 +515,7 @@ class CTransaction(object):
     def is_valid(self):
         self.calc_sha256()
         for tout in self.vout:
-            if tout.nValue < 0 or tout.nValue > 84000000 * COIN:
+            if tout.nValue < 0 or tout.nValue > 21000000 * COIN:
                 return False
         return True
 
@@ -1638,16 +1638,6 @@ class NodeConn(asyncore.dispatcher):
         self.disconnect = False
         self.nServices = 0
 
-<<<<<<< HEAD
-        # stuff version msg into sendbuf
-        vt = msg_version()
-        vt.nServices = services
-        vt.addrTo.ip = self.dstaddr
-        vt.addrTo.port = self.dstport
-        vt.addrFrom.ip = "0.0.0.0"
-        vt.addrFrom.port = 0
-        self.send_message(vt, True)
-=======
         if send_version:
             # stuff version msg into sendbuf
             vt = msg_version()
@@ -1658,7 +1648,6 @@ class NodeConn(asyncore.dispatcher):
             vt.addrFrom.port = 0
             self.send_message(vt, True)
 
->>>>>>> pr/4
         print('MiniNode: Connecting to Litecoin Node IP # ' + dstaddr + ':' \
             + str(dstport))
 

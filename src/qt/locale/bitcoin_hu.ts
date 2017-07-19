@@ -256,13 +256,6 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktív kapcsolat a Litecoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Litecoin hálózathoz</numerusform></translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>Blokk forrása ismeretlen...</translation>
-=======
->>>>>>> pr/4
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -417,13 +410,6 @@
         <source>Confirmed</source>
         <translation>Megerősítve</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>Prioritás</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -821,9 +807,6 @@
     <name>QRImageWidget</name>
     </context>
 <context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
@@ -966,10 +949,6 @@
         <translation>Konzol törlése</translation>
     </message>
     <message>
-        <source>Ban Node for</source>
-        <translation>Kitiltás oka</translation>
-    </message>
-    <message>
         <source>1 &amp;hour</source>
         <translation>1 &amp;óra</translation>
     </message>
@@ -984,10 +963,6 @@
     <message>
         <source>1 &amp;year</source>
         <translation>1 &amp;év</translation>
-    </message>
-    <message>
-        <source>&amp;Unban Node</source>
-        <translation>Kitiltás &amp;feloldása</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1403,13 +1378,6 @@
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Kívülről érkező kapcsolatok elfogadása (alapértelmezett: 1, ha nem használt a -proxy vagy a -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>
@@ -1420,13 +1388,6 @@
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>UPnP használata porttovábbításra (alapértelmezett: 1, amikor kiszolgál és nem használt a -proxy)</translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Csatlakozás csak a megadott csomóponthoz</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Corrupted block database detected</source>

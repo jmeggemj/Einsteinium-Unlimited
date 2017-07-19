@@ -55,11 +55,6 @@ const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
 const char* BIP71_MIMETYPE_PAYMENT = "application/litecoin-payment";
 const char* BIP71_MIMETYPE_PAYMENTACK = "application/litecoin-paymentack";
 const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/litecoin-paymentrequest";
-<<<<<<< HEAD
-// BIP70 max payment request size in bytes (DoS protection)
-const qint64 BIP70_MAX_PAYMENTREQUEST_SIZE = 50000;
-=======
->>>>>>> pr/4
 
 struct X509StoreDeleter {
       void operator()(X509_STORE* b) {

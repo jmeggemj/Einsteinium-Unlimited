@@ -25,10 +25,7 @@
 
 static const char DEFAULT_RPCCONNECT[] = "127.0.0.1";
 static const int DEFAULT_HTTP_CLIENT_TIMEOUT=900;
-<<<<<<< HEAD
-=======
 static const bool DEFAULT_NAMED=false;
->>>>>>> pr/4
 static const int CONTINUE_EXECUTION=-1;
 
 std::string HelpMessageCli()
@@ -85,10 +82,7 @@ static int AppInitRPC(int argc, char* argv[])
         if (!IsArgSet("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
                   "  litecoin-cli [options] <command> [params]  " + strprintf(_("Send command to %s"), _(PACKAGE_NAME)) + "\n" +
-<<<<<<< HEAD
-=======
                   "  litecoin-cli [options] -named <command> [name=value] ... " + strprintf(_("Send command to %s (with named arguments)"), _(PACKAGE_NAME)) + "\n" +
->>>>>>> pr/4
                   "  litecoin-cli [options] help                " + _("List commands") + "\n" +
                   "  litecoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
@@ -103,11 +97,7 @@ static int AppInitRPC(int argc, char* argv[])
         return EXIT_SUCCESS;
     }
     if (!boost::filesystem::is_directory(GetDataDir(false))) {
-<<<<<<< HEAD
-        fprintf(stderr, "Error: Specified data directory \"%s\" does not exist.\n", mapArgs["-datadir"].c_str());
-=======
         fprintf(stderr, "Error: Specified data directory \"%s\" does not exist.\n", GetArg("-datadir", "").c_str());
->>>>>>> pr/4
         return EXIT_FAILURE;
     }
     try {

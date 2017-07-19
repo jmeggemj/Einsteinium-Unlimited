@@ -336,13 +336,9 @@ There will be a lot of warnings printed during the build of the image. These can
 Getting and building the inputs
 --------------------------------
 
-<<<<<<< HEAD
-Follow the instructions in [doc/release-process.md](release-process.md#fetch-and-build-inputs-first-time-or-when-dependency-versions-change)
-=======
 At this point you have two options, you can either use the automated script (found in [contrib/gitian-build.sh](/contrib/gitian-build.sh)) or you could manually do everything by following this guide. If you're using the automated script, then run it with the "--setup" command. Afterwards, run it with the "--build" command (example: "contrib/gitian-building.sh -b signer 0.13.0"). Otherwise ignore this.
 
 Follow the instructions in [doc/release-process.md](release-process.md#fetch-and-create-inputs-first-time-or-when-dependency-versions-change)
->>>>>>> pr/4
 in the litecoin repository under 'Fetch and create inputs' to install sources which require
 manual intervention. Also optionally follow the next step: 'Seed the Gitian sources cache
 and offline git repositories' which will fetch the remaining files required for building
@@ -464,7 +460,7 @@ and follow the steps in the build process as normal.
     gpg: skipped "laanwj": secret key not available
 
 When you execute `gsign` you will get an error from GPG, which can be ignored. Copy the resulting `.assert` files
-in `gitian.sigs.ltc` to your signing machine and do
+in `gitian.sigs` to your signing machine and do
 
 ```bash
     gpg --detach-sign ${VERSION}-linux/${SIGNER}/litecoin-linux-build.assert
@@ -479,10 +475,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-<<<<<<< HEAD
-[gitian.sigs.ltc](https://github.com/litecoin-project/gitian.sigs.ltc/) repository, or if that's not possible create a pull
-request. You can also mail the files to thrasher (thrasher@addictionsoftware.com) and he will commit them.
-=======
 [litecoin-project/gitian.sigs.ltc](https://github.com/litecoin-project/gitian.sigs.ltc/) repository, or if that's not possible create a pull
 request. You can also mail the files to thrasher (thrasher@addictionsofware.com) and he will commit them.
->>>>>>> pr/4

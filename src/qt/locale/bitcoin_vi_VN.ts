@@ -41,8 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Xó&amp;a</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Chọn địa chỉ để gửi coin đến</translation>
@@ -63,7 +61,6 @@
         <source>Receiving addresses</source>
         <translation>Địa chỉ nhận</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -259,7 +256,6 @@
     <message>
         <source>Tabs toolbar</source>
         <translation>Thanh công cụ (toolbar)</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
@@ -280,44 +276,6 @@
     <message>
         <source>&amp;Command-line options</source>
         <translation>7Tùy chọn dòng lệnh</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n giờ</numerusform></translation>
-=======
->>>>>>> pr/4
-    </message>
-    <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Litecoin: URLs)</translation>
-    </message>
-    <message>
-        <source>Show the list of used sending addresses and labels</source>
-        <translation>Hiện thỉ danh sách các địa chỉ và nhãn đã dùng để gửi.</translation>
-    </message>
-    <message>
-        <source>Show the list of used receiving addresses and labels</source>
-        <translation>Hiện thỉ danh sách các địa chỉ và nhãn đã dùng để nhận.</translation>
-    </message>
-    <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Mở litecoin:URL hoặc yêu cầu thanh toán</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>7Tùy chọn dòng lệnh</translation>
-    </message>
-    <message>
-        <source>%1 behind</source>
-        <translation>%1 chậm trễ</translation>
-    </message>
-    <message>
-        <source>Last received block was generated %1 ago.</source>
-        <translation>Khối (block) cuối cùng nhận được cách đây %1</translation>
-    </message>
-    <message>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation>Những giao dịch sau đó sẽ không hiện thị.</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -397,11 +355,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Ví tiền &lt;b&gt; đã được mã hóa&lt;/b&gt;và hiện &lt;b&gt;đang khóa&lt;/b&gt;</translation>
     </message>
-<<<<<<< HEAD
-</context>
-=======
     </context>
->>>>>>> pr/4
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -456,13 +410,6 @@
         <source>Confirmed</source>
         <translation>Đã xác nhận</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>Tầm quan trọng</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -688,13 +635,6 @@
     </message>
     </context>
 <context>
-    <name>QRImageWidget</name>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>$Lưu hình ảnh...</translation>
-    </message>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
@@ -855,13 +795,10 @@
         <translation>URI</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Amount</source>
         <translation>Lượng</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Message</source>
         <translation>Tin nhắn</translation>
     </message>
@@ -956,13 +893,6 @@
         <translation>(Đọc hướng dẫn)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Confirmation time:</source>
-        <translation>Thời gian xác nhận</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>normal</source>
         <translation>Bình thường</translation>
     </message>
@@ -1051,13 +981,10 @@
         <source>Message</source>
         <translation>Tin nhắn</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Amount</source>
         <translation>Lượng</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>

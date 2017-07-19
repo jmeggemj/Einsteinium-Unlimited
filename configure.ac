@@ -1,11 +1,7 @@
 dnl require autoconf 2.60 (AS_ECHO/AS_ECHO_N)
 AC_PREREQ([2.60])
 define(_CLIENT_VERSION_MAJOR, 0)
-<<<<<<< HEAD
-define(_CLIENT_VERSION_MINOR, 13)
-=======
 define(_CLIENT_VERSION_MINOR, 14)
->>>>>>> pr/4
 define(_CLIENT_VERSION_REVISION, 99)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, false)
@@ -13,11 +9,7 @@ define(_COPYRIGHT_YEAR, 2017)
 define(_COPYRIGHT_HOLDERS,[The %s developers])
 define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[Litecoin Core]])
 AC_INIT([Litecoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/litecoin-project/litecoin/issues],[litecoin],[https://litecoin.org/])
-<<<<<<< HEAD
-AC_CONFIG_SRCDIR([src/main.cpp])
-=======
 AC_CONFIG_SRCDIR([src/validation.cpp])
->>>>>>> pr/4
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
@@ -63,11 +55,7 @@ case $host in
   ;;
 esac
 dnl Require C++11 compiler (no GNU extensions)
-<<<<<<< HEAD
-AX_CXX_COMPILE_STDCXX([11], [noext], [mandatory])
-=======
 AX_CXX_COMPILE_STDCXX([11], [noext], [mandatory], [nodefault])
->>>>>>> pr/4
 dnl Check if -latomic is required for <std::atomic>
 CHECK_ATOMIC
 
@@ -89,10 +77,6 @@ AC_PATH_TOOL(RANLIB, ranlib)
 AC_PATH_TOOL(STRIP, strip)
 AC_PATH_TOOL(GCOV, gcov)
 AC_PATH_PROG(LCOV, lcov)
-<<<<<<< HEAD
-AC_PATH_PROG(JAVA, java)
-=======
->>>>>>> pr/4
 dnl Python 3.x is supported from 3.4 on (see https://github.com/bitcoin/bitcoin/issues/7893)
 AC_PATH_PROGS([PYTHON], [python3.6 python3.5 python3.4 python3 python2.7 python2 python])
 AC_PATH_PROG(GENHTML, genhtml)
@@ -256,7 +240,7 @@ CPPFLAGS="$CPPFLAGS -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS"
 
 AC_ARG_WITH([utils],
   [AS_HELP_STRING([--with-utils],
-  [build litecoin-cli litecoin-tx (default=yes)])],
+  [build bitcoin-cli bitcoin-tx (default=yes)])],
   [build_bitcoin_utils=$withval],
   [build_bitcoin_utils=yes])
 
@@ -268,7 +252,7 @@ AC_ARG_WITH([libs],
 
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
-  [build litecoind daemon (default=yes)])],
+  [build bitcoind daemon (default=yes)])],
   [build_bitcoind=$withval],
   [build_bitcoind=yes])
 

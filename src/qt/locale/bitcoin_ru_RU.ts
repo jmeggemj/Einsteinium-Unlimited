@@ -41,8 +41,6 @@
         <source>&amp;Delete</source>
         <translation>Удалить</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Выбрать адрес для отправки монет</translation>
@@ -51,7 +49,6 @@
         <source>Choose the address to receive coins with</source>
         <translation>Выбрать адрес для получения монет</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -166,12 +163,9 @@
     <name>QObject</name>
     </context>
 <context>
-<<<<<<< HEAD
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -234,13 +228,10 @@
     </context>
 <context>
     <name>WalletView</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>&amp;Export</source>
         <translation>Экспортировать</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>

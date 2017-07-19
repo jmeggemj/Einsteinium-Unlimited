@@ -43,18 +43,6 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-<<<<<<< HEAD
-        <translation>Escolhe qual o endereço para o  qual enviar moedas</translation>
-    </message>
-    <message>
-        <source>Choose the address to receive coins with</source>
-        <translation>Escolhe qual o endereço para receber moedas</translation>
-    </message>
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
         <translation>Escolha o endereço para enviar as moedas</translation>
     </message>
     <message>
@@ -117,7 +105,6 @@
         <translation>(sem etiqueta)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -208,7 +195,7 @@
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Aviso: a tecla Caps Lock está ligada!</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>BanTableModel</name>
     <message>
@@ -324,11 +311,7 @@
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
-<<<<<<< HEAD
-        <translation>Enviar moedas para um endereço litecoin</translation>
-=======
         <translation>Enviar moedas para um endereço Litecoin</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -380,11 +363,7 @@
     </message>
     <message>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
-<<<<<<< HEAD
-        <translation>Assine mensagens com os seus endereços Litecoin para provar que os controla</translation>
-=======
         <translation>Assine as mensagens com os seus endereços Litecoin para provar que é o proprietário dos mesmos</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
@@ -671,7 +650,7 @@
         <source>(change)</source>
         <translation>(troco)</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -694,9 +673,6 @@
         <source>&amp;Address</source>
         <translation>E&amp;ndereço</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Could not unlock wallet.</source>
         <translation>Não foi possível desbloquear a carteira.</translation>
@@ -706,7 +682,6 @@
         <translation>A criação da nova chave falhou.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -881,7 +856,7 @@
         <source>Select payment request file to open</source>
         <translation>Selecione o ficheiro de pedido de pagamento para abrir</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -1191,8 +1166,6 @@
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Payment request error</source>
         <translation>Erro do pedido de pagamento</translation>
@@ -1221,7 +1194,6 @@
         <source>Error communicating with %1: %2</source>
         <translation>Erro ao comunicar com %1: %2</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>PeerTableModel</name>
@@ -1279,9 +1251,6 @@
     </context>
 <context>
     <name>QObject::QObject</name>
-    </context>
-<context>
-    <name>QRImageWidget</name>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -1627,9 +1596,6 @@
         <source>Remove</source>
         <translation>Remover</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy label</source>
         <translation>Copiar etiqueta</translation>
@@ -1639,7 +1605,6 @@
         <translation>Copiar valor</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -1658,11 +1623,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Salvar Imagem...</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-=======
     <message>
         <source>Address</source>
         <translation>Endereço</translation>
@@ -1686,7 +1646,6 @@
         <source>(no label)</source>
         <translation>(sem etiqueta)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1830,9 +1789,6 @@
         <source>S&amp;end</source>
         <translation>E&amp;nviar</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy quantity</source>
         <translation>Copiar quantidade</translation>
@@ -1890,7 +1846,6 @@
         <translation>(sem etiqueta)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -2087,8 +2042,6 @@
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Transaction fee</source>
         <translation>Taxa de transação</translation>
@@ -2097,7 +2050,6 @@
         <source>Amount</source>
         <translation>Valor</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -2108,11 +2060,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Label</source>
         <translation>Etiqueta</translation>
@@ -2156,7 +2103,6 @@
         <source>Exporting Failed</source>
         <translation>Exportação Falhou</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -2173,13 +2119,10 @@
     </context>
 <context>
     <name>WalletView</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Exportar os dados no separador atual para um ficheiro</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -2240,21 +2183,8 @@
         <translation>Não é possível iniciar o servidor HTTP. Verifique o debug.log para detalhes.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Aceitar ligações externas (padrão: 1 sem -proxy ou -connect)</translation>
-    </message>
-    <message>
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
-    </message>
-    <message>
-        <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>-fallbackfee está definida muito elevada! Esta é a taxa de transação pode poderá pagar quando as estimativas de taxas não estão disponíveis.</translation>
-=======
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
@@ -2274,11 +2204,7 @@
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-<<<<<<< HEAD
-        <translation>Executar comando quando uma das transações na carteira mudar (no comando, %s é substituído pelo ID da Transação)</translation>
-=======
         <translation>Executar o comando quando uma transação da carteira muda (no comando, %s é substituído pela Id. da Transação)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>

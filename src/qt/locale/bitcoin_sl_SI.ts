@@ -252,17 +252,6 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktivna povezava v omrežje Litecoin</numerusform><numerusform>%n aktivni povezavi v omrežje Litecoin</numerusform><numerusform>%n aktivne povezave v omrežje Litecoin</numerusform><numerusform>%n aktivnih povezav v omrežje Litecoin</numerusform></translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Indeksirani bloki na disku ...</translation>
-    </message>
-    <message>
-        <source>Processing blocks on disk...</source>
-        <translation>Obdelava blokov na disku ...</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -429,13 +418,6 @@
         <source>Confirmed</source>
         <translation>Potrjeno</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>Prioriteta</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -916,9 +898,6 @@
     </context>
 <context>
     <name>QObject::QObject</name>
-    </context>
-<context>
-    <name>QRImageWidget</name>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -1579,13 +1558,10 @@
     </context>
 <context>
     <name>WalletView</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Izvozi podatke v trenutnem zavihku v datoteko</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -1614,13 +1590,6 @@
         <translation>Teci v ozadju in sprejemaj ukaze</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Sprejemaj zunanje povezave (privzeto: 1, razen če ste vklopili opciji -proxy ali -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>

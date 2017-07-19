@@ -51,10 +51,7 @@ ReceiveCoinsDialog::ReceiveCoinsDialog(const PlatformStyle *_platformStyle, QWid
 
     // context menu
     contextMenu = new QMenu(this);
-<<<<<<< HEAD
-=======
     contextMenu->addAction(copyURIAction);
->>>>>>> pr/4
     contextMenu->addAction(copyLabelAction);
     contextMenu->addAction(copyMessageAction);
     contextMenu->addAction(copyAmountAction);

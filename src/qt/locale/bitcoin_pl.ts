@@ -42,8 +42,6 @@
         <translation>&amp;Usuń</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Choose the address to send coins to</source>
         <translation>Wybierz adres, na który chcesz wysłać monety</translation>
     </message>
@@ -56,7 +54,6 @@
         <translation>W&amp;ybierz</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Sending addresses</source>
         <translation>Adresy wysyłania</translation>
     </message>
@@ -96,15 +93,11 @@
         <source>Exporting Failed</source>
         <translation>Eksportowanie nie powiodło się</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
         <translation>Wystąpił błąd podczas próby zapisu listy adresów do %1. Proszę spróbować ponownie.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -115,15 +108,11 @@
         <source>Address</source>
         <translation>Adres</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>(no label)</source>
         <translation>(brak etykiety)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -143,35 +132,26 @@
         <translation>Powtórz nowe hasło</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Wprowadź nowe hasło do portfela.&lt;br/&gt;Proszę używać hasła złożonego z &lt;b&gt;10 lub więcej losowych znaków&lt;/b&gt; albo &lt;b&gt;8 lub więcej słów.&lt;/b&gt;</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Encrypt wallet</source>
         <translation>Zaszyfruj portfel</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Ta operacja wymaga hasła do portfela aby odblokować portfel.</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Unlock wallet</source>
         <translation>Odblokuj portfel</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Ta operacja wymaga hasła portfela, aby go odszyfrować.</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Decrypt wallet</source>
         <translation>Odszyfruj portfel</translation>
     </message>
@@ -188,8 +168,6 @@
         <translation>Potwierdź szyfrowanie portfela</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>Uwaga: jeśli zaszyfrujesz swój portfel i zgubisz hasło &lt;b&gt;STRACISZ WSZYSTKIE SWOJE LITECOINY&lt;/b&gt;!</translation>
     </message>
@@ -198,13 +176,10 @@
         <translation>Jesteś pewien, że chcesz zaszyfrować swój portfel?</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Wallet encrypted</source>
         <translation>Portfel zaszyfrowany</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>%1 zamknie się aby dokończyć proces szyfrowania. Pamiętaj, że szyfrowanie portfela nie zabezpiecza w pełni Twoich litecoinów przed kradzieżą przez wirusy lub trojany mogące zainfekować Twój komputer.</translation>
     </message>
@@ -213,13 +188,10 @@
         <translation>WAŻNE: Wszystkie wykonane wcześniej kopie pliku portfela powinny być zamienione na nowe, szyfrowane pliki. Z powodów bezpieczeństwa, poprzednie kopie nieszyfrowanych plików portfela staną się bezużyteczne jak tylko zaczniesz korzystać z nowego, szyfrowanego portfela.</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Wallet encryption failed</source>
         <translation>Szyfrowanie portfela nie powiodło się</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Szyfrowanie portfela nie powiodło się z powodu wewnętrznego błędu. Twój portfel nie został zaszyfrowany.</translation>
     </message>
@@ -228,7 +200,6 @@
         <translation>Podane hasła nie są takie same.</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Wallet unlock failed</source>
         <translation>Odblokowanie portfela nie powiodło się</translation>
     </message>
@@ -240,9 +211,6 @@
         <source>Wallet decryption failed</source>
         <translation>Odszyfrowanie portfela nie powiodło się</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Hasło do portfela zostało pomyślnie zmienione.</translation>
@@ -252,7 +220,6 @@
         <translation>Ostrzeżenie: Caps Lock jest włączony!</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>BanTableModel</name>
     <message>
@@ -452,11 +419,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
-<<<<<<< HEAD
-        <translation><numerusform>%n aktywnych połączeń do sieci Litecoin</numerusform><numerusform>%n aktywnych połączeń do sieci Litecoin</numerusform><numerusform>%n aktywnych połączeń do sieci Litecoin</numerusform></translation>
-=======
         <translation><numerusform>%n aktywnych połączeń do sieci Litecoin</numerusform><numerusform>%n aktywnych połączeń do sieci Litecoin</numerusform><numerusform>%n aktywnych połączeń do sieci Litecoin</numerusform><numerusform>%n aktywnych połączeń do sieci Litecoin</numerusform></translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -707,87 +670,7 @@
         <source>(change)</source>
         <translation>(reszta)</translation>
     </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Kopiuj adres</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopiuj etykietę</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Skopiuj ID transakcji</translation>
-    </message>
-    <message>
-        <source>Lock unspent</source>
-        <translation>Zablokuj niewydane</translation>
-    </message>
-    <message>
-        <source>Unlock unspent</source>
-        <translation>Odblokuj niewydane</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Skopiuj ilość</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Skopiuj prowizję</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Skopiuj ilość po opłacie</translation>
-    </message>
-    <message>
-        <source>highest</source>
-        <translation>najwyższy</translation>
-    </message>
-    <message>
-        <source>higher</source>
-        <translation>wyższy</translation>
-    </message>
-    <message>
-        <source>high</source>
-        <translation>wysoki</translation>
-    </message>
-    <message>
-        <source>medium-high</source>
-        <translation>średnio wysoki</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>średni</translation>
-    </message>
-    <message>
-        <source>low-medium</source>
-        <translation>średnio niski</translation>
-    </message>
-    <message>
-        <source>low</source>
-        <translation>niski</translation>
-    </message>
-    <message>
-        <source>lower</source>
-        <translation>niższy</translation>
-    </message>
-    <message>
-        <source>lowest</source>
-        <translation>najniższy</translation>
-    </message>
-    <message>
-        <source>yes</source>
-        <translation>tak</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>nie</translation>
-    </message>
-    </context>
+</context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -810,9 +693,6 @@
         <source>&amp;Address</source>
         <translation>&amp;Adres</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>New receiving address</source>
         <translation>Nowy adres odbiorczy</translation>
@@ -838,7 +718,6 @@
         <translation>Generowanie nowego klucza nie powiodło się.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -1021,15 +900,11 @@
         <source>Select payment request file</source>
         <translation>Otwórz żądanie zapłaty z pliku</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Select payment request file to open</source>
         <translation>Wybierz plik żądania zapłaty do otwarcia</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -1342,9 +1217,6 @@
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Payment request error</source>
         <translation>Błąd żądania płatności</translation>
@@ -1394,7 +1266,6 @@
         <translation>Płatność potwierdzona</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>PeerTableModel</name>
     <message>
@@ -1491,9 +1362,6 @@
         <translation>Obraz PNG (*.png)</translation>
     </message>
 </context>
-<context>
-    <name>QRImageWidget</name>
-    </context>
 <context>
     <name>RPCConsole</name>
     <message>
@@ -1860,24 +1728,18 @@
         <translation>Usuń</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Copy URI</source>
         <translation>Kopiuj URI:</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Copy label</source>
         <translation>Kopiuj etykietę</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Copy message</source>
         <translation>Kopiuj wiadomość</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Copy amount</source>
         <translation>Kopiuj kwotę</translation>
     </message>
@@ -1901,8 +1763,6 @@
         <translation>&amp;Zapisz obraz...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Request payment to %1</source>
         <translation>Zażądaj płatności do %1</translation>
     </message>
@@ -1915,16 +1775,10 @@
         <translation>URI</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Address</source>
         <translation>Adres</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Label</source>
-        <translation>Etykieta</translation>
-    </message>
-=======
         <source>Amount</source>
         <translation>Kwota</translation>
     </message>
@@ -1936,17 +1790,10 @@
         <source>Message</source>
         <translation>Wiadomość</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
-<<<<<<< HEAD
-        <source>Label</source>
-        <translation>Etykieta</translation>
-    </message>
-    </context>
-=======
         <source>Date</source>
         <translation>Data</translation>
     </message>
@@ -1971,7 +1818,6 @@
         <translation>Zażądano</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -2134,9 +1980,6 @@
         <source>Copy after fee</source>
         <translation>Skopiuj ilość po opłacie</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy bytes</source>
         <translation>Skopiuj ilość bajtów</translation>
@@ -2186,7 +2029,6 @@
         <translation>(brak etykiety)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -2268,15 +2110,11 @@
     </context>
 <context>
     <name>SendConfirmationDialog</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Yes</source>
         <translation>Tak</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ShutdownWindow</name>
     <message>
@@ -2375,8 +2213,6 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
         <source>Reset all verify message fields</source>
         <translation>Resetuje wszystkie pola weryfikacji wiadomości</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Wallet unlock was cancelled.</source>
         <translation>Odblokowanie portfela zostało anulowane.</translation>
@@ -2393,7 +2229,6 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
         <source>Message signed.</source>
         <translation>Wiadomość podpisana.</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SplashScreen</name>
@@ -2411,8 +2246,6 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Date</source>
         <translation>Data</translation>
@@ -2457,7 +2290,6 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
         <source>Amount</source>
         <translation>Kwota</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -2469,11 +2301,6 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
 <context>
     <name>TransactionTableModel</name>
     <message>
-<<<<<<< HEAD
-        <source>Label</source>
-        <translation>Etykieta</translation>
-    </message>
-=======
         <source>Date</source>
         <translation>Data</translation>
     </message>
@@ -2513,13 +2340,10 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
         <source>(no label)</source>
         <translation>(brak etykiety)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionView</name>
     <message>
-<<<<<<< HEAD
-=======
         <source>All</source>
         <translation>Wszystko</translation>
     </message>
@@ -2552,7 +2376,6 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
         <translation>Wysłane do</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Copy address</source>
         <translation>Kopiuj adres</translation>
     </message>
@@ -2573,13 +2396,10 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
         <translation>Plik *.CSV (dane rozdzielane przecinkami)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Label</source>
         <translation>Etykieta</translation>
     </message>
@@ -2643,13 +2463,6 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
         <translation>Prune: ostatnia synchronizacja portfela jest za danymi. Muszisz -reindexować (pobrać cały ciąg bloków ponownie w przypadku przyciętego węzła)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Reduce storage requirements by pruning (deleting) old blocks. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
-        <translation>Zredukuj wymaganą ilość miejsca na dysku poprzez usuwanie starych bloków. Ten tryb jest niekompatybilny z -txindex oraz -rescan. Ostrzeżenie: Wycofanie tego ustawienia wymaga ponownego pobrania całego łańcucha bloków. (domyślnie: 0 = wyłącz usuwanie bloków, &gt;%u = docelowy rozmiar w MiB jaki wykorzystać na pliki z blokami)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
         <translation>Ponowne skanowanie nie jest możliwe w trybie przycinania. Będzie trzeba użyć -reindex, co pobierze ponownie cały łańcuch bloków.</translation>
     </message>
@@ -2674,27 +2487,12 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
         <translation>Uruchomienie serwera HTTP nie powiodło się. Zobacz dziennik debugowania, aby uzyskać więcej szczegółów.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Akceptuj połączenia z zewnątrz (domyślnie: 1 jeśli nie ustawiono -proxy lub -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Rdzeń Litecoina</translation>
     </message>
     <message>
         <source>The %s developers</source>
         <translation>Deweloperzy %s</translation>
-    </message>
-    <message>
-        <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
-        <translation>Stawka prowizji (w %s/kB), która będzie użyta, gdy oszacowane dane o prowizjach nie będą wystarczające (domyślnie: %s)</translation>
-    </message>
-    <message>
-        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</translation>
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
@@ -2767,13 +2565,6 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
         <translation>Nie można rozpoznać -%s adresu: '%s'</translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Łącz się tylko do wskazanego węzła/węzłów</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Connection options:</source>
@@ -3126,13 +2917,6 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
         <translation>Port kontrolny sieci Tor jeśli onion listening jest włączone (domyślnie: %s)</translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Transaction amount too small</source>
-        <translation>Zbyt niska kwota transakcji </translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Transaction amount too small</source>

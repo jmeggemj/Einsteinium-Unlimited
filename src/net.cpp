@@ -59,22 +59,6 @@
 #endif
 #endif
 
-<<<<<<< HEAD
-
-namespace {
-    const int MAX_OUTBOUND_CONNECTIONS = 8;
-    const int MAX_FEELER_CONNECTIONS = 1;
-
-    struct ListenSocket {
-        SOCKET socket;
-        bool whitelisted;
-
-        ListenSocket(SOCKET socket, bool whitelisted) : socket(socket), whitelisted(whitelisted) {}
-    };
-}
-
-=======
->>>>>>> pr/4
 const static std::string NET_MESSAGE_COMMAND_OTHER = "*other*";
 
 static const uint64_t RANDOMIZER_ID_NETGROUP = 0x6c0edd8036ef4036ULL; // SHA256("netgroup")[0:8]
@@ -449,35 +433,7 @@ void CNode::CloseSocketDisconnect()
     }
 }
 
-<<<<<<< HEAD
-void CNode::PushVersion()
-{
-    int nBestHeight = GetNodeSignals().GetHeight().get_value_or(0);
-
-    int64_t nTime = (fInbound ? GetAdjustedTime() : GetTime());
-    CAddress addrYou = (addr.IsRoutable() && !IsProxy(addr) ? addr : CAddress(CService("0.0.0.0", 0), addr.nServices));
-    CAddress addrMe = CAddress(CService(), nLocalServices);
-    GetRandBytes((unsigned char*)&nLocalHostNonce, sizeof(nLocalHostNonce));
-    if (fLogIPs)
-        LogPrint("net", "send version message: version %d, blocks=%d, us=%s, them=%s, peer=%d\n", PROTOCOL_VERSION, nBestHeight, addrMe.ToString(), addrYou.ToString(), id);
-    else
-        LogPrint("net", "send version message: version %d, blocks=%d, us=%s, peer=%d\n", PROTOCOL_VERSION, nBestHeight, addrMe.ToString(), id);
-    PushMessage(NetMsgType::VERSION, PROTOCOL_VERSION, (uint64_t)nLocalServices, nTime, addrYou, addrMe,
-                nLocalHostNonce, strSubVersion, nBestHeight, ::fRelayTxes);
-}
-
-
-
-
-
-banmap_t CNode::setBanned;
-CCriticalSection CNode::cs_setBanned;
-bool CNode::setBannedIsDirty;
-
-void CNode::ClearBanned()
-=======
 void CConnman::ClearBanned()
->>>>>>> pr/4
 {
     {
         LOCK(cs_setBanned);
@@ -1071,11 +1027,7 @@ void CConnman::AcceptConnection(const ListenSocket& hListenSocket) {
     SOCKET hSocket = accept(hListenSocket.socket, (struct sockaddr*)&sockaddr, &len);
     CAddress addr;
     int nInbound = 0;
-<<<<<<< HEAD
-    int nMaxInbound = nMaxConnections - (MAX_OUTBOUND_CONNECTIONS + MAX_FEELER_CONNECTIONS);
-=======
     int nMaxInbound = nMaxConnections - (nMaxOutbound + nMaxFeeler);
->>>>>>> pr/4
 
     if (hSocket != INVALID_SOCKET)
         if (!addr.SetSockAddr((const struct sockaddr*)&sockaddr))
@@ -1739,11 +1691,7 @@ void CConnman::ThreadOpenConnections()
 
     // Minimum time before next feeler connection (in microseconds).
     int64_t nNextFeeler = PoissonNextSend(nStart*1000*1000, FEELER_INTERVAL);
-<<<<<<< HEAD
-    while (true)
-=======
     while (!interruptNet)
->>>>>>> pr/4
     {
         ProcessOneShot();
 
@@ -1809,11 +1757,7 @@ void CConnman::ThreadOpenConnections()
         //  * Only make a feeler connection once every few minutes.
         //
         bool fFeeler = false;
-<<<<<<< HEAD
-        if (nOutbound >= MAX_OUTBOUND_CONNECTIONS) {
-=======
         if (nOutbound >= nMaxOutbound) {
->>>>>>> pr/4
             int64_t nTime = GetTimeMicros(); // The current time right now (in microseconds).
             if (nTime > nNextFeeler) {
                 nNextFeeler = PoissonNextSend(nTime, FEELER_INTERVAL);
@@ -1852,16 +1796,12 @@ void CConnman::ThreadOpenConnections()
                 continue;
 
             // only consider nodes missing relevant services after 40 failed attempts and only if less than half the outbound are up.
-<<<<<<< HEAD
-            if ((addr.nServices & nRelevantServices) != nRelevantServices && (nTries < 40 || nOutbound >= (MAX_OUTBOUND_CONNECTIONS >> 1)))
-=======
             ServiceFlags nRequiredServices = nRelevantServices;
             if (nTries >= 40 && nOutbound < (nMaxOutbound >> 1)) {
                 nRequiredServices = REQUIRED_SERVICES;
             }
 
             if ((addr.nServices & nRequiredServices) != nRequiredServices) {
->>>>>>> pr/4
                 continue;
             }
 
@@ -1885,12 +1825,8 @@ void CConnman::ThreadOpenConnections()
             if (fFeeler) {
                 // Add small amount of random noise before connection to avoid synchronization.
                 int randsleep = GetRandInt(FEELER_SLEEP_WINDOW * 1000);
-<<<<<<< HEAD
-                MilliSleep(randsleep);
-=======
                 if (!interruptNet.sleep_for(std::chrono::milliseconds(randsleep)))
                     return;
->>>>>>> pr/4
                 LogPrint("net", "Making feeler connection to %s\n", addrConnect.ToString());
             }
 
@@ -1988,11 +1924,7 @@ void CConnman::ThreadOpenAddedConnections()
 }
 
 // if successful, this moves the passed grant to the constructed node
-<<<<<<< HEAD
-bool OpenNetworkConnection(const CAddress& addrConnect, bool fCountFailure, CSemaphoreGrant *grantOutbound, const char *pszDest, bool fOneShot, bool fFeeler)
-=======
 bool CConnman::OpenNetworkConnection(const CAddress& addrConnect, bool fCountFailure, CSemaphoreGrant *grantOutbound, const char *pszDest, bool fOneShot, bool fFeeler, bool fAddnode)
->>>>>>> pr/4
 {
     //
     // Initiate outbound network connection
@@ -2021,8 +1953,6 @@ bool CConnman::OpenNetworkConnection(const CAddress& addrConnect, bool fCountFai
         pnode->fOneShot = true;
     if (fFeeler)
         pnode->fFeeler = true;
-<<<<<<< HEAD
-=======
     if (fAddnode)
         pnode->fAddnode = true;
 
@@ -2031,7 +1961,6 @@ bool CConnman::OpenNetworkConnection(const CAddress& addrConnect, bool fCountFai
         LOCK(cs_vNodes);
         vNodes.push_back(pnode);
     }
->>>>>>> pr/4
 
     return true;
 }
@@ -2345,16 +2274,11 @@ bool CConnman::Start(CScheduler& scheduler, std::string& strNodeError, Options c
 
     if (semOutbound == NULL) {
         // initialize semaphore
-<<<<<<< HEAD
-        int nMaxOutbound = std::min((MAX_OUTBOUND_CONNECTIONS + MAX_FEELER_CONNECTIONS), nMaxConnections);
-        semOutbound = new CSemaphore(nMaxOutbound);
-=======
         semOutbound = new CSemaphore(std::min((nMaxOutbound + nMaxFeeler), nMaxConnections));
     }
     if (semAddnode == NULL) {
         // initialize semaphore
         semAddnode = new CSemaphore(nMaxAddnode);
->>>>>>> pr/4
     }
 
     //
@@ -2388,26 +2312,7 @@ bool CConnman::Start(CScheduler& scheduler, std::string& strNodeError, Options c
     threadMessageHandler = std::thread(&TraceThread<std::function<void()> >, "msghand", std::function<void()>(std::bind(&CConnman::ThreadMessageHandler, this)));
 
     // Dump network addresses
-<<<<<<< HEAD
-    scheduler.scheduleEvery(&DumpData, DUMP_ADDRESSES_INTERVAL);
-}
-
-bool StopNode()
-{
-    LogPrintf("StopNode()\n");
-    MapPort(false);
-    if (semOutbound)
-        for (int i=0; i<(MAX_OUTBOUND_CONNECTIONS + MAX_FEELER_CONNECTIONS); i++)
-            semOutbound->post();
-
-    if (fAddressesInitialized)
-    {
-        DumpData();
-        fAddressesInitialized = false;
-    }
-=======
     scheduler.scheduleEvery(boost::bind(&CConnman::DumpData, this), DUMP_ADDRESSES_INTERVAL);
->>>>>>> pr/4
 
     return true;
 }
@@ -2767,11 +2672,6 @@ CNode::CNode(NodeId idIn, ServiceFlags nLocalServicesIn, int nMyStartingHeightIn
     fAddnode = false;
     fClient = false; // set by version message
     fFeeler = false;
-<<<<<<< HEAD
-    fInbound = fInboundIn;
-    fNetworkNode = false;
-=======
->>>>>>> pr/4
     fSuccessfullyConnected = false;
     fDisconnect = false;
     nRefCount = 0;

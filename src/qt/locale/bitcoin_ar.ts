@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;أمسح</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>اختر العنوان الذي سترسل له العملات</translation>
@@ -119,7 +113,6 @@
         <translation>(لا وصف)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -138,9 +131,6 @@
         <source>Repeat new passphrase</source>
         <translation>ادخل كلمة المرور الجديدة مرة أخرى</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>أدخل عبارة مرور جديدة إلى المحفظة. الرجاء استخدام عبارة مرور تتكون من10 حروف عشوائية على الاقل, أو أكثر من 7 كلمات</translation>
@@ -226,7 +216,6 @@
         <translation>تحذير: مفتاح الحروف الكبيرة مفعل</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>BanTableModel</name>
     <message>
@@ -330,11 +319,7 @@
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
-<<<<<<< HEAD
-        <translation>ارسل عملات الى عنوان بيتكوين</translation>
-=======
         <translation>ارسل عملات الى عنوان Litecoin</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,11 +343,7 @@
     </message>
     <message>
         <source>Litecoin</source>
-<<<<<<< HEAD
-        <translation>Litecoin</translation>
-=======
         <translation>بت كوين</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Wallet</source>
@@ -647,7 +628,7 @@
         <source>(change)</source>
         <translation>(تغير)</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -670,9 +651,6 @@
         <source>&amp;Address</source>
         <translation>&amp;العنوان</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>New receiving address</source>
         <translation>عنوان أستلام جديد</translation>
@@ -706,7 +684,6 @@
         <translation>فشل توليد مفتاح جديد.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -837,15 +814,11 @@
         <source>Select payment request file</source>
         <translation>حدد ملف طلب الدفع</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Select payment request file to open</source>
         <translation>حدد ملف طلب الدفع لفتحه</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -970,13 +943,10 @@
     </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Bad response from server %1</source>
         <translation>استجابة سيئة من الملقم %1</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>PeerTableModel</name>
@@ -1005,11 +975,6 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
-    <name>QRImageWidget</name>
-    </context>
-<context>
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
@@ -1032,7 +997,6 @@
     </message>
 </context>
 <context>
->>>>>>> pr/4
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
@@ -1217,9 +1181,6 @@
         <source>Remove</source>
         <translation>ازل</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy label</source>
         <translation> انسخ التسمية</translation>
@@ -1233,7 +1194,6 @@
         <translation>نسخ الكمية</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -1252,11 +1212,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;حفظ الصورة</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-=======
     <message>
         <source>Payment information</source>
         <translation>معلومات الدفع</translation>
@@ -1304,7 +1259,6 @@
         <source>(no message)</source>
         <translation>( لا رسائل )</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1392,9 +1346,6 @@
         <source>S&amp;end</source>
         <translation>&amp;ارسال</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy quantity</source>
         <translation>نسخ الكمية </translation>
@@ -1444,7 +1395,6 @@
         <translation>(لا وصف)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1469,11 +1419,7 @@
     </message>
     <message>
         <source>The Litecoin address to send the payment to</source>
-<<<<<<< HEAD
-        <translation>عنوان الLitecoin المرسل اليه الدفع</translation>
-=======
         <translation>عنوان البت كوين المرسل اليه الدفع</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Alt+A</source>
@@ -1511,9 +1457,6 @@
         <translation>نعم</translation>
     </message>
 </context>
-<context>
-    <name>SendConfirmationDialog</name>
-    </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
@@ -1553,11 +1496,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Litecoin address</source>
-<<<<<<< HEAD
-        <translation>وقع الرسالة لتثبت انك تمتلك عنوان الLitecoin هذا</translation>
-=======
         <translation>وقع الرسالة لتثبت انك تمتلك عنوان البت كوين هذا</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1632,9 +1571,6 @@
     </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Open until %1</source>
         <translation>مفتوح حتى %1</translation>
@@ -1736,7 +1672,6 @@
         <translation>خاطئ</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>TransactionDescDialog</name>
     <message>
@@ -1746,12 +1681,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-    </context>
-=======
     <message>
         <source>Date</source>
         <translation>تاريخ</translation>
@@ -1956,7 +1885,6 @@
         <translation>الى</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>UnitDisplayStatusBarControl</name>
     </context>
@@ -1965,11 +1893,6 @@
     </context>
 <context>
     <name>WalletModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>WalletView</name>
-=======
     <message>
         <source>Send Coins</source>
         <translation>إرسال Coins</translation>
@@ -1997,7 +1920,6 @@
         <source>Backup Successful</source>
         <translation>نجاح  النسخ الاحتياطي</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -2014,13 +1936,8 @@
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Litecoin Core</source>
-        <translation>جوهر البيت كوين</translation>
-=======
         <source>The %s developers</source>
         <translation>%s المبرمجون</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Error: Disk space is low!</source>

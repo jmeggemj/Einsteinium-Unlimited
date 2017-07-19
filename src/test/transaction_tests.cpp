@@ -37,28 +37,6 @@ typedef std::vector<unsigned char> valtype;
 // In script_tests.cpp
 extern UniValue read_json(const std::string& jsondata);
 
-<<<<<<< HEAD
-static std::map<string, unsigned int> mapFlagNames = boost::assign::map_list_of
-    (string("NONE"), (unsigned int)SCRIPT_VERIFY_NONE)
-    (string("P2SH"), (unsigned int)SCRIPT_VERIFY_P2SH)
-    (string("STRICTENC"), (unsigned int)SCRIPT_VERIFY_STRICTENC)
-    (string("DERSIG"), (unsigned int)SCRIPT_VERIFY_DERSIG)
-    (string("LOW_S"), (unsigned int)SCRIPT_VERIFY_LOW_S)
-    (string("SIGPUSHONLY"), (unsigned int)SCRIPT_VERIFY_SIGPUSHONLY)
-    (string("MINIMALDATA"), (unsigned int)SCRIPT_VERIFY_MINIMALDATA)
-    (string("NULLDUMMY"), (unsigned int)SCRIPT_VERIFY_NULLDUMMY)
-    (string("DISCOURAGE_UPGRADABLE_NOPS"), (unsigned int)SCRIPT_VERIFY_DISCOURAGE_UPGRADABLE_NOPS)
-    (string("CLEANSTACK"), (unsigned int)SCRIPT_VERIFY_CLEANSTACK)
-    (string("MINIMALIF"), (unsigned int)SCRIPT_VERIFY_MINIMALIF)
-    (string("NULLFAIL"), (unsigned int)SCRIPT_VERIFY_NULLFAIL)
-    (string("CHECKLOCKTIMEVERIFY"), (unsigned int)SCRIPT_VERIFY_CHECKLOCKTIMEVERIFY)
-    (string("CHECKSEQUENCEVERIFY"), (unsigned int)SCRIPT_VERIFY_CHECKSEQUENCEVERIFY)
-    (string("WITNESS"), (unsigned int)SCRIPT_VERIFY_WITNESS)
-    (string("DISCOURAGE_UPGRADABLE_WITNESS_PROGRAM"), (unsigned int)SCRIPT_VERIFY_DISCOURAGE_UPGRADABLE_WITNESS_PROGRAM)
-    (string("WITNESS_PUBKEYTYPE"), (unsigned int)SCRIPT_VERIFY_WITNESS_PUBKEYTYPE);
-
-unsigned int ParseScriptFlags(string strFlags)
-=======
 static std::map<std::string, unsigned int> mapFlagNames = boost::assign::map_list_of
     (std::string("NONE"), (unsigned int)SCRIPT_VERIFY_NONE)
     (std::string("P2SH"), (unsigned int)SCRIPT_VERIFY_P2SH)
@@ -79,7 +57,6 @@ static std::map<std::string, unsigned int> mapFlagNames = boost::assign::map_lis
     (std::string("WITNESS_PUBKEYTYPE"), (unsigned int)SCRIPT_VERIFY_WITNESS_PUBKEYTYPE);
 
 unsigned int ParseScriptFlags(std::string strFlags)
->>>>>>> pr/4
 {
     if (strFlags.empty()) {
         return 0;
@@ -446,11 +423,7 @@ BOOST_AUTO_TEST_CASE(test_big_witness_transaction) {
     CKeyID hash = key.GetPubKey().GetID();
     CScript scriptPubKey = CScript() << OP_0 << std::vector<unsigned char>(hash.begin(), hash.end());
 
-<<<<<<< HEAD
-    vector<int> sigHashes;
-=======
     std::vector<int> sigHashes;
->>>>>>> pr/4
     sigHashes.push_back(SIGHASH_NONE | SIGHASH_ANYONECANPAY);
     sigHashes.push_back(SIGHASH_SINGLE | SIGHASH_ANYONECANPAY);
     sigHashes.push_back(SIGHASH_ALL | SIGHASH_ANYONECANPAY);
@@ -480,17 +453,10 @@ BOOST_AUTO_TEST_CASE(test_big_witness_transaction) {
         assert(hashSigned);
     }
 
-<<<<<<< HEAD
-    CTransaction tx;
-    CDataStream ssout(SER_NETWORK, PROTOCOL_VERSION);
-    WithOrVersion(&ssout, 0) << mtx;
-    WithOrVersion(&ssout, 0) >> tx;
-=======
     CDataStream ssout(SER_NETWORK, PROTOCOL_VERSION);
     auto vstream = WithOrVersion(&ssout, 0);
     vstream << mtx;
     CTransaction tx(deserialize, vstream);
->>>>>>> pr/4
 
     // check all inputs concurrently, with the cache
     PrecomputedTransactionData txdata(tx);
@@ -724,11 +690,7 @@ BOOST_AUTO_TEST_CASE(test_IsStandard)
     BOOST_CHECK(IsStandardTx(t, reason));
 
     // Check dust with default relay fee:
-<<<<<<< HEAD
-    CAmount nDustThreshold = 182 * minRelayTxFee.GetFeePerK()/1000 * 3;
-=======
     CAmount nDustThreshold = 182 * dustRelayFee.GetFeePerK()/1000 * 3;
->>>>>>> pr/4
     BOOST_CHECK_EQUAL(nDustThreshold, 54600);
     // dust:
     t.vout[0].nValue = nDustThreshold - 1;

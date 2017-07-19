@@ -517,14 +517,10 @@ void BitcoinGUI::setClientModel(ClientModel *_clientModel)
         // Propagate cleared model to child objects
         rpcConsole->setClientModel(nullptr);
 #ifdef ENABLE_WALLET
-<<<<<<< HEAD
-        walletFrame->setClientModel(nullptr);
-=======
         if (walletFrame)
         {
             walletFrame->setClientModel(nullptr);
         }
->>>>>>> pr/4
 #endif // ENABLE_WALLET
         unitDisplayControl->setOptionsModel(nullptr);
     }
@@ -728,10 +724,6 @@ void BitcoinGUI::updateNetworkState()
     case 7: case 8: case 9: icon = ":/icons/connect_3"; break;
     default: icon = ":/icons/connect_4"; break;
     }
-<<<<<<< HEAD
-    labelConnectionsIcon->setPixmap(platformStyle->SingleColorIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Litecoin network", "", count));
-=======
 
     QString tooltip;
 
@@ -766,7 +758,6 @@ void BitcoinGUI::updateHeadersSyncProgressLabel()
     int estHeadersLeft = (GetTime() - headersTipTime) / Params().GetConsensus().nPowTargetSpacing;
     if (estHeadersLeft > HEADER_HEIGHT_DELTA_SYNC)
         progressBarLabel->setText(tr("Syncing Headers (%1%)...").arg(QString::number(100.0 / (headersTipHeight+estHeadersLeft)*headersTipHeight, 'f', 1)));
->>>>>>> pr/4
 }
 
 void BitcoinGUI::setNumBlocks(int count, const QDateTime& blockDate, double nVerificationProgress, bool header)

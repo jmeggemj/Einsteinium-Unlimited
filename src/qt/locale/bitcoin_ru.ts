@@ -63,11 +63,7 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-<<<<<<< HEAD
-        <translation>Это ваши адреса Litecoin для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
-=======
         <translation>Это ваши адреса Litecoin для отправки платежей. Всегда проверяйте сумму и адрес получателя перед отправкой перевода.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -706,150 +702,6 @@
         <source>(change)</source>
         <translation>(сдача)</translation>
     </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Копировать адрес</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Копировать метку</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Копировать сумму</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Копировать ID транзакции</translation>
-    </message>
-    <message>
-        <source>Lock unspent</source>
-        <translation>Заблокировать непотраченное</translation>
-    </message>
-    <message>
-        <source>Unlock unspent</source>
-        <translation>Разблокировать непотраченное</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Копировать количество</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Копировать комиссию</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Копировать после комиссии</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Копировать байты</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Копировать приоритет</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Копировать пыль</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Копировать сдачу</translation>
-    </message>
-    <message>
-        <source>highest</source>
-        <translation>самый высокий</translation>
-    </message>
-    <message>
-        <source>higher</source>
-        <translation>выше</translation>
-    </message>
-    <message>
-        <source>high</source>
-        <translation>высокий</translation>
-    </message>
-    <message>
-        <source>medium-high</source>
-        <translation>выше среднего</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>средний</translation>
-    </message>
-    <message>
-        <source>low-medium</source>
-        <translation>ниже среднего</translation>
-    </message>
-    <message>
-        <source>low</source>
-        <translation>низкий</translation>
-    </message>
-    <message>
-        <source>lower</source>
-        <translation>ниже</translation>
-    </message>
-    <message>
-        <source>lowest</source>
-        <translation>самый низкий</translation>
-    </message>
-    <message>
-        <source>(%1 locked)</source>
-        <translation>(%1 заблокировано)</translation>
-    </message>
-    <message>
-        <source>none</source>
-        <translation>ничего</translation>
-    </message>
-    <message>
-        <source>yes</source>
-        <translation>да</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>нет</translation>
-    </message>
-    <message>
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>Эта метка станет красной, если размер транзакции будет больше 1000 байт.</translation>
-    </message>
-    <message>
-        <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Это значит, что требуется комиссия как минимум %1 на КБ.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- 1 byte per input.</source>
-        <translation>Может отличаться на +/- 1 байт на вход.</translation>
-    </message>
-    <message>
-        <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Транзакции с более высоким приоритетом будут вероятнее других включены в блок.</translation>
-    </message>
-    <message>
-        <source>This label turns red if the priority is smaller than "medium".</source>
-        <translation>Эта метка станет красной, если приоритет будет ниже "среднего".</translation>
-    </message>
-    <message>
-        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Эта метка станет красной, если любой получатель получит сумму меньше, чем текущий порог пыли.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Может отличаться на +/- %1 сатоши на вход.</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(нет метки)</translation>
-    </message>
-    <message>
-        <source>change from %1 (%2)</source>
-        <translation>сдача с %1 (%2)</translation>
-    </message>
-    <message>
-        <source>(change)</source>
-        <translation>(сдача)</translation>
-    </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
@@ -1413,7 +1265,6 @@
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
     <message>
         <source>Payment request error</source>
         <translation>Ошибка запроса платежа</translation>
@@ -1462,129 +1313,6 @@
         <source>Payment request is not initialized.</source>
         <translation>Запрос платежа не инициализирован.</translation>
     </message>
-    <message>
-        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Непроверенные запросы платежей с нестандартными платёжными сценариями не поддерживаются.</translation>
-    </message>
-    <message>
-        <source>Invalid payment request.</source>
-        <translation>Неверный запрос платежа.</translation>
-    </message>
-    <message>
-        <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Запрошенная сумма платежа %1 слишком мала (считается пылью).</translation>
-    </message>
-    <message>
-        <source>Refund from %1</source>
-        <translation>Возврат от %1</translation>
-    </message>
-    <message>
-        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Запрос платежа %1 слишком большой (%2 байтов, разрешено %3 байтов).</translation>
-    </message>
-    <message>
-        <source>Error communicating with %1: %2</source>
-        <translation>Ошибка связи с %1: %2</translation>
-    </message>
-    <message>
-        <source>Payment request cannot be parsed!</source>
-        <translation>Запрос платежа не может быть разобран!</translation>
-    </message>
-    <message>
-        <source>Bad response from server %1</source>
-        <translation>Плохой ответ сервера %1</translation>
-    </message>
-    <message>
-        <source>Network request error</source>
-        <translation>Ошибка сетевого запроса</translation>
-    </message>
-    <message>
-        <source>Payment acknowledged</source>
-        <translation>Платёж принят</translation>
-    </message>
-</context>
-<context>
-    <name>PeerTableModel</name>
-=======
->>>>>>> pr/4
-    <message>
-        <source>Payment request error</source>
-        <translation>Ошибка запроса платежа</translation>
-    </message>
-    <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Не удаётся запустить litecoin: обработчик click-to-pay</translation>
-    </message>
-    <message>
-        <source>URI handling</source>
-        <translation>Обработка URI</translation>
-    </message>
-    <message>
-        <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Неверный URL запроса платежа: %1</translation>
-    </message>
-    <message>
-<<<<<<< HEAD
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Введите адрес Litecoin (например, %1)</translation>
-=======
-        <source>Invalid payment address %1</source>
-        <translation>Неверный адрес платежа %1</translation>
->>>>>>> pr/4
-    </message>
-    <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Litecoin или неправильными параметрами URI.</translation>
-    </message>
-    <message>
-        <source>Payment request file handling</source>
-        <translation>Обработка файла запроса платежа</translation>
-    </message>
-    <message>
-        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Файл запроса платежа не может быть прочитан! Обычно это происходит из-за неверного файла запроса платежа.</translation>
-    </message>
-    <message>
-        <source>Payment request rejected</source>
-        <translation>Запрос платежа отклонён</translation>
-    </message>
-    <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>Сеть запроса платежа не совпадает с сетью клиента.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Запрос платежа просрочен.</translation>
-    </message>
-    <message>
-        <source>Payment request is not initialized.</source>
-        <translation>Запрос платежа не инициализирован.</translation>
-    </message>
-<<<<<<< HEAD
-</context>
-<context>
-    <name>QRImageWidget</name>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Сохранить изображение...</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Image</source>
-        <translation>Копировать &amp;изображение</translation>
-    </message>
-    <message>
-        <source>Save QR Code</source>
-        <translation>Сохранить QR-код</translation>
-    </message>
-    <message>
-        <source>PNG Image (*.png)</source>
-        <translation>Изображение PNG (*.png)</translation>
-    </message>
-</context>
-<context>
-    <name>RPCConsole</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Непроверенные запросы платежей с нестандартными платёжными сценариями не поддерживаются.</translation>
@@ -2124,13 +1852,10 @@
         <translation>Удалить</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Copy URI</source>
         <translation>Копировать URI</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Copy label</source>
         <translation>Копировать метку</translation>
     </message>
@@ -2161,79 +1886,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Сохранить изображение...</translation>
     </message>
-<<<<<<< HEAD
-=======
-    <message>
-        <source>Request payment to %1</source>
-        <translation>Запросить платёж на %1</translation>
-    </message>
-    <message>
-        <source>Payment information</source>
-        <translation>Информация платежа</translation>
-    </message>
-    <message>
-        <source>URI</source>
-        <translation>URI</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Адрес</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Сумма</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Метка</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Сообщение</translation>
-    </message>
-    <message>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Получившийся URI слишком длинный, попробуйте сократить текст метки / сообщения.</translation>
-    </message>
-    <message>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>Ошибка кодирования URI в QR-код</translation>
-    </message>
-</context>
-<context>
-    <name>RecentRequestsTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Дата</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Метка</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Сообщение</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(нет метки)</translation>
-    </message>
-    <message>
-        <source>(no message)</source>
-        <translation>(нет сообщения)</translation>
-    </message>
-    <message>
-        <source>(no amount requested)</source>
-        <translation>(нет запрошенной суммы)</translation>
-    </message>
-    <message>
-        <source>Requested</source>
-        <translation>Запрошено</translation>
-    </message>
-</context>
-<context>
-    <name>SendCoinsDialog</name>
->>>>>>> pr/4
     <message>
         <source>Request payment to %1</source>
         <translation>Запросить платёж на %1</translation>
@@ -3044,13 +2696,8 @@
         <translation>Заброшено</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>Уплата минимальной комиссии — не проблема, пока объём транзакций меньше, чем свободное место в блоках. Учтите, однако, что такая транзакция может никогда не подтвердиться, если спрос на транзакции превышает возможности сети по их обработке.</translation>
-=======
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>Подтверждается (%1 из %2 рекомендуемых подтверждений)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -3112,120 +2759,6 @@
         <source>Date and time that the transaction was received.</source>
         <translation>Дата и время получения транзакции.</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Copy quantity</source>
-        <translation>Копировать количество</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Копировать сумму</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Копировать комиссию</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Копировать после комиссии</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Копировать байты</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Копировать приоритет</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Копировать пыль</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Копировать сдачу</translation>
-    </message>
-    <message>
-        <source>%1 to %2</source>
-        <translation>С %1 на %2</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to send?</source>
-        <translation>Вы уверены, что хотите отправить?</translation>
-    </message>
-    <message>
-        <source>added as transaction fee</source>
-        <translation>добавлено как комиссия</translation>
-    </message>
-    <message>
-        <source>Total Amount %1</source>
-        <translation>Общая сумма %1</translation>
-    </message>
-    <message>
-        <source>or</source>
-        <translation>или</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Подтвердите отправку монет</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Адрес получателя неверный. Пожалуйста, перепроверьте.</translation>
-    </message>
-    <message>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>Сумма для отправки должна быть больше 0.</translation>
-    </message>
-    <message>
-        <source>The amount exceeds your balance.</source>
-        <translation>Сумма превышает ваш баланс.</translation>
-    </message>
-    <message>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Сумма с учётом комиссии %1 превысит ваш баланс.</translation>
-    </message>
-    <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Обнаружен дублирующийся адрес: используйте каждый адрес только один раз.</translation>
-    </message>
-    <message>
-        <source>Transaction creation failed!</source>
-        <translation>Не удалось создать транзакцию!</translation>
-    </message>
-    <message>
-        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Транзакция была отклонена! Такое может произойти, если некоторые монеты уже были потрачены, например, если Вы используете одну копию wallet.dat, а монеты были потрачены из другой копии, но не были отмечены как потраченные в этой.</translation>
-    </message>
-    <message>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Комиссия больше чем %1 считается невероятно большой.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Запрос платежа просрочен.</translation>
-    </message>
-    <message>
-        <source>Pay only the required fee of %1</source>
-        <translation>Заплатить только обязательную комиссию %1</translation>
-    </message>
-    <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Внимание: неверный адрес Litecoin</translation>
-    </message>
-    <message>
-        <source>Warning: Unknown change address</source>
-        <translation>Внимание: неизвестный адрес для сдачи</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(нет метки)</translation>
-    </message>
-</context>
-<context>
-    <name>SendCoinsEntry</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Type of transaction.</source>
         <translation>Тип транзакции.</translation>
@@ -3250,13 +2783,8 @@
         <translation>Все</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address to send the payment to</source>
-        <translation>Адрес Litecoin, на который отправить платёж</translation>
-=======
         <source>Today</source>
         <translation>Сегодня</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>This week</source>
@@ -3275,13 +2803,8 @@
         <translation>В этом году</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>С отправляемой суммы будет удержана комиссия. Получателю придёт меньше биткоинов, чем вы вводите в поле количества. Если выбрано несколько получателей, комиссия распределяется поровну.</translation>
-=======
         <source>Range...</source>
         <translation>Диапазон...</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Received with</source>
@@ -3304,13 +2827,8 @@
         <translation>Другое</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>К litecoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Litecoin.</translation>
-=======
         <source>Enter address or label to search</source>
         <translation>Введите адрес или метку для поиска</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Min amount</source>
@@ -3320,23 +2838,6 @@
         <source>Abandon transaction</source>
         <translation>Отказаться от транзакции</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Введите метку для данного адреса, чтобы добавить его в адресную книгу</translation>
-    </message>
-</context>
-<context>
-    <name>SendConfirmationDialog</name>
-    <message>
-        <source>Yes</source>
-        <translation>Да</translation>
-    </message>
-</context>
-<context>
-    <name>ShutdownWindow</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Copy address</source>
         <translation>Копировать адрес</translation>
@@ -3354,21 +2855,12 @@
         <translation>Копировать ID транзакции</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Вы можете подписывать сообщения/соглашения своими адресами, чтобы доказать свою возможность получать биткоины на них. Будьте осторожны, не подписывайте что-то неопределённое или случайное, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
-    </message>
-    <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>Адрес Litecoin, которым подписать сообщение</translation>
-=======
         <source>Copy raw transaction</source>
         <translation>Копировать исходный код транзакции</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
         <translation>Копировать все подробности транзакции</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Edit label</source>
@@ -3399,13 +2891,8 @@
         <translation>Дата</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Litecoin</translation>
-=======
         <source>Type</source>
         <translation>Тип</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Label</source>
@@ -3428,21 +2915,12 @@
         <translation>Произошла ошибка при сохранении истории транзакций в %1.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address the message was signed with</source>
-        <translation>Адрес Litecoin, которым было подписано сообщение</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Litecoin</translation>
-=======
         <source>Exporting Successful</source>
         <translation>Экспорт успешно завершён</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
         <translation>История транзакций была успешно сохранена в %1.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Range:</source>
@@ -3451,58 +2929,6 @@
     <message>
         <source>to</source>
         <translation>до</translation>
-    </message>
-    <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>Нажмите "Подписать сообщение" для создания подписи</translation>
-    </message>
-    <message>
-        <source>The entered address is invalid.</source>
-        <translation>Введённый адрес неверен.</translation>
-    </message>
-    <message>
-        <source>Please check the address and try again.</source>
-        <translation>Пожалуйста, проверьте адрес и попробуйте ещё раз.</translation>
-    </message>
-    <message>
-        <source>The entered address does not refer to a key.</source>
-        <translation>Введённый адрес не связан с ключом.</translation>
-    </message>
-    <message>
-        <source>Wallet unlock was cancelled.</source>
-        <translation>Разблокировка бумажника была отменена.</translation>
-    </message>
-    <message>
-        <source>Private key for the entered address is not available.</source>
-        <translation>Недоступен секретный ключ для введённого адреса.</translation>
-    </message>
-    <message>
-        <source>Message signing failed.</source>
-        <translation>Не удалось подписать сообщение.</translation>
-    </message>
-    <message>
-        <source>Message signed.</source>
-        <translation>Сообщение подписано.</translation>
-    </message>
-    <message>
-        <source>The signature could not be decoded.</source>
-        <translation>Подпись не может быть раскодирована.</translation>
-    </message>
-    <message>
-        <source>Please check the signature and try again.</source>
-        <translation>Пожалуйста, проверьте подпись и попробуйте ещё раз.</translation>
-    </message>
-    <message>
-        <source>The signature did not match the message digest.</source>
-        <translation>Подпись не соответствует отпечатку сообщения.</translation>
-    </message>
-    <message>
-        <source>Message verification failed.</source>
-        <translation>Сообщение не прошло проверку.</translation>
-    </message>
-    <message>
-        <source>Message verified.</source>
-        <translation>Сообщение проверено.</translation>
     </message>
 </context>
 <context>
@@ -3510,500 +2936,6 @@
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
         <translation>Единица измерения количества монет. Щёлкните для выбора другой единицы.</translation>
-    </message>
-</context>
-<context>
-    <name>WalletFrame</name>
-    <message>
-        <source>No wallet has been loaded.</source>
-        <translation>Не был загружен ни один бумажник.</translation>
-    </message>
-</context>
-<context>
-<<<<<<< HEAD
-    <name>TransactionDesc</name>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Открыто для ещё %n блока</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform></translation>
-    </message>
-    <message>
-        <source>Open until %1</source>
-        <translation>Открыто до %1</translation>
-    </message>
-    <message>
-        <source>conflicted with a transaction with %1 confirmations</source>
-        <translation>конфликт с транзакцией с %1 подтверждений</translation>
-    </message>
-    <message>
-        <source>%1/offline</source>
-        <translation>%1/отключен</translation>
-    </message>
-    <message>
-        <source>0/unconfirmed, %1</source>
-        <translation>0/не подтверждено, %1</translation>
-    </message>
-    <message>
-        <source>in memory pool</source>
-        <translation>В памяти</translation>
-    </message>
-    <message>
-        <source>not in memory pool</source>
-        <translation>Не в памяти</translation>
-    </message>
-    <message>
-        <source>abandoned</source>
-        <translation>заброшено</translation>
-    </message>
-    <message>
-        <source>%1/unconfirmed</source>
-        <translation>%1/не подтверждено</translation>
-    </message>
-    <message>
-        <source>%1 confirmations</source>
-        <translation>%1 подтверждений</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation>Статус</translation>
-    </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, ещё не было успешно разослано</translation>
-    </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, разослано через %n узел</numerusform><numerusform>, разослано через %n узла</numerusform><numerusform>, разослано через %n узлов</numerusform><numerusform>, разослано через %n узлов</numerusform></translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Дата</translation>
-    </message>
-    <message>
-        <source>Source</source>
-        <translation>Источник</translation>
-    </message>
-    <message>
-        <source>Generated</source>
-        <translation>Сгенерированно</translation>
-    </message>
-    <message>
-        <source>From</source>
-        <translation>От</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>неизвестно</translation>
-    </message>
-    <message>
-        <source>To</source>
-        <translation>Для</translation>
-    </message>
-    <message>
-        <source>own address</source>
-        <translation>свой адрес</translation>
-    </message>
-    <message>
-        <source>watch-only</source>
-        <translation>только наблюдение</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation>метка</translation>
-    </message>
-    <message>
-        <source>Credit</source>
-        <translation>Кредит</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>будет доступно через %n блок</numerusform><numerusform>будет доступно через %n блока</numerusform><numerusform>будет доступно через %n блоков</numerusform><numerusform>будет доступно через %n блоков</numerusform></translation>
-    </message>
-    <message>
-        <source>not accepted</source>
-        <translation>не принято</translation>
-    </message>
-    <message>
-        <source>Debit</source>
-        <translation>Дебет</translation>
-    </message>
-    <message>
-        <source>Total debit</source>
-        <translation>Всего дебет</translation>
-    </message>
-    <message>
-        <source>Total credit</source>
-        <translation>Всего кредит</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Комиссия</translation>
-    </message>
-    <message>
-        <source>Net amount</source>
-        <translation>Чистая сумма</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Сообщение</translation>
-    </message>
-    <message>
-        <source>Comment</source>
-        <translation>Комментарий</translation>
-    </message>
-    <message>
-        <source>Transaction ID</source>
-        <translation>ID транзакции</translation>
-    </message>
-    <message>
-        <source>Output index</source>
-        <translation>Номер выхода</translation>
-    </message>
-    <message>
-        <source>Merchant</source>
-        <translation>Продавец</translation>
-    </message>
-    <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Сгенерированные монеты должны подождать %1 блоков, прежде чем они могут быть потрачены. Когда вы сгенерировали этот блок, он был отправлен в сеть для добавления в цепочку блоков. Если он не попадёт в цепь, его статус изменится на "не принят", и монеты будут недействительны. Это иногда происходит в случае, если другой узел сгенерирует блок на несколько секунд раньше вас.</translation>
-    </message>
-    <message>
-        <source>Debug information</source>
-        <translation>Отладочная информация</translation>
-    </message>
-    <message>
-        <source>Transaction</source>
-        <translation>Транзакция</translation>
-    </message>
-    <message>
-        <source>Inputs</source>
-        <translation>Входы</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Сумма</translation>
-    </message>
-    <message>
-        <source>true</source>
-        <translation>истина</translation>
-    </message>
-    <message>
-        <source>false</source>
-        <translation>ложь</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionDescDialog</name>
-=======
-    <name>WalletModel</name>
->>>>>>> pr/4
-    <message>
-        <source>Send Coins</source>
-        <translation>Отправка</translation>
-    </message>
-    <message>
-        <source>Details for %1</source>
-        <translation>Подробности %1</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Дата</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Тип</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Метка</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Открыто для ещё %n блока</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform></translation>
-    </message>
-    <message>
-        <source>Open until %1</source>
-        <translation>Открыто до %1</translation>
-    </message>
-    <message>
-        <source>Offline</source>
-        <translation>Отключен</translation>
-    </message>
-    <message>
-        <source>Unconfirmed</source>
-        <translation>Не подтверждено</translation>
-    </message>
-    <message>
-        <source>Abandoned</source>
-        <translation>Заброшено</translation>
-    </message>
-    <message>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>Подтверждено (%1 подтверждений)</translation>
-    </message>
-    <message>
-        <source>Conflicted</source>
-        <translation>В противоречии</translation>
-    </message>
-    <message>
-        <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Незрелый (%1 подтверждений, будет доступно после %2)</translation>
-    </message>
-    <message>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Этот блок не был получен другими узлами и, возможно, не будет принят!</translation>
-    </message>
-    <message>
-        <source>Generated but not accepted</source>
-        <translation>Сгенерировано, но не принято</translation>
-    </message>
-    <message>
-        <source>Received with</source>
-        <translation>Получено на</translation>
-    </message>
-    <message>
-        <source>Received from</source>
-        <translation>Получено от</translation>
-    </message>
-    <message>
-        <source>Sent to</source>
-        <translation>Отправлено на</translation>
-    </message>
-    <message>
-        <source>Payment to yourself</source>
-        <translation>Отправлено себе</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Добыто</translation>
-    </message>
-    <message>
-        <source>watch-only</source>
-        <translation>только наблюдение</translation>
-    </message>
-    <message>
-        <source>(n/a)</source>
-        <translation>(недоступно)</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(нет метки)</translation>
-    </message>
-    <message>
-        <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Статус транзакции. Подведите курсор к этому полю, чтобы увидеть количество подтверждений.</translation>
-    </message>
-    <message>
-        <source>Date and time that the transaction was received.</source>
-        <translation>Дата и время получения транзакции.</translation>
-    </message>
-    <message>
-        <source>Type of transaction.</source>
-        <translation>Тип транзакции.</translation>
-    </message>
-    <message>
-        <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Использовался ли в транзакции адрес для наблюдения.</translation>
-    </message>
-    <message>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Определяемое пользователем намерение/цель транзакции.</translation>
-    </message>
-    <message>
-        <source>Amount removed from or added to balance.</source>
-        <translation>Снятая или добавленная к балансу сумма.</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionView</name>
-    <message>
-        <source>All</source>
-        <translation>Все</translation>
-    </message>
-    <message>
-        <source>Today</source>
-        <translation>Сегодня</translation>
-    </message>
-    <message>
-        <source>This week</source>
-        <translation>На этой неделе</translation>
-    </message>
-    <message>
-        <source>This month</source>
-        <translation>В этом месяце</translation>
-    </message>
-    <message>
-        <source>Last month</source>
-        <translation>В прошлом месяце</translation>
-    </message>
-    <message>
-        <source>This year</source>
-        <translation>В этом году</translation>
-    </message>
-    <message>
-        <source>Range...</source>
-        <translation>Диапазон...</translation>
-    </message>
-    <message>
-        <source>Received with</source>
-        <translation>Получено на</translation>
-    </message>
-    <message>
-        <source>Sent to</source>
-        <translation>Отправлено на</translation>
-    </message>
-    <message>
-        <source>To yourself</source>
-        <translation>Себе</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Добыто</translation>
-    </message>
-    <message>
-        <source>Other</source>
-        <translation>Другое</translation>
-    </message>
-    <message>
-        <source>Enter address or label to search</source>
-        <translation>Введите адрес или метку для поиска</translation>
-    </message>
-    <message>
-        <source>Min amount</source>
-        <translation>Мин. сумма</translation>
-    </message>
-    <message>
-        <source>Abandon transaction</source>
-        <translation>Отказаться от транзакции</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Копировать адрес</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Копировать метку</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Копировать сумму</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Копировать ID транзакции</translation>
-    </message>
-    <message>
-        <source>Copy raw transaction</source>
-        <translation>Копировать исходный код транзакции</translation>
-    </message>
-    <message>
-        <source>Copy full transaction details</source>
-        <translation>Копировать все подробности транзакции</translation>
-    </message>
-    <message>
-        <source>Edit label</source>
-        <translation>Изменить метку</translation>
-    </message>
-    <message>
-        <source>Show transaction details</source>
-        <translation>Показать подробности транзакции</translation>
-    </message>
-    <message>
-        <source>Export Transaction History</source>
-        <translation>Экспортировать историю транзакций</translation>
-    </message>
-    <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Текст, разделённый запятыми (*.csv)</translation>
-    </message>
-    <message>
-        <source>Confirmed</source>
-        <translation>Подтверждено</translation>
-    </message>
-    <message>
-        <source>Watch-only</source>
-        <translation>Для наблюдения</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Дата</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Тип</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Метка</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Адрес</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <translation>ID</translation>
-    </message>
-    <message>
-        <source>Exporting Failed</source>
-        <translation>Экспорт не удался</translation>
-    </message>
-    <message>
-        <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Произошла ошибка при сохранении истории транзакций в %1.</translation>
-    </message>
-    <message>
-        <source>Exporting Successful</source>
-        <translation>Экспорт успешно завершён</translation>
-    </message>
-    <message>
-        <source>The transaction history was successfully saved to %1.</source>
-        <translation>История транзакций была успешно сохранена в %1.</translation>
-    </message>
-    <message>
-        <source>Range:</source>
-        <translation>Диапазон:</translation>
-    </message>
-    <message>
-        <source>to</source>
-        <translation>до</translation>
-    </message>
-</context>
-<context>
-    <name>WalletView</name>
-    <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Экспорт</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Экспортировать данные текущей вкладки в файл</translation>
-    </message>
-    <message>
-        <source>Backup Wallet</source>
-        <translation>Резервная копия бумажника</translation>
-    </message>
-    <message>
-        <source>Wallet Data (*.dat)</source>
-        <translation>Данные бумажника (*.dat)</translation>
-    </message>
-    <message>
-        <source>Backup Failed</source>
-        <translation>Резервное копирование не удалось</translation>
-    </message>
-    <message>
-        <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Произошла ошибка при сохранении данных бумажника в %1.</translation>
-    </message>
-    <message>
-        <source>Backup Successful</source>
-        <translation>Резервное копирование успешно завершено</translation>
-    </message>
-    <message>
-        <source>The wallet data was successfully saved to %1.</source>
-        <translation>Данные бумажника были успешно сохранены в %1.</translation>
     </message>
 </context>
 <context>
@@ -4126,23 +3058,12 @@
         <translation>Невозможно запустить HTTP сервер. Смотри debug лог для подробностей.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Принимать подключения извне (по умолчанию: 1, если не используется -proxy или -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
         <translation>Разработчики %s</translation>
-    </message>
-    <message>
-        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Принимать транзакции пересылаемые от узлов из белого списка даже если они не удовлетворяют требованиям ретрансляции (по умолчанию: %d)</translation>
     </message>
     <message>
         <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
@@ -4165,14 +3086,6 @@
         <translation>Ошибка загрузки %s: Вы не можете включить HD в уже существующем не-HD кошельке</translation>
     </message>
     <message>
-        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
-        <translation>Эквивалентных байт на sigop в транзакциях для ретрансляции или добычи (по умолчанию: %u)</translation>
-    </message>
-    <message>
-        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>Ошибка загрузки %s: Вы не можете включить HD в уже существующем не-HD кошельке</translation>
-    </message>
-    <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Ошибка чтения %s! Все ключи прочитаны верно, но данные транзакций или записи адресной книги могут отсутствовать или быть неправильными.</translation>
     </message>
@@ -4181,8 +3094,6 @@
         <translation>Выполнить команду, когда меняется транзакция в бумажнике (%s в команде заменяется на TxID)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
         <translation>Хранить в памяти дополнительные транзакции для реконструкции компактных блоков (по умолчанию: %u)</translation>
     </message>
@@ -4191,7 +3102,6 @@
         <translation>Если этот блок в цепи, считать его и последующие блоки верными и потенциально пропускать проверку их скриптов (0 для проверки всех, по умолчанию: %s, тестовая сеть: %s)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
         <translation>Максимально допустимое среднее отклонение времени участников. Локальное представление времени может меняться вперед или назад на это количество. (по умолчанию: %u секунд)</translation>
     </message>
@@ -4208,8 +3118,6 @@
         <translation>Пожалуйста, внести свой вклад, если вы найдете %s полезными. Посетите  %s для получения дополнительной информации о программном обеспечении.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
         <translation>Уменьшить размер хранилища за счёт обрезания (удаления) старых блоков. Будет разрешён вызов RPC метода pruneblockchain для удаления определённых блоков и разрешено автоматическое обрезание старых блоков, если указан целевой размер в Мб. Этот режим несовместим с -txindex и -rescan. Внимание: переключение этой опции обратно потребует полной загрузки цепи блоков. (по умолчанию: 0 = отключить обрезание блоков, 1 = разрешить ручное обрезание через RPC, &gt;%u = автоматически обрезать файлы блоков, чтобы они были меньше указанного размера в Мб)</translation>
     </message>
@@ -4218,7 +3126,6 @@
         <translation>Задать минимальный курс комиссии (в %s/Кб) для  транзакцийб включаемых в создаваемый блок. (по умолчанию: %s)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>Задать число потоков проверки скрипта (от %u до %d, 0=авто, &lt;0 = оставить столько ядер свободными, по умолчанию: %d)</translation>
     </message>
@@ -4259,10 +3166,6 @@
         <translation>Вам необходимо пересобрать базы данных с помощью -reindex-chainstate, чтобы изменить -txindex</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>Вам необходимо пересобрать базы данных с помощью -reindex-chainstate, чтобы изменить -txindex</translation>
-    </message>
-    <message>
         <source>%s corrupt, salvage failed</source>
         <translation>%s поврежден, восстановить не удалось</translation>
     </message>
@@ -4291,21 +3194,12 @@
         <translation>Не удаётся разрешить адрес в параметре -%s: '%s'</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Change index out of range</source>
-        <translation>Изменение индекса вне диапазона</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Подключаться только к указанному узлу(ам)</translation>
-=======
         <source>Chain selection options:</source>
         <translation>Параметры выбора цепочки:</translation>
     </message>
     <message>
         <source>Change index out of range</source>
         <translation>Изменение индекса вне диапазона</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Connection options:</source>
@@ -4462,21 +3356,10 @@
     <message>
         <source>Rewinding blocks...</source>
         <translation>Перемотка блоков...</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
         <translation>Установить размер кэша БД в мегабайтах(от %d до %d, по умолчанию: %d)</translation>
-    </message>
-    <message>
-        <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>Задать максимальное BIP141 значение блока (по умолчанию: %d)</translation>
-=======
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Установить размер кэша БД в мегабайтах(от %d до %d, по умолчанию: %d)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
@@ -4485,10 +3368,6 @@
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Укажите файл бумажника (внутри каталога данных)</translation>
-    </message>
-    <message>
-        <source>Starting network threads...</source>
-        <translation>Запускаем сетевые потоки...</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
@@ -4579,10 +3458,6 @@
         <translation>Комиссии (в %s/Кб) меньшие этого значения считаются нулевыми для создания, ретрансляции, получения транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>Всегда ретранслировать транзакции, полученные из белого списка участников, даже если они нарушают локальную политику ретрансляции (по умолчанию: %d)</translation>
-    </message>
-    <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>Если paytxfee не задан, включить достаточную комиссию для подтверждения транзакции в среднем за n блоков (по умолчанию: %u)</translation>
     </message>
@@ -4605,10 +3480,6 @@
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>Сумма транзакции за вычетом комиссии слишком мала</translation>
-    </message>
-    <message>
-        <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
-        <translation>Использовать иерархическую детерминированную генерацию ключей (HD) после BIP32. Применяется в процессе создания бумажника / первого запуска</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
@@ -4853,13 +3724,6 @@
     <message>
         <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
         <translation>Не поддерживаемый аргумент -whitelistalwaysrelay игнорируется, используйте -whitelistrelay и/или -whitelistforcerelay.</translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Использовать отдельный прокси SOCKS5 для соединения с участниками через скрытые сервисы Tor (по умолчанию: %s)</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4950,13 +3814,10 @@
         <translation>Установить размер пула ключей в &lt;n&gt; (по умолчанию: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>Задать максимальное BIP141 значение блока (по умолчанию: %d)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Задать число потоков выполнения запросов RPC (по умолчанию: %d)</translation>
     </message>

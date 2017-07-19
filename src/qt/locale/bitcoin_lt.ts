@@ -320,13 +320,6 @@
         <source>Confirmed</source>
         <translation>Patvirtintas</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>Pirmumas</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -578,12 +571,9 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -948,13 +938,6 @@
     <message>
         <source>Litecoin Core</source>
         <translation>Litecoin branduolys</translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Prisijungti tik prie nurodyto mazgo</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Error opening block database</source>

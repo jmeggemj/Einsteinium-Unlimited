@@ -95,16 +95,6 @@ executables.
 
 The following extra files can be found in the download directory or torrent:
 
-<<<<<<< HEAD
-- `bitcoin-${VERSION}-arm-linux-gnueabihf.tar.gz`: Linux binaries for the most
-  common 32-bit ARM architecture.
-- `bitcoin-${VERSION}-aarch64-linux-gnu.tar.gz`: Linux binaries for the most
-  common 64-bit ARM architecture.
-
-ARM builds are still experimental. If you have problems on a certain device or
-Linux distribution combination please report them on the bug tracker, it may be
-possible to resolve them.
-=======
 - `bitcoin-${VERSION}-arm-linux-gnueabihf.tar.gz`: Linux binaries targeting
   the 32-bit ARMv7-A architecture.
 - `bitcoin-${VERSION}-aarch64-linux-gnu.tar.gz`: Linux binaries targeting
@@ -118,7 +108,6 @@ For example, a Raspberry Pi 2 Model B or Raspberry Pi 3 Model B (in its 32-bit
 execution state) device, can run the 32-bit ARMv7-A targeted binary. However,
 no model of Raspberry Pi 1 device can run either binary because they are all
 ARMv6 architecture devices that are not compatible with ARMv7-A or ARMv8-A.
->>>>>>> pr/4
 
 Note that Android is not considered ARM Linux in this context. The executables
 are not expected to work out of the box on Android.

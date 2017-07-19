@@ -432,17 +432,6 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n connexió activa a la xarxa Litecoin</numerusform><numerusform>%n connexions actives a la xarxa Litecoin</numerusform></translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>S'estan indexant els blocs al disc...</translation>
-    </message>
-    <message>
-        <source>Processing blocks on disk...</source>
-        <translation>S'estan processant els blocs al disc...</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -684,142 +673,6 @@
     <message>
         <source>no</source>
         <translation>no</translation>
-    </message>
-    <message>
-        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Aquesta etiqueta es torna vermella si cap recipient rep un import inferior al llindar de polsim actual.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Pot variar en +/- %1 satoshi(s) per entrada.</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(sense etiqueta)</translation>
-    </message>
-    <message>
-        <source>change from %1 (%2)</source>
-        <translation>canvia de %1 (%2)</translation>
-    </message>
-    <message>
-        <source>(change)</source>
-        <translation>(canvia)</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Copia l'adreça</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Copia l'etiqueta</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copia l'import</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Copia l'ID de transacció</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Copia la quantitat</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Copia la comissió</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Copia la comissió posterior</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Copia els bytes</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Copia la prioritat</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Copia el polsim</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Copia el canvi</translation>
-    </message>
-    <message>
-        <source>highest</source>
-        <translation>el més alt</translation>
-    </message>
-    <message>
-        <source>higher</source>
-        <translation>més alt</translation>
-    </message>
-    <message>
-        <source>high</source>
-        <translation>alt</translation>
-    </message>
-    <message>
-        <source>medium-high</source>
-        <translation>mig-alt</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>mig</translation>
-    </message>
-    <message>
-        <source>low-medium</source>
-        <translation>baix-mig</translation>
-    </message>
-    <message>
-        <source>low</source>
-        <translation>baix</translation>
-    </message>
-    <message>
-        <source>lower</source>
-        <translation>més baix</translation>
-    </message>
-    <message>
-        <source>lowest</source>
-        <translation>el més baix</translation>
-    </message>
-    <message>
-        <source>(%1 locked)</source>
-        <translation>(%1 bloquejada)</translation>
-    </message>
-    <message>
-        <source>none</source>
-        <translation>cap</translation>
-    </message>
-    <message>
-        <source>yes</source>
-        <translation>sí</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>no</translation>
-    </message>
-    <message>
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>Aquesta etiqueta es torna en vermell si la transacció és superior a 1000 bytes.</translation>
-    </message>
-    <message>
-        <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Això comporta que cal una comissió d'almenys %1 per kB.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- 1 byte per input.</source>
-        <translation>Pot variar +/- 1 byte per entrada.</translation>
-    </message>
-    <message>
-        <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Les transaccions amb una major prioritat són més propenses a ser incloses en un bloc.</translation>
-    </message>
-    <message>
-        <source>This label turns red if the priority is smaller than "medium".</source>
-        <translation>Aquesta etiqueta es torna en vermell si la propietat és inferior que la «mitjana».</translation>
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
@@ -1384,32 +1237,6 @@
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-    <message>
-        <source>Payment request error</source>
-        <translation>Error de la sol·licitud de pagament</translation>
-    </message>
-    <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>No es pot iniciar litecoin: controlador click-to-pay</translation>
-    </message>
-    <message>
-        <source>URI handling</source>
-        <translation>Gestió d'URI</translation>
-    </message>
-    <message>
-        <source>Network request error</source>
-        <translation>Error en la sol·licitud de xarxa</translation>
-    </message>
-    <message>
-        <source>Payment acknowledged</source>
-        <translation>Pagament reconegut</translation>
-    </message>
-</context>
-<context>
-    <name>PeerTableModel</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Payment request error</source>
         <translation>Error de la sol·licitud de pagament</translation>
@@ -1427,13 +1254,8 @@
         <translation>L'URL de recuperació de la sol·licitud de pagament no és vàlida: %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Introduïu una adreça de Litecoin (p. ex. %1)</translation>
-=======
         <source>Invalid payment address %1</source>
         <translation>Adreça de pagament no vàlida %1</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
@@ -1463,31 +1285,6 @@
         <source>Payment request is not initialized.</source>
         <translation>La sol·licitud de pagament no està inicialitzada.</translation>
     </message>
-<<<<<<< HEAD
-</context>
-<context>
-    <name>QRImageWidget</name>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>De&amp;sa la imatge...</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Image</source>
-        <translation>&amp;Copia la imatge</translation>
-    </message>
-    <message>
-        <source>Save QR Code</source>
-        <translation>Desa el codi QR</translation>
-    </message>
-    <message>
-        <source>PNG Image (*.png)</source>
-        <translation>Imatge PNG (*.png)</translation>
-    </message>
-</context>
-<context>
-    <name>RPCConsole</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>No s'accepten sol·licituds de pagament no verificades a scripts de pagament personalitzats.</translation>
@@ -2592,20 +2389,6 @@
         <source>label</source>
         <translation>etiqueta</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Copy label</source>
-        <translation>Copia l'etiqueta</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copia l'import</translation>
-    </message>
-</context>
-<context>
-    <name>ReceiveRequestDialog</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Credit</source>
         <translation>Crèdit</translation>
@@ -2622,71 +2405,6 @@
         <source>Total debit</source>
         <translation>Dèbit total</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Request payment to %1</source>
-        <translation>Sol·licita un pagament a %1</translation>
-    </message>
-    <message>
-        <source>Payment information</source>
-        <translation>Informació de pagament</translation>
-    </message>
-    <message>
-        <source>URI</source>
-        <translation>URI</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adreça</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Import</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Etiqueta</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Missatge</translation>
-    </message>
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Data</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Etiqueta</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Missatge</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(sense etiqueta)</translation>
-    </message>
-    <message>
-        <source>(no message)</source>
-        <translation>(sense missatge)</translation>
-    </message>
-    <message>
-        <source>(no amount requested)</source>
-        <translation>(no s'ha sol·licitat import)</translation>
-    </message>
-    <message>
-        <source>Requested</source>
-        <translation>Sol·licitat</translation>
-    </message>
-</context>
-<context>
-    <name>SendCoinsDialog</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Total credit</source>
         <translation>Crèdit total</translation>
@@ -2778,13 +2496,8 @@
         <translation>Sense confirmar</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>No hi ha cap problema en pagar només la comissió mínima sempre que hi hagi menys volum de transacció que espai en els blocs. Però tingueu present que això pot acabar en una transacció que mai es confirmi una vegada hi hagi més demanda de transaccions de litecoins que la xarxa pugui processar.</translation>
-=======
         <source>Abandoned</source>
         <translation>Abandonada</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
@@ -2846,84 +2559,6 @@
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation>Estat de la transacció. Desplaceu-vos sobre aquest camp per mostrar el nombre de confirmacions.</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Copy quantity</source>
-        <translation>Copia la quantitat</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copia l'import</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Copia la comissió</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Copia la comissió posterior</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Copia els bytes</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Copia la prioritat</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Copia el polsim</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Copia el canvi</translation>
-    </message>
-    <message>
-        <source>Total Amount %1</source>
-        <translation>Import total %1</translation>
-    </message>
-    <message>
-        <source>or</source>
-        <translation>o</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Confirma l'enviament de monedes</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>L'adreça del destinatari no és vàlida. Torneu-la a comprovar.</translation>
-    </message>
-    <message>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>L'import a pagar ha de ser major que 0.</translation>
-    </message>
-    <message>
-        <source>The amount exceeds your balance.</source>
-        <translation>L'import supera el vostre balanç.</translation>
-    </message>
-    <message>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>El total excedeix el vostre balanç quan s'afegeix la comissió a la transacció %1.</translation>
-    </message>
-    <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>S'ha trobat una adreça duplicada: les adreces només s'haurien d'utilitzar una vegada cada una.</translation>
-    </message>
-    <message>
-        <source>Transaction creation failed!</source>
-        <translation>La creació de la transacció ha fallat!</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(sense etiqueta)</translation>
-    </message>
-</context>
-<context>
-    <name>SendCoinsEntry</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Date and time that the transaction was received.</source>
         <translation>Data i hora en que la transacció va ser rebuda.</translation>
@@ -2948,13 +2583,8 @@
 <context>
     <name>TransactionView</name>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address to send the payment to</source>
-        <translation>L'adreça Litecoin on enviar el pagament</translation>
-=======
         <source>All</source>
         <translation>Tot</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Today</source>
@@ -2973,13 +2603,8 @@
         <translation>El mes passat</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>La comissió es deduirà de l'import que s'enviarà. El destinatari rebrà menys litecoins que les que introduïu al camp d'import. Si se seleccionen múltiples destinataris, la comissió es dividirà per igual.</translation>
-=======
         <source>This year</source>
         <translation>Enguany</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Range...</source>
@@ -3002,13 +2627,8 @@
         <translation>Minada</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Un missatge que s'ha adjuntat al litecoin: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Litecoin.</translation>
-=======
         <source>Other</source>
         <translation>Altres</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -3018,15 +2638,6 @@
         <source>Min amount</source>
         <translation>Import mínim</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendConfirmationDialog</name>
-    </context>
-<context>
-    <name>ShutdownWindow</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Copy address</source>
         <translation>Copia l'adreça</translation>
@@ -3040,21 +2651,12 @@
         <translation>Copia l'import</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Podeu signar missatges/acords amb les vostres adreces per provar que rebeu les litecoins que s'hi envien. Aneu amb compte no signar res que sigui vague o aleatori, perquè en alguns atacs de suplantació es pot provar que hi signeu la vostra identitat. Només signeu aquelles declaracions completament detallades en què hi esteu d'acord. </translation>
-    </message>
-    <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>L'adreça Litecoin amb què signar el missatge</translation>
-=======
         <source>Copy transaction ID</source>
         <translation>Copia l'ID de transacció</translation>
     </message>
     <message>
         <source>Copy raw transaction</source>
         <translation>Copia la transacció crua</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Edit label</source>
@@ -3085,13 +2687,8 @@
         <translation>Data</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Signa el missatge per provar que ets propietari d'aquesta adreça Litecoin</translation>
-=======
         <source>Type</source>
         <translation>Tipus</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Label</source>
@@ -3114,21 +2711,12 @@
         <translation>S'ha produït un error en provar de desar l'historial de transacció a %1.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address the message was signed with</source>
-        <translation>L'adreça Litecoin amb què va ser signat el missatge</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Litecoin específica</translation>
-=======
         <source>Exporting Successful</source>
         <translation>Exportació amb èxit</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
         <translation>L'historial de transaccions s'ha desat correctament a %1.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Range:</source>
@@ -3138,7 +2726,7 @@
         <source>to</source>
         <translation>a</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
@@ -3154,193 +2742,12 @@
     </message>
 </context>
 <context>
-<<<<<<< HEAD
-    <name>TransactionDesc</name>
-    <message>
-        <source>Status</source>
-        <translation>Estat</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Data</translation>
-    </message>
-    <message>
-        <source>Source</source>
-        <translation>Font</translation>
-    </message>
-    <message>
-        <source>Generated</source>
-        <translation>Generada</translation>
-    </message>
-    <message>
-        <source>From</source>
-        <translation>De</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>desconegut</translation>
-    </message>
-    <message>
-        <source>To</source>
-        <translation>A</translation>
-    </message>
-    <message>
-        <source>own address</source>
-        <translation>adreça pròpia</translation>
-    </message>
-    <message>
-        <source>Debit</source>
-        <translation>Dèbit</translation>
-    </message>
-    <message>
-        <source>Total debit</source>
-        <translation>Dèbit total</translation>
-    </message>
-    <message>
-        <source>Total credit</source>
-        <translation>Crèdit total</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Comissió de transacció</translation>
-    </message>
-    <message>
-        <source>Net amount</source>
-        <translation>Import net</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Missatge</translation>
-    </message>
-    <message>
-        <source>Comment</source>
-        <translation>Comentari</translation>
-    </message>
-    <message>
-        <source>Transaction ID</source>
-        <translation>ID de la transacció</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Import</translation>
-    </message>
-    </context>
-<context>
-    <name>TransactionDescDialog</name>
-=======
     <name>WalletModel</name>
->>>>>>> pr/4
     <message>
         <source>Send Coins</source>
         <translation>Envia monedes</translation>
     </message>
-    </context>
-<context>
-    <name>TransactionTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Data</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Tipus</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Etiqueta</translation>
-    </message>
-    <message>
-        <source>Offline</source>
-        <translation>Fora de línia</translation>
-    </message>
-    <message>
-        <source>Unconfirmed</source>
-        <translation>Sense confirmar</translation>
-    </message>
-    <message>
-        <source>Abandoned</source>
-        <translation>Abandonada</translation>
-    </message>
-    <message>
-        <source>Received with</source>
-        <translation>Rebuda amb</translation>
-    </message>
-    <message>
-        <source>Received from</source>
-        <translation>Rebuda de</translation>
-    </message>
-    <message>
-        <source>Sent to</source>
-        <translation>Enviada a</translation>
-    </message>
-    <message>
-        <source>Payment to yourself</source>
-        <translation>Pagament a un mateix</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Minada</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(sense etiqueta)</translation>
-    </message>
-    </context>
-<context>
-    <name>TransactionView</name>
-    <message>
-        <source>Received with</source>
-        <translation>Rebuda amb</translation>
-    </message>
-    <message>
-        <source>Sent to</source>
-        <translation>Enviada a</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Minada</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Copia l'adreça</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Copia l'etiqueta</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copia l'import</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Copia l'ID de transacció</translation>
-    </message>
-    <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Fitxer separat per comes (*.csv)</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Data</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Tipus</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Etiqueta</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adreça</translation>
-    </message>
-    <message>
-        <source>Exporting Failed</source>
-        <translation>L'exportació ha fallat</translation>
-    </message>
-    </context>
+</context>
 <context>
     <name>WalletView</name>
     <message>
@@ -3376,15 +2783,6 @@
         <translation>S'han desat les dades del moneder correctament a %1.</translation>
     </message>
 </context>
-<context>
-    <name>WalletFrame</name>
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
-<context>
-    <name>WalletView</name>
-    </context>
 <context>
     <name>bitcoin-core</name>
     <message>
@@ -3444,21 +2842,8 @@
         <translation>No s'ha pogut iniciar el servidor HTTP. Vegeu debug.log per a més detalls.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accepta connexions de fora (per defecte: 1 si no -proxy o -connect)</translation>
-    </message>
-    <message>
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
-    </message>
-    <message>
-        <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>-fallbackfee és molt elevat. Aquesta és la comissió de transacció que podeu pagar quan les estimacions de comissions no estan disponibles.</translation>
-=======
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

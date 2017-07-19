@@ -12,9 +12,6 @@
     </context>
 <context>
     <name>AddressTableModel</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Address</source>
         <translation>Дарек</translation>
@@ -24,7 +21,6 @@
         <translation>(аты жок)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     </context>
@@ -167,12 +163,9 @@
     <name>QObject</name>
     </context>
 <context>
-<<<<<<< HEAD
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -240,9 +233,6 @@
     </message>
     </context>
 <context>
-    <name>RecentRequestsTableModel</name>
-    </context>
-<context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Clear &amp;All</source>
@@ -252,15 +242,11 @@
         <source>S&amp;end</source>
         <translation>&amp;Жөнөтүү</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>(no label)</source>
         <translation>(аты жок)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -297,8 +283,6 @@
     </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>%1/offline</source>
         <translation>%1/тармакта эмес</translation>
@@ -311,18 +295,12 @@
         <source>Message</source>
         <translation>Билдирүү</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Date</source>
         <translation>Дата</translation>
@@ -342,7 +320,6 @@
         <source>Address</source>
         <translation>Дарек</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>

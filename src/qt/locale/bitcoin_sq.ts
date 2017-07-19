@@ -33,12 +33,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Fshi</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Zgjidh adresen ku do te dergoni monedhat</translation>
@@ -103,7 +97,6 @@
         <translation>(pa etiketë)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -118,8 +111,6 @@
         <source>Repeat new passphrase</source>
         <translation>Përsërisni frazkalimin e ri</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Encrypt wallet</source>
         <translation>Kripto portofolin</translation>
@@ -180,7 +171,6 @@
         <source>Wallet decryption failed</source>
         <translation>Dekriptimi i portofolit dështoi</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>BanTableModel</name>
@@ -345,9 +335,6 @@
         <source>&amp;Address</source>
         <translation>&amp;Adresa</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>New receiving address</source>
         <translation>Adresë e re pritëse</translation>
@@ -377,7 +364,6 @@
         <translation>Krijimi i çelësit të ri dështoi.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -455,9 +441,6 @@
     <name>QRImageWidget</name>
     </context>
 <context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
@@ -528,9 +511,6 @@
         <source>(no label)</source>
         <translation>(pa etiketë)</translation>
     </message>
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -610,9 +590,6 @@
     <name>SendConfirmationDialog</name>
     </context>
 <context>
-    <name>SendConfirmationDialog</name>
-    </context>
-<context>
     <name>ShutdownWindow</name>
     </context>
 <context>
@@ -642,8 +619,6 @@
     </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Open until %1</source>
         <translation>Hapur deri më %1</translation>
@@ -676,7 +651,6 @@
         <source>Amount</source>
         <translation>Sasia</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -687,11 +661,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Date</source>
         <translation>Data</translation>
@@ -787,7 +756,6 @@
         <source>Exporting Failed</source>
         <translation>Eksportimi dështoj</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -797,11 +765,6 @@
     </context>
 <context>
     <name>WalletModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>WalletView</name>
-=======
     <message>
         <source>Send Coins</source>
         <translation>Dërgo Monedha</translation>
@@ -813,7 +776,6 @@
         <source>Export the data in the current tab to a file</source>
         <translation>Eksporto të dhënat e skedës korrente në një skedar</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>

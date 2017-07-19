@@ -252,13 +252,6 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n conexiune activă către reţeaua Litecoin</numerusform><numerusform>%n conexiuni active către reţeaua Litecoin</numerusform><numerusform>%n de conexiuni active către reţeaua Litecoin</numerusform></translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>Nici o sursă de bloc disponibilă...</translation>
-=======
->>>>>>> pr/4
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -413,13 +406,6 @@
         <source>Confirmed</source>
         <translation>Confirmat</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>Priority</source>
-        <translation>Prioritate</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -925,9 +911,6 @@
     </message>
     </context>
 <context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
@@ -1247,13 +1230,10 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Salvează imaginea...</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Amount</source>
         <translation>Cantitate</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -1553,13 +1533,10 @@
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Amount</source>
         <translation>Cantitate</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1617,13 +1594,6 @@
         <translation>Rulează în fundal ca un demon şi acceptă comenzi</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Acceptă conexiuni din afară (implicit: 1 dacă nu se foloseşte -proxy sau -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Nucleul Litecoin</translation>
     </message>

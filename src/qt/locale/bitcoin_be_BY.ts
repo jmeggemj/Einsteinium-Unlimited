@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>Выдаліць</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Выбраць адрас, куды выслаць сродкі</translation>
@@ -119,7 +113,6 @@
         <translation>непазначаны</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -138,9 +131,6 @@
         <source>Repeat new passphrase</source>
         <translation>Паўтарыце новую кодавую фразу</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Увядзіце новы пароль для гаманца.&lt;br/&gt;Парольная фраза павинна складацца&lt;b&gt; не меньш чым з дзесяці сімвалаў&lt;/b&gt;, ці &lt;b&gt;больш чым з васьмі слоў&lt;/b&gt;.</translation>
@@ -226,7 +216,6 @@
         <translation>Увага: Caps Lock уключаны!</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>BanTableModel</name>
     </context>
@@ -382,11 +371,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
-<<<<<<< HEAD
-        <translation>Запатрабаваць плацёж (генеруецца QR-код для Litecoin URI)</translation>
-=======
         <translation>Запатрабаваць плацёж (генеруецца QR-код для litecoin URI)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -398,51 +383,12 @@
     </message>
     <message>
         <source>Open a litecoin: URI or payment request</source>
-<<<<<<< HEAD
-        <translation>Адкрыць Litecoin: URI ці запыт плацяжу</translation>
-=======
         <translation>Адкрыць litecoin: URI ці запыт плацяжу</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Опцыі каманднага радка</translation>
     </message>
-<<<<<<< HEAD
-    <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n актыўнае злучэнне з сецівам Litecoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Litecoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Litecoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Litecoin</numerusform></translation>
-    </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>Крыніца блокаў недасяжная...</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Апрацаваны %n блок гісторыі транзакцый.</numerusform><numerusform>Апрацавана %n блокі гісторыі транзакцый.</numerusform><numerusform>Апрацавана %n блокаў гісторыі транзакцый.</numerusform><numerusform>Апрацавана %n блокаў гісторыі транзакцый.</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n гадзіна</numerusform><numerusform>%n гадзіны</numerusform><numerusform>%n гадзін</numerusform><numerusform>%n гадзін</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n дзень</numerusform><numerusform>%n дні</numerusform><numerusform>%n дзён</numerusform><numerusform>%n дзён</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n тыдзень</numerusform><numerusform>%n тыдні</numerusform><numerusform>%n тыдняў</numerusform><numerusform>%n тыдняў</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 і %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n год</numerusform><numerusform>%n гады</numerusform><numerusform>%n гадоў</numerusform><numerusform>%n гадоў</numerusform></translation>
-    </message>
-=======
->>>>>>> pr/4
     <message>
         <source>%1 behind</source>
         <translation>%1 таму</translation>
@@ -588,8 +534,6 @@
         <source>Copy address</source>
         <translation>Капіяваць адрас</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Copy label</source>
         <translation>Капіяваць пазнаку</translation>
@@ -642,7 +586,6 @@
         <source>(no label)</source>
         <translation>непазначаны</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -658,9 +601,6 @@
         <source>&amp;Address</source>
         <translation>Адрас</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>New receiving address</source>
         <translation>Новы адрас для атрымання</translation>
@@ -690,7 +630,6 @@
         <translation>Генерацыя новага ключа няўдалая</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -800,9 +739,6 @@
     <name>QRImageWidget</name>
     </context>
 <context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
@@ -873,9 +809,6 @@
         <source>(no label)</source>
         <translation>непазначаны</translation>
     </message>
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -998,18 +931,11 @@
         <source>Memo:</source>
         <translation>Памятка:</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendConfirmationDialog</name>
-    </context>
-=======
     <message>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Увядзіце пазнаку гэтаму адрасу, каб дадаць яго ў адрасную кнігу</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendConfirmationDialog</name>
     </context>
@@ -1047,8 +973,6 @@
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>%1/offline</source>
         <translation>%1/offline</translation>
@@ -1093,7 +1017,6 @@
         <source>Amount</source>
         <translation>Колькасць</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1104,12 +1027,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-    </context>
-=======
     <message>
         <source>Date</source>
         <translation>Дата</translation>
@@ -1298,7 +1215,6 @@
         <translation>да</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>UnitDisplayStatusBarControl</name>
     </context>
@@ -1307,11 +1223,6 @@
     </context>
 <context>
     <name>WalletModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>WalletView</name>
-=======
     <message>
         <source>Send Coins</source>
         <translation>Даслаць Манеты</translation>
@@ -1327,7 +1238,6 @@
         <source>Export the data in the current tab to a file</source>
         <translation>Экспартаваць гэтыя звесткі у файл</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>

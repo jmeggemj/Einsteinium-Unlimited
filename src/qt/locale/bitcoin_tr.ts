@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Sil</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Parayı göndermek istediğiniz adresi seçiniz</translation>
@@ -119,7 +113,6 @@
         <translation>(etiket yok)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -138,9 +131,6 @@
         <source>Repeat new passphrase</source>
         <translation>Yeni parolayı tekrarlayınız</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Cüzdan için yeni parolayı giriniz.&lt;br/&gt;Lütfen &lt;b&gt;on ya da daha fazla rastgele karakter&lt;/b&gt; veya &lt;b&gt;sekiz ya da daha fazla kelime&lt;/b&gt; içeren bir parola kullanınız.</translation>
@@ -230,7 +220,6 @@
         <translation>Uyarı: Caps Lock tuşu etkin durumda!</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>BanTableModel</name>
     <message>
@@ -350,11 +339,7 @@
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
-<<<<<<< HEAD
-        <translation>Bir Litecoin adresine Litecoin yolla</translation>
-=======
         <translation>Bir litecoin adresine litecoin gönder</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -406,19 +391,11 @@
     </message>
     <message>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
-<<<<<<< HEAD
-        <translation>Mesajları adreslerin size ait olduğunu ispatlamak için Litecoin adresleri ile imzala</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Belirtilen Litecoin adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
-=======
         <translation>İletileri adreslerin size ait olduğunu ispatlamak için Litecoin adresleri ile imzala</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Belirtilen Litecoin adresleri ile imzalandıklarından emin olmak için iletileri kontrol et</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>&amp;File</source>
@@ -458,11 +435,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
-<<<<<<< HEAD
-        <translation><numerusform>Litecoin şebekesine %n faal bağlantı</numerusform><numerusform>Litecoin şebekesine %n faal bağlantı</numerusform></translation>
-=======
         <translation><numerusform>Litecoin şebekesine %n faal bağlantı</numerusform><numerusform>Litecoin ağına %n etkin bağlantı var</numerusform></translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -729,7 +702,7 @@
         <source>(change)</source>
         <translation>(para üstü)</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -752,9 +725,6 @@
         <source>&amp;Address</source>
         <translation>&amp;Adres</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>New receiving address</source>
         <translation>Yeni alım adresi</translation>
@@ -788,7 +758,6 @@
         <translation>Yeni anahtar oluşturulması başarısız oldu.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -883,11 +852,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Litecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-<<<<<<< HEAD
-        <translation>%1, Litecoin blok zincirinin bir kopyasını indirecek ve saklayacaktır. Bu klasörde en az %2GB veri saklanacak ve bu zamanla artacaktır. Cüzdan da bu klasörde saklanacaktır.</translation>
-=======
         <translation>%1, Litecoin blok zincirinin bir kopyasını indirecek ve saklayacaktır. Bu klasörde en az %2 GB veri saklanacak ve bu zamanla artacaktır. Cüzdan da bu klasörde saklanacaktır.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -983,15 +948,11 @@
         <source>Select payment request file</source>
         <translation>Ödeme talebi dosyasını seç</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Select payment request file to open</source>
         <translation>Açılacak ödeme talebi dosyasını seç</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -1096,11 +1057,7 @@
     </message>
     <message>
         <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-<<<<<<< HEAD
-        <translation>Litecoin şebekesine SOCKS5 vekil sunucusu vasıtasıyla bağlan.</translation>
-=======
         <translation>Litecoin ağına bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1140,11 +1097,7 @@
     </message>
     <message>
         <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-<<<<<<< HEAD
-        <translation>Litecoin şebekesine gizli Tor servisleri için ayrı bir SOCKS5 vekil sunucusu vasıtasıyla bağlan.</translation>
-=======
         <translation>Litecoin ağına gizli Tor servisleri için ayrı bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1243,11 +1196,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-<<<<<<< HEAD
-        <translation>Görüntülenen veriler zaman aşımına uğramış olabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak şebeke ile eşleşir ancak bu işlem henüz tamamlanmamıştır.</translation>
-=======
         <translation>Görüntülenen bilgiler güncel olmayabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak Litecoin ağı ile senkronize olur ancak bu işlem henüz tamamlanmamıştır.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1316,12 +1265,6 @@
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>PeerTableModel</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Payment request error</source>
         <translation>Ödeme talebi hatası</translation>
@@ -1339,13 +1282,8 @@
         <translation>Ödeme talebini alma URL'i geçersiz: %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Bir Litecoin adresi giriniz (mesela %1)</translation>
-=======
         <source>Invalid payment address %1</source>
         <translation>%1 ödeme adresi geçersizdir</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
@@ -1375,15 +1313,6 @@
         <source>Payment request is not initialized.</source>
         <translation>Ödeme talebi başlatılmadı.</translation>
     </message>
-<<<<<<< HEAD
-</context>
-<context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
-    <name>RPCConsole</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Özel ödeme betiklerine, doğrulanmamış ödeme talepleri desteklenmez.</translation>
@@ -1876,11 +1805,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
-<<<<<<< HEAD
-        <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir mesaj. Not: Bu mesaj ödeme ile birlikte Litecoin şebekesi üzerinden gönderilmeyecektir.</translation>
-=======
         <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir ileti. Not: Bu ileti ödeme ile birlikte Litecoin ağı üzerinden gönderilmeyecektir.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1926,9 +1851,6 @@
         <source>Remove</source>
         <translation>Kaldır</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy URI</source>
         <translation>URI'yi kopyala</translation>
@@ -1946,7 +1868,6 @@
         <translation>Tutarı kopyala</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -2676,21 +2597,9 @@
         <source>Message</source>
         <translation>İleti</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-    </context>
-<context>
-    <name>SendCoinsDialog</name>
-    <message>
-        <source>Send Coins</source>
-        <translation>Litecoin yolla</translation>
-=======
     <message>
         <source>Comment</source>
         <translation>Yorum</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Transaction ID</source>
@@ -2783,13 +2692,8 @@
         <translation>Terk edilmiş</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>Asgari ücreti ödemek, bloklarda boşluktan daha az muamele hacmi olduğu sürece bir sorun çıkarmaz. Fakat şebekenin işleyecebileceğinden daha çok litecoin muameleleri talebi olduğunda bunun asla teyit edilmeyen bir muamele olabileceğinin farkında olmalısınız.</translation>
-=======
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>Doğrulanıyor (%1 kere doğrulandı, önerilen doğrulama sayısı %2)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -2851,12 +2755,6 @@
         <source>Date and time that the transaction was received.</source>
         <translation>İşlemin alındığı tarih ve zaman.</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendCoinsEntry</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Type of transaction.</source>
         <translation>İşlemin türü.</translation>
@@ -2881,13 +2779,8 @@
         <translation>Hepsi</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address to send the payment to</source>
-        <translation>Ödemenin yollanacağı Litecoin adresi</translation>
-=======
         <source>Today</source>
         <translation>Bugün</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>This week</source>
@@ -2906,13 +2799,8 @@
         <translation>Bu yıl</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Ücret yollanan meblağdan alınacaktır. Alıcı meblağ alanında girdiğinizden daha az litecoin alacaktır.  Eğer birden çok alıcı seçiliyse ücret eşit olarak bölünecektir.</translation>
-=======
         <source>Range...</source>
         <translation>Tarih Aralığı</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Received with</source>
@@ -2935,13 +2823,8 @@
         <translation>Diğer</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Litecoin: URI'siyle ilişkili ve bilginiz için muameleyle saklanacak bir mesaj. Not: Bu mesaj Litecoin şebekesi üzerinden gönderilmeyecektir.</translation>
-=======
         <source>Enter address or label to search</source>
         <translation>Aranacak adres ya da etiket giriniz</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Min amount</source>
@@ -2951,15 +2834,6 @@
         <source>Abandon transaction</source>
         <translation>İşlemden vazgeç</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendConfirmationDialog</name>
-    </context>
-<context>
-    <name>ShutdownWindow</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Copy address</source>
         <translation>Adres kopyala</translation>
@@ -2977,21 +2851,12 @@
         <translation>İşlem ID'sini kopyala</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Adreslerinize yollanan litecoinleri alabileceğiniz ispatlamak için adreslerinizle mesaj/anlaşma imzalayabilirsiniz. Oltalama saldırılarının kimliğinizi imzanızla elde etmeyi deneyebilecekleri için belirsiz ya da rastgele hiçbir şey imzalamamaya dikkat ediniz. Sadece ayrıntılı açıklaması olan ve tümüne katıldığınız ifadeleri imzalayınız.</translation>
-    </message>
-    <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>Mesajın imzalanmasında kullanılacak Litecoin adresi</translation>
-=======
         <source>Copy raw transaction</source>
         <translation>Ham işlemi kopyala</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
         <translation>Tüm işlem ayrıntılarını kopyala</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Edit label</source>
@@ -3022,13 +2887,8 @@
         <translation>Tarih</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Bu Litecoin adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
-=======
         <source>Type</source>
         <translation>Tür</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Label</source>
@@ -3051,21 +2911,12 @@
         <translation>İşlem tarihçesinin %1 konumuna kaydedilmeye çalışıldığı sırada bir hata meydana geldi.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address the message was signed with</source>
-        <translation>Mesajın imzalanmasında kullanılan Litecoin adresi</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Belirtilen Litecoin adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
-=======
         <source>Exporting Successful</source>
         <translation>Dışarı Aktarma Başarılı</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
         <translation>İşlem tarihçesi %1 konumuna başarıyla kaydedildi.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Range:</source>
@@ -3075,7 +2926,7 @@
         <source>to</source>
         <translation>Alıcı</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
@@ -3091,25 +2942,12 @@
     </message>
 </context>
 <context>
-<<<<<<< HEAD
-    <name>TransactionDesc</name>
-    </context>
-<context>
-    <name>TransactionDescDialog</name>
-=======
     <name>WalletModel</name>
->>>>>>> pr/4
     <message>
         <source>Send Coins</source>
         <translation>Litecoini Gönder</translation>
     </message>
-    </context>
-<context>
-    <name>TransactionTableModel</name>
-    </context>
-<context>
-    <name>TransactionView</name>
-    </context>
+</context>
 <context>
     <name>WalletView</name>
     <message>
@@ -3145,15 +2983,6 @@
         <translation>Cüzdan verileri %1 konumuna başarıyla kaydedildi.</translation>
     </message>
 </context>
-<context>
-    <name>WalletFrame</name>
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
-<context>
-    <name>WalletView</name>
-    </context>
 <context>
     <name>bitcoin-core</name>
     <message>
@@ -3225,13 +3054,6 @@
         <translation>HTTP sunucusu başlatılamadı. Ayrıntılar için debug.log dosyasına bakınız.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Dışarıdan gelen bağlantıları kabul et (varsayılan: -proxy veya -connect yoksa 1)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Çekirdeği</translation>
     </message>
@@ -3260,10 +3082,6 @@
         <translation>Tüm cüzdan işlemlerini sil ve başlangıçta -rescan ile sadece blok zincirinin parçası olanları geri getir</translation>
     </message>
     <message>
-        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
-        <translation>Oluşturma ve aktarşa muamelelerinde sigop başına eşdeğer bayt (varsayılan: %u)</translation>
-    </message>
-    <message>
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
         <translation>%s yüklenmesinde hata: zaten var olan ve HD olmayan bir cüzdanda HD etkinleştirilemez.</translation>
     </message>
@@ -3280,13 +3098,10 @@
         <translation>Daha küçük boyutlu blok yeniden yapılandırması için fazladan işlemleri bellekte tut. (varsayılan: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
         <translation>Eğer bu blok zincirde yer alıyorsa onun ve atalarının geçerli olduğunu varsay ve potansiyel olarak onların betik doğrulamasını atla.  (Tümünü doğrulamak için 0, varsayılan %s, testnet: %s)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
         <translation>İzin verilen edilen en yüksek medyan eş zamanı değişiklik sınırının ayarlaması. Zamanın yerel perspektifi bu miktar kadar ileri ya da geri eşler tarafından etkilenebilir. (Varsayılan %u saniye)</translation>
     </message>
@@ -3320,11 +3135,7 @@
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-<<<<<<< HEAD
-        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - litecoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
-=======
         <translation>Bu kararlı sürümden önceki bir deneme sürümüdür. - risklerini bilerek kullanma sorumluluğu sizdedir - litecoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
@@ -3551,13 +3362,6 @@
         <translation>Veritabanı önbellek boyutunu megabayt olarak belirt (%d ilâ %d, varsayılan: %d)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>Azami BIP141 blok ağırlığını ayarla (varsayılan: %d)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>En yüksek blok boyutunu bayt olarak ayarla (varsayılan: %d)</translation>
     </message>
@@ -4010,13 +3814,10 @@
         <translation>Anahtar alan boyutunu &lt;n&gt; değerine ayarla (varsayılan: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>En yüksek BIP141 blok ağırlığını ayarla (varsayılan: %d)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Hizmet RCP aramaları iş parçacığı sayısını belirle (varsayılan: %d)</translation>
     </message>

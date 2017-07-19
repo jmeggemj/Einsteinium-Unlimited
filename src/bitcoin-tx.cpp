@@ -27,11 +27,7 @@
 #include <boost/assign/list_of.hpp>
 
 static bool fCreateBlank;
-<<<<<<< HEAD
-static map<string,UniValue> registers;
-=======
 static std::map<std::string,UniValue> registers;
->>>>>>> pr/4
 static const int CONTINUE_EXECUTION=-1;
 
 //
@@ -192,11 +188,7 @@ static void MutateTxVersion(CMutableTransaction& tx, const std::string& cmdVal)
 {
     int64_t newVersion = atoi64(cmdVal);
     if (newVersion < 1 || newVersion > CTransaction::MAX_STANDARD_VERSION)
-<<<<<<< HEAD
-        throw runtime_error("Invalid TX version requested");
-=======
         throw std::runtime_error("Invalid TX version requested");
->>>>>>> pr/4
 
     tx.nVersion = (int) newVersion;
 }

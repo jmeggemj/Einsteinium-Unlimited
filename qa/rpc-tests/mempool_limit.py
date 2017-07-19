@@ -31,11 +31,7 @@ class MempoolLimitTest(BitcoinTestFramework):
         #create a mempool tx that will be evicted
         us0 = utxos.pop()
         inputs = [{ "txid" : us0["txid"], "vout" : us0["vout"]}]
-<<<<<<< HEAD
-        outputs = {self.nodes[0].getnewaddress() : 0.001}
-=======
         outputs = {self.nodes[0].getnewaddress() : 0.01}
->>>>>>> pr/4
         tx = self.nodes[0].createrawtransaction(inputs, outputs)
         self.nodes[0].settxfee(self.relayfee) # specifically fund this tx with low fee
         txF = self.nodes[0].fundrawtransaction(tx)

@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Fare clic con il tasto destro del mouse per modificare l'indirizzo o l'etichettadefault</translation>
+        <translation>Fare clic con il tasto destro del mouse per modificare l'indirizzo o l'etichetta</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Elimina</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Scegli l'indirizzo a cui inviare litecoin</translation>
@@ -119,7 +113,6 @@
         <translation>(nessuna etichetta)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -138,9 +131,6 @@
         <source>Repeat new passphrase</source>
         <translation>Ripeti la nuova passphrase</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Inserisci la nuova passphrase per il portamonete.&lt;br/&gt;Si consiglia di utilizzare &lt;b&gt;almeno dieci caratteri casuali&lt;/b&gt; oppure &lt;b&gt;otto o più parole&lt;/b&gt;.</translation>
@@ -226,7 +216,6 @@
         <translation>Attenzione: è attivo il tasto blocco maiuscole !</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>BanTableModel</name>
     <message>
@@ -427,17 +416,6 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n connessione attiva alla rete Litecoin</numerusform><numerusform>%n connessioni alla rete Litecoin attive</numerusform></translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Indicizzando i blocchi su disco...</translation>
-    </message>
-    <message>
-        <source>Processing blocks on disk...</source>
-        <translation>Processando i blocchi su disco...</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -688,7 +666,7 @@
         <source>(change)</source>
         <translation>(resto)</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -711,9 +689,6 @@
         <source>&amp;Address</source>
         <translation>&amp;Indirizzo</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>New receiving address</source>
         <translation>Nuovo indirizzo di ricezione</translation>
@@ -747,7 +722,6 @@
         <translation>Generazione della nuova chiave non riuscita.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -914,15 +888,11 @@
         <source>Select payment request file</source>
         <translation>Seleziona il file di richiesta di pagamento</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Select payment request file to open</source>
         <translation>Seleziona il file di richiesta di pagamento da aprire</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -1079,13 +1049,10 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>&amp;Finestra</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>&amp;Hide the icon from the system tray.</source>
         <translation>&amp;Nascondi l'icona nella barra delle applicazioni.</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Hide tray icon</source>
         <translation>Nascondi l'icona della barra applicazioni</translation>
     </message>
@@ -1239,9 +1206,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Payment request error</source>
         <translation>Errore di richiesta di pagamento</translation>
@@ -1323,7 +1287,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Pagamento riconosciuto</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>PeerTableModel</name>
     <message>
@@ -1377,12 +1340,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <source>%1 ms</source>
         <translation>%1 ms</translation>
     </message>
-<<<<<<< HEAD
-</context>
-<context>
-    <name>QRImageWidget</name>
-    </context>
-=======
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation><numerusform>%n secondo</numerusform><numerusform>%n secondi</numerusform></translation>
@@ -1438,7 +1395,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Immagine PNG (*.png)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>RPCConsole</name>
     <message>
@@ -1666,10 +1622,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Benvenuto nella console RPC di %1.</translation>
     </message>
     <message>
-        <source>Welcome to the %1 RPC console.</source>
-        <translation>Benvenuto nella console RPC di %1.</translation>
-    </message>
-    <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Usa le frecce direzionali per scorrere la cronologia, e &lt;b&gt;Ctrl-L&lt;/b&gt; per cancellarla.</translation>
     </message>
@@ -1796,9 +1748,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <source>Remove</source>
         <translation>Rimuovi</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy URI</source>
         <translation>Copia URI</translation>
@@ -1816,7 +1765,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Copia l'importo</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -1835,12 +1783,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <source>&amp;Save Image...</source>
         <translation>&amp;Salva Immagine...</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-    </context>
-=======
     <message>
         <source>Request payment to %1</source>
         <translation>Richiesta di pagamento a %1</translation>
@@ -1901,7 +1843,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Richiesto</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -2044,9 +1985,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <source>S&amp;end</source>
         <translation>&amp;Invia</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy quantity</source>
         <translation>Copia quantità</translation>
@@ -2120,7 +2058,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>(nessuna etichetta)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -2202,15 +2139,11 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </context>
 <context>
     <name>SendConfirmationDialog</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Yes</source>
         <translation>Si</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ShutdownWindow</name>
     <message>
@@ -2308,9 +2241,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <source>Reset all verify message fields</source>
         <translation>Reimposta tutti i campi della verifica messaggio</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>The entered address is invalid.</source>
         <translation>L'indirizzo inserito non è valido.</translation>
@@ -2360,7 +2290,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Messaggio verificato.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SplashScreen</name>
     <message>
@@ -2377,9 +2306,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>%1/offline</source>
         <translation>%1/offline</translation>
@@ -2513,7 +2439,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>falso</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>TransactionDescDialog</name>
     <message>
@@ -2523,12 +2448,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-    </context>
-=======
     <message>
         <source>Date</source>
         <translation>Data</translation>
@@ -2761,7 +2680,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>a</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
@@ -2771,15 +2689,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
 </context>
 <context>
     <name>WalletFrame</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
-<context>
-    <name>WalletView</name>
-    </context>
-=======
     <message>
         <source>No wallet has been loaded.</source>
         <translation>Non è stato caricato alcun portamonete.</translation>
@@ -2827,7 +2736,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Il portamonete è stato correttamente salvato in %1.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>bitcoin-core</name>
     <message>
@@ -2895,17 +2803,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Sviluppatori di %s</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
-    </message>
-    <message>
-        <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>-fallbackfee è impostato su un valore molto elevato! Questa è la commissione che potresti pagare quando la stima della commissione non è disponibile.</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
         <translation>Un importo (in %s/kB) che sarà utilizzato quando la stima delle commissioni non ha abbastanza dati (default: %s)</translation>
     </message>
@@ -2924,18 +2821,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Elimina tutte le transazioni dal portamonete e recupera solo quelle che fanno parte della blockchain attraverso il comando -rescan all'avvio.</translation>
-    </message>
-    <message>
-        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>Errore caricamento %s: Non puoi abilitare HD in un portafoglio non-HD già esistente</translation>
-    </message>
-    <message>
-        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Errore lettura %s! Tutte le chiavi sono state lette correttamente, ma i dati delle transazioni o della rubrica potrebbero essere mancanti o non corretti.</translation>
-    </message>
-    <message>
-        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
-        <translation>Byte equivalenti per ottimizzazione segnale dedicati a ritrasmissione ed estrazione (default: %u)</translation>
     </message>
     <message>
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
@@ -2978,20 +2863,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Impossibile riportare il database ad un livello pre-fork. Dovrai riscaricare tutta la blockchain</translation>
     </message>
     <message>
-        <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
-        <translation>Impossibile riportare il database ad un livello pre-fork. Dovrai riscaricare tutta la blockchain</translation>
-    </message>
-    <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>Utilizza UPnP per mappare la porta in ascolto (default: 1 quando in ascolto e -proxy non è specificato)</translation>
-    </message>
-    <message>
-        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>È necessario ricostruire il database usando -reindex per cambiare -txindex</translation>
-    </message>
-    <message>
-        <source>%s corrupt, salvage failed</source>
-        <translation>%s corrotto, recupero fallito</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
@@ -3028,13 +2901,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>Change index out of range</source>
         <translation>Cambio indice fuori paramentro</translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Connessione ai soli nodi specificati</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Connection options:</source>
@@ -3197,10 +3063,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Imposta la dimensione della cache del database in megabyte (%d a %d, predefinito: %d)</translation>
     </message>
     <message>
-        <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>Imposta la dimensione massima del blocco BIP141 (default: %d)</translation>
-    </message>
-    <message>
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Imposta la dimensione massima del blocco in byte (predefinito: %d)</translation>
     </message>
@@ -3315,10 +3177,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>L'importo della transazione risulta troppo basso per l'invio una volta dedotte le commissioni.</translation>
-    </message>
-    <message>
-        <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
-        <translation>Usa la generazione gerarchica deterministica (HD) della chiave dopo BIP32. Valido solamente durante la creazione del portafoglio o al primo avvio</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
@@ -3557,14 +3415,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Attenzione: file del Portafoglio corrotto, dati recuperati! %s originale salvato come %s in %s; se il saldo o le transazioni non sono corrette effettua un ripristino da un backup.</translation>
     </message>
     <message>
-        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
-        <translation>Attenzione: si stanno minando versioni sconocsiute di blocchi! E' possibile che siano attive regole sconosciute</translation>
-    </message>
-    <message>
-        <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Attenzione: file del Portafoglio corrotto, dati recuperati! %s originale salvato come %s in %s; se il saldo o le transazioni non sono corrette effettua un ripristino da un backup.</translation>
-    </message>
-    <message>
         <source>(default: %s)</source>
         <translation>(predefinito: %s)</translation>
     </message>
@@ -3625,13 +3475,10 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Imposta la dimensione del pool di chiavi a &lt;n&gt; (predefinito: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>Imposta la dimensione massima del blocco BIP141 (default: %d)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Imposta il numero di thread destinati a rispondere alle chiamate RPC (predefinito %d)</translation>
     </message>

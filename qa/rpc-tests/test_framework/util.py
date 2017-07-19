@@ -248,13 +248,8 @@ def initialize_chain(test_dir, num_nodes, cachedir):
 
         # Create cache directories, run bitcoinds:
         for i in range(MAX_NODES):
-<<<<<<< HEAD
-            datadir=initialize_datadir("cache", i)
-            args = [ os.getenv("LITECOIND", "litecoind"), "-server", "-keypool=1", "-datadir="+datadir, "-discover=0" ]
-=======
             datadir=initialize_datadir(cachedir, i)
             args = [ os.getenv("BITCOIND", "litecoind"), "-server", "-keypool=1", "-datadir="+datadir, "-discover=0" ]
->>>>>>> pr/4
             if i > 0:
                 args.append("-connect=127.0.0.1:"+str(p2p_port(0)))
             bitcoind_processes[i] = subprocess.Popen(args)
@@ -385,19 +380,9 @@ def stop_node(node, i):
     del bitcoind_processes[i]
 
 def stop_nodes(nodes):
-<<<<<<< HEAD
-    for node in nodes:
-        try:
-            node.stop()
-        except http.client.CannotSendRequest as e:
-            print("WARN: Unable to stop node: " + repr(e))
-    del nodes[:] # Emptying array closes connections as a side effect
-    wait_bitcoinds()
-=======
     for i, node in enumerate(nodes):
         stop_node(node, i)
     assert not bitcoind_processes.values() # All connections must be gone now
->>>>>>> pr/4
 
 def set_node_times(nodes, t):
     for node in nodes:
@@ -551,8 +536,6 @@ def assert_raises_message(exc, message, fun, *args, **kwds):
     except exc as e:
         if message is not None and message not in e.error['message']:
             raise AssertionError("Expected substring not found:"+e.error['message'])
-<<<<<<< HEAD
-=======
     except Exception as e:
         raise AssertionError("Unexpected exception raised: "+type(e).__name__)
     else:
@@ -582,7 +565,6 @@ def assert_raises_jsonrpc(code, message, fun, *args, **kwds):
             raise AssertionError("Unexpected JSONRPC error code %i" % e.error["code"])
         if (message is not None) and (message not in e.error['message']):
             raise AssertionError("Expected substring not found:"+e.error['message'])
->>>>>>> pr/4
     except Exception as e:
         raise AssertionError("Unexpected exception raised: "+type(e).__name__)
     else:

@@ -444,11 +444,8 @@ void BitcoinApplication::requestShutdown()
     delete clientModel;
     clientModel = 0;
 
-<<<<<<< HEAD
-=======
     StartShutdown();
 
->>>>>>> pr/4
     // Request shutdown from core thread
     Q_EMIT requestedShutdown();
 }
@@ -609,11 +606,7 @@ int main(int argc, char *argv[])
     if (!boost::filesystem::is_directory(GetDataDir(false)))
     {
         QMessageBox::critical(0, QObject::tr(PACKAGE_NAME),
-<<<<<<< HEAD
-                              QObject::tr("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
-=======
                               QObject::tr("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(GetArg("-datadir", ""))));
->>>>>>> pr/4
         return EXIT_FAILURE;
     }
     try {

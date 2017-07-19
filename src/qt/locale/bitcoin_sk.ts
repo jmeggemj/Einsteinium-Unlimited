@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Zmazať</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    <message>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Zvoľte adresu kam poslať mince</translation>
@@ -115,7 +109,6 @@
         <translation>Adresa</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>(no label)</source>
         <translation>(bez popisu)</translation>
     </message>
@@ -138,9 +131,6 @@
         <source>Repeat new passphrase</source>
         <translation>Zopakujte nové heslo</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Zadajte nové heslo k peňaženke.&lt;br/&gt;Prosím použite heslo s dĺžkou &lt;b&gt;desať alebo viac náhodných znakov&lt;/b&gt;, prípadne &lt;b&gt;osem alebo viac slov&lt;/b&gt;.</translation>
@@ -230,7 +220,6 @@
         <translation>Upozornenie: Máte zapnutý Caps Lock!</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>BanTableModel</name>
     <message>
@@ -447,17 +436,6 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktívne pripojenie do siete Litecoin</numerusform><numerusform>%n aktívne pripojenia do siete Litecoin</numerusform><numerusform>%n aktívnych pripojení do siete Litecoin</numerusform></translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Indexujem bloky na disku...</translation>
-    </message>
-    <message>
-        <source>Processing blocks on disk...</source>
-        <translation>Spracovávam bloky na disku...</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -508,13 +486,10 @@
         <translation>%1 klient</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Connecting to peers...</source>
         <translation>Pripája sa k partnerom...</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Catching up...</source>
         <translation>Sťahujem...</translation>
     </message>
@@ -719,11 +694,7 @@
         <source>(change)</source>
         <translation>(zmena)</translation>
     </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(bez popisu)</translation>
-    </message>
-    </context>
+</context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -746,9 +717,6 @@
         <source>&amp;Address</source>
         <translation>&amp;Adresa</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>New receiving address</source>
         <translation>Nová adresa pre prijímanie</translation>
@@ -782,7 +750,6 @@
         <translation>Generovanie nového kľúča zlyhalo.</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -973,15 +940,11 @@
         <source>Select payment request file</source>
         <translation>Vyberte súbor s výzvou k platbe</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Select payment request file to open</source>
         <translation>Vyberte ktorý súbor s výzvou na platbu otvoriť</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -1294,12 +1257,6 @@
 </context>
 <context>
     <name>PaymentServer</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>PeerTableModel</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Payment request error</source>
         <translation>Chyba pri vyžiadaní platby</translation>
@@ -1317,13 +1274,8 @@
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Zadajte litecoin adresu (napr. %1)</translation>
-=======
         <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
         <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Litecoin adresou alebo zle nastavenými vlastnosťami URI.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1507,9 +1459,6 @@
     </message>
 </context>
 <context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
@@ -1538,10 +1487,6 @@
     <message>
         <source>Datadir</source>
         <translation>Priečinok s dátami</translation>
-    </message>
-    <message>
-        <source>Datadir</source>
-        <translation>Zložka  s dátami</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -1666,11 +1611,7 @@
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-<<<<<<< HEAD
-        <translation>Trvanie aktuálneho pingu</translation>
-=======
         <translation>Trvanie aktuálnej požiadavky na odozvu.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Ping Wait</source>
@@ -1751,10 +1692,6 @@
     <message>
         <source>&amp;Unban</source>
         <translation>&amp;Zrušiť zákaz</translation>
-    </message>
-    <message>
-        <source>Welcome to the %1 RPC console.</source>
-        <translation>Vitajte v %1 RPC konzole</translation>
     </message>
     <message>
         <source>Welcome to the %1 RPC console.</source>
@@ -1895,9 +1832,6 @@
         <source>Remove</source>
         <translation>Odstrániť</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy URI</source>
         <translation>Kopírovať URI</translation>
@@ -1915,7 +1849,6 @@
         <translation>Kopírovať sumu</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -1934,16 +1867,6 @@
         <source>&amp;Save Image...</source>
         <translation>Uložiť obrázok...</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-    <message>
-        <source>(no label)</source>
-        <translation>(bez popisu)</translation>
-    </message>
-    </context>
-=======
     <message>
         <source>Request payment to %1</source>
         <translation>Vyžiadať platbu pre %1</translation>
@@ -2012,7 +1935,6 @@
         <translation>Požadované</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -2723,13 +2645,8 @@
         <translation>Potvrdzujem (%1 z %2 odporúčaných potvrdení)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>Zaplatenie len minimálneho poplatku je v poriadku, pokiaľ existuje menej transakcií ako miesta v blokoch. Uvedomte si však, že ak bude vyšší dopyt po transakciách ako dokáže sieť spracovať, môže byť vaša transakcia odsúvaná a nepotvrdená donekonečna.</translation>
-=======
         <source>Confirmed (%1 confirmations)</source>
         <translation>Potvrdené (%1 potvrdení)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Conflicted</source>
@@ -2791,20 +2708,6 @@
         <source>Type of transaction.</source>
         <translation>Typ transakcie.</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>or</source>
-        <translation>alebo</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(bez popisu)</translation>
-    </message>
-</context>
-<context>
-    <name>SendCoinsEntry</name>
-=======
->>>>>>> pr/4
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
         <translation>Či je v tejto transakcii adresy iba na sledovanie.</translation>
@@ -2829,13 +2732,8 @@
         <translation>Tento týždeň</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address to send the payment to</source>
-        <translation>Zvoľte adresu kam poslať platbu</translation>
-=======
         <source>This month</source>
         <translation>Tento mesiac</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Last month</source>
@@ -2854,13 +2752,8 @@
         <translation>Prijaté s</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej litecoinov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
-=======
         <source>Sent to</source>
         <translation>Odoslané na</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>To yourself</source>
@@ -2883,13 +2776,8 @@
         <translation>Minimálna suma</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Správa ktorá bola pripojená k litecoin: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Litecoin.</translation>
-=======
         <source>Copy address</source>
         <translation>Kopírovať adresu</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Copy label</source>
@@ -2899,25 +2787,9 @@
         <source>Copy amount</source>
         <translation>Kopírovať sumu</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendConfirmationDialog</name>
-    </context>
-<context>
-    <name>ShutdownWindow</name>
-    <message>
-        <source>%1 is shutting down...</source>
-        <translation>%1 sa vypína...</translation>
-    </message>
-    <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Nevypínajte počítač kým toto okno nezmizne.</translation>
-=======
     <message>
         <source>Copy transaction ID</source>
         <translation>Kopírovať ID transakcie</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Copy raw transaction</source>
@@ -2928,13 +2800,8 @@
         <translation>Kopírovať všetky podrobnosti o transakcii</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address to sign the message with</source>
-        <translation>Litecoin adresa pre podpísanie správy s</translation>
-=======
         <source>Edit label</source>
         <translation>Upraviť popis</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Show transaction details</source>
@@ -2965,13 +2832,8 @@
         <translation>Typ</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
-=======
         <source>Label</source>
         <translation>Popis</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Address</source>
@@ -2990,21 +2852,12 @@
         <translation>Vyskytla sa chyba pri pokuse o uloženie histórie transakcií do %1.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>The Litecoin address the message was signed with</source>
-        <translation>Adresa Litecoin, ktorou bola podpísaná správa</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Overím správy sa uistiť že bola podpísaná označenou Litecoin adresou</translation>
-=======
         <source>Exporting Successful</source>
         <translation>Export úspešný</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
         <translation>História transakciá bola úspešne uložená do %1.</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Range:</source>
@@ -3014,7 +2867,7 @@
         <source>to</source>
         <translation>do</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
@@ -3030,29 +2883,12 @@
     </message>
 </context>
 <context>
-<<<<<<< HEAD
-    <name>TransactionDesc</name>
-    </context>
-<context>
-    <name>TransactionDescDialog</name>
-=======
     <name>WalletModel</name>
->>>>>>> pr/4
     <message>
         <source>Send Coins</source>
         <translation>Poslať mince</translation>
     </message>
-    </context>
-<context>
-    <name>TransactionTableModel</name>
-    <message>
-        <source>(no label)</source>
-        <translation>(bez popisu)</translation>
-    </message>
-    </context>
-<context>
-    <name>TransactionView</name>
-    </context>
+</context>
 <context>
     <name>WalletView</name>
     <message>
@@ -3088,15 +2924,6 @@
         <translation>Dáta peňaženky boli úspešne uložené do %1.</translation>
     </message>
 </context>
-<context>
-    <name>WalletFrame</name>
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
-<context>
-    <name>WalletView</name>
-    </context>
 <context>
     <name>bitcoin-core</name>
     <message>
@@ -3156,17 +2983,8 @@
         <translation>Vývojári %s</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Litecoin Core</source>
-        <translation>Jadro Litecoin</translation>
-    </message>
-    <message>
-        <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>-fallbackfee je nastavená veľmi vysoko. Ide o poplatok za transakciu, ktorý môže platiť, keď odhady poplatku nie sú k dispozícii.</translation>
-=======
         <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
         <translation>Akceptovať postúpené transakcie od povolených partnerov aj keď normálne nepostupujete transakcie (predvolené: %d)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -3179,10 +2997,6 @@
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Vymazať všetky transakcie z peňaženky a pri spustení znova získať z reťazca blokov iba tie získané pomocou -rescan</translation>
-    </message>
-    <message>
-        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>Chyba počas načítavania %s: Nemôžete povoliť HD na už existujúcej non-HD peaženke</translation>
     </message>
     <message>
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
@@ -3210,15 +3024,11 @@
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-<<<<<<< HEAD
-        <translation>Toto je pred-testovacia verzia - použitie je na vlastné riziko - nepoužívajte na tvorbu litecoin ani obchodovanie.</translation>
-=======
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (predvolené: 1 počas počúvania a bez -proxy)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3227,10 +3037,6 @@
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Varovanie: Zjavne sa úplne nezhodujeme s našimi peer-mi! Možno potrebujete prejsť na novšiu verziu alebo ostatné uzly potrebujú vyššiu verziu.</translation>
-    </message>
-    <message>
-        <source>%s corrupt, salvage failed</source>
-        <translation>%s je poškodený, záchrana zlyhala</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
@@ -3251,13 +3057,6 @@
     <message>
         <source>Change index out of range</source>
         <translation>Menný index mimo rozsah</translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Pripojiť sa len k určenej nóde</translation>
-=======
->>>>>>> pr/4
     </message>
     <message>
         <source>Connection options:</source>
@@ -3365,11 +3164,7 @@
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-<<<<<<< HEAD
-        <translation>Poloha overovacieho cookie súboru (predvolená: zložka s dátami)</translation>
-=======
         <translation>Umiestnenie overovacieho cookie súboru (predvolená: Priečinok s dátami)</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
@@ -3684,13 +3479,10 @@
         <translation>Výstupné ladiace informácie (predvolené: %u, dodanie &lt;category&gt; je voliteľné)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>
         <translation>Toto je poplatok za transakciu keď odhad poplatkov ešte nie je k dispozícii.</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
         <translation>Celková dĺžka verzie sieťového reťazca (%i) prekračuje maximálnu dĺžku (%i). Znížte počet a veľkosť komentárov.</translation>
     </message>
@@ -3711,13 +3503,6 @@
         <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor (predvolené: %s)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. This option can be specified multiple times</source>
-        <translation>Užívateľské hash meno a heslo pre JSON-RPC pripojenia. Pole &lt;userpw&gt; je vo formáte &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Kanonický python skript je zahrnutý v share/rpcuser. Toto nastavenie môže byť špecifikované viac krát</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
         <translation>Varovanie: Neznáma verzia blokov sa doluje! Je možné, že neznáme pravidlá majú efekt</translation>
     </message>
@@ -3726,8 +3511,6 @@
         <translation>Varovanie: Peňaženka poškodená, dáta boli zachránené! Originálna %s ako %s v %s; ak váš zostatok alebo transakcie sú nesprávne, mali by ste obnoviť zálohu.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
         <translation>Povoliť partnerov pripájajúcich sa z danej IP adresy (napr. 1.2.3.4) alebo zo siete vo formáte CIDR (napr. 1.2.3.0/24). Môže byť zadané viackrát.</translation>
     </message>
@@ -3736,7 +3519,6 @@
         <translation>Hodnota %s je nastavená veľmi vysoko!</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>(default: %s)</source>
         <translation>(predvolené: %s)</translation>
     </message>

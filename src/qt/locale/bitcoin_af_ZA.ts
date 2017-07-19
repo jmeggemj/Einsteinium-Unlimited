@@ -33,12 +33,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Verwyder</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Kies die address na wie die muntstukke gestuur moet word</translation>
@@ -95,7 +89,6 @@
         <translation>(geen etiket)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -114,8 +107,6 @@
         <source>Repeat new passphrase</source>
         <translation>Herhaal nuwe wagfrase</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Encrypt wallet</source>
         <translation>Enkripteer beursie</translation>
@@ -180,7 +171,6 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Die beursie se wagfrase verandering was suksesvol.</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>BanTableModel</name>
@@ -301,8 +291,6 @@
         <source>&amp;Address</source>
         <translation>&amp;Adres</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>New receiving address</source>
         <translation>Nuwe ontvangende adres</translation>
@@ -323,7 +311,6 @@
         <source>Could not unlock wallet.</source>
         <translation>Kon nie die beursie oopsluit nie.</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>FreespaceChecker</name>
@@ -384,12 +371,9 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -453,9 +437,6 @@
     </message>
     </context>
 <context>
-    <name>RecentRequestsTableModel</name>
-    </context>
-<context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
@@ -485,9 +466,6 @@
         <source>S&amp;end</source>
         <translation>S&amp;tuur</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy amount</source>
         <translation>Kopieer bedrag</translation>
@@ -505,7 +483,6 @@
         <translation>(geen etiket)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -546,9 +523,6 @@
     </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Date</source>
         <translation>Datum</translation>
@@ -618,18 +592,11 @@
         <translation>onwaar</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-    </context>
-=======
     <message>
         <source>Date</source>
         <translation>Datum</translation>
@@ -778,7 +745,6 @@
         <translation>aan</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>UnitDisplayStatusBarControl</name>
     </context>
@@ -787,11 +753,6 @@
     </context>
 <context>
     <name>WalletModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>WalletView</name>
-=======
     <message>
         <source>Send Coins</source>
         <translation>Stuur Munstukke</translation>
@@ -807,7 +768,6 @@
         <source>Export the data in the current tab to a file</source>
         <translation>Voer inligting uit van die huidige blad na n lêer</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>

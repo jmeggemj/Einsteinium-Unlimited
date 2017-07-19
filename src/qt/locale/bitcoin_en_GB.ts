@@ -498,13 +498,6 @@
         <source>(no label)</source>
         <translation>(no label)</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <source>(no label)</source>
-        <translation>(no label)</translation>
-    </message>
-=======
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -1053,9 +1046,6 @@
     </context>
 <context>
     <name>QObject::QObject</name>
-    </context>
-<context>
-    <name>QRImageWidget</name>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -1904,13 +1894,6 @@
         <translation>Unable to start HTTP server. See debug log for details.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>
@@ -1939,17 +1922,6 @@
         <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
-    </message>
-    <message>
-        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
-        <translation>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
         <translation>Error loading %s: You can't enable HD on a already existing non-HD wallet</translation>
     </message>
@@ -2190,13 +2162,6 @@
         <translation>Set database cache size in megabytes (%d to %d, default: %d)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>Set maximum BIP141 block weight (default: %d)</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Set maximum block size in bytes (default: %d)</translation>
     </message>
@@ -2609,13 +2574,10 @@
         <translation>Set key pool size to &lt;n&gt; (default: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>Set maximum BIP141 block weight (default: %d)</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Set the number of threads to service RPC calls (default: %d)</translation>
     </message>

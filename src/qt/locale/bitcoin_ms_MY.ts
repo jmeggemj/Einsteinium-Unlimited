@@ -42,12 +42,6 @@ Alihkan fail data ke dalam tab semasa</translation>
         <source>&amp;Delete</source>
         <translation>&amp;Padam</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Pilih alamat untuk hantar koin kepada</translation>
@@ -120,7 +114,6 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation>(tiada label)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -387,12 +380,9 @@ Alihkan fail data ke dalam tab semasa</translation>
     <name>QObject</name>
     </context>
 <context>
-<<<<<<< HEAD
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -426,9 +416,6 @@ Alihkan fail data ke dalam tab semasa</translation>
         <source>(no label)</source>
         <translation>(tiada label)</translation>
     </message>
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -467,11 +454,6 @@ Alihkan fail data ke dalam tab semasa</translation>
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Label</source>
         <translation>Label</translation>
@@ -499,7 +481,6 @@ Alihkan fail data ke dalam tab semasa</translation>
         <source>Exporting Failed</source>
         <translation>Mengeksport Gagal</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -512,14 +493,11 @@ Alihkan fail data ke dalam tab semasa</translation>
     </context>
 <context>
     <name>WalletView</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation>
 Alihkan fail data ke dalam tab semasa</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>

@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Vee uit</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Kies die adres waarheen u munte wil stuur</translation>
@@ -119,7 +113,6 @@
         <translation>(geen etiket)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -138,9 +131,6 @@
         <source>Repeat new passphrase</source>
         <translation>Herhaal nuwe wagwoord</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Tik die nuwe wagwoord vir u beursie.&lt;br/&gt;Gerbuik asseblief 'n wagwoord met &lt;b&gt;tien of meer lukrake karakters&lt;/b&gt;, of &lt;b&gt;agt of meer woorde&lt;/b&gt;.</translation>
@@ -226,7 +216,6 @@
         <translation>WAARSKUWING:  Outomatiese Kapitalisering is aktief op u sleutelbord!</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>BanTableModel</name>
     <message>
@@ -353,8 +342,6 @@
         <translation>Verander die wagwoord wat ek vir kodifikasie van my beursie gebruik</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
         <source>&amp;Debug window</source>
         <translation>&amp;Ontfout venster</translation>
     </message>
@@ -363,7 +350,6 @@
         <translation>Maak ontfouting en diagnostiese konsole oop</translation>
     </message>
     <message>
->>>>>>> pr/4
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
@@ -398,13 +384,10 @@
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Litecoin adresse</translation>
-<<<<<<< HEAD
-=======
     </message>
     <message>
         <source>&amp;File</source>
         <translation>&amp;Leër</translation>
->>>>>>> pr/4
     </message>
     <message>
         <source>&amp;Help</source>
@@ -439,37 +422,6 @@
         <translation>Blokke op skyf word geprosesseer...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>No block source available...</source>
-        <translation>Geen blokbron beskikbaar...</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>%n blok van transaksiegeskiedenis geprosesseer.</numerusform><numerusform>%n blokke van transaksiegeskiedenis geprosesseer.</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n uur</numerusform><numerusform>%n ure</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n dag</numerusform><numerusform>%n dae</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n week</numerusform><numerusform>%n weke</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 en %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n jaar</numerusform><numerusform>%n jare</numerusform></translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>%1 behind</source>
         <translation>%1 agter</translation>
     </message>
@@ -529,13 +481,6 @@
         <translation>Grepe:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Priority:</source>
-        <translation>Prioriteit:</translation>
-    </message>
-    <message>
-=======
->>>>>>> pr/4
         <source>Fee:</source>
         <translation>Fooi:</translation>
     </message>
@@ -568,13 +513,8 @@
         <translation>Bevestig</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <source>Priority</source>
-        <translation>Prioriteit</translation>
-=======
         <source>(no label)</source>
         <translation>(geen etiket)</translation>
->>>>>>> pr/4
     </message>
     </context>
 <context>
@@ -628,8 +568,6 @@
         <source>Error</source>
         <translation>Fout</translation>
     </message>
-<<<<<<< HEAD
-=======
     </context>
 <context>
     <name>ModalOverlay</name>
@@ -637,7 +575,6 @@
         <source>Hide</source>
         <translation>Versteek</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -768,9 +705,6 @@
         <source>%1 ms</source>
         <translation>%1 ms</translation>
     </message>
-<<<<<<< HEAD
-</context>
-=======
     <message>
         <source>%1 and %2</source>
         <translation>%1 en %2</translation>
@@ -779,7 +713,6 @@
 <context>
     <name>QObject::QObject</name>
     </context>
->>>>>>> pr/4
 <context>
     <name>QRImageWidget</name>
     </context>
@@ -862,54 +795,6 @@
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendCoinsDialog</name>
-    <message>
-        <source>Bytes:</source>
-        <translation>Grepe:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioriteit:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Fooi:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Na Fooi:</translation>
-    </message>
-    <message>
-        <source>Transaction Fee:</source>
-        <translation>Transaksiefooi:</translation>
-    </message>
-    <message>
-        <source>Choose...</source>
-        <translation>Kies...</translation>
-    </message>
-    <message>
-        <source>per kilobyte</source>
-        <translation>per kilogreep</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Versteek</translation>
-    </message>
-    <message>
-        <source>total at least</source>
-        <translation>totaal ten minste</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Stof:</translation>
-    </message>
-    <message>
-        <source>Balance:</source>
-        <translation>Balans:</translation>
-=======
     <message>
         <source>Date</source>
         <translation>Datum</translation>
@@ -921,7 +806,6 @@
     <message>
         <source>(no label)</source>
         <translation>(geen etiket)</translation>
->>>>>>> pr/4
     </message>
     </context>
 <context>
@@ -991,24 +875,16 @@
     </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Date</source>
         <translation>Datum</translation>
@@ -1048,7 +924,6 @@
         <source>Exporting Failed</source>
         <translation>Uitvoer was onsuksesvol</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1061,8 +936,6 @@
     </context>
 <context>
     <name>WalletView</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>&amp;Export</source>
         <translation>&amp;Voer uit</translation>
@@ -1071,7 +944,6 @@
         <source>Export the data in the current tab to a file</source>
         <translation>Voer die inligting op hierdie bladsy uit na 'n leer</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>

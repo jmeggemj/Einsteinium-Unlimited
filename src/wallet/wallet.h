@@ -46,19 +46,12 @@ static const unsigned int DEFAULT_KEYPOOL_SIZE = 100;
 //! -paytxfee default
 static const CAmount DEFAULT_TRANSACTION_FEE = 0;
 //! -fallbackfee default
-<<<<<<< HEAD
-static const CAmount DEFAULT_FALLBACK_FEE = 200000;
-//! -mintxfee default
-static const CAmount DEFAULT_TRANSACTION_MINFEE = 100000;
-//! minimum change amount
-=======
 static const CAmount DEFAULT_FALLBACK_FEE = 2000000;
 //! -mintxfee default
 static const CAmount DEFAULT_TRANSACTION_MINFEE = 100000;
 //! minimum recommended increment for BIP 125 replacement txs
 static const CAmount WALLET_INCREMENTAL_RELAY_FEE = 5000;
 //! target minimum change amount
->>>>>>> pr/4
 static const CAmount MIN_CHANGE = CENT;
 //! final minimum change amount after paying for fees
 static const CAmount MIN_FINAL_CHANGE = MIN_CHANGE/2;
@@ -244,11 +237,7 @@ public:
     bool IsInMainChain() const { const CBlockIndex *pindexRet; return GetDepthInMainChain(pindexRet) > 0; }
     int GetBlocksToMaturity() const;
     /** Pass this transaction to the mempool. Fails if absolute fee exceeds absurd fee. */
-<<<<<<< HEAD
-    bool AcceptToMemoryPool(bool fLimitFree, const CAmount nAbsurdFee, CValidationState& state);
-=======
     bool AcceptToMemoryPool(const CAmount& nAbsurdFee, CValidationState& state);
->>>>>>> pr/4
     bool hashUnset() const { return (hashBlock.IsNull() || hashBlock == ABANDON_HASH); }
     bool isAbandoned() const { return (hashBlock == ABANDON_HASH); }
     void setAbandoned() { hashBlock = ABANDON_HASH; }
@@ -995,12 +984,9 @@ public:
     /* Set the HD chain model (chain child index counters) */
     bool SetHDChain(const CHDChain& chain, bool memonly);
     const CHDChain& GetHDChain() { return hdChain; }
-<<<<<<< HEAD
-=======
 
     /* Returns true if HD is enabled */
     bool IsHDEnabled();
->>>>>>> pr/4
 
     /* Generates a new HD master key (will not be activated) */
     CPubKey GenerateNewHDMasterKey();

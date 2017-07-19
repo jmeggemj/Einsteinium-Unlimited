@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>Изтрий</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Избери адреса на който да пратиш монети</translation>
@@ -119,7 +113,6 @@
         <translation>(без етикет)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -138,8 +131,6 @@
         <source>Repeat new passphrase</source>
         <translation>Повтори парола</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Encrypt wallet</source>
         <translation>Криптирай портфейл</translation>
@@ -168,7 +159,6 @@
         <source>Confirm wallet encryption</source>
         <translation>Потвърди криптирането на порфейла</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>BanTableModel</name>
@@ -313,12 +303,9 @@
     <name>QObject</name>
     </context>
 <context>
-<<<<<<< HEAD
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -340,11 +327,6 @@
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>SendCoinsDialog</name>
-=======
     <message>
         <source>Label</source>
         <translation>Етикет</translation>
@@ -353,7 +335,6 @@
         <source>(no label)</source>
         <translation>(без етикет)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -388,11 +369,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Label</source>
         <translation>Етикет</translation>
@@ -420,7 +396,6 @@
         <source>Exporting Failed</source>
         <translation>Изнасянето се провали</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -433,8 +408,6 @@
     </context>
 <context>
     <name>WalletView</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>&amp;Export</source>
         <translation>Изнеси</translation>
@@ -443,7 +416,6 @@
         <source>Export the data in the current tab to a file</source>
         <translation>Изнеси данните в избрания раздел към файл</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>

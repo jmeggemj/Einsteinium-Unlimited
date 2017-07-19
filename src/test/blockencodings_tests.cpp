@@ -28,11 +28,7 @@ static CBlock BuildBlockTestCase() {
     tx.vout[0].nValue = 42;
 
     block.vtx.resize(3);
-<<<<<<< HEAD
-    block.vtx[0] = tx;
-=======
     block.vtx[0] = MakeTransactionRef(tx);
->>>>>>> pr/4
     block.nVersion = 1;
     block.hashPrevBlock = GetRandHash();
     block.nBits = 0x1e0ffff0;
@@ -107,11 +103,7 @@ BOOST_AUTO_TEST_CASE(SimpleRoundTripTest)
         BOOST_CHECK(block.hashMerkleRoot != BlockMerkleRoot(block2, &mutated));
 
         CBlock block3;
-<<<<<<< HEAD
-        BOOST_CHECK(partialBlock.FillBlock(block3, vtx_missing) == READ_STATUS_OK);
-=======
         BOOST_CHECK(partialBlock.FillBlock(block3, {block.vtx[1]}) == READ_STATUS_OK);
->>>>>>> pr/4
         BOOST_CHECK_EQUAL(block.GetPoWHash().ToString(), block3.GetPoWHash().ToString());
         BOOST_CHECK_EQUAL(block.hashMerkleRoot.ToString(), BlockMerkleRoot(block3, &mutated).ToString());
         BOOST_CHECK(!mutated);
@@ -213,12 +205,8 @@ BOOST_AUTO_TEST_CASE(NonCoinbasePreforwardRTTest)
         BOOST_CHECK(block.hashMerkleRoot != BlockMerkleRoot(block2, &mutated));
 
         CBlock block3;
-<<<<<<< HEAD
-        BOOST_CHECK(partialBlock.FillBlock(block3, vtx_missing) == READ_STATUS_OK);
-=======
         PartiallyDownloadedBlock partialBlockCopy = partialBlock;
         BOOST_CHECK(partialBlock.FillBlock(block3, {block.vtx[0]}) == READ_STATUS_OK);
->>>>>>> pr/4
         BOOST_CHECK_EQUAL(block.GetPoWHash().ToString(), block3.GetPoWHash().ToString());
         BOOST_CHECK_EQUAL(block.hashMerkleRoot.ToString(), BlockMerkleRoot(block3, &mutated).ToString());
         BOOST_CHECK(!mutated);
@@ -267,15 +255,9 @@ BOOST_AUTO_TEST_CASE(SufficientPreforwardRTTest)
         BOOST_CHECK_EQUAL(pool.mapTx.find(block.vtx[1]->GetHash())->GetSharedTx().use_count(), SHARED_TX_OFFSET + 1);
 
         CBlock block2;
-<<<<<<< HEAD
-        std::vector<CTransaction> vtx_missing;
-        BOOST_CHECK(partialBlock.FillBlock(block2, vtx_missing) == READ_STATUS_OK);
-        BOOST_CHECK_EQUAL(block.GetPoWHash().ToString(), block2.GetPoWHash().ToString());
-=======
         PartiallyDownloadedBlock partialBlockCopy = partialBlock;
         BOOST_CHECK(partialBlock.FillBlock(block2, {}) == READ_STATUS_OK);
         BOOST_CHECK_EQUAL(block.GePoWtHash().ToString(), block2.GetPoWHash().ToString());
->>>>>>> pr/4
         bool mutated;
         BOOST_CHECK_EQUAL(block.hashMerkleRoot.ToString(), BlockMerkleRoot(block2, &mutated).ToString());
         BOOST_CHECK(!mutated);
@@ -299,11 +281,7 @@ BOOST_AUTO_TEST_CASE(EmptyBlockRoundTripTest)
 
     CBlock block;
     block.vtx.resize(1);
-<<<<<<< HEAD
-    block.vtx[0] = coinbase;
-=======
     block.vtx[0] = MakeTransactionRef(std::move(coinbase));
->>>>>>> pr/4
     block.nVersion = 1;
     block.hashPrevBlock = GetRandHash();
     block.nBits = 0x1e0ffff0;
@@ -331,10 +309,6 @@ BOOST_AUTO_TEST_CASE(EmptyBlockRoundTripTest)
         std::vector<CTransactionRef> vtx_missing;
         BOOST_CHECK(partialBlock.FillBlock(block2, vtx_missing) == READ_STATUS_OK);
         BOOST_CHECK_EQUAL(block.GetPoWHash().ToString(), block2.GetPoWHash().ToString());
-<<<<<<< HEAD
-        bool mutated;
-=======
->>>>>>> pr/4
         BOOST_CHECK_EQUAL(block.hashMerkleRoot.ToString(), BlockMerkleRoot(block2, &mutated).ToString());
         BOOST_CHECK(!mutated);
     }

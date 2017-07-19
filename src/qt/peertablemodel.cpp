@@ -114,11 +114,7 @@ PeerTableModel::PeerTableModel(ClientModel *parent) :
     clientModel(parent),
     timer(0)
 {
-<<<<<<< HEAD
-    columns << tr("Node/Service") << tr("User Agent") << tr("Ping Time");
-=======
     columns << tr("NodeId") << tr("Node/Service") << tr("User Agent") << tr("Ping");
->>>>>>> pr/4
     priv.reset(new PeerTablePriv());
     // default to unsorted
     priv->sortColumn = -1;

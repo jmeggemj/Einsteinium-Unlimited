@@ -67,12 +67,9 @@
     <name>QObject</name>
     </context>
 <context>
-<<<<<<< HEAD
-=======
     <name>QObject::QObject</name>
     </context>
 <context>
->>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -86,13 +83,10 @@
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Date</source>
         <translation>日期</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -137,39 +131,16 @@
     </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-=======
     <message>
         <source>Date</source>
         <translation>日期</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-    </context>
-<context>
-    <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletFrame</name>
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
-<context>
-    <name>WalletView</name>
-    </context>
-<context>
-    <name>bitcoin-core</name>
-=======
     <message>
         <source>Date</source>
         <translation>日期</translation>
@@ -177,7 +148,6 @@
     </context>
 <context>
     <name>TransactionView</name>
->>>>>>> pr/4
     <message>
         <source>Date</source>
         <translation>日期</translation>

@@ -41,12 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Supprimer</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
-=======
     <message>
         <source>C&amp;hoose</source>
         <translation>C&amp;oisir</translation>
@@ -87,7 +81,6 @@
         <translation>(aucune étiquette)</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -106,8 +99,6 @@
         <source>Repeat new passphrase</source>
         <translation>Répétez la phrase de passe</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Encrypt wallet</source>
         <translation>Chiffrer le porte-monnaie</translation>
@@ -124,7 +115,6 @@
         <source>Wallet encrypted</source>
         <translation>Porte-monnaie chiffré</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>BanTableModel</name>
@@ -480,8 +470,6 @@
         <source>Copy address</source>
         <translation>Copier l'adresse</translation>
     </message>
-<<<<<<< HEAD
-=======
     <message>
         <source>Copy label</source>
         <translation>Copier l'étiquette</translation>
@@ -514,7 +502,6 @@
         <source>(no label)</source>
         <translation>(aucune étiquette)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -908,9 +895,6 @@
     </message>
     </context>
 <context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
@@ -1167,9 +1151,6 @@
         <source>Remove</source>
         <translation>Retirer</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Copy label</source>
         <translation>Copier l'étiquette</translation>
@@ -1179,7 +1160,6 @@
         <translation>Copier le montant</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -1198,11 +1178,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Sauvegarder image</translation>
     </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-=======
     <message>
         <source>Address</source>
         <translation>Adresse</translation>
@@ -1234,7 +1209,6 @@
         <source>(no label)</source>
         <translation>(aucune étiquette)</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1483,9 +1457,6 @@
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
-    </context>
-=======
     <message>
         <source>Status</source>
         <translation>État</translation>
@@ -1563,7 +1534,6 @@
         <translation>faux</translation>
     </message>
 </context>
->>>>>>> pr/4
 <context>
     <name>TransactionDescDialog</name>
     <message>
@@ -1573,11 +1543,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>TransactionView</name>
-=======
     <message>
         <source>Date</source>
         <translation>Date</translation>
@@ -1657,7 +1622,6 @@
         <source>Exporting Failed</source>
         <translation>Échec de l'export</translation>
     </message>
->>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>

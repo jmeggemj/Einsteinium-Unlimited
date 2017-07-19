@@ -190,14 +190,11 @@ def sign_P2PK_witness_input(script, txTo, inIdx, hashtype, value, key):
 
 class SegWitTest(BitcoinTestFramework):
 
-<<<<<<< HEAD
-=======
     def __init__(self):
         super().__init__()
         self.setup_clean_chain = True
         self.num_nodes = 3
 
->>>>>>> pr/4
     def setup_network(self):
         self.nodes = []
         self.nodes.append(start_node(0, self.options.tmpdir, ["-debug", "-logtimemicros=1", "-whitelist=127.0.0.1"]))
@@ -275,7 +272,7 @@ class SegWitTest(BitcoinTestFramework):
 
         tx = CTransaction()
         tx.vin.append(CTxIn(COutPoint(self.utxo[0].sha256, self.utxo[0].n), b""))
-        tx.vout.append(CTxOut(self.utxo[0].nValue-100000, CScript([OP_TRUE])))
+        tx.vout.append(CTxOut(self.utxo[0].nValue-1000, CScript([OP_TRUE])))
         tx.wit.vtxinwit.append(CTxInWitness())
         tx.wit.vtxinwit[0].scriptWitness.stack = [CScript([CScriptNum(1)])]
 
@@ -1707,17 +1704,11 @@ class SegWitTest(BitcoinTestFramework):
         for node in [self.nodes[0], self.nodes[2]]:
             gbt_results = node.getblocktemplate()
             block_version = gbt_results['version']
-<<<<<<< HEAD
-            # If we're not indicating segwit support, we should not be signalling
-            # for segwit activation, nor should we get a witness commitment.
-            assert_equal(block_version & (1 << VB_WITNESS_BIT), 0)
-=======
             # If we're not indicating segwit support, we will still be
             # signalling for segwit activation.
             assert_equal((block_version & (1 << VB_WITNESS_BIT) != 0), node == self.nodes[0])
             # If we don't specify the segwit rule, then we won't get a default
             # commitment.
->>>>>>> pr/4
             assert('default_witness_commitment' not in gbt_results)
 
         # Workaround:
@@ -1770,17 +1761,10 @@ class SegWitTest(BitcoinTestFramework):
         key.set_compressed(False)
         pubkey = CPubKey(key.get_pubkey())
         assert_equal(len(pubkey), 65) # This should be an uncompressed pubkey
-<<<<<<< HEAD
 
         assert(len(self.utxo) > 0)
         utxo = self.utxo.pop(0)
 
-=======
-
-        assert(len(self.utxo) > 0)
-        utxo = self.utxo.pop(0)
-
->>>>>>> pr/4
         # Test 1: P2WPKH
         # First create a P2WPKH output that uses an uncompressed pubkey
         pubkeyhash = hash160(pubkey)

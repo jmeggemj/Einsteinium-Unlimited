@@ -114,11 +114,7 @@ std::string ScriptToAsmStr(const CScript& script, const bool fAttemptSighashDeco
     return str;
 }
 
-<<<<<<< HEAD
-string EncodeHexTx(const CTransaction& tx, const int serialFlags)
-=======
 std::string EncodeHexTx(const CTransaction& tx, const int serialFlags)
->>>>>>> pr/4
 {
     CDataStream ssTx(SER_NETWORK, PROTOCOL_VERSION | serialFlags);
     ssTx << tx;
@@ -170,15 +166,9 @@ void TxToUniv(const CTransaction& tx, const uint256& hashBlock, UniValue& entry)
             o.pushKV("asm", ScriptToAsmStr(txin.scriptSig, true));
             o.pushKV("hex", HexStr(txin.scriptSig.begin(), txin.scriptSig.end()));
             in.pushKV("scriptSig", o);
-<<<<<<< HEAD
-            if (!tx.wit.IsNull() && i < tx.wit.vtxinwit.size() && !tx.wit.vtxinwit[i].IsNull()) {
-                UniValue txinwitness(UniValue::VARR);
-                for (const auto& item : tx.wit.vtxinwit[i].scriptWitness.stack) {
-=======
             if (!tx.vin[i].scriptWitness.IsNull()) {
                 UniValue txinwitness(UniValue::VARR);
                 for (const auto& item : tx.vin[i].scriptWitness.stack) {
->>>>>>> pr/4
                     txinwitness.push_back(HexStr(item.begin(), item.end()));
                 }
                 in.pushKV("txinwitness", txinwitness);
