@@ -192,7 +192,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>El Monedero esta &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -208,10 +208,6 @@
         <translation>AMonto:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Prioridad:</translation>
-    </message>
-    <message>
         <source>Change:</source>
         <translation>Cambio:</translation>
     </message>
@@ -223,10 +219,13 @@
         <source>Confirmed</source>
         <translation>Confirmado</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Priority</source>
         <translation>Prioridad</translation>
     </message>
+=======
+>>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -254,6 +253,13 @@
     <message>
         <source>Error</source>
         <translation>Error</translation>
+    </message>
+    </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulario</translation>
     </message>
     </context>
 <context>
@@ -287,6 +293,12 @@
     <name>QObject</name>
     </context>
 <context>
+<<<<<<< HEAD
+=======
+    <name>QObject::QObject</name>
+    </context>
+<context>
+>>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -330,10 +342,6 @@
     <message>
         <source>Amount:</source>
         <translation>AMonto:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioridad:</translation>
     </message>
     <message>
         <source>Change:</source>

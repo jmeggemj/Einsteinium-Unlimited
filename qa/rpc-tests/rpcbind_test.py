@@ -5,12 +5,25 @@
 
 # Test for -rpcbind, as well as -rpcallowip and -rpcconnect
 
+<<<<<<< HEAD
 import tempfile
 import traceback
 
+=======
+>>>>>>> pr/4
 from test_framework.test_framework import BitcoinTestFramework
 from test_framework.util import *
 from test_framework.netutil import *
+
+<<<<<<< HEAD
+class RPCBindTest(BitcoinTestFramework):
+
+    def __init__(self):
+        super().__init__()
+        self.setup_clean_chain = True
+        self.num_nodes = 1
+
+=======
 
 class RPCBindTest(BitcoinTestFramework):
 
@@ -19,6 +32,7 @@ class RPCBindTest(BitcoinTestFramework):
         self.setup_clean_chain = True
         self.num_nodes = 1
 
+>>>>>>> pr/4
     def setup_network(self):
         pass
 
@@ -37,6 +51,7 @@ class RPCBindTest(BitcoinTestFramework):
             base_args += ['-rpcallowip=' + x for x in allow_ips]
         binds = ['-rpcbind='+addr for addr in addresses]
         self.nodes = start_nodes(self.num_nodes, self.options.tmpdir, [base_args + binds], connect_to)
+<<<<<<< HEAD
         try:
             pid = bitcoind_processes[0].pid
             assert_equal(set(get_bind_addrs(pid)), set(expected))
@@ -46,10 +61,20 @@ class RPCBindTest(BitcoinTestFramework):
     def run_allowip_test(self, allow_ips, rpchost, rpcport):
         '''
         Start a node with rpcallow IP, and request getinfo
+=======
+        pid = bitcoind_processes[0].pid
+        assert_equal(set(get_bind_addrs(pid)), set(expected))
+        stop_nodes(self.nodes)
+
+    def run_allowip_test(self, allow_ips, rpchost, rpcport):
+        '''
+        Start a node with rpcallow IP, and request getnetworkinfo
+>>>>>>> pr/4
         at a non-localhost IP.
         '''
         base_args = ['-disablewallet', '-nolisten'] + ['-rpcallowip='+x for x in allow_ips]
         self.nodes = start_nodes(self.num_nodes, self.options.tmpdir, [base_args])
+<<<<<<< HEAD
         try:
             # connect to node through non-loopback interface
             node = get_rpc_proxy(rpc_url(0, "%s:%d" % (rpchost, rpcport)), 0)
@@ -57,6 +82,12 @@ class RPCBindTest(BitcoinTestFramework):
         finally:
             node = None # make sure connection will be garbage collected and closed
             stop_nodes(self.nodes)
+=======
+        # connect to node through non-loopback interface
+        node = get_rpc_proxy(rpc_url(0, "%s:%d" % (rpchost, rpcport)), 0)
+        node.getnetworkinfo()
+        stop_nodes(self.nodes)
+>>>>>>> pr/4
 
     def run_test(self):
         # due to OS-specific network stats queries, this test works only on Linux
@@ -107,4 +138,8 @@ class RPCBindTest(BitcoinTestFramework):
             pass
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     RPCBindTest ().main ()
+=======
+    RPCBindTest().main()
+>>>>>>> pr/4

@@ -101,7 +101,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Upozorenje: Ako šifrujete svoj novčanik, i potom izgubite svoju pristupnu frazu &lt;b&gt;IZGUBIĆETE SVE SVOJE BITKOINE&lt;/b&gt;!</translation>
+=======
+        <translation>Upozorenje: Ako šifrujete svoj novčanik, i potom izgubite svoju pristupnu frazu &lt;b&gt;IZGUBIĆETE SVE SVOJE LITECOINE&lt;/b&gt;!</translation>
+>>>>>>> pr/4
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -255,10 +259,13 @@
         <translation>Iznos:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority:</source>
         <translation>Prioritet:</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Fee:</source>
         <translation>Naknada:</translation>
     </message>
@@ -308,6 +315,9 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -330,6 +340,12 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
+=======
+    <name>QObject::QObject</name>
+    </context>
+<context>
+>>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -355,10 +371,13 @@
         <translation>Iznos:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority:</source>
         <translation>Prioritet:</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Fee:</source>
         <translation>Naknada:</translation>
     </message>

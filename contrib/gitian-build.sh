@@ -31,7 +31,11 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
+<<<<<<< HEAD
 Run this script from the directory containing the bitcoin, gitian-builder, gitian.sigs.ltc, and litecoin-detached-sigs.
+=======
+Run this script from the directory containing the litecoin, gitian-builder, gitian.sigs.ltc, and litecoin-detached-sigs.
+>>>>>>> pr/4
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -41,7 +45,11 @@ Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
 -u|--url	Specify the URL of the repository. Default is https://github.com/litecoin-project/litecoin
 -v|--verify 	Verify the gitian build
+<<<<<<< HEAD
 -b|--build	Do a gitiain build
+=======
+-b|--build	Do a gitian build
+>>>>>>> pr/4
 -s|--sign	Make signed binaries for Windows and Mac OSX
 -B|--buildsign	Build both signed and unsigned binaries
 -o|--os		Specify which Operating Systems the build is for. Default is lwx. l for linux, w for windows, x for osx
@@ -304,11 +312,19 @@ then
 
         if [[ $commitFiles = true ]]
         then
+<<<<<<< HEAD
 	    # Commit to gitian.sigs.ltc repo
             echo ""
             echo "Committing ${VERSION} Unsigned Sigs"
             echo ""
             pushd gitian.sigs.ltc
+=======
+	    # Commit to gitian.sigs repo
+            echo ""
+            echo "Committing ${VERSION} Unsigned Sigs"
+            echo ""
+            pushd gitian.sigs
+>>>>>>> pr/4
             git add ${VERSION}-linux/${SIGNER}
             git add ${VERSION}-win-unsigned/${SIGNER}
             git add ${VERSION}-osx-unsigned/${SIGNER}
@@ -380,7 +396,11 @@ then
         if [[ $commitFiles = true ]]
         then
             # Commit Sigs
+<<<<<<< HEAD
             pushd gitian.sigs.ltc
+=======
+            pushd gitian.sigs
+>>>>>>> pr/4
             echo ""
             echo "Committing ${VERSION} Signed Sigs"
             echo ""

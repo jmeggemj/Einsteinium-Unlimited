@@ -6,6 +6,10 @@ src/litecoind
 src/litecoin-cli
 src/litecoin-tx
 src/test/test_litecoin
+<<<<<<< HEAD
+=======
+src/test/test_litecoin_fuzzy
+>>>>>>> pr/4
 src/qt/test/test_litecoin-qt
 
 # autoreconf
@@ -55,7 +59,10 @@ src/qt/test/moc*.cpp
 *.o
 *.o-*
 *.patch
+<<<<<<< HEAD
 .litecoin
+=======
+>>>>>>> pr/4
 *.a
 *.pb.cc
 *.pb.h
@@ -93,7 +100,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_bitcoin.coverage/
+test_litecoin.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -101,13 +108,8 @@ coverage_percent.txt
 linux-coverage-build
 linux-build
 win32-build
-qa/pull-tester/run-bitcoind-for-test.sh
 qa/pull-tester/tests_config.py
-qa/pull-tester/cache/*
-qa/pull-tester/test.*/*
-qa/tmp
-cache/
-share/BitcoindComparisonTool.jar
+qa/cache/*
 
 !src/leveldb*/Makefile
 

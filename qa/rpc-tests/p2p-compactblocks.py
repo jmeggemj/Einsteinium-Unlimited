@@ -29,6 +29,10 @@ class TestNode(SingleNodeConnCB):
         self.last_cmpctblock = None
         self.block_announced = False
         self.last_getdata = None
+<<<<<<< HEAD
+=======
+        self.last_getheaders = None
+>>>>>>> pr/4
         self.last_getblocktxn = None
         self.last_block = None
         self.last_blocktxn = None
@@ -66,6 +70,12 @@ class TestNode(SingleNodeConnCB):
     def on_getdata(self, conn, message):
         self.last_getdata = message
 
+<<<<<<< HEAD
+=======
+    def on_getheaders(self, conn, message):
+        self.last_getheaders = message
+
+>>>>>>> pr/4
     def on_getblocktxn(self, conn, message):
         self.last_getblocktxn = message
 
@@ -308,6 +318,12 @@ class CompactBlocksTest(BitcoinTestFramework):
         tip = int(node.getbestblockhash(), 16)
         assert(test_node.wait_for_block_announcement(tip))
 
+<<<<<<< HEAD
+=======
+        # Make sure we will receive a fast-announce compact block
+        self.request_cb_announcements(test_node, node, version)
+
+>>>>>>> pr/4
         # Now mine a block, and look at the resulting compact block.
         test_node.clear_block_announcement()
         block_hash = int(node.generate(1)[0], 16)
@@ -317,6 +333,7 @@ class CompactBlocksTest(BitcoinTestFramework):
         [tx.calc_sha256() for tx in block.vtx]
         block.rehash()
 
+<<<<<<< HEAD
         # Don't care which type of announcement came back for this test; just
         # request the compact block if we didn't get one yet.
         wait_until(test_node.received_block_announcement, timeout=30)
@@ -327,17 +344,46 @@ class CompactBlocksTest(BitcoinTestFramework):
                 test_node.clear_block_announcement()
                 inv = CInv(4, block_hash)  # 4 == "CompactBlock"
                 test_node.send_message(msg_getdata([inv]))
-
+=======
+        # Wait until the block was announced (via compact blocks)
         wait_until(test_node.received_block_announcement, timeout=30)
         assert(test_node.received_block_announcement())
 
-        # Now we should have the compactblock
+        # Now fetch and check the compact block
         header_and_shortids = None
         with mininode_lock:
             assert(test_node.last_cmpctblock is not None)
             # Convert the on-the-wire representation to absolute indexes
             header_and_shortids = HeaderAndShortIDs(test_node.last_cmpctblock.header_and_shortids)
+        self.check_compactblock_construction_from_block(version, header_and_shortids, block_hash, block)
 
+        # Now fetch the compact block using a normal non-announce getdata
+        with mininode_lock:
+            test_node.clear_block_announcement()
+            inv = CInv(4, block_hash)  # 4 == "CompactBlock"
+            test_node.send_message(msg_getdata([inv]))
+>>>>>>> pr/4
+
+        wait_until(test_node.received_block_announcement, timeout=30)
+        assert(test_node.received_block_announcement())
+
+<<<<<<< HEAD
+        # Now we should have the compactblock
+=======
+        # Now fetch and check the compact block
+>>>>>>> pr/4
+        header_and_shortids = None
+        with mininode_lock:
+            assert(test_node.last_cmpctblock is not None)
+            # Convert the on-the-wire representation to absolute indexes
+            header_and_shortids = HeaderAndShortIDs(test_node.last_cmpctblock.header_and_shortids)
+<<<<<<< HEAD
+
+=======
+        self.check_compactblock_construction_from_block(version, header_and_shortids, block_hash, block)
+
+    def check_compactblock_construction_from_block(self, version, header_and_shortids, block_hash, block):
+>>>>>>> pr/4
         # Check that we got the right block!
         header_and_shortids.header.calc_sha256()
         assert_equal(header_and_shortids.header.sha256, block_hash)
@@ -398,6 +444,12 @@ class CompactBlocksTest(BitcoinTestFramework):
 
             if announce == "inv":
                 test_node.send_message(msg_inv([CInv(2, block.sha256)]))
+<<<<<<< HEAD
+=======
+                success = wait_until(lambda: test_node.last_getheaders is not None, timeout=30)
+                assert(success)
+                test_node.send_header_for_blocks([block])
+>>>>>>> pr/4
             else:
                 test_node.send_header_for_blocks([block])
             success = wait_until(lambda: test_node.last_getdata is not None, timeout=30)

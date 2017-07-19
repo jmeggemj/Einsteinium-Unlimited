@@ -194,10 +194,6 @@
         <translation>Optiones mandati initiantis</translation>
     </message>
     <message>
-        <source>No block source available...</source>
-        <translation>Nulla fons frustorum absens...</translation>
-    </message>
-    <message>
         <source>%1 behind</source>
         <translation>%1 post</translation>
     </message>
@@ -245,7 +241,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;seratum&lt;/b&gt;</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -307,6 +303,17 @@
     <message>
         <source>Error</source>
         <translation>Error</translation>
+    </message>
+    </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Hora postremi frusti</translation>
     </message>
     </context>
 <context>
@@ -448,6 +455,12 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
+=======
+    <name>QObject::QObject</name>
+    </context>
+<context>
+>>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -758,10 +771,13 @@
         <translation>Operare infere sicut daemon et mandata accipe</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Accipe conexiones externas (praedefinitum: 1 nisi -proxy neque -connect)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Nucleus</translation>
     </message>
@@ -774,16 +790,8 @@
         <translation>Facere mandatum quotiescumque cassidilis transactio mutet (%s in mandato sbstituitur ab TxID)</translation>
     </message>
     <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Hoc est prae-dimittum experimentala aedes - utere eo periculo tuo proprio - nolite utere fodendo vel applicationibus mercatoriis</translation>
-    </message>
-    <message>
         <source>Block creation options:</source>
         <translation>Optiones creandi frustorum:</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Conecte sole ad nodos specificatos (vel nodum specificatum)</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -848,10 +856,6 @@
     <message>
         <source>Transaction amount too small</source>
         <translation>Magnitudo transactionis nimis parva</translation>
-    </message>
-    <message>
-        <source>Transaction amounts must be positive</source>
-        <translation>Necesse est magnitudines transactionum positivas esse.</translation>
     </message>
     <message>
         <source>Transaction too large</source>

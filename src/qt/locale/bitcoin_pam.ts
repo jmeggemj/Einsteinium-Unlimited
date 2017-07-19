@@ -225,7 +225,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Maka-&lt;b&gt;encrypt&lt;/b&gt; ya ing wallet at kasalukuyan yang maka-&lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -291,6 +291,17 @@
     <message>
         <source>Error</source>
         <translation>Mali</translation>
+    </message>
+    </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Form</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Tatauling oras na ning block</translation>
     </message>
     </context>
 <context>
@@ -432,6 +443,12 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
+=======
+    <name>QObject::QObject</name>
+    </context>
+<context>
+>>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -738,20 +755,19 @@
         <translation>Gumana king gulut bilang daemon at tumanggap commands</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Tumanggap koneksion menibat king kilwal (default: 1 if no -proxy or -connect)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Kapilubluban ning Litecoin</translation>
     </message>
     <message>
         <source>Block creation options:</source>
         <translation>Pipamilian king pamag-gawang block:</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Kumunekta mu king mepiling node(s)</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

@@ -37,6 +37,25 @@
         <source>&amp;Delete</source>
         <translation>&amp;Избриши</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>Izbirajte adresu za slanje</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Izbirajte adresu za primanje</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Adresa za slanje</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Adresa za primanje</translation>
+    </message>
+>>>>>>> pr/4
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -146,6 +165,10 @@
         <translation>Трака са картицама</translation>
     </message>
     <message>
+        <source>Error</source>
+        <translation>Greška</translation>
+    </message>
+    <message>
         <source>Up to date</source>
         <translation>Ажурно</translation>
     </message>
@@ -169,7 +192,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Новчаник јс &lt;b&gt;шифрован&lt;/b&gt; и тренутно &lt;b&gt;закључан&lt;/b&gt;</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -220,6 +243,17 @@
     </context>
 <context>
     <name>Intro</name>
+    <message>
+        <source>Error</source>
+        <translation>Greška</translation>
+    </message>
+    </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Форма</translation>
+    </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -264,10 +298,24 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
+=======
+    <name>QObject::QObject</name>
+    </context>
+<context>
+>>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
     <name>RPCConsole</name>
+    <message>
+        <source>Yes</source>
+        <translation>Da</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ne</translation>
+    </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -282,6 +330,10 @@
     <message>
         <source>&amp;Message:</source>
         <translation>Poruka:</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Prikaži</translation>
     </message>
     </context>
 <context>
@@ -338,7 +390,15 @@
     </context>
 <context>
     <name>SendConfirmationDialog</name>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>Yes</source>
+        <translation>Da</translation>
+    </message>
+</context>
+>>>>>>> pr/4
 <context>
     <name>ShutdownWindow</name>
     </context>
@@ -422,6 +482,10 @@
         <translation>učitavam adrese....</translation>
     </message>
     <message>
+        <source>Insufficient funds</source>
+        <translation>Nedovoljno sredstava</translation>
+    </message>
+    <message>
         <source>Loading block index...</source>
         <translation>Učitavam blok indeksa...</translation>
     </message>
@@ -437,5 +501,9 @@
         <source>Done loading</source>
         <translation>Završeno učitavanje</translation>
     </message>
-    </context>
+    <message>
+        <source>Error</source>
+        <translation>Greška</translation>
+    </message>
+</context>
 </TS>

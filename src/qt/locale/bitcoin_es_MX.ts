@@ -249,7 +249,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>La cartera esta &lt;b&gt;encriptada&lt;/b&gt; y &lt;b&gt;bloqueada&lt;/b&gt; actualmente </translation>
     </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -263,10 +263,6 @@
     <message>
         <source>Amount:</source>
         <translation>Monto:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioridad:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -292,10 +288,13 @@
         <source>Confirmed</source>
         <translation>Confirmado </translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Priority</source>
         <translation>Prioridad</translation>
     </message>
+=======
+>>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -350,6 +349,13 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulario</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -392,6 +398,12 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
+=======
+    <name>QObject::QObject</name>
+    </context>
+<context>
+>>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -455,10 +467,6 @@
     <message>
         <source>Amount:</source>
         <translation>Monto:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioridad:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -591,7 +599,15 @@
     </context>
 <context>
     <name>WalletModel</name>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>Send Coins</source>
+        <translation>Enviar monedas</translation>
+    </message>
+</context>
+>>>>>>> pr/4
 <context>
     <name>WalletView</name>
     </context>

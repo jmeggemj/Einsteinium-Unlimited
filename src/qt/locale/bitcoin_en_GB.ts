@@ -333,33 +333,9 @@
         <source>Processing blocks on disk...</source>
         <translation>Processing blocks on disk...</translation>
     </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>No block source available...</translation>
-    </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>Processed %n block of transaction history.</numerusform><numerusform>Processed %n blocks of transaction history.</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n hour</numerusform><numerusform>%n hours</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n day</numerusform><numerusform>%n days</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n week</numerusform><numerusform>%n weeks</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 and %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n year</numerusform><numerusform>%n years</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -447,7 +423,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -465,10 +441,6 @@
     <message>
         <source>Amount:</source>
         <translation>Amount:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priority:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -523,13 +495,16 @@
         <translation>Confirmed</translation>
     </message>
     <message>
-        <source>Priority</source>
-        <translation>Priority</translation>
+        <source>(no label)</source>
+        <translation>(no label)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>(no label)</source>
         <translation>(no label)</translation>
     </message>
+=======
+>>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -675,6 +650,21 @@
         <translation><numerusform>(of %n GB needed)</numerusform><numerusform>(of %n GB needed)</numerusform></translation>
     </message>
 </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Form</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Last block time</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Hide</translation>
+    </message>
+    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1017,11 +1007,7 @@
         <source>Node/Service</source>
         <translation>Node/Service</translation>
     </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>Ping Time</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -1060,7 +1046,17 @@
         <source>%1 ms</source>
         <translation>%1 ms</translation>
     </message>
-</context>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 and %2</translation>
+    </message>
+    </context>
+<context>
+    <name>QObject::QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
 <context>
     <name>QRImageWidget</name>
     </context>
@@ -1267,14 +1263,6 @@
         <translation>Clear console</translation>
     </message>
     <message>
-        <source>&amp;Disconnect Node</source>
-        <translation>&amp;Disconnect Node</translation>
-    </message>
-    <message>
-        <source>Ban Node for</source>
-        <translation>Ban Node for</translation>
-    </message>
-    <message>
         <source>1 &amp;hour</source>
         <translation>1 &amp;hour</translation>
     </message>
@@ -1289,10 +1277,6 @@
     <message>
         <source>1 &amp;year</source>
         <translation>1 &amp;year</translation>
-    </message>
-    <message>
-        <source>&amp;Unban Node</source>
-        <translation>&amp;Unban Node</translation>
     </message>
     <message>
         <source>Welcome to the %1 RPC console.</source>
@@ -1499,10 +1483,6 @@
         <translation>Amount:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Priority:</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>Fee:</translation>
     </message>
@@ -1569,10 +1549,6 @@
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
         <translation>(Smart fee not initialised yet. This usually takes a few blocks...)</translation>
-    </message>
-    <message>
-        <source>Confirmation time:</source>
-        <translation>Confirmation time:</translation>
     </message>
     <message>
         <source>normal</source>
@@ -1904,10 +1880,6 @@
         <translation>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</translation>
     </message>
     <message>
-        <source>Reduce storage requirements by pruning (deleting) old blocks. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
-        <translation>Reduce storage requirements by pruning (deleting) old blocks. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</translation>
-    </message>
-    <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
         <translation>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</translation>
     </message>
@@ -1932,20 +1904,19 @@
         <translation>Unable to start HTTP server. See debug log for details.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
         <translation>The %s developers</translation>
-    </message>
-    <message>
-        <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</translation>
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
@@ -1968,6 +1939,7 @@
         <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
@@ -1976,6 +1948,8 @@
         <translation>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
         <translation>Error loading %s: You can't enable HD on a already existing non-HD wallet</translation>
     </message>
@@ -2012,28 +1986,12 @@
         <translation>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</translation>
     </message>
     <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</translation>
-    </message>
-    <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
         <translation>Unable to rewind the database to a pre-fork state. You will need to re-download the blockchain</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</translation>
-    </message>
-    <message>
-        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</translation>
-    </message>
-    <message>
-        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</translation>
-    </message>
-    <message>
-        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
@@ -2070,10 +2028,6 @@
     <message>
         <source>Change index out of range</source>
         <translation>Change index out of range</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Connect only to the specified node(s)</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -2236,10 +2190,13 @@
         <translation>Set database cache size in megabytes (%d to %d, default: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>Set maximum BIP141 block weight (default: %d)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Set maximum block size in bytes (default: %d)</translation>
     </message>
@@ -2344,10 +2301,6 @@
         <translation>Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
     </message>
     <message>
-        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</translation>
-    </message>
-    <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Randomise credentials for every proxy connection. This enables Tor stream isolation (default: %u)</translation>
     </message>
@@ -2358,10 +2311,6 @@
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>The transaction amount is too small to send after the fee has been deducted</translation>
-    </message>
-    <message>
-        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
@@ -2476,10 +2425,6 @@
         <translation>Transaction amount too small</translation>
     </message>
     <message>
-        <source>Transaction amounts must be positive</source>
-        <translation>Transaction amounts must be positive</translation>
-    </message>
-    <message>
         <source>Transaction too large for fee policy</source>
         <translation>Transaction too large for fee policy</translation>
     </message>
@@ -2544,12 +2489,12 @@
         <translation>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</translation>
     </message>
     <message>
-        <source>-paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>-paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
-    </message>
-    <message>
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
         <translation>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</translation>
+    </message>
+    <message>
+        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
+        <translation>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
@@ -2594,10 +2539,6 @@
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
         <translation>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</translation>
-    </message>
-    <message>
-        <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. This option can be specified multiple times</source>
-        <translation>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. This option can be specified multiple times</translation>
     </message>
     <message>
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
@@ -2668,6 +2609,13 @@
         <translation>Set key pool size to &lt;n&gt; (default: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Set maximum BIP141 block weight (default: %d)</source>
+        <translation>Set maximum BIP141 block weight (default: %d)</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Set the number of threads to service RPC calls (default: %d)</translation>
     </message>

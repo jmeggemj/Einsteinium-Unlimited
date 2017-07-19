@@ -17,6 +17,7 @@ examine `uint256_tests.cpp`.
 
 For further reading, I found the following website to be helpful in
 explaining how the boost unit test framework works:
+<<<<<<< HEAD
 [http://www.alittlemadness.com/2009/03/31/c-unit-testing-with-boosttest/](http://www.alittlemadness.com/2009/03/31/c-unit-testing-with-boosttest/).
 
 test_litecoin has some built-in command-line arguments; for
@@ -30,3 +31,6 @@ example, to run just the getarg_tests verbosely:
 
 Run `test_litecoin --help` for the full list.
 
+=======
+[http://www.alittlemadness.com/2009/03/31/c-unit-testing-with-boosttest/](http://www.alittlemadness.com/2009/03/31/c-unit-testing-with-boosttest/).
+>>>>>>> pr/4

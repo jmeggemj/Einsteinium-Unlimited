@@ -230,14 +230,6 @@
         <translation>&amp;Komandrindas iespējas</translation>
     </message>
     <message>
-        <source>No block source available...</source>
-        <translation>Nav pieejams neviens bloku avots...</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 un %2</translation>
-    </message>
-    <message>
         <source>%1 behind</source>
         <translation>%1 aizmugurē</translation>
     </message>
@@ -281,7 +273,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Maciņš ir &lt;b&gt;šifrēts&lt;/b&gt; un pašlaik &lt;b&gt;slēgts&lt;/b&gt;</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -295,10 +287,6 @@
     <message>
         <source>Amount:</source>
         <translation>Daudzums:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioritāte:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -340,10 +328,13 @@
         <source>Confirmed</source>
         <translation>Apstiprināts</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Priority</source>
         <translation>Prioritāte</translation>
     </message>
+=======
+>>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -419,6 +410,17 @@
     <message>
         <source>Error</source>
         <translation>Kļūda</translation>
+    </message>
+    </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Forma</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Pēdējā bloka laiks</translation>
     </message>
     </context>
 <context>
@@ -654,6 +656,16 @@
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 un %2</translation>
+    </message>
+    </context>
+<context>
+    <name>QObject::QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -875,10 +887,6 @@
     <message>
         <source>Amount:</source>
         <translation>Daudzums:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioritāte:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -1138,10 +1146,6 @@
         <translation>Bloka izveidošanas iestatījumi:</translation>
     </message>
     <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Savienoties tikai ar norādītajām nodēm.</translation>
-    </message>
-    <message>
         <source>Connection options:</source>
         <translation>Savienojuma iestatījumi:</translation>
     </message>
@@ -1192,10 +1196,6 @@
     <message>
         <source>Transaction amount too small</source>
         <translation>Transakcijas summa ir pārāk maza</translation>
-    </message>
-    <message>
-        <source>Transaction amounts must be positive</source>
-        <translation>Transakcijas summai ir jābūt pozitīvai</translation>
     </message>
     <message>
         <source>Transaction too large</source>

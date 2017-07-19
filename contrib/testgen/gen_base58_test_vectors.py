@@ -1,5 +1,9 @@
 #!/usr/bin/env python
+<<<<<<< HEAD
 # Copyright (c) 2012 The Bitcoin Core developers
+=======
+# Copyright (c) 2012-2016 The Bitcoin Core developers
+>>>>>>> pr/4
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 '''
@@ -45,7 +49,6 @@ def is_valid(v):
     result = b58decode_chk(v)
     if result is None:
         return False
-    valid = False
     for template in templates:
         prefix = str(bytearray(template[0]))
         suffix = str(bytearray(template[2]))

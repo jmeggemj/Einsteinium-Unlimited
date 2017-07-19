@@ -1,4 +1,4 @@
-// Copyright (c) 2009-2015 The Bitcoin Core developers
+// Copyright (c) 2009-2016 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,7 +6,7 @@
 
 #include "chain.h"
 #include "chainparams.h"
-#include "main.h"
+#include "validation.h"
 #include "uint256.h"
 
 #include <stdint.h>
@@ -15,6 +15,7 @@
 
 namespace Checkpoints {
 
+<<<<<<< HEAD
     /**
      * How many times slower we expect checking transactions after the last
      * checkpoint to be (from checking signatures, which is skipped up to the
@@ -55,6 +56,8 @@ namespace Checkpoints {
         return fWorkBefore / (fWorkBefore + fWorkAfter);
     }
 
+=======
+>>>>>>> pr/4
     CBlockIndex* GetLastCheckpoint(const CCheckpointData& data)
     {
         const MapCheckpoints& checkpoints = data.mapCheckpoints;

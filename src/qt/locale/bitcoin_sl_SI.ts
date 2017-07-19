@@ -252,6 +252,17 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktivna povezava v omrežje Litecoin</numerusform><numerusform>%n aktivni povezavi v omrežje Litecoin</numerusform><numerusform>%n aktivne povezave v omrežje Litecoin</numerusform><numerusform>%n aktivnih povezav v omrežje Litecoin</numerusform></translation>
+<<<<<<< HEAD
+    </message>
+    <message>
+        <source>Indexing blocks on disk...</source>
+        <translation>Indeksirani bloki na disku ...</translation>
+    </message>
+    <message>
+        <source>Processing blocks on disk...</source>
+        <translation>Obdelava blokov na disku ...</translation>
+=======
+>>>>>>> pr/4
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -261,33 +272,9 @@
         <source>Processing blocks on disk...</source>
         <translation>Obdelava blokov na disku ...</translation>
     </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>Ni virov za prenos blokov ...</translation>
-    </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>%n obdelan blok zgodovine transakcij.</numerusform><numerusform>%n obdelana bloka zgodovine transakcij.</numerusform><numerusform>%n obdelani bloki zgodovine transakcij.</numerusform><numerusform>%n obdelanih blokov zgodovine transakcij.</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n uro</numerusform><numerusform>%n uri</numerusform><numerusform>%n ure</numerusform><numerusform>%n ur</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n dan</numerusform><numerusform>%n dneva</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n teden</numerusform><numerusform>%n tedna</numerusform><numerusform>%n tedne</numerusform><numerusform>%n tednov</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 in %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n leto</numerusform><numerusform>%n leti</numerusform><numerusform>%n leta</numerusform><numerusform>%n let</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -371,7 +358,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Denarnica je &lt;b&gt;šifrirana&lt;/b&gt; in trenutno &lt;b&gt;zaklenjena&lt;/b&gt;</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -389,10 +376,6 @@
     <message>
         <source>Amount:</source>
         <translation>Znesek:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioriteta:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -446,10 +429,13 @@
         <source>Confirmed</source>
         <translation>Potrjeno</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Priority</source>
         <translation>Prioriteta</translation>
     </message>
+=======
+>>>>>>> pr/4
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -571,6 +557,21 @@
         <translation><numerusform>(od potrebnih %n GiB)</numerusform><numerusform>(od potrebnih %n GiB)</numerusform><numerusform>(od potrebnih %n GiB)</numerusform><numerusform>(od potrebnih %n GiB)</numerusform></translation>
     </message>
 </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Oblika</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Čas zadnjega bloka</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Skrij</translation>
+    </message>
+    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -869,11 +870,7 @@
         <source>Node/Service</source>
         <translation>Naslov</translation>
     </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>Odzivni čas</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -912,7 +909,17 @@
         <source>%1 ms</source>
         <translation>%1 ms</translation>
     </message>
-</context>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 in %2</translation>
+    </message>
+    </context>
+<context>
+    <name>QObject::QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
 <context>
     <name>QRImageWidget</name>
     </context>
@@ -1243,10 +1250,6 @@
         <translation>Znesek:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Prioriteta:</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>Provizija:</translation>
     </message>
@@ -1313,10 +1316,6 @@
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
         <translation>(Samodejni obračun provizije še ni pripravljen. Po navadi izračun traja nekaj blokov ...)</translation>
-    </message>
-    <message>
-        <source>Confirmation time:</source>
-        <translation>Čas do potrditve:</translation>
     </message>
     <message>
         <source>normal</source>
@@ -1580,6 +1579,13 @@
     </context>
 <context>
     <name>WalletView</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Izvozi podatke v trenutnem zavihku v datoteko</translation>
+    </message>
+>>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -1608,20 +1614,19 @@
         <translation>Teci v ozadju in sprejemaj ukaze</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Sprejemaj zunanje povezave (privzeto: 1, razen če ste vklopili opciji -proxy ali -connect)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Veži dani naslov in tam vedno poslušaj. Za naslove protokola IPv6 uporabite zapis [gostitelj]:vrata.</translation>
-    </message>
-    <message>
-        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Distribuirano v okviru programske licence MIT. Podrobnosti so navedene v  priloženi datoteki COPYING ali na naslovu &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -1632,32 +1637,12 @@
         <translation>Nastavi število niti za preverjanje skript (%u do %d, 0 = samodejno, &lt;0 toliko procesorskih jeder naj ostane prostih, privzeto: %d)</translation>
     </message>
     <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>To je preizkusna različica še neizdanega programa. Uporabljate jo na lastno odgovornost. Programa ne uporabljajte je za rudarjenje ali trgovske aplikacije.</translation>
-    </message>
-    <message>
-        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Opozorilo: Trenutno na omrežju ni videti konsenza! Videti je, kot da bi imeli nekateri rudarji težave.</translation>
-    </message>
-    <message>
-        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Opozorilo: Trenutno se s soležniki ne strinjam v popolnosti! Mogoče bi morali vi ali drugi udeleženci posodobiti odjemalce.</translation>
-    </message>
-    <message>
-        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>Sprejemaj povezave samo od soležnikov, ki so na naslovih, ki ustrezajo navedeni omrežni maski ali naslovu. Opcijo lahko navedete večkrat.</translation>
-    </message>
-    <message>
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;category&gt; je lahko:</translation>
     </message>
     <message>
         <source>Block creation options:</source>
         <translation>Možnosti ustvarjanja blokov:</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Poveži se samo z (enim ali več) navedenimi vozlišči</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -1834,10 +1819,6 @@
     <message>
         <source>Transaction amount too small</source>
         <translation>Znesek je pramajhen</translation>
-    </message>
-    <message>
-        <source>Transaction amounts must be positive</source>
-        <translation>Znesek mora biti pozitiven</translation>
     </message>
     <message>
         <source>Transaction too large</source>

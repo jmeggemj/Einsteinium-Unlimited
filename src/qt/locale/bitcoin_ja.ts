@@ -318,6 +318,22 @@
         <translation>URI を開く (&amp;U)...</translation>
     </message>
     <message>
+        <source>Click to disable network activity.</source>
+        <translation>クリックするとネットワーク活動を無効化します。</translation>
+    </message>
+    <message>
+        <source>Network activity disabled.</source>
+        <translation>ネットワーク活動は無効化されました。</translation>
+    </message>
+    <message>
+        <source>Click to enable network activity again.</source>
+        <translation>クリックするとネットワーク活動を再び有効化します。</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>未知。ヘッダを同期しています (%1%)...</translation>
+    </message>
+    <message>
         <source>Reindexing blocks on disk...</source>
         <translation>ディスク上のブロックのインデックスを再作成中...</translation>
     </message>
@@ -429,33 +445,9 @@
         <source>Processing blocks on disk...</source>
         <translation>ディスク上のブロックを処理しています...</translation>
     </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>利用可能なブロックがありません...</translation>
-    </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>トランザクション履歴の %n ブロックを処理しました。</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n 時間</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n 日</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n 週間</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 と %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n 年</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -492,6 +484,10 @@
     <message>
         <source>%1 client</source>
         <translation>%1 クライアント</translation>
+    </message>
+    <message>
+        <source>Connecting to peers...</source>
+        <translation>ピアに接続しています...</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -536,12 +532,24 @@
         <translation>着金取引</translation>
     </message>
     <message>
+        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
+        <translation>HD鍵生成は&lt;b&gt;有効化&lt;/b&gt;されています</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
+        <translation>HD鍵生成は&lt;b&gt;無効化&lt;/b&gt;されています</translation>
+    </message>
+    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>ウォレットは&lt;b&gt;暗号化されて、アンロックされています&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>ウォレットは&lt;b&gt;暗号化されて、ロックされています&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
+        <translation>致命的なエラーが発生しました。Litecoin は安全に継続することができず終了するでしょう。</translation>
     </message>
 </context>
 <context>
@@ -561,10 +569,6 @@
     <message>
         <source>Amount:</source>
         <translation>総額:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>優先度:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -619,8 +623,84 @@
         <translation>検証済み</translation>
     </message>
     <message>
-        <source>Priority</source>
-        <translation>優先度</translation>
+        <source>Copy address</source>
+        <translation>アドレスをコピーする</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>ラベルをコピーする</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>総額のコピー</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>取引 ID をコピー</translation>
+    </message>
+    <message>
+        <source>Lock unspent</source>
+        <translation>未使用トランザクションをロックする</translation>
+    </message>
+    <message>
+        <source>Unlock unspent</source>
+        <translation>未使用トランザクションをアンロックする</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>数量をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>手数料をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>手数料差引後の値をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>バイト数をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>ダストをコピーする</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>釣り銭をコピー</translation>
+    </message>
+    <message>
+        <source>(%1 locked)</source>
+        <translation>(%1 がロック済み)</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>はい</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>いいえ</translation>
+    </message>
+    <message>
+        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
+        <translation>少なくともひとつの受取額が現在のダスト閾値を下回る場合にはこのラベルは赤くなります。</translation>
+    </message>
+    <message>
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>ひとつの入力につき %1 satoshi 前後ずれることがあります。</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>（ラベル無し）</translation>
+    </message>
+    <message>
+        <source>change from %1 (%2)</source>
+        <translation>%1 (%2) からのおつり</translation>
+    </message>
+    <message>
+        <source>(change)</source>
+        <translation>(おつり)</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -941,6 +1021,57 @@
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation><numerusform>(%n GB必要)</numerusform></translation>
+    </message>
+</context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <translation>確認できない最近のトランザクションがあるかもしれません。これによりウォレットの残高は不正確なものである可能性があります。この情報はウォレットが一度ビットコインネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
+    </message>
+    <message>
+        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>まだ表示されていないトランザクションが影響するビットコインを使用しようとすると、ネットワークから認証がなされないでしょう。</translation>
+    </message>
+    <message>
+        <source>Number of blocks left</source>
+        <translation>残りのブロック数</translation>
+    </message>
+    <message>
+        <source>Unknown...</source>
+        <translation>未知...</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>最終ブロックの日時</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>進捗</translation>
+    </message>
+    <message>
+        <source>Progress increase per hour</source>
+        <translation>進捗状況は一時間ごとに増加します</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>計算しています...</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>同期完了までの推定残り時間</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>隠す</translation>
+    </message>
+    <message>
+        <source>Unknown. Syncing Headers (%1)...</source>
+        <translation>未知。ヘッダを同期しています (%1)...</translation>
     </message>
 </context>
 <context>
@@ -1278,6 +1409,7 @@
 </context>
 <context>
     <name>PaymentServer</name>
+<<<<<<< HEAD
     <message>
         <source>Payment request error</source>
         <translation>支払いのリクエストのエラーです</translation>
@@ -1369,6 +1501,129 @@
 </context>
 <context>
     <name>PeerTableModel</name>
+=======
+>>>>>>> pr/4
+    <message>
+        <source>Payment request error</source>
+        <translation>支払いのリクエストのエラーです</translation>
+    </message>
+    <message>
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Litecoin を起動できません: click-to-pay handler</translation>
+    </message>
+    <message>
+        <source>URI handling</source>
+        <translation>URI の操作</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>支払い要求の取得先URLが無効です: %1</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>Litecoinアドレスを入力してください (例 %1)</translation>
+=======
+        <source>Invalid payment address %1</source>
+        <translation>支払いのアドレス「%1」は無効です</translation>
+>>>>>>> pr/4
+    </message>
+    <message>
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation>URI を解析できません! これは無効な Litecoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>支払いリクエストファイルを処理しています</translation>
+    </message>
+    <message>
+        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+        <translation>支払いリクエストファイルを読み込めませんでした！無効な支払いリクエストファイルにより引き起こされた可能性があります。</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>支払い要求は拒否されました</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>支払いリクエストのネットワークは現在のクライアントのネットワークに一致しません。</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>支払いリクエストの期限が切れました。</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>支払いリクエストは開始されていません。</translation>
+    </message>
+<<<<<<< HEAD
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>画像を保存(&amp;S)</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>画像をコピー(&amp;C)</translation>
+    </message>
+    <message>
+        <source>Save QR Code</source>
+        <translation>QR コードの保存</translation>
+    </message>
+    <message>
+        <source>PNG Image (*.png)</source>
+        <translation>PNG画像ファイル(*.png)</translation>
+    </message>
+</context>
+<context>
+    <name>RPCConsole</name>
+=======
+>>>>>>> pr/4
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>カスタム支払いスクリプトに対する、検証されていない支払いリクエストはサポートされていません。</translation>
+    </message>
+    <message>
+        <source>Invalid payment request.</source>
+        <translation>無効な支払いリクエスト。</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>要求された支払額 %1 は少なすぎます (ダストとみなされてしまいます)。</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>%1 からの返金</translation>
+    </message>
+    <message>
+        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
+        <translation>支払リクエスト %1 は大きすぎます（%2バイトですが、%3バイトまでが許されています）。</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>%1: %2とコミュニケーション・エラーです</translation>
+    </message>
+    <message>
+        <source>Payment request cannot be parsed!</source>
+        <translation>支払リクエストを読み込めませんでした！</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>サーバーの返事は無効 %1</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>ネットワーク・リクエストのエラーです</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>支払いは確認しました</translation>
+    </message>
+</context>
+<context>
+    <name>PeerTableModel</name>
     <message>
         <source>User Agent</source>
         <translation>ユーザエージェント</translation>
@@ -1378,8 +1633,12 @@
         <translation>ノード・サービス</translation>
     </message>
     <message>
-        <source>Ping Time</source>
-        <translation>Ping時間</translation>
+        <source>NodeId</source>
+        <translation>ノードID</translation>
+    </message>
+    <message>
+        <source>Ping</source>
+        <translation>Ping</translation>
     </message>
 </context>
 <context>
@@ -1419,6 +1678,53 @@
     <message>
         <source>%1 ms</source>
         <translation>%1ミリ秒</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>%n 秒</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>%n 分</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n 時間</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n 日</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n 週間</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 と %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n 年</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 didn't yet exit safely...</source>
+        <translation>%1 はまだ安全に終了していません...</translation>
+    </message>
+</context>
+<context>
+    <name>QObject::QObject</name>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>エラー: 指定のデータ ディレクトリ "%1" は存在しません。</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>エラー: 設定ファイルをパースできません: %1。key=value という記法のみを利用してください。</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation>エラー: %1</translation>
     </message>
 </context>
 <context>
@@ -1599,6 +1905,10 @@
         <translation>Ping待ち</translation>
     </message>
     <message>
+        <source>Min Ping</source>
+        <translation>最小 Ping</translation>
+    </message>
+    <message>
         <source>Time Offset</source>
         <translation>時間オフセット</translation>
     </message>
@@ -1643,14 +1953,6 @@
         <translation>コンソールをクリア</translation>
     </message>
     <message>
-        <source>&amp;Disconnect Node</source>
-        <translation>ノードを切断する (&amp;D)</translation>
-    </message>
-    <message>
-        <source>Ban Node for</source>
-        <translation>ノードをbanする:</translation>
-    </message>
-    <message>
         <source>1 &amp;hour</source>
         <translation>1時間 (&amp;H)</translation>
     </message>
@@ -1667,8 +1969,16 @@
         <translation>1年 (&amp;Y)</translation>
     </message>
     <message>
-        <source>&amp;Unban Node</source>
-        <translation>ノードのbanを解除する (&amp;U)</translation>
+        <source>&amp;Disconnect</source>
+        <translation>切断 (&amp;D)</translation>
+    </message>
+    <message>
+        <source>Ban for</source>
+        <translation>Banする:</translation>
+    </message>
+    <message>
+        <source>&amp;Unban</source>
+        <translation>Banを解除する (&amp;U)</translation>
     </message>
     <message>
         <source>Welcome to the %1 RPC console.</source>
@@ -1681,6 +1991,14 @@
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>使用可能なコマンドを見るには &lt;b&gt;help&lt;/b&gt; と入力します。</translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
+        <translation>警告: 詐欺師が活動しており、ユーザに対してここにコマンドを入力させることでウォレットの中身を盗もうとしています。コマンドの結果を完全に理解していない限り、このコンソールは利用しないでください。</translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>ネットワーク活動は無効化されました</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1802,6 +2120,13 @@
         <translation>削除</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy URI</source>
+        <translation>URI をコピーする</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>Copy label</source>
         <translation>ラベルをコピーする</translation>
     </message>
@@ -1832,6 +2157,79 @@
         <source>&amp;Save Image...</source>
         <translation>画像を保存(&amp;S)</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Request payment to %1</source>
+        <translation>%1 への支払いリクエストを行う</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>支払い情報</translation>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation>URI</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>総額</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>メッセージ</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>URI が長くなり過ぎます。ラベルやメッセージのテキストを短くしてください。</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>QR コード用の URI エンコードでエラー。</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>日付</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>メッセージ</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>（ラベル無し）</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>（メッセージなし）</translation>
+    </message>
+    <message>
+        <source>(no amount requested)</source>
+        <translation>(金額指定なし)</translation>
+    </message>
+    <message>
+        <source>Requested</source>
+        <translation>要求</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsDialog</name>
+>>>>>>> pr/4
     <message>
         <source>Request payment to %1</source>
         <translation>%1 への支払いリクエストを行う</translation>
@@ -1935,10 +2333,6 @@
         <translation>総額:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>優先度:</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>手数料:</translation>
     </message>
@@ -2007,10 +2401,6 @@
         <translation>（スマート手数料はまだ初期化されていません。これにはおおよそ数ブロックほどかかります……）</translation>
     </message>
     <message>
-        <source>Confirmation time:</source>
-        <translation>検証時間：</translation>
-    </message>
-    <message>
         <source>normal</source>
         <translation>普通</translation>
     </message>
@@ -2033,6 +2423,10 @@
     <message>
         <source>Dust:</source>
         <translation>ダスト：</translation>
+    </message>
+    <message>
+        <source>Confirmation time target:</source>
+        <translation>検証時間のターゲット:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2069,10 +2463,6 @@
     <message>
         <source>Copy bytes</source>
         <translation>バイト数をコピーする</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>優先度をコピーする</translation>
     </message>
     <message>
         <source>Copy dust</source>
@@ -2131,8 +2521,8 @@
         <translation>トラザクションの作成に失敗しました!</translation>
     </message>
     <message>
-        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>トランザクションは拒否されました。wallet.dat のコピーを使い、そしてコピーしたウォレットからコインを使用したことがマークされなかったときなど、ウォレットのいくつかのコインがすでに使用されている場合に、このエラーは起こるかもしれません。</translation>
+        <source>The transaction was rejected with the following reason: %1</source>
+        <translation>トランザクションは以下の理由により拒絶されました: %1</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
@@ -2142,9 +2532,17 @@
         <source>Payment request expired.</source>
         <translation>支払いリクエストの期限が切れました。</translation>
     </message>
+    <message numerus="yes">
+        <source>%n block(s)</source>
+        <translation><numerusform>%n ブロック</numerusform></translation>
+    </message>
     <message>
         <source>Pay only the required fee of %1</source>
         <translation>要求手数料 %1 のみを支払う</translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>%n ブロック以内に検証が開始されると予想されます。</numerusform></translation>
     </message>
     <message>
         <source>Warning: Invalid Litecoin address</source>
@@ -2153,6 +2551,14 @@
     <message>
         <source>Warning: Unknown change address</source>
         <translation>警告：未知のおつりアドレスです</translation>
+    </message>
+    <message>
+        <source>Confirm custom change address</source>
+        <translation>カスタムおつりアドレスを確認</translation>
+    </message>
+    <message>
+        <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
+        <translation>おつりとして指定されたアドレスはこのウォレットに属さないもののようです。このウォレットの一部またはすべての資産がこのアドレスへ送金されます。よろしいですか？</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2509,6 +2915,703 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
+        <translation><numerusform>あと %n ブロックで成熟します</numerusform></translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>承認されなかった</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>引き落とし額</translation>
+    </message>
+    <message>
+        <source>Total debit</source>
+        <translation>総出金額</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>総入金額</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>取引手数料</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>正味金額</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>メッセージ</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>コメント</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>取引 ID</translation>
+    </message>
+    <message>
+        <source>Transaction total size</source>
+        <translation>トランザクションの全体サイズ</translation>
+    </message>
+    <message>
+        <source>Output index</source>
+        <translation>出力インデックス</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>商人</translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>生成されたコインは使う前に%1のブロックを完成させる必要があります。あなたが生成した時、このブロックはブロック チェーンに追加されるネットワークにブロードキャストされました。チェーンに追加されるのが失敗した場合、状態が"不承認"に変更されて使えなくなるでしょう。これは、別のノードがあなたの数秒前にブロックを生成する場合に時々起こるかもしれません。</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>デバッグ情報</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>取引</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>入力</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>総額</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>正しい</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>正しくない</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>ここでは取引の詳細を表示しています</translation>
+    </message>
+    <message>
+        <source>Details for %1</source>
+        <translation>%1 の詳細</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>日付</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>タイプ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>%n 以上のブロックを開く</numerusform></translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>ユニット %1 を開く</translation>
+    </message>
+    <message>
+        <source>Offline</source>
+        <translation>オフライン</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>未検証</translation>
+    </message>
+    <message>
+        <source>Abandoned</source>
+        <translation>中止</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどlitecoinトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
+=======
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>検証中（%2の推奨検証数のうち、%1検証が完了）</translation>
+>>>>>>> pr/4
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>検証されました (%1 検証済み)</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>衝突</translation>
+    </message>
+    <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>未成熟（%1検証。%2検証完了後に使用可能となります）</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>このブロックは他のどのノードによっても受け取られないで、多分受け入れられないでしょう！</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>生成されましたが承認されませんでした</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>送り主</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>送り主</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>送り先</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>自分自身への支払い</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>発掘した</translation>
+    </message>
+    <message>
+        <source>watch-only</source>
+        <translation>監視限定</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>（ラベル無し）</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>取引の状況。このフィールドの上にカーソルを置くと検証の数を表示します。</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>取引を受信した日時。</translation>
+    </message>
+<<<<<<< HEAD
+    <message>
+        <source>Copy quantity</source>
+        <translation>数量をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>総額のコピー</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>手数料をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>手数料差引後の値をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>バイト数をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>優先度をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>ダストをコピーする</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>釣り銭をコピー</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 から %2</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>送ってよろしいですか？</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>取引手数料として追加された</translation>
+    </message>
+    <message>
+        <source>Total Amount %1</source>
+        <translation>合計：　%1</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>または</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>コインを送る確認</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation>受取アドレスが不正です。再チェックしてください。</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>支払額は0より大きくないといけません。</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>額が残高を超えています。</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>%1 の取引手数料を含めると額が残高を超えています。</translation>
+    </message>
+    <message>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>重複したアドレスが見つかりました: アドレスはそれぞれ一度のみ使用することができます。</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>トラザクションの作成に失敗しました!</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>トランザクションは拒否されました。wallet.dat のコピーを使い、そしてコピーしたウォレットからコインを使用したことがマークされなかったときなど、ウォレットのいくつかのコインがすでに使用されている場合に、このエラーは起こるかもしれません。</translation>
+    </message>
+    <message>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>%1 よりも高い手数料の場合、手数料が高すぎると判断されます。</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>支払いリクエストの期限が切れました。</translation>
+    </message>
+    <message>
+        <source>Pay only the required fee of %1</source>
+        <translation>要求手数料 %1 のみを支払う</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>警告：無効なLitecoinアドレスです</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>警告：未知のおつりアドレスです</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>（ラベル無し）</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsEntry</name>
+=======
+>>>>>>> pr/4
+    <message>
+        <source>Type of transaction.</source>
+        <translation>取引の種類。</translation>
+    </message>
+    <message>
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>監視限定アドレスがこのトランザクションに含まれているかどうか</translation>
+    </message>
+    <message>
+        <source>User-defined intent/purpose of the transaction.</source>
+        <translation>ユーザ定義のトランザクションの意図や目的。</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>残高に追加または削除された総額。</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>The Litecoin address to send the payment to</source>
+        <translation>支払の送金先Litecoinアドレス</translation>
+=======
+        <source>Today</source>
+        <translation>今日</translation>
+>>>>>>> pr/4
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>今週</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>今月</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>先月</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>今年</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>送金する金額から手数料が差し引かれます。受取人は数量フィールドで指定した量よりも少ないビットコインを受け取ります。受取人が複数いる場合には、手数料は均等割されます。</translation>
+=======
+        <source>Range...</source>
+        <translation>期間...</translation>
+>>>>>>> pr/4
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>送り主</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>送り先</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>自分自身</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>発掘した</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>その他</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>litecoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはLitecoinネットワークを通して送信されるわけではありません。</translation>
+=======
+        <source>Enter address or label to search</source>
+        <translation>検索するアドレスまたはラベルを入力</translation>
+>>>>>>> pr/4
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>最小の額</translation>
+    </message>
+    <message>
+        <source>Abandon transaction</source>
+        <translation>取引の中止</translation>
+    </message>
+<<<<<<< HEAD
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>アドレス帳に追加するには、このアドレスのラベルを入力します</translation>
+    </message>
+</context>
+<context>
+    <name>SendConfirmationDialog</name>
+    <message>
+        <source>Yes</source>
+        <translation>はい</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+=======
+>>>>>>> pr/4
+    <message>
+        <source>Copy address</source>
+        <translation>アドレスをコピーする</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>ラベルをコピーする</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>総額のコピー</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>取引 ID をコピー</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>あなたの所有しているアドレスによりメッセージや合意書に署名をすることで、それらアドレスに対して送られたビットコインを受け取ることができることを証明できます。フィッシング攻撃により不正にあなたの識別情報を署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないよう注意してください。合意することが可能な、よく詳細の記された文言にのみ署名するようにしてください。</translation>
+    </message>
+    <message>
+        <source>The Litecoin address to sign the message with</source>
+        <translation>メッセージを署名するLitecoinアドレス</translation>
+=======
+        <source>Copy raw transaction</source>
+        <translation>生トランザクションをコピー</translation>
+    </message>
+    <message>
+        <source>Copy full transaction details</source>
+        <translation>トランザクションの詳細すべてをコピー</translation>
+>>>>>>> pr/4
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>ラベルの編集</translation>
+    </message>
+    <message>
+        <source>Show transaction details</source>
+        <translation>取引の詳細を表示</translation>
+    </message>
+    <message>
+        <source>Export Transaction History</source>
+        <translation>トランザクション履歴をエクスポートする</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>テキスト CSV (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>検証済み</translation>
+    </message>
+    <message>
+        <source>Watch-only</source>
+        <translation>監視限定</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>日付</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Sign the message to prove you own this Litecoin address</source>
+        <translation>この Litecoin アドレスを所有していることを証明するためにメッセージに署名</translation>
+=======
+        <source>Type</source>
+        <translation>タイプ</translation>
+>>>>>>> pr/4
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>エクスポートに失敗しました</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>トランザクション履歴を %1 へ保存する際にエラーが発生しました。</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>The Litecoin address the message was signed with</source>
+        <translation>メッセージの署名に使われたLitecoinアドレス</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>指定された Litecoin アドレスで署名されたことを保証するメッセージを検証</translation>
+=======
+        <source>Exporting Successful</source>
+        <translation>エクスポートに成功しました</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>トランザクション履歴は正常に%1に保存されました。</translation>
+>>>>>>> pr/4
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>期間:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>から</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>署名を作成するには"メッセージの署名"をクリック</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>不正なアドレスが入力されました。</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>アドレスを確かめてからもう一度試してください。</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>入力されたアドレスに関連するキーがありません。</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>ウォレットのアンロックはキャンセルされました。</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>入力されたアドレスのプライベート キーが無効です。</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>メッセージの署名に失敗しました。</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>メッセージに署名しました。</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>署名がデコードできません。</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>署名を確認してからもう一度試してください。</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>署名はメッセージ ダイジェストと一致しませんでした。</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>メッセージの検証に失敗しました。</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>メッセージは検証されました。</translation>
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    <message>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation>金額を表示する際の単位。クリックすることで他の単位を選択します。</translation>
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    <message>
+        <source>No wallet has been loaded.</source>
+        <translation>ウォレットがロードされていません</translation>
+    </message>
+</context>
+<context>
+<<<<<<< HEAD
+    <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>%n 以上のブロックを開く</numerusform></translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>ユニット %1 を開く</translation>
+    </message>
+    <message>
+        <source>conflicted with a transaction with %1 confirmations</source>
+        <translation>%1 検証のトランザクションと衝突</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/オフライン</translation>
+    </message>
+    <message>
+        <source>0/unconfirmed, %1</source>
+        <translation>0/未検証, %1</translation>
+    </message>
+    <message>
+        <source>in memory pool</source>
+        <translation>メモリプール内</translation>
+    </message>
+    <message>
+        <source>not in memory pool</source>
+        <translation>メモリプール外</translation>
+    </message>
+    <message>
+        <source>abandoned</source>
+        <translation>中止</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/未検証</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 確認</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ステータス</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>まだブロードキャストが成功していません</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>%n ノードにブロードキャスト</numerusform></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>日付</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>ソース</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>生成された</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>送信</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>未確認</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>受信</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>自分のアドレス</translation>
+    </message>
+    <message>
+        <source>watch-only</source>
+        <translation>監視限定</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>クレジット</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
         <translation><numerusform>%n 以上のブロックが満期</numerusform></translation>
     </message>
     <message>
@@ -2586,9 +3689,12 @@
 </context>
 <context>
     <name>TransactionDescDialog</name>
+=======
+    <name>WalletModel</name>
+>>>>>>> pr/4
     <message>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation>ここでは取引の詳細を表示しています</translation>
+        <source>Send Coins</source>
+        <translation>コインを送る</translation>
     </message>
     <message>
         <source>Details for %1</source>
@@ -2866,10 +3972,38 @@
     </message>
 </context>
 <context>
-    <name>UnitDisplayStatusBarControl</name>
+    <name>WalletView</name>
     <message>
-        <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>金額を表示する際の単位。クリックすることで他の単位を選択します。</translation>
+        <source>&amp;Export</source>
+        <translation>エクスポート (&amp;E)</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>ファイルに現在のタブのデータをエクスポート</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>ウォレットのバックアップ</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>ウォレット データ (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>バックアップに失敗しました</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>ウォレットデータを%1へ保存する際にエラーが発生しました。</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>バックアップ成功</translation>
+    </message>
+    <message>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>ウォレット データは正常に%1に保存されました。</translation>
     </message>
 </context>
 <context>
@@ -2944,6 +4078,18 @@
         <translation>コマンドラインと JSON-RPC コマンドを許可</translation>
     </message>
     <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>
+        <translation>外部からの接続を許可 (初期値: -proxy または -connect/-noconnect を使用していない場合は1)</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</source>
+        <translation>指定されたノードにのみ接続を行う; -noconnect または -connect=0 だけを指定すると自動接続を無効化します</translation>
+    </message>
+    <message>
+        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
+        <translation>MITソフトウェアライセンスのもとで配布されています。付属のファイル %s または %s を参照してください</translation>
+    </message>
+    <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
         <translation>&lt;category&gt; が与えられなかった場合や &lt;category&gt; = 1 の場合には、すべてのデバッグ情報が出力されます。</translation>
     </message>
@@ -2954,10 +4100,6 @@
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
         <translation>剪定: 最後のウォレット同期ポイントは、選定されたデータよりも過去のものとなっています。-reindexをする必要があります (剪定されたノードの場合、ブロックチェイン全体をダウンロードします)</translation>
-    </message>
-    <message>
-        <source>Reduce storage requirements by pruning (deleting) old blocks. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
-        <translation>古いブロックを剪定する (削除する) ことで記憶容量の必要量を削減する。このモードを有効にすると-txindexや-rescanと互換性がなくなります。警告: この設定の再有効化には全ブロックチェインの再ダウンロードが必要となります。(規定値: 0 = ブロックの剪定無効、&gt;%u = ブロックファイルに使用するMiB単位の目標サイズ)</translation>
     </message>
     <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
@@ -2984,20 +4126,19 @@
         <translation>HTTPサーバを開始できませんでした。詳細はデバッグログをご確認ください。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>外部からの接続を許可 (初期値:  -proxy または -connect を使用していない場合は1)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin のコア</translation>
     </message>
     <message>
         <source>The %s developers</source>
         <translation>%s の開発者</translation>
-    </message>
-    <message>
-        <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>-fallbackfee が高すぎます！これは手数料の推定機能が利用できない場合に支払うトランザクション手数料です。</translation>
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
@@ -3020,6 +4161,7 @@
         <translation>ウォレットの全トランザクションを削除し、これらを-rescanオプションを用いることで起動時にブロックチェインのデータのみからリカバリします。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>MITソフトウェアライセンスのもとで配布されています。付属のCOPYINGファイルまたは&lt;http://www.opensource.org/licenses/mit-license.php&gt;を参照してください。</translation>
     </message>
@@ -3028,6 +4170,8 @@
         <translation>中継や採掘を行う際のトランザクション内の、sigopあたりバイト数の相当量 (初期値: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
         <translation>%s の読み込みエラー: 非HDウォレットが既に存在するため、HDウォレットを有効化できません</translation>
     </message>
@@ -3040,6 +4184,17 @@
         <translation>ウォレットの取引を変更する際にコマンドを実行 (cmd の %s は TxID に置換される)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
+        <translation>コンパクトブロック再構成のために追加のトランザクションをメモリ内に保管しておく (デフォルト: %u)</translation>
+    </message>
+    <message>
+        <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
+        <translation>このブロックがブロックチェーン内に含まれていた場合には、このブロックおよびそれ以前のすべてのブロックを有効であるとみなし、スクリプトの検証を省略する (0ならすべてを検証、デフォルト: %s、テストネット: %s)</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
         <translation>時間オフセット調整値のピア中央値に対する最大の許容値。ローカル時間の見込み値は、接続するピアにより前方ないし後方へ影響されます。(初期値: %u 秒)</translation>
     </message>
@@ -3054,6 +4209,14 @@
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
         <translation>%s が有用だと感じられた方はぜひプロジェクトへの貢献をお願いします。ソフトウェアのより詳細な情報については %s をご覧ください。</translation>
+    </message>
+    <message>
+        <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
+        <translation>古いブロックの剪定 (削除) を有効にすることでストレージの必要量を削減する。これにより pruneblockchain RPC を呼び出すことで指定されたブロックを削除することができます。またターゲットサイズが MiB 単位で指定された場合には古いブロックの自動剪定が有効となります。このモードは -txindex および -rescan オプションと互換性がありません。警告: この設定を最有効化するにはすべてのブロックチェーンの再ダウンロードが必要となります。(デフォルト: 0 = ブロックの剪定を無効化する, 1 = RPC 経由での手動剪定を許可する, &gt;%u = MiB 単位で指定されたターゲットサイズを常に下回るようにブロックファイルを自動的に剪定する)</translation>
+    </message>
+    <message>
+        <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
+        <translation>ブロック生成時に取り込まれるトランザクションの最低手数料率 (%s/kB 単位)。(デフォルト: %s)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
@@ -3076,16 +4239,20 @@
         <translation>リスン ポートの割当に UPnP を使用 (初期値: リスン中および-proxyが指定されていない場合は1)</translation>
     </message>
     <message>
+        <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
+        <translation>JSON-RPC 接続時のユーザ名とハッシュ化されたパスワード。&lt;userpw&gt; フィールドのフォーマットは &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;。標準的な Python スクリプトが share/rpcuser 内に含まれています。クライアントは通常の場合には rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; を利用して接続を行います。このオプションは複数回指定できます。</translation>
+    </message>
+    <message>
+        <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
+        <translation>ウォレットがmempoolチェーン制限数を超えてトランザクションを作らないようにする (初期値: %u)</translation>
+    </message>
+    <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>警告： ネットワークは完全に同意しないみたいです。マイナーは何かの問題を経験してるみたいなんです。</translation>
+        <translation>警告: ネットワークは完全に合意が取れていないようです。幾人かのマイナーに何らかの障害が発生しているようです。</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>警告： ピアーと完全に同意しないみたいです！アップグレードは必要かもしれません、それとも他のノードはアップグレードは必要かもしれません。</translation>
-    </message>
-    <message>
-        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>与えられたネットマスクやIPアドレスから接続を行う、ホワイトリストのピア。複数回指定できます。</translation>
+        <translation>警告: ピアと完全に合意が取れていないようです！このノードまたは他のノードのアップグレードが必要なようです。</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
@@ -3120,12 +4287,12 @@
         <translation>-%s アドレス '%s' を解決できません</translation>
     </message>
     <message>
-        <source>Change index out of range</source>
-        <translation>おつりのインデックスが範囲外です</translation>
+        <source>Chain selection options:</source>
+        <translation>チェイン選択オプション:</translation>
     </message>
     <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>指定したノードだけに接続</translation>
+        <source>Change index out of range</source>
+        <translation>おつりのインデックスが範囲外です</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -3289,10 +4456,13 @@
         <translation>データベースのキャッシュサイズをメガバイトで設定 (%dから%d。初期値: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>BIP141ブロック重みの最大値を設定 (初期値: %d)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>最大ブロックサイズをバイトで設定 (初期値: %d)</translation>
     </message>
@@ -3327,6 +4497,10 @@
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
         <translation>リッスンポートの割当に UPnP を使用 (初期値: %u)</translation>
+    </message>
+    <message>
+        <source>Use the test chain</source>
+        <translation>テストチェインを利用する</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
@@ -3405,10 +4579,6 @@
         <translation>中継および採掘を行う際の、データ運送トランザクションの中のデータの最大サイズ (初期値: %u)</translation>
     </message>
     <message>
-        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>保有するピアアドレスが少ない場合、DNS ルックアップによりピアアドレスを問い合わせる (-connect を使っていない場合の初期値: 1)</translation>
-    </message>
-    <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>認証情報をプロキシー接続ごとにランダム化する。これによりTorストリーム分離をすることができます (規定値: %u)</translation>
     </message>
@@ -3419,10 +4589,6 @@
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>手数料差引後のトランザクションの金額が小さすぎるため、送金できません。</translation>
-    </message>
-    <message>
-        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>この製品はOpenSSLプロジェクトにより開発されたソフトウェアをOpenSSLツールキットとして利用しています &lt;https://www.openssl.org/&gt;。また、Eric Young氏により開発された暗号ソフトウェア、Thomas Bernard氏により書かれたUPnPソフトウェアを用いています。</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
@@ -3537,10 +4703,6 @@
         <translation>取引の額が小さ過ぎます</translation>
     </message>
     <message>
-        <source>Transaction amounts must be positive</source>
-        <translation>取引の額は0より大きくしてください</translation>
-    </message>
-    <message>
         <source>Transaction too large for fee policy</source>
         <translation>手数料ポリシーに対してトランザクションが大きすぎます</translation>
     </message>
@@ -3605,16 +4767,20 @@
         <translation>-maxtxfee が非常に高く設定されています！ひとつのトランザクションでこの量の手数料が支払われてしまうことがあります。</translation>
     </message>
     <message>
-        <source>-paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>-paytxfee が非常に高く設定されています! これは取引を送信する場合に支払う取引手数料です。</translation>
-    </message>
-    <message>
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
         <translation>mempool内でトランザクションを &lt;n&gt; 時間以上保持しない (初期値: %u)</translation>
     </message>
     <message>
+        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
+        <translation>中継や採掘を行う際のトランザクション内の、sigopあたりバイト数の相当量 (初期値: %u)</translation>
+    </message>
+    <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation>トランザクション作成の際、この値未満の手数料 (%s/kB単位) はゼロであるとみなす (デフォルト: %s)</translation>
+    </message>
+    <message>
+        <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
+        <translation>ホワイトリストのピアから受け取ったトランザクションに関しては、たとえローカルの中継ポリシーに違反しているとしても中継を行うようにする (デフォルト: %d)</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
@@ -3633,8 +4799,24 @@
         <translation>デバッグ情報を出力する (初期値: %u, &lt;category&gt; の指定は任意です)</translation>
     </message>
     <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
+        <translation>保有するピアアドレスが少ない場合、DNS ルックアップによりピアアドレスを問い合わせる (-connect/-noconnect を使っていない場合の初期値: 1)</translation>
+    </message>
+    <message>
+        <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
+        <translation>非冗長モードで返却する生トランザクションやブロックの16進数表現のシリアライゼーションフォーマットを非 segwit (0) または segwit (1) のものに設定する (デフォルト: %d)</translation>
+    </message>
+    <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
         <translation>Bloomフィルタによる、ブロックおよびトランザクションのフィルタリングを有効化する (初期値: %u)</translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
+        <translation>これは手数料の推定機能が利用できない場合に支払うトランザクション手数料です。</translation>
+    </message>
+    <message>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>この製品はOpenSSLプロジェクトにより開発されたソフトウェアをOpenSSLツールキット %s として利用しています &lt;https://www.openssl.org/&gt;。また、Eric Young氏により開発された暗号ソフトウェア、Thomas Bernard氏により書かれたUPnPソフトウェアを用いています。</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
@@ -3657,16 +4839,20 @@
         <translation>Tor 秘匿サービスを通し、別々の SOCKS5 プロキシを用いることでピアに到達する (初期値: %s)</translation>
     </message>
     <message>
-        <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. This option can be specified multiple times</source>
-        <translation>JSON-RPC接続時のユーザ名とハッシュ化されたパスワード。&lt;userpw&gt; フィールドのフォーマットは &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;。標準的な Python スクリプトが share/rpcuser 内に含まれています。このオプションは複数回指定できます。</translation>
-    </message>
-    <message>
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
         <translation>警告: 未知のバージョンのブロックが採掘されました。未知のルールが導入された可能性があります</translation>
     </message>
     <message>
         <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>警告: ウォレットファイルが破損していましたのでデータを復旧しました！元の %s は %s として %s に保存されました; 残高やトランザクションが正しくない場合にはバックアップから復元してください。</translation>
+    </message>
+    <message>
+        <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
+        <translation>ホワイトリストとして登録するピアノ、接続元の IP アドレス (例: 1.2.3.4) または CIDR 表現のネットワーク (例: 1.2.3.0/24)。複数回指定することもできる</translation>
+    </message>
+    <message>
+        <source>%s is set very high!</source>
+        <translation>%s の設定値は高すぎます</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3687,6 +4873,10 @@
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>無効な -proxy アドレス: '%s'</translation>
+    </message>
+    <message>
+        <source>Keypool ran out, please call keypoolrefill first</source>
+        <translation>鍵プールが枯渇しました。まずはじめに keypoolrefill を呼び出してください</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
@@ -3725,10 +4915,21 @@
         <translation>P2SHでないマルチシグトランザクションをリレーする (初期値: %u)</translation>
     </message>
     <message>
+        <source>Send transactions with full-RBF opt-in enabled (default: %u)</source>
+        <translation>full-RBF opt-in を利用してトランザクションを送信する (初期値: %u)</translation>
+    </message>
+    <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
         <translation>key pool のサイズを &lt;n&gt; (初期値: %u) にセット</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Set maximum BIP141 block weight (default: %d)</source>
+        <translation>BIP141ブロック重みの最大値を設定 (初期値: %d)</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>RPC サービスのスレッド数を設定 (初期値: %d)</translation>
     </message>
@@ -3749,8 +4950,36 @@
         <translation>トランザクション送信時に未検証のおつりを使用する (デフォルト: %u)</translation>
     </message>
     <message>
+        <source>Starting network threads...</source>
+        <translation>ネットワークのスレッドを起動しています...</translation>
+    </message>
+    <message>
+        <source>The wallet will avoid paying less than the minimum relay fee.</source>
+        <translation>ウォレットは最小中継手数料を下回る額の支払を拒否します。</translation>
+    </message>
+    <message>
+        <source>This is the minimum transaction fee you pay on every transaction.</source>
+        <translation>これはすべてのトランザクションに対して最低限支払うべき手数料です。</translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>これは取引を送信する場合に支払う取引手数料です。</translation>
+    </message>
+    <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>不正なピアを切断するためのしきい値 (初期値: %u)</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must not be negative</source>
+        <translation>取引の額は負であってはいけません</translation>
+    </message>
+    <message>
+        <source>Transaction has too long of a mempool chain</source>
+        <translation>トランザクションのmempoolチェインが長過ぎます</translation>
+    </message>
+    <message>
+        <source>Transaction must have at least one recipient</source>
+        <translation>トランザクションは最低ひとつの受取先が必要です</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>

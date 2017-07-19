@@ -41,9 +41,27 @@
         <source>&amp;Delete</source>
         <translation>Cancella</translation>
     </message>
+<<<<<<< HEAD
     </context>
 <context>
     <name>AddressTableModel</name>
+=======
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>Scegli l'indirizzo a cui inviare denaro</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>Scegli</translation>
+    </message>
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    <message>
+        <source>Address</source>
+        <translation>Indirizzo</translation>
+    </message>
+>>>>>>> pr/4
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -98,6 +116,9 @@
     <name>Intro</name>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -116,6 +137,12 @@
     <name>QObject</name>
     </context>
 <context>
+<<<<<<< HEAD
+=======
+    <name>QObject::QObject</name>
+    </context>
+<context>
+>>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -130,6 +157,13 @@
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Indirizzo</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -166,6 +200,13 @@
     </context>
 <context>
     <name>TransactionView</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Address</source>
+        <translation>Indirizzo</translation>
+    </message>
+>>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>

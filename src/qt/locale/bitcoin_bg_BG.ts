@@ -41,10 +41,85 @@
         <source>&amp;Delete</source>
         <translation>Изтрий</translation>
     </message>
+<<<<<<< HEAD
     </context>
 <context>
     <name>AddressTableModel</name>
     </context>
+=======
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>Избери адреса на който да пратиш монети</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Избери адреса на който да получиш монети</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>Избери</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Адрес за пращане</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Адрес за получаване</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Тези са вашите Litecoin адреси за изпращане на монети. Винаги проверявайте количеството и получаващия адрес преди изпращане. </translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите Litecoin адреси за получаване на монети. Препоръчително е да ползвате нов адрес на всяка транзакция.</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>Копирай адрес</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Label</source>
+        <translation>Копирай етикет</translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation>Редактирай</translation>
+    </message>
+    <message>
+        <source>Export Address List</source>
+        <translation>Изнеси лист с адреси</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma separated file (*.csv)</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Изнасянето се провали</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Получи се грешка при запазването на листа с адреси към %1. Моля опитайте пак.</translation>
+    </message>
+</context>
+<context>
+    <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Етикет</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(без етикет)</translation>
+    </message>
+</context>
+>>>>>>> pr/4
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -63,6 +138,37 @@
         <source>Repeat new passphrase</source>
         <translation>Повтори парола</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Encrypt wallet</source>
+        <translation>Криптирай портфейл</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Тази операция изисква вашата парола на портфейла за отключването на портфейла.</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Отключи портфейла</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Тази операция изисква вашата парола на портфейла за декриптирането на портфейла.</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Декриптирай портфейл</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>Промени парола</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Потвърди криптирането на порфейла</translation>
+    </message>
+>>>>>>> pr/4
     </context>
 <context>
     <name>BanTableModel</name>
@@ -168,6 +274,10 @@
     </context>
 <context>
     <name>CoinControlDialog</name>
+    <message>
+        <source>(no label)</source>
+        <translation>(без етикет)</translation>
+    </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -180,6 +290,9 @@
     </context>
 <context>
     <name>Intro</name>
+    </context>
+<context>
+    <name>ModalOverlay</name>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -200,6 +313,12 @@
     <name>QObject</name>
     </context>
 <context>
+<<<<<<< HEAD
+=======
+    <name>QObject::QObject</name>
+    </context>
+<context>
+>>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -210,13 +329,39 @@
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Етикет</translation>
+    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+<<<<<<< HEAD
     </context>
 <context>
     <name>SendCoinsDialog</name>
+=======
+    <message>
+        <source>Label</source>
+        <translation>Етикет</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(без етикет)</translation>
+    </message>
+>>>>>>> pr/4
     </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>(no label)</source>
+        <translation>(без етикет)</translation>
+    </message>
+</context>
 <context>
     <name>SendCoinsEntry</name>
     </context>
@@ -243,9 +388,39 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+<<<<<<< HEAD
     </context>
 <context>
     <name>TransactionView</name>
+=======
+    <message>
+        <source>Label</source>
+        <translation>Етикет</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(без етикет)</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma separated file (*.csv)</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Етикет</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Изнасянето се провали</translation>
+    </message>
+>>>>>>> pr/4
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -258,12 +433,23 @@
     </context>
 <context>
     <name>WalletView</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>&amp;Export</source>
+        <translation>Изнеси</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Изнеси данните в избрания раздел към файл</translation>
+    </message>
+>>>>>>> pr/4
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Биткойн ядро</translation>
+        <source>Litecoin Core</source>
+        <translation>Litecoin ядро</translation>
     </message>
     </context>
 </TS>

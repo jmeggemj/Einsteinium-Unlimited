@@ -214,6 +214,10 @@
 </context>
 <context>
     <name>BanTableModel</name>
+    <message>
+        <source>IP/Netmask</source>
+        <translation>IP/Võrgumask</translation>
+    </message>
     </context>
 <context>
     <name>BitcoinGUI</name>
@@ -376,6 +380,7 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktiivne ühendus Litecoini võrku</numerusform><numerusform>%n aktiivset ühendust Litecoini võrku</numerusform></translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -400,18 +405,20 @@
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation><numerusform>%n päev</numerusform><numerusform>%n päeva</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n nädal</numerusform><numerusform>%n nädalat</numerusform></translation>
+=======
+>>>>>>> pr/4
     </message>
     <message>
-        <source>%1 and %2</source>
-        <translation>%1 ja %2</translation>
+        <source>Indexing blocks on disk...</source>
+        <translation>Kõvakettal olevate plokkide indekseerimine...</translation>
+    </message>
+    <message>
+        <source>Processing blocks on disk...</source>
+        <translation>Kõvakettal olevate plokkide töötlemine...</translation>
     </message>
     <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n aasta</numerusform><numerusform>%n aastat</numerusform></translation>
+        <source>Processed %n block(s) of transaction history.</source>
+        <translation><numerusform>Töödeldud %n plokk transaktsioonide ajaloost.</numerusform><numerusform>Töödeldud %n plokki transaktsioonide ajaloost.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -495,7 +502,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Rahakott on &lt;b&gt;krüpteeritud&lt;/b&gt; ning hetkel &lt;b&gt;suletud&lt;/b&gt;</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -563,10 +570,13 @@
         <translation>Kinnitatud</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority</source>
         <translation>Prioriteet</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Copy address</source>
         <translation>Kopeeri aadress</translation>
     </message>
@@ -595,10 +605,13 @@
         <translation>Kopeeri baidid</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy priority</source>
         <translation>Kopeeri prioriteet</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Copy dust</source>
         <translation>Kopeeri puru</translation>
     </message>
@@ -607,6 +620,7 @@
         <translation>Kopeeri vahetusraha</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>highest</source>
         <translation>kõrgeim</translation>
     </message>
@@ -643,14 +657,19 @@
         <translation>madalaim</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>(%1 locked)</source>
         <translation>(%1 lukustatud)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>none</source>
         <translation>puudub</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>yes</source>
         <translation>jah</translation>
     </message>
@@ -659,6 +678,7 @@
         <translation>ei</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
         <translation>Märgis muutub punaseks kui transaktsiooni suurus ületab 1000 baiti.</translation>
     </message>
@@ -671,6 +691,8 @@
         <translation>See märgis muutud punaseks kui prioriteet on madalam kui "keskmine".</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>(no label)</source>
         <translation>(märgis puudub)</translation>
     </message>
@@ -772,6 +794,21 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Vorm</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Viimane ploki aeg</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Peida</translation>
+    </message>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
@@ -845,8 +882,24 @@
         <translation>Proxi port (nt 9050)</translation>
     </message>
     <message>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
+    </message>
+    <message>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
+    </message>
+    <message>
+        <source>Tor</source>
+        <translation>Tor</translation>
+    </message>
+    <message>
         <source>&amp;Window</source>
         <translation>&amp;Aken</translation>
+    </message>
+    <message>
+        <source>Hide tray icon</source>
+        <translation>Peida tegumiriba ikoon</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
@@ -909,7 +962,15 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+<<<<<<< HEAD
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
+=======
+        <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Liteconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
+    </message>
+    <message>
+        <source>Pending:</source>
+        <translation>Ootel:</translation>
+>>>>>>> pr/4
     </message>
     <message>
         <source>Pending:</source>
@@ -963,6 +1024,40 @@
     <message>
         <source>N/A</source>
         <translation>N/A</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 ms</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n tund</numerusform><numerusform>%n tundi</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n päev</numerusform><numerusform>%n päeva</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n nädal</numerusform><numerusform>%n nädalat</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 ja %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n aasta</numerusform><numerusform>%n aastat</numerusform></translation>
+    </message>
+    </context>
+<context>
+    <name>QObject::QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>Save QR Code</source>
+        <translation>Salvesta QR Kood</translation>
     </message>
     </context>
 <context>
@@ -1343,10 +1438,13 @@
         <translation>Kopeeri baidid</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy priority</source>
         <translation>Kopeeri prioriteet</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Copy dust</source>
         <translation>Kopeeri puru</translation>
     </message>
@@ -1512,7 +1610,11 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+<<<<<<< HEAD
         <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Litecoin aadressiga.</translation>
+=======
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Litecoini aadressiga.</translation>
+>>>>>>> pr/4
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1796,10 +1898,13 @@
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Luba välisühendusi (vaikeväärtus: 1 kui puudub -proxy või -connect)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoini tuumik</translation>
     </message>
@@ -1812,16 +1917,8 @@
         <translation>Käivita käsklus, kui rahakoti tehing muutub (%s cmd's muudetakse TxID'ks)</translation>
     </message>
     <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>See on test-versioon - kasutamine omal riisikol - ära kasuta mining'uks ega kaupmeeste programmides</translation>
-    </message>
-    <message>
         <source>Block creation options:</source>
         <translation>Blokeeri loomise valikud:</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Ühendu ainult määratud node'i(de)ga</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

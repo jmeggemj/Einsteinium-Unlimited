@@ -318,6 +318,22 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
+        <source>Click to disable network activity.</source>
+        <translation>Haz click para desactivar la actividad de red.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled.</source>
+        <translation>Actividad de red desactivada.</translation>
+    </message>
+    <message>
+        <source>Click to enable network activity again.</source>
+        <translation>Haz click para reactivar la actividad de red.</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>Sincronizando cabeceras (%1%)...</translation>
+    </message>
+    <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Reindexando bloques en disco...</translation>
     </message>
@@ -429,14 +445,18 @@
         <source>Processing blocks on disk...</source>
         <translation>Procesando bloques en disco...</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>No block source available...</source>
         <translation>Ninguna fuente de bloques disponible ...</translation>
     </message>
+=======
+>>>>>>> pr/4
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>%n bloque procesado del historial de transacciones.</numerusform><numerusform>%n bloques procesados del historial de transacciones.</numerusform></translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
@@ -457,6 +477,8 @@
         <source>%n year(s)</source>
         <translation><numerusform>%n año</numerusform><numerusform>%n años</numerusform></translation>
     </message>
+=======
+>>>>>>> pr/4
     <message>
         <source>%1 behind</source>
         <translation>%1 atrás</translation>
@@ -542,6 +564,13 @@
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>El monedero está &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
+        <translation>Ha ocurrido un error fatal. Litecoin no puede continuar de manera segura y se cerrará.</translation>
+>>>>>>> pr/4
     </message>
 </context>
 <context>
@@ -563,10 +592,13 @@
         <translation>Cuantía:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority:</source>
         <translation>Prioridad:</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Fee:</source>
         <translation>Tasa:</translation>
     </message>
@@ -619,10 +651,13 @@
         <translation>Confirmado</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority</source>
         <translation>Prioridad</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Copy address</source>
         <translation>Copiar ubicación</translation>
     </message>
@@ -663,10 +698,13 @@
         <translation>Copiar bytes</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy priority</source>
         <translation>Copiar prioridad</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Copy dust</source>
         <translation>Copiar polvo</translation>
     </message>
@@ -675,6 +713,7 @@
         <translation>Copiar cambio</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>highest</source>
         <translation>el más alto</translation>
     </message>
@@ -711,14 +750,19 @@
         <translation>el más bajo</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>(%1 locked)</source>
         <translation>(%1 bloqueado)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>none</source>
         <translation>ninguno</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>yes</source>
         <translation>sí</translation>
     </message>
@@ -727,6 +771,7 @@
         <translation>no</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
         <translation>Esta etiqueta se vuelve roja sí el tamaño de transacción es mayor de 1000 bytes.</translation>
     </message>
@@ -747,6 +792,8 @@
         <translation>Esta etiqueta se vuelve roja si la priodidad es inferior a "medio".</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
         <translation>Esta etiqueta se vuelve roja si algún destinatario recibe una cantidad inferior a la actual puerta polvorienta.</translation>
     </message>
@@ -892,6 +939,13 @@
         <translation>Establecer los certificados raíz SSL para solicitudes de pago (predeterminado: -system-)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Mostrar pantalla de bienvenida en el inicio (predeterminado: %u)</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>Reset all settings changed in the GUI</source>
         <translation>Reiniciar todos los ajustes modificados en el GUI</translation>
     </message>
@@ -940,6 +994,52 @@
     </message>
 </context>
 <context>
+<<<<<<< HEAD
+=======
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulario</translation>
+    </message>
+    <message>
+        <source>Number of blocks left</source>
+        <translation>Número de bloques restantes</translation>
+    </message>
+    <message>
+        <source>Unknown...</source>
+        <translation>Desconocido...</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Hora del último bloque</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progreso</translation>
+    </message>
+    <message>
+        <source>Progress increase per hour</source>
+        <translation>Incremento del progreso por hora</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>calculando...</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>Tiempo estimado restante hasta sincronización completa</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Ocultar</translation>
+    </message>
+    <message>
+        <source>Unknown. Syncing Headers (%1)...</source>
+        <translation>Desconocido. Sincronizando cabeceras (%1)...</translation>
+    </message>
+</context>
+<context>
+>>>>>>> pr/4
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
@@ -1374,10 +1474,17 @@
         <translation>Nodo/Servicio</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Ping Time</source>
         <translation>Ping</translation>
     </message>
 </context>
+=======
+        <source>NodeId</source>
+        <translation>NodeId</translation>
+    </message>
+    </context>
+>>>>>>> pr/4
 <context>
     <name>QObject</name>
     <message>
@@ -1416,8 +1523,28 @@
         <source>%1 ms</source>
         <translation>%1 ms</translation>
     </message>
+<<<<<<< HEAD
 </context>
 <context>
+=======
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 y %2</translation>
+    </message>
+    <message>
+        <source>%1 didn't yet exit safely...</source>
+        <translation>%1 aún no ha salido de manera segura...</translation>
+    </message>
+</context>
+<context>
+    <name>QObject::QObject</name>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Error: directorio especificado "%1" no existe.</translation>
+    </message>
+    </context>
+<context>
+>>>>>>> pr/4
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
@@ -1639,6 +1766,7 @@
         <translation>Borrar consola</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Disconnect Node</source>
         <translation>Nodo &amp;Desconectado</translation>
     </message>
@@ -1647,6 +1775,8 @@
         <translation>Prohibir Nodo para</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>1 &amp;hour</source>
         <translation>1 &amp;hora</translation>
     </message>
@@ -1663,10 +1793,13 @@
         <translation>1 &amp;año</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Unban Node</source>
         <translation>&amp;Desbanear Nodo</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Welcome to the %1 RPC console.</source>
         <translation>Bienvenido a la consola RPC %1.</translation>
     </message>
@@ -1931,10 +2064,13 @@
         <translation>Cuantía:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority:</source>
         <translation>Prioridad:</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Fee:</source>
         <translation>Tasa:</translation>
     </message>
@@ -2003,10 +2139,13 @@
         <translation>(Tarifa inteligente no inicializado aún. Esto generalmente lleva a pocos bloques...)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirmation time:</source>
         <translation>Tiempo de confirmación:</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>normal</source>
         <translation>normal</translation>
     </message>
@@ -2031,6 +2170,13 @@
         <translation>Polvo:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Confirmation time target:</source>
+        <translation>Tiempo objetivo de confirmación:</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>Clear &amp;All</source>
         <translation>Vaciar &amp;todo</translation>
     </message>
@@ -2067,10 +2213,13 @@
         <translation>Copiar bytes</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy priority</source>
         <translation>Copiar prioridad</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Copy dust</source>
         <translation>Copiar polvo</translation>
     </message>
@@ -2127,10 +2276,13 @@
         <translation>¡Falló la creación de transacción!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>¡La transacción fue rechazada! Esto podría pasar si algunas de las monedas de su monedero fueron ya gastadas, así como si ha utilizado una copia del wallet.dat y las monedas fueron gastadas en la copia pero no marcadas como gastadas aquí.</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>Una couta mayor que %1 se considera una cuota irracionalmente alta.</translation>
     </message>
@@ -2142,10 +2294,13 @@
         <source>Pay only the required fee of %1</source>
         <translation>Pagar únicamente la cuota solicitada de %1</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation><numerusform>Se estima que sea confirmado dentro del %n bloque(s).</numerusform><numerusform>Se estima que sea confirmado dentro del %n bloque(s).</numerusform></translation>
     </message>
+=======
+>>>>>>> pr/4
     <message>
         <source>Warning: Invalid Litecoin address</source>
         <translation>Alerta: dirección Litecoin inválida</translation>
@@ -2415,10 +2570,13 @@
 </context>
 <context>
     <name>TransactionDesc</name>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>Abrir para %n más bloque(s)</numerusform><numerusform>Abrir para %n más bloque(s)</numerusform></translation>
     </message>
+=======
+>>>>>>> pr/4
     <message>
         <source>Open until %1</source>
         <translation>Abierto hasta %1</translation>
@@ -2463,10 +2621,13 @@
         <source>, has not been successfully broadcast yet</source>
         <translation>, no ha sido emitido con éxito aún</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation><numerusform>, emisión a través de %n nodo(s)</numerusform><numerusform>, emisión a través de %n nodo(s)</numerusform></translation>
     </message>
+=======
+>>>>>>> pr/4
     <message>
         <source>Date</source>
         <translation>Fecha</translation>
@@ -2507,10 +2668,13 @@
         <source>Credit</source>
         <translation>Credito</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation><numerusform>disponible en %n bloque(s) más</numerusform><numerusform>disponible en %n bloque(s) más</numerusform></translation>
     </message>
+=======
+>>>>>>> pr/4
     <message>
         <source>not accepted</source>
         <translation>no aceptada</translation>
@@ -2609,10 +2773,13 @@
         <source>Label</source>
         <translation>Etiqueta</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>Abrir para %n bloque(s) más</numerusform><numerusform>Abrir para %n bloque(s) más</numerusform></translation>
     </message>
+=======
+>>>>>>> pr/4
     <message>
         <source>Open until %1</source>
         <translation>Abierto hasta %1</translation>
@@ -2958,10 +3125,13 @@
         <translation>Poda:  la ultima sincronizacion de la cartera sobrepasa los datos podados. Necesitas reindexar con -reindex (o descargar la cadena de bloques de nuevo en el caso de un nodo podado)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reduce storage requirements by pruning (deleting) old blocks. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
         <translation>Reduce los requisitos de almacenaje podando (eliminando) los bloques viejos. Este modo es incompatible con -txindex y -rescan. Advertencia: Revertir este ajuste requiere volver a descargar la cadena de bloques al completo. (predeterminado: 0 = deshabilitar la poda de bloques, &gt;%u = objetivo de tamaño en MiB para usar para los archivos de bloques)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
         <translation>Nos es posible re-escanear en modo podado.Necesitas utilizar -reindex el cual descargara la cadena de bloques al completo de nuevo.</translation>
     </message>
@@ -2987,10 +3157,13 @@
         <translation>No se ha podido comenzar el servidor HTTP. Ver debug log para detalles.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Aceptar conexiones desde el exterior (predeterminado: 1 si no -proxy o -connect)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>
@@ -2999,10 +3172,13 @@
         <translation>Los %s desarrolladores</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
         <translation>-fallbackfee tiene un ajuste muy alto! Esta es la comisión de transacción que pagarás cuando las estimaciones de comisiones no estén disponibles.</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
         <translation>Una comision (en %s/kB) que sera usada cuando las estimacion de comision no disponga de suficientes datos (predeterminado: %s)</translation>
     </message>
@@ -3023,6 +3199,7 @@
         <translation>Borrar todas las transacciones del monedero y sólo recuperar aquellas partes de la cadena de bloques por medio de -rescan on startup.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribuido bajo la licencia de software MIT, vea la copia del archivo adjunto o &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
@@ -3031,6 +3208,8 @@
         <translation>Bytes equivalentes por sigop en transacciones para retrasmisión y minado (predeterminado: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
         <translation>Error cargando %s: No puede habilitar HD en un monedero existente que no es HD</translation>
     </message>
@@ -3067,10 +3246,13 @@
         <translation>La base de datos de bloques contiene un bloque que parece ser del futuro. Esto puede ser porque la fecha y hora de tu ordenador están mal ajustados. Reconstruye la base de datos de bloques solo si estas seguro de que la fecha y hora de tu ordenador estan ajustados correctamente.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>Esta es una versión de pre-prueba - utilícela bajo su propio riesgo. No la utilice para usos comerciales o de minería.</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
         <translation>No es posible reconstruir la base de datos a un estado anterior. Debe descargar de nuevo la cadena de bloques.</translation>
     </message>
@@ -3079,6 +3261,7 @@
         <translation>Utiliza UPnP para asignar el puerto de escucha (predeterminado: 1 cuando esta escuchando sin -proxy)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Atención: ¡Parece que la red no está totalmente de acuerdo! Algunos mineros están presentando inconvenientes.</translation>
     </message>
@@ -3091,6 +3274,8 @@
         <translation>Poner en lista blanca a los equipos que se conecten desde la máscara de subred o dirección IP especificada. Se puede especificar múltiples veces.</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
         <translation>Necesita reconstruir la base de datos usando -reindex-chainstate para cambiar -txindex</translation>
     </message>
@@ -3127,10 +3312,13 @@
         <translation>Cambio de indice fuera de rango</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect only to the specified node(s)</source>
         <translation>Conectar sólo a los nodos (o nodo) especificados</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Connection options:</source>
         <translation>Opciones de conexión:</translation>
     </message>
@@ -3291,10 +3479,13 @@
         <translation>Asignar tamaño de cache en megabytes (entre %d y %d; predeterminado: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>Establecer peso máximo bloque BIP141  (predeterminado: %d)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Establecer tamaño máximo de bloque en bytes (predeterminado: %d)</translation>
     </message>
@@ -3303,10 +3494,13 @@
         <translation>Especificar archivo de monedero (dentro del directorio de datos)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Starting network threads...</source>
         <translation>Iniciando funciones de red...</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>The source code is available from %s.</source>
         <translation>El código fuente esta disponible desde %s.</translation>
     </message>
@@ -3391,10 +3585,13 @@
         <translation>Las comisiones (en %s/kB) mas pequeñas que esto se consideran como cero comisión para la retransmisión, minería y creación de la transacción (predeterminado: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
         <translation>Fuerza la retransmisión de transacciones desde nodos en la lista blanca incluso si violan la política de retransmisiones local (predeterminado: %d)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>Si el pago de comisión no está establecido, incluir la cuota suficiente para que las transacciones comiencen la confirmación en una media de n bloques ( por defecto :%u)</translation>
     </message>
@@ -3407,10 +3604,13 @@
         <translation>El tamaño máximo de los datos en las operaciones de transporte de datos que transmitimos y el mio (default: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Consulta de direcciones pares mediante búsqueda de DNS, si bajo en direcciones (por defecto: 1 a menos que - conectar)</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Aleatorizar las credenciales para cada conexión proxy. Esto habilita la Tor stream isolation (por defecto: %u)</translation>
     </message>
@@ -3423,10 +3623,13 @@
         <translation>Monto de transacción muy pequeña luego de la deducción por comisión</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Este producto incluye software desarrollado por el OpenSSL Project para su uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, software de cifrado escrito por Eric Young y software UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
         <translation>Usar tras BIP32 la generación de llave determinística jerárquica (HD) . Solo tiene efecto durante el primer inicio/generación del monedero</translation>
     </message>
@@ -3539,10 +3742,13 @@
         <translation>Cantidad de la transacción demasiado pequeña</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Transaction amounts must be positive</source>
         <translation>Las cantidades en las transacciones deben ser positivas</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Transaction too large for fee policy</source>
         <translation>Operación demasiado grande para la política de tasas</translation>
     </message>
@@ -3609,18 +3815,35 @@
         <translation>-maxtxfee tiene un ajuste muy elevado! Comisiones muy grandes podrían ser pagadas en una única transaccion.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>-paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>-paytxfee tiene un valor muy elevado! La comisión de transacción que pagaras si envías una transaccion es alta.</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
         <translation>No mantener transacciones en la memoria mas de &lt;n&gt; horas (predeterminado: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
+        <translation>Bytes equivalentes por sigop en transacciones para retrasmisión y minado (predeterminado: %u)</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation>Las comisiones (en %s/kB) menores que esto son consideradas de cero comision para la creacion de transacciones (predeterminado: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
+        <translation>Fuerza la retransmisión de transacciones desde nodos en la lista blanca incluso si violan la política de retransmisiones local (predeterminado: %d)</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>Nivel de rigor en la verificación de bloques de -checkblocks (0-4; predeterminado: %u)</translation>
     </message>
@@ -3637,6 +3860,17 @@
         <translation>Mostrar depuración (por defecto: %u, proporcionar &lt;category&gt; es opcional)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
+        <translation>Admite filtrado de bloques, y transacciones con filtros Bloom. Reduce la carga de red. ( por defecto :%u)</translation>
+    </message>
+    <message>
+        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
+        <translation>La longitud total de la cadena de versión de red ( %i ) supera la longitud máxima ( %i ) . Reducir el número o tamaño de uacomments .</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>Error:  argumento -socks encontrado. El ajuste de la versión SOCKS ya no es posible, sólo proxies SOCKS5 son compatibles.</translation>
     </message>
@@ -3649,10 +3883,13 @@
         <translation>Usar distintos proxys SOCKS5 para comunicarse vía Tor de forma anónima (Por defecto: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. This option can be specified multiple times</source>
         <translation>Nombre de usuario y hash de la contraseña para las conexiones JSON-RPC. El campo &lt;userpw&gt; tiene el formato: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Se incluye un script python convencional en share/rpcuser. Esta opción puede ser especificada multiples veces</translation>
     </message>
     <message>
+=======
+>>>>>>> pr/4
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
         <translation>Advertencia: Se están minando versiones de bloques desconocidas! Es posible que normas desconocidas estén activas</translation>
     </message>
@@ -3661,6 +3898,13 @@
         <translation>Aviso: fichero de monedero corrupto, datos recuperados! Original %s guardado como %s en %s; si su balance de transacciones es incorrecto, debe restaurar desde una copia de seguridad.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>%s is set very high!</source>
+        <translation>%s es demasiado alto!</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>(default: %s)</source>
         <translation>(predeterminado: %s)</translation>
     </message>
@@ -3717,10 +3961,24 @@
         <translation>Relay non-P2SH multisig (default: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Send transactions with full-RBF opt-in enabled (default: %u)</source>
+        <translation>Enviar transaciones con RBF-completo opt-in activado (default: %u)</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
         <translation>Ajustar el número de claves en reserva &lt;n&gt; (predeterminado: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Set maximum BIP141 block weight (default: %d)</source>
+        <translation>Establecer peso máximo bloque BIP141  (predeterminado: %d)</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Establecer el número de procesos para llamadas del servicio RPC (por defecto: %d)</translation>
     </message>
@@ -3741,6 +3999,13 @@
         <translation>Usar cambio aún no confirmado al enviar transacciones (predeterminado: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Starting network threads...</source>
+        <translation>Iniciando funciones de red...</translation>
+    </message>
+    <message>
+>>>>>>> pr/4
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Umbral para la desconexión de pares con mal comportamiento (predeterminado: %u)</translation>
     </message>

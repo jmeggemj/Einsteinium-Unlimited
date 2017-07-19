@@ -46,6 +46,9 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -64,6 +67,12 @@
     <name>QObject</name>
     </context>
 <context>
+<<<<<<< HEAD
+=======
+    <name>QObject::QObject</name>
+    </context>
+<context>
+>>>>>>> pr/4
     <name>QRImageWidget</name>
     </context>
 <context>
@@ -77,6 +86,13 @@
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Date</source>
+        <translation>日期</translation>
+    </message>
+>>>>>>> pr/4
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -87,6 +103,18 @@
     <message>
         <source>Choose...</source>
         <translation>选择...</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation>收款人地址无效，请再次确认。</translation>
+    </message>
+    <message>
+        <source>Pay only the required fee of %1</source>
+        <translation>仅支付全额的%1</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>警告：莱特币地址无效</translation>
     </message>
     </context>
 <context>
@@ -109,12 +137,20 @@
     </context>
 <context>
     <name>TransactionDesc</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Date</source>
+        <translation>日期</translation>
+    </message>
+>>>>>>> pr/4
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
+<<<<<<< HEAD
     </context>
 <context>
     <name>TransactionView</name>
@@ -133,10 +169,34 @@
     </context>
 <context>
     <name>bitcoin-core</name>
+=======
     <message>
-        <source>Transaction amounts must be positive</source>
-        <translation>转账额度须为正数</translation>
+        <source>Date</source>
+        <translation>日期</translation>
     </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+>>>>>>> pr/4
+    <message>
+        <source>Date</source>
+        <translation>日期</translation>
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
     <message>
         <source>Transaction too large for fee policy</source>
         <translation>根据费率标准，本次转账超额</translation>
