@@ -1165,6 +1165,13 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex, const Consensus
     return true;
 }
 
+int static generateMTRandom(unsigned int s, int range)
+{
+    boost::mt19937 gen(s);
+    boost::uniform_int<> dist(1, range);
+    return dist(gen);
+}
+
 // PM-Tech: To ease things up let's use EMC2 specifications for unit tests and Litecoin specifications for regression tests
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
@@ -1983,10 +1990,10 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
 
     // For Einsteinium also add the protocol rule that the first output in the coinbase must go to the charity address and have at least 2.5% of the subsidy (as per integer arithmetic)
 
-    if (block.vtx[0].vout[0].scriptPubKey != CHARITY_SCRIPT)
+    if (block.vtx[0]->vout[0].scriptPubKey != CHARITY_SCRIPT)
         return state.DoS(100, error("ConnectBlock() : coinbase does not pay to the charity in the first output)"));
     int64_t charityAmount = GetBlockSubsidy(pindex->nHeight, chainparams.GetConsensus()) * 2.5 / 100;
-    if (block.vtx[0].vout[0].nValue < charityAmount)
+    if (block.vtx[0]->vout[0].nValue < charityAmount)
        return state.DoS(100, error("ConnectBlock() : coinbase does not pay enough to the charity"));
 
     if (!control.Wait())
