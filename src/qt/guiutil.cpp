@@ -606,7 +606,7 @@ boost::filesystem::path static StartupShortcutPath()
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
         return GetSpecialFolderPath(CSIDL_STARTUP) / "Einsteinium.lnk";
-    if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
+    if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet5"
         return GetSpecialFolderPath(CSIDL_STARTUP) / "Einsteinium (testnet).lnk";
     return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Einsteinium (%s).lnk", chain);
 }
