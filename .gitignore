@@ -117,3 +117,7 @@ qa/cache/*
 
 libbitcoinconsensus.pc
 contrib/devtools/split-debug.sh
+Einsteinium-Core_0.14.config
+Einsteinium-Core_0.14.creator
+Einsteinium-Core_0.14.files
+Einsteinium-Core_0.14.includes
