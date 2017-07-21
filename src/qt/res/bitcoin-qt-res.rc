@@ -19,8 +19,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Litecoin"
-            VALUE "FileDescription",    PACKAGE_NAME " (GUI node for Litecoin)"
+            VALUE "CompanyName",        "Einsteinium"
+            VALUE "FileDescription",    PACKAGE_NAME " (GUI node for Einsteinium)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "einsteinium-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
