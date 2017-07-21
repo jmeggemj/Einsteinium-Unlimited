@@ -153,6 +153,7 @@ struct BlockHasher
 };
 
 extern CScript COINBASE_FLAGS;
+extern CScript CHARITY_SCRIPT;
 extern CCriticalSection cs_main;
 extern CTxMemPool mempool;
 typedef boost::unordered_map<uint256, CBlockIndex*, BlockHasher> BlockMap;

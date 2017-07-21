@@ -1936,6 +1936,14 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
                                block.vtx[0]->GetValueOut(), blockReward),
                                REJECT_INVALID, "bad-cb-amount");
 
+    // For Einsteinium also add the protocol rule that the first output in the coinbase must go to the charity address and have at least 2.5% of the subsidy (as per integer arithmetic)
+
+    if (block.vtx[0].vout[0].scriptPubKey != CHARITY_SCRIPT)
+        return state.DoS(100, error("ConnectBlock() : coinbase does not pay to the charity in the first output)"));
+    int64_t charityAmount = GetBlockSubsidy(pindex->nHeight, chainparams.GetConsensus()) * 2.5 / 100;
+    if (block.vtx[0].vout[0].nValue < charityAmount)
+       return state.DoS(100, error("ConnectBlock() : coinbase does not pay enough to the charity"));
+
     if (!control.Wait())
         return state.DoS(100, false);
     int64_t nTime4 = GetTimeMicros(); nTimeVerify += nTime4 - nTime2;
@@ -3831,6 +3839,9 @@ bool LoadBlockIndex(const CChainParams& chainparams)
 bool InitBlockIndex(const CChainParams& chainparams)
 {
     LOCK(cs_main);
+
+    // Initialise the charity script here, as this takes place in the the test code also
+    CHARITY_SCRIPT << OP_DUP << OP_HASH160 << ParseHex(chainparams.GetConsensus().CharityPubKey) << OP_EQUALVERIFY << OP_CHECKSIG;
 
     // Check whether we're already initialized
     if (chainActive.Genesis() != NULL)
