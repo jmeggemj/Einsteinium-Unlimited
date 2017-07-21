@@ -89,6 +89,7 @@ static void CheckBlockIndex(const Consensus::Params& consensusParams);
 
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
+CScript CHARITY_SCRIPT;
 
 const std::string strMessageMagic = "Einsteinium Signed Message:\n";
 
