@@ -213,9 +213,4 @@ private:
 void IncrementExtraNonce(CBlock* pblock, const CBlockIndex* pindexPrev, unsigned int& nExtraNonce);
 int64_t UpdateTime(CBlockHeader* pblock, const Consensus::Params& consensusParams, const CBlockIndex* pindexPrev);
 
-/** Calculate Block Reward and Charity Amount */
-int64_t BLOCK_REWARD = GetBlockSubsidy(pindexPrev->nHeight+1, chainparams.GetConsensus());
-int64_t CHARITY_AMOUNT = BLOCK_REWARD * 2.5 / 100;
-
-
 #endif // BITCOIN_MINER_H
