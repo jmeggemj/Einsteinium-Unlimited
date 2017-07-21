@@ -139,12 +139,17 @@ public:
             (    51365, uint256S("0x702b407c68091f3c97a587a8d92684666bb622f6821944424b850964b366e42c"))  // <--Einsteinium: OK
             (   621000, uint256S("0xe2bf6d219cff9d6d7661b7964a05bfea3128265275c3673616ae71fed7072981"))  // <--Einsteinium: OK
             (  1410100, uint256S("0xf6736ff2a7743014ab1902e442328f5c9928ce7f4edb2b4fd0130010cb4cebc4"))  // <--Einsteinium: OK
-            (  1509704, uint256S("0xd4ae3e2ba688c56feae89bdedbd2781da1f367c61e8e24870a84a3deec26f210")), // <--Einsteinium: OK
+            (  1509704, uint256S("0xd4ae3e2ba688c56feae89bdedbd2781da1f367c61e8e24870a84a3deec26f210"))  // <--Einsteinium: OK
+        };
+
+    chainTxData = ChainTxData{
+        // Data as of block d4ae3e2ba688c56feae89bdedbd2781da1f367c61e8e24870a84a3deec26f210 (height 1509704).
             1500619012, // * UNIX timestamp of last checkpoint block                                     // <--Einsteinium: OK
             2259214,    // * total number of transactions between genesis and last checkpoint            // <--Einsteinium: OK
                       //   (the tx=... number in the SetBestChain debug.log lines)
             2000     // * estimated number of transactions per day after checkpoint                      // <--Einsteinium: OK
-            };
+        };
+
     }
 };
 static CMainParams mainParams;
@@ -221,10 +226,14 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-                ( 0, uint256S("0xa4271888b5e60092c3e7183a76d454741e9a7a55f2b4afbe574615829e406bee")),  // <--Einsteinium: OK
-            0,                                                                                        // <--Einsteinium: OK
-            0,                                                                                        // <--Einsteinium: OK
-            0                                                                                         // <--Einsteinium: OK
+                ( 0, uint256S("0xa4271888b5e60092c3e7183a76d454741e9a7a55f2b4afbe574615829e406bee"))  // <--Einsteinium: OK
+        };
+
+        chainTxData = ChainTxData{
+                0, // * UNIX timestamp of last checkpoint block                                     // <--Einsteinium: OK
+                0,    // * total number of transactions between genesis and last checkpoint            // <--Einsteinium: OK
+                          //   (the tx=... number in the SetBestChain debug.log lines)
+                0     // * estimated number of transactions per day after checkpoint                      // <--Einsteinium: OK
         };
 
     }
@@ -291,11 +300,17 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-                ( 0, uint256S("0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206")),
-                0,
-                0,
-                0
+                ( 0, uint256S("0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206"))
         };
+
+        chainTxData = ChainTxData{
+            // Data as of block d4ae3e2ba688c56feae89bdedbd2781da1f367c61e8e24870a84a3deec26f210 (height 1509704).
+                0, // * UNIX timestamp of last checkpoint block                                     // <--Einsteinium: OK
+                0,    // * total number of transactions between genesis and last checkpoint            // <--Einsteinium: OK
+                          //   (the tx=... number in the SetBestChain debug.log lines)
+                0     // * estimated number of transactions per day after checkpoint                      // <--Einsteinium: OK
+        };
+
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
