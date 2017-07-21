@@ -183,16 +183,17 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& sc
 
     // Create coinbase transaction.
     // With Einsteinium, at least 2.5% of all of the block subsidy should go to the charity address.
-    int64_t reward = GetBlockSubsidy(pindexPrev->nHeight+1, chainparams.GetConsensus());
-    int64_t charityAmount = reward * 2.5 / 100;
+    int64_t nBlockValue = GetBlockSubsidy(pindexPrev->nHeight+1, chainparams.GetConsensus());
+    int64_t nCharityAmount = nBlockValue * 2.5 / 100;
+    int64_t nBlockReward = nFees + nBlockValue - nCharityAmount;
     CMutableTransaction coinbaseTx;
     coinbaseTx.vin.resize(1);
     coinbaseTx.vin[0].prevout.SetNull();
     coinbaseTx.vout.resize(2);
     coinbaseTx.vout[0].scriptPubKey = CHARITY_SCRIPT;
     coinbaseTx.vout[1].scriptPubKey = scriptPubKeyIn;
-    coinbaseTx.vout[0].nValue = charityAmount;
-    coinbaseTx.vout[1].nValue = nFees + (GetBlockSubsidy(nHeight, chainparams.GetConsensus()) - charityAmount);
+    coinbaseTx.vout[0].nValue = nCharityAmount;
+    coinbaseTx.vout[1].nValue = nBlockReward;
     coinbaseTx.vin[0].scriptSig = CScript() << nHeight << OP_0;
     pblock->vtx[0] = MakeTransactionRef(std::move(coinbaseTx));
     pblocktemplate->vchCoinbaseCommitment = GenerateCoinbaseCommitment(*pblock, pindexPrev, chainparams.GetConsensus());
