@@ -106,7 +106,7 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
             bnNew = bnPowLimit;
 
     /// debug print
-    LogPrintf("GetNextWorkRequired: DIGISHIELD RETARGET\n");
+    // LogPrintf("GetNextWorkRequired: DIGISHIELD RETARGET\n");
     return bnNew.GetCompact();
 }
 
@@ -182,7 +182,7 @@ unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader
         arith_uint256 bnNew(PastDifficultyAverage);
 
         if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
-            LogPrintf("Difficulty Retarget - Kimoto Gravity Well\n");
+            // LogPrintf("Difficulty Retarget - Kimoto Gravity Well\n");
             bnNew *= PastRateActualSeconds;
             bnNew /= PastRateTargetSeconds;
        }
