@@ -1,6 +1,6 @@
 Einsteinium Core version 0.14.2 is now available from:
 
-  <https://download.einsteinium.org/einsteinium-0.14.2.0/>
+  <https://emc2.foundation/>
 
 This is a new major version release, including new features, various bugfixes
 and performance improvements, as well as updated translations.
@@ -9,9 +9,6 @@ Please report bugs using the issue tracker at github:
 
   <https://github.com/hashunlimited/einsteinium-unlimited/issues>
 
-To receive security and update notifications, please subscribe to:
-
-  <https://groups.google.com/forum/#!forum/einsteinium-dev>
 
 Compatibility
 ==============
@@ -33,9 +30,9 @@ Notable changes
 New Multisig Address Prefix
 ---------------------------
 
-Einsteinium Core now supports P2SH addresses beginning with M on mainnet and Q on testnet.
-P2SH addresses beginning with 3 on mainnet and m or n on testnet will continue to be valid.
-Old and new addresses can be used interchangeably.
+Einsteinium Core now supports P2SH addresses beginning with P on mainnet (introduced in 0.13.3).
+P2SH addresses beginning with 5 on mainnet and m or n on testnet will continue to be valid.
+Old and new addresses can be used interchangeably, as old ones can be confused with Bitcoin only new ones are created.
 
 miniupnp CVE-2017-8798
 ----------------------
@@ -49,12 +46,7 @@ If you use this option, it is recommended to upgrade to this version as soon as 
 Reset Testnet
 -------------
 
-Testnet3 has been deprecated and replaced with Testnet4. The server port has been changed to 19335 however the RPC port remains
-the same (31879).
-
-Testnet faucets can be located at:
-- http://testnet.einsteiniumtools.com
-- http://testnet.thrasher.io
+Testnet4 has been reset and replaced with Testnet5. 
 
 Developers who require the new testnet blockchain paramaters can find them [here](https://github.com/hashunlimited/einsteinium-unlimited/blob/master/src/chainparams.cpp#L220).
 
@@ -83,7 +75,7 @@ improved, leading to much shorter sync and initial block download times.
 Manual Pruning
 --------------
 
-Einsteinium Core has supported automatically pruning the blockchain since 0.13.2. Pruning
+Einsteinium Core has supported automatically pruning the blockchain since 0.13.3. Pruning
 the blockchain allows for significant storage space savings as the vast majority of
 the downloaded data can be discarded after processing so very little of it remains
 on the disk.
@@ -422,6 +414,8 @@ Credits
 Thanks to everyone who directly contributed to this release:
 
 - [The Bitcoin Core Developers](/doc/release-notes)
+- The Litecoin Core Developers
+- PM-Tech
 - Adrian Gallagher
 - Charlie Lee
 - Loshan T
