@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>אלה הם כתובות ללייטקוין שלך לשליחת תשלומים. חשוב לבדוק את הכמות של הכתובות המקבלות לפני שליחת מטבעות</translation>
+        <translation>אלה הם כתובות לייטקוין שלך לשליחת תשלומים. חשוב לבדוק את הכמות של הכתובות המקבלות לפני שליחת מטבעות</translation>
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>אלה הן כתובות ללייטקוין שלך לקבלת תשלומים. מומלץ להשתמש בכתובת חדשה לכל העברה.</translation>
+        <translation>אלה הן כתובות לייטקוין שלך לקבלת תשלומים. מומלץ להשתמש בכתובת חדשה לכל העברה.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -219,7 +219,7 @@
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
-        <translation>שליחת מטבעות לכתובת ללייטקוין</translation>
+        <translation>שליחת מטבעות לכתובת לייטקוין</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -243,7 +243,7 @@
     </message>
     <message>
         <source>Litecoin</source>
-        <translation>ביטקוין</translation>
+        <translation>לייטקוין</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -271,11 +271,11 @@
     </message>
     <message>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>חתום על הודעות עם כתובות ללייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
+        <translation>חתום על הודעות עם כתובות לייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת ללייטקוין מסוימות</translation>
+        <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת לייטקוין מסוימות</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <source>Open a litecoin: URI or payment request</source>
-        <translation>פתיחת ללייטקוין: כתובת משאב או בקשת תשלום</translation>
+        <translation>פתיחת לייטקוין: כתובת משאב או בקשת תשלום</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -316,14 +316,6 @@
     <message>
         <source>Processing blocks on disk...</source>
         <translation>מעבד בלוקים על הדיסק...</translation>
-    </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>אין מקור מקטעים זמין…</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 ו%2</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -373,7 +365,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; ו&lt;b&gt;נעול&lt;/b&gt; כרגע</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -391,10 +383,6 @@
     <message>
         <source>Amount:</source>
         <translation>סכום:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>עדיפות:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -447,10 +435,6 @@
     <message>
         <source>Confirmed</source>
         <translation>מאושר</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>עדיפות</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -534,6 +518,10 @@
         <translation>התחל ממוזער</translation>
     </message>
     <message>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>הצג מסך פתיחה בעת הפעלה (ברירת מחדל: %u)</translation>
+    </message>
+    <message>
         <source>Reset all settings changed in the GUI</source>
         <translation>איפוס כל שינויי הגדרות התצוגה</translation>
     </message>
@@ -563,6 +551,21 @@
     <message>
         <source>Error</source>
         <translation>שגיאה</translation>
+    </message>
+    </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>טופס</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>זמן המקטע האחרון</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>הסתר</translation>
     </message>
     </context>
 <context>
@@ -668,7 +671,7 @@
     </message>
     <message>
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>פתיחת הפתחה של ללייטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
+        <translation>פתיחת הפתחה של לייטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -775,7 +778,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת ללייטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
+        <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת לייטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -851,11 +854,7 @@
         <source>User Agent</source>
         <translation>סוכן משתמש</translation>
     </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>זמן המענה</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -864,7 +863,7 @@
     </message>
     <message>
         <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>נא להזין כתובת ללייטקוין (למשל: %1)</translation>
+        <translation>נא להזין כתובת לייטקוין (למשל: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -894,7 +893,14 @@
         <source>%1 ms</source>
         <translation>%1 מילישניות</translation>
     </message>
-</context>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 ו%2</translation>
+    </message>
+    </context>
+<context>
+    <name>QObject::QObject</name>
+    </context>
 <context>
     <name>QRImageWidget</name>
     </context>
@@ -1085,8 +1091,8 @@
         <translation>ניקוי מסוף הבקרה</translation>
     </message>
     <message>
-        <source>Ban Node for</source>
-        <translation>חסום משתמש ל</translation>
+        <source>1 &amp;hour</source>
+        <translation>1 שעה</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
@@ -1177,7 +1183,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
-        <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת ללייטקוין.</translation>
+        <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת לייטקוין.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1297,10 +1303,6 @@
         <translation>סכום:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>עדיפות:</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>עמלה:</translation>
     </message>
@@ -1347,10 +1349,6 @@
     <message>
         <source>Custom:</source>
         <translation>מותאם אישית:</translation>
-    </message>
-    <message>
-        <source>Confirmation time:</source>
-        <translation>זמן האישור:</translation>
     </message>
     <message>
         <source>normal</source>
@@ -1421,7 +1419,7 @@
     </message>
     <message>
         <source>The Litecoin address to send the payment to</source>
-        <translation>כתובת ללייטקוין של המוטב</translation>
+        <translation>כתובת לייטקוין של המוטב</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1453,7 +1451,7 @@
     </message>
     <message>
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>הודעה שצורפה לללייטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת ללייטקוין.</translation>
+        <translation>הודעה שצורפה ללייטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת לייטקוין.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1486,7 +1484,7 @@
     </message>
     <message>
         <source>The Litecoin address to sign the message with</source>
-        <translation>כתובת ללייטקוין אתה לחתום אתה את ההודעה</translation>
+        <translation>כתובת הלייטקוין אתה לחתום אתה את ההודעה</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1518,7 +1516,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת ללייטקוין הזו בבעלותך.</translation>
+        <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת לייטקוין הזו בבעלותך.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1538,11 +1536,11 @@
     </message>
     <message>
         <source>The Litecoin address the message was signed with</source>
-        <translation>כתובת ללייטקוין שאתה נחתמה ההודעה</translation>
+        <translation>כתובת הלייטקוין שאתה נחתמה ההודעה</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת ללייטקוין הנתונה</translation>
+        <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת לייטקוין הנתונה</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1650,12 +1648,8 @@
         <translation>ריצה כסוכן ברקע וקבלת פקודות</translation>
     </message>
     <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>קבלת חיבורים מבחוץ (בררת מחדל: 1 ללא ‎-proxy או ‎-connect)</translation>
-    </message>
-    <message>
         <source>Litecoin Core</source>
-        <translation>ליבת ללייטקוין</translation>
+        <translation>ליבת לייטקוין</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -1674,18 +1668,6 @@
         <translation>ביצוע פקודה כאשר העברה בארנק משתנה (%s ב־cmd יוחלף ב־TxID)</translation>
     </message>
     <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>זוהי בניית ניסיון טרום-שחרור - השימוש בה על אחריותך - אין להשתמש לצורך כריה או יישומי מסחר</translation>
-    </message>
-    <message>
-        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>אזהרה: נראה שלא כל הרשת מסכימה! נראה שישנם כורים שנתקלים בבעיות.</translation>
-    </message>
-    <message>
-        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>אזהרה: נראה שישנה אי־הסכמה בינינו לבין שאר העמיתים שלנו! יתכן שעדיף לשדרג או שכל שאר העמיתים צריכים לשדרג.</translation>
-    </message>
-    <message>
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;קטגוריה&gt; יכולה להיות:</translation>
     </message>
@@ -1696,10 +1678,6 @@
     <message>
         <source>Change index out of range</source>
         <translation>אינדקס העודף מחוץ לתחום</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>התחבר רק לצמתים המצוינים</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -1872,10 +1850,6 @@
     <message>
         <source>Transaction amount too small</source>
         <translation>סכום ההעברה קטן מדי</translation>
-    </message>
-    <message>
-        <source>Transaction amounts must be positive</source>
-        <translation>סכומי ההעברות חייבים להיות חיוביים</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>

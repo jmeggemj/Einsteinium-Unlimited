@@ -1,6 +1,6 @@
 OpenBSD build guide
 ======================
-(updated for OpenBSD 5.9)
+(updated for OpenBSD 6.0)
 
 This guide describes how to build litecoind and command-line utilities on OpenBSD.
 
@@ -124,7 +124,7 @@ To configure with wallet:
 ```bash
 ./configure --with-gui=no --with-boost=$BOOST_PREFIX \
     CC=egcc CXX=eg++ CPP=ecpp \
-    LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
+    BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include"
 ```
 
 To configure without wallet:
@@ -141,6 +141,8 @@ gmake check
 
 Clang (not currently working)
 ------------------------------
+
+WARNING: This is outdated, needs to be updated for OpenBSD 6.0 and re-tried.
 
 Using a newer g++ results in linking the new code to a new libstdc++.
 Libraries built with the old g++, will still import the old library.
@@ -161,9 +163,9 @@ gmake
 However, this does not appear to work. Compilation succeeds, but link fails
 with many 'local symbol discarded' errors:
 
-    local symbol 150: discarded in section `.text._ZN10tinyformat6detail14FormatIterator6finishEv' from liblitecoin_util.a(liblitecoin_util_a-random.o)
-    local symbol 151: discarded in section `.text._ZN10tinyformat6detail14FormatIterator21streamStateFromFormatERSoRjPKcii' from liblitecoin_util.a(liblitecoin_util_a-random.o)
-    local symbol 152: discarded in section `.text._ZN10tinyformat6detail12convertToIntIA13_cLb0EE6invokeERA13_Kc' from liblitecoin_util.a(liblitecoin_util_a-random.o)
+    local symbol 150: discarded in section `.text._ZN10tinyformat6detail14FormatIterator6finishEv' from libbitcoin_util.a(libbitcoin_util_a-random.o)
+    local symbol 151: discarded in section `.text._ZN10tinyformat6detail14FormatIterator21streamStateFromFormatERSoRjPKcii' from libbitcoin_util.a(libbitcoin_util_a-random.o)
+    local symbol 152: discarded in section `.text._ZN10tinyformat6detail12convertToIntIA13_cLb0EE6invokeERA13_Kc' from libbitcoin_util.a(libbitcoin_util_a-random.o)
 
 According to similar reported errors this is a binutils (ld) issue in 2.15, the
 version installed by OpenBSD 5.7:
