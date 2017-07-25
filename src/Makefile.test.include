@@ -191,12 +191,12 @@ CLEANFILES += $(CLEAN_BITCOIN_TEST)
 # This file is problematic for out-of-tree builds if it exists.
 DISTCLEANFILES += test/buildenv.pyc
 
-einsteinium_test: $(TEST_BINARY)
+bitcoin_test: $(TEST_BINARY)
 
-einsteinium_test_check: $(TEST_BINARY) FORCE
+bitcoin_test_check: $(TEST_BINARY) FORCE
 	$(MAKE) check-TESTS TESTS=$^
 
-einsteinium_test_clean : FORCE
+bitcoin_test_clean : FORCE
 	rm -f $(CLEAN_BITCOIN_TEST) $(test_test_bitcoin_OBJECTS) $(TEST_BINARY)
 
 check-local:
