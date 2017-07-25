@@ -1,13 +1,10 @@
 sudo: required
 dist: trusty
-<<<<<<< HEAD
 
 #workaround for https://github.com/travis-ci/travis-ci/issues/5227
 addons:
-  hostname: litecoin-tester
+  hostname: einsteinium-tester
 
-=======
->>>>>>> pr/4
 os: linux
 language: generic
 cache:
