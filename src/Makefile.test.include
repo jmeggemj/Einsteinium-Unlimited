@@ -2,7 +2,7 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#miner test to be adapted
+# miner test to be adapted
 
 TESTS += test/test_einsteinium
 bin_PROGRAMS += test/test_einsteinium
