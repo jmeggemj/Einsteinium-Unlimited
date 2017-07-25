@@ -100,9 +100,10 @@ class AbandonConflictTest(BitcoinTestFramework):
         balance = newbalance
 
         # Verify that even with a low min relay fee, the tx is not reaccepted from wallet on startup once abandoned
+        # PM-Tech: Charity tx should have zero fee so remaining in the mempool
         stop_node(self.nodes[0],0)
         self.nodes[0]=start_node(0, self.options.tmpdir, ["-debug","-logtimemicros","-minrelaytxfee=0.001"])
-        assert_equal(len(self.nodes[0].getrawmempool()), 0)
+        assert_equal(len(self.nodes[0].getrawmempool()), 2)
         assert_equal(self.nodes[0].getbalance(), balance)
 
         # But if its received again then it is unabandoned
