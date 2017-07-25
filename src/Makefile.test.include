@@ -2,6 +2,8 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+#miner test to be adapted
+
 TESTS += test/test_einsteinium
 bin_PROGRAMS += test/test_einsteinium
 noinst_PROGRAMS += test/test_einsteinium_fuzzy
@@ -98,7 +100,7 @@ BITCOIN_TESTS =\
   test/key_tests.cpp \
   test/limitedmap_tests.cpp \
   test/dbwrapper_tests.cpp \
-  test/main_tests.cpp \
+  # test/main_tests.cpp
   test/mempool_tests.cpp \
   test/merkle_tests.cpp \
   test/miner_tests.cpp \
