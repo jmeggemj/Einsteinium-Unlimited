@@ -146,8 +146,8 @@ public:
         // Data as of block d4ae3e2ba688c56feae89bdedbd2781da1f367c61e8e24870a84a3deec26f210 (height 1509704).
             1500619012, // * UNIX timestamp of last checkpoint block                                     // <--Einsteinium: OK
             2259214,    // * total number of transactions between genesis and last checkpoint            // <--Einsteinium: OK
-                      //   (the tx=... number in the SetBestChain debug.log lines)
-            2000     // * estimated number of transactions per day after checkpoint                      // <--Einsteinium: OK
+                        //   (the tx=... number in the SetBestChain debug.log lines)
+            0.006       // * estimated number of transactions per second after checkpoint                // <--Einsteinium: OK
         };
 
     }
