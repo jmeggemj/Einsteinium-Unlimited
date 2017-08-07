@@ -92,7 +92,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("000000000000000000000000000000000000000000000000014785bb87eb9862"); // <-- Einsteinium: OK
+        consensus.nMinimumChainWork = uint256S("0000000000000000000000000000000000000000000000000187b5e3037340bf"); // <-- Einsteinium: OK
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -140,14 +140,15 @@ public:
             (   621000, uint256S("0xe2bf6d219cff9d6d7661b7964a05bfea3128265275c3673616ae71fed7072981"))  // <--Einsteinium: OK
             (  1410100, uint256S("0xf6736ff2a7743014ab1902e442328f5c9928ce7f4edb2b4fd0130010cb4cebc4"))  // <--Einsteinium: OK
             (  1509704, uint256S("0xd4ae3e2ba688c56feae89bdedbd2781da1f367c61e8e24870a84a3deec26f210"))  // <--Einsteinium: OK
+            (  1532160, uint256S("0xf29612d3d66ed6e3241672b5d13314f7480a985700d29405e83650943c5360e0"))  // <--Einsteinium: OK
         };
 
     chainTxData = ChainTxData{
-        // Data as of block d4ae3e2ba688c56feae89bdedbd2781da1f367c61e8e24870a84a3deec26f210 (height 1509704).
-            1500619012, // * UNIX timestamp of last checkpoint block                                     // <--Einsteinium: OK
-            2259214,    // * total number of transactions between genesis and last checkpoint            // <--Einsteinium: OK
-                      //   (the tx=... number in the SetBestChain debug.log lines)
-            2000     // * estimated number of transactions per day after checkpoint                      // <--Einsteinium: OK
+        // Data as of block f29612d3d66ed6e3241672b5d13314f7480a985700d29405e83650943c5360e0 (height 1532160, first SegWit block).
+            1502091385, // * UNIX timestamp of last checkpoint block                                     // <--Einsteinium: OK
+            2285369,    // * total number of transactions between genesis and last checkpoint            // <--Einsteinium: OK
+                        //   (the tx=... number in the SetBestChain debug.log lines)
+            0.008       // * estimated number of transactions per second after checkpoint                // <--Einsteinium: OK
         };
 
     }
