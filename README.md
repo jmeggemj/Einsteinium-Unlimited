@@ -1,5 +1,3 @@
-:-) double FU nekrataal
-
 Einsteinium Core integration/staging tree
 =====================================
 
